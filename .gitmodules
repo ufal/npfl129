@@ -1,0 +1,3 @@
+[submodule "slides/slimd"]
+	path = slides/slimd
+	url = https://github.com/ufal/slimd
