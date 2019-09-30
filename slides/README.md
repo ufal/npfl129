@@ -1,6 +1,6 @@
-# NPFL129 (Machine Learning 101) Slides
+# NPFL129 (Machine Learning for Greenhorns) Slides
 
-The NPFL129 (Machine Learning 101) slides can be viewed in any modern
+The NPFL129 (Machine Learning for Greenhorns) slides can be viewed in any modern
 browser (with Chrome and Firefox tested). The slides can be printed into PDF
 in Chrome and Firefox (but in Firefox you need to manually specify page size
 as 297mm and 167mm).
