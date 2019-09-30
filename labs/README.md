@@ -1,12 +1,12 @@
 The tasks are evaluated automatically using the [ReCodEx Code
 Examiner](https://recodex.mff.cuni.cz/). The evaluation is
-performed using Python 3.6, scikit-learn 0.21.3 and NumPy 1.17.2.
+performed using Python 3.6, scikit-learn 0.21.3, pandas 0.25.1 and NumPy 1.17.2.
 
 You can install all required packages either to user packages using
-`pip3 install --user scikit-learn==0.21.3`,
+`pip3 install --user scikit-learn==0.21.3 pandas==0.25.1`,
 or create a virtual environment using `python3 -m venv VENV_DIR`
 and then installing the packages inside it by running
-`VENV_DIR/bin/pip3 install scikit-learn==0.21.3`.
+`VENV_DIR/bin/pip3 install scikit-learn==0.21.3 pandas==0.25.1`.
 
 ### Teamwork
 
