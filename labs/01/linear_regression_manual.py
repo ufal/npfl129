@@ -5,11 +5,7 @@ import numpy as np
 import sklearn.datasets
 import sklearn.model_selection
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--test_size", default=50, type=int, help="Test size to use")
-    args = parser.parse_args()
-
+def main(args):
     # Load Boston housing dataset
     dataset = sklearn.datasets.load_boston()
     print(dataset.DESCR)
@@ -31,3 +27,9 @@ if __name__ == "__main__":
 
     with open("linear_regression_manual.out", "w") as output_file:
         print("{:.2f}".format(rmse), file=output_file)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--test_size", default=50, type=int, help="Test size to use")
+    args = parser.parse_args()
+    main(args)
