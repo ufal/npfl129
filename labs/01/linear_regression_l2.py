@@ -32,7 +32,13 @@ if __name__ == "__main__":
         print("{:.1f}, {:.2f}".format(best_lambda, best_rmse), file=output_file)
 
     if args.plot:
-        import matplotlib.pyplot as plt
+        # TODO: This block is not part of ReCodEx submission, so you
+        # will get points even without it. However, it is useful to
+        # learn to visualize the results.
 
+        # If you collect used lambdas to `lambdas` and their respective
+        # results to `rmses`, the following lines will plot the result
+        # if you add `--plot` argument.
+        import matplotlib.pyplot as plt
         plt.plot(lambdas, rmses)
         plt.show()

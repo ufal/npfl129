@@ -17,17 +17,18 @@ if __name__ == "__main__":
 
     # The input data are in dataset.data, targets are in dataset.target.
 
-    # TODO: Pad a value of "1" to the input data.
+    # TODO: Pad a value of `1` to every instance in dataset.data
+    # (np.pad or np.concatenate might be useful).
 
     # TODO: Split data so that the last `args.test_size` data are the test
-    # set and the rest is the training set
+    # set and the rest is the training set.
 
     # TODO: Solve the linear regression using the algorithm from the lecture,
     # explicitly computing the matrix inverse (using np.linalg.inv).
 
-    # TODO: Predict target values on the test set
+    # TODO: Predict target values on the test set.
 
-    # TODO: Compute root mean square error on the test set predictions
+    # TODO: Compute root mean square error on the test set predictions.
     rmse = None
 
     with open("linear_regression_manual.out", "w") as output_file:
