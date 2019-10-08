@@ -6,7 +6,13 @@ import sklearn.datasets
 import sklearn.linear_model
 import sklearn.model_selection
 
-def main(args):
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--plot", default=False, action="store_true", help="Plot the results")
+    parser.add_argument("--seed", default=42, type=int, help="Random seed")
+    parser.add_argument("--test_size", default=50, type=int, help="Test size to use")
+    args = parser.parse_args()
+
     # Load Boston housing dataset
     dataset = sklearn.datasets.load_boston()
 
@@ -30,11 +36,3 @@ def main(args):
 
         plt.plot(lambdas, rmses)
         plt.show()
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--plot", default=False, action="store_true", help="Plot the results")
-    parser.add_argument("--seed", default=42, type=int, help="Random seed")
-    parser.add_argument("--test_size", default=50, type=int, help="Test size to use")
-    args = parser.parse_args()
-    main(args)
