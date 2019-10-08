@@ -8,6 +8,7 @@ import sklearn.model_selection
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument("--plot", default=False, action="store_true", help="Plot the results")
     parser.add_argument("--seed", default=42, type=int, help="Random seed")
     parser.add_argument("--test_size", default=50, type=int, help="Test size to use")
     args = parser.parse_args()
@@ -29,3 +30,9 @@ if __name__ == "__main__":
 
     with open("linear_regression_l2.out", "w") as output_file:
         print("{:.1f}, {:.2f}".format(best_lambda, best_rmse), file=output_file)
+
+    if args.plot:
+        import matplotlib.pyplot as plt
+
+        plt.plot(lambdas, rmses)
+        plt.show()
