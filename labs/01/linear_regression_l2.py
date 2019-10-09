@@ -21,7 +21,8 @@ if __name__ == "__main__":
     # `test_size=args.test_size` and `random_state=args.seed`.
 
     # TODO: Using sklearn.linear_model.Ridge, fit the train set using
-    # L2 regularization, employing lambdas from 0 to 100 with a step size 0.1.
+    # L2 regularization, employing alpha (according to Ridge constructor documentation) 
+    # from 0 to 100 with a step size 0.1.
     #
     # For every model, compute the root mean squared error, and print out the
     # lambda producing lowest test error and the test error itself.
