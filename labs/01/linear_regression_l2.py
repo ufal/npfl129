@@ -22,9 +22,12 @@ if __name__ == "__main__":
 
     # TODO: Using sklearn.linear_model.Ridge, fit the train set using
     # L2 regularization, employing lambdas from 0 to 100 with a step size 0.1.
-    # For every model, compute the root mean squared error
-    # (sklearn.metrics.mean_squared_error may come handy) and print out
-    # the lambda producing lowest test error.
+    #
+    # For every model, compute the root mean squared error, and print out the
+    # lambda producing lowest test error and the test error itself.
+    # (The `sklearn.metrics.mean_squared_error` may come handy to compute at
+    # least mean quared error; root mean squared error itself is not provided
+    # by sklear.metrics.)
     best_lambda = None
     best_rmse = None
 
