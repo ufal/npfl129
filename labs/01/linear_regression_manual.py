@@ -3,7 +3,6 @@ import argparse
 
 import numpy as np
 import sklearn.datasets
-import sklearn.model_selection
 
 
 if __name__ == "__main__":
