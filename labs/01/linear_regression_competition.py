@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import pickle
 
 import numpy as np
 
@@ -17,17 +18,18 @@ if __name__ == "__main__":
     train = np.load("linear_regression_competition.train.npz")
     train = {entry: train[entry] for entry in train}
 
-    # TODO: Import the `pickle` package.
-    # import pickle
+    # TODO: Train the model
 
-    # TODO: Open file `model.pkl` for binary write access. Make sure the file
-    # is not open in text mode, otherwise `pickle` will fail to serialize the
-    # model.Use `pickle.dump` to save the model in the opened file.
-    # with open("model.pkl", "wb") as f:
-    #     pickle.dump(model, f)
-
-    # TODO: To load the model, again open `model.pkl` for binary read access.
+    # TODO: The trained model needs to be saved. All sklear models can
+    # be serialized and deserialized using the standard `pickle` module.
+    #
+    # To save a model, open a target file for binary access, and use
+    # `pickle.dump` to save the model to the opened file:
+    # with open(output_model_path, "wb") as model_file:
+    #       pickle.dump(model, model_file)
+    #
+    # To load the model, again open the model file for binary read access.
     # Then use `pickle.load` to deserialize the model from the stored binary
-    # data.
-    # with open("model.pkl", "rb") as f:
-    #     depickle = pickle.load(f)
+    # data:
+    # with open(model_path, "rb") as model_file:
+    #     model = pickle.load(model_file)
