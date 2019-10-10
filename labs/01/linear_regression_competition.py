@@ -28,7 +28,12 @@ if __name__ == "__main__":
     # with open(args.model_path, "wb") as model_file:
     #       pickle.dump(model, model_file)
 
+# The `recodex_predict` is called during ReCodEx evaluation (there can be
+# several Python sources in the submission, but exactly one should contain
+# a `recodex_predict` method).
 def recodex_predict(data):
+    # The `data` is a Numpy array containt test set input.
+
     args = parser.parse_args([])
 
     # TODO: Predict target values for the given data.
@@ -39,4 +44,4 @@ def recodex_predict(data):
     # with open(args.model_path, "rb") as model_file:
     #     model = pickle.load(model_file)
 
-    # TODO: Return the predictions as a numpy array.
+    # TODO: Return the predictions as a Numpy array.
