@@ -29,6 +29,8 @@ if __name__ == "__main__":
     #       pickle.dump(model, model_file)
 
 def recodex_prediction(data):
+    args = parser.parse_args([])
+
     # TODO: Predict target values for the given data.
     #
     # You should probably start by loading a model. Start by opening the model
