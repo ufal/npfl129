@@ -4,8 +4,6 @@ import pickle
 
 import numpy as np
 
-import matplotlib.pyplot as plt
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--seed", default=42, type=int, help="Random seed")
