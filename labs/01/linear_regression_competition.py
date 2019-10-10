@@ -4,9 +4,11 @@ import pickle
 
 import numpy as np
 
+parser = argparse.ArgumentParser()
+parser.add_argument("--model_path", default="linear_regression_competition.model", type=str, help="Model path")
+parser.add_argument("--seed", default=42, type=int, help="Random seed")
+
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--seed", default=42, type=int, help="Random seed")
     args = parser.parse_args()
 
     # Set random seed
@@ -23,11 +25,16 @@ if __name__ == "__main__":
     #
     # To save a model, open a target file for binary access, and use
     # `pickle.dump` to save the model to the opened file:
-    # with open(output_model_path, "wb") as model_file:
+    # with open(args.model_path, "wb") as model_file:
     #       pickle.dump(model, model_file)
+
+def recodex_prediction(data):
+    # TODO: Predict target values for the given data.
     #
-    # To load the model, again open the model file for binary read access.
-    # Then use `pickle.load` to deserialize the model from the stored binary
-    # data:
-    # with open(model_path, "rb") as model_file:
+    # You should probably start by loading a model. Start by opening the model
+    # file for binary read access and then use `pickle.load` to deserialize the
+    # model from the stored binary data:
+    # with open(args.model_path, "rb") as model_file:
     #     model = pickle.load(model_file)
+
+    # TODO: Return the predictions as a numpy array.
