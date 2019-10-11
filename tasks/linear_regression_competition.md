@@ -15,4 +15,5 @@ estimator, how to load it, and it shows `recodex_predict` method which
 is called during ReCodEx evaluation.
 
 The performance of your system is measured using _root mean squared error_
-and your goal is to achieve RMSE less than 130.
+and your goal is to achieve RMSE less than 130. Note that you can use
+**any sklearn algorithm** to solve this exercise.
