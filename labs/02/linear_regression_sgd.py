@@ -24,7 +24,7 @@ if __name__ == "__main__":
     np.random.seed(args.seed)
 
     # Generate an artifical regression dataset
-    data, target = sklearn.datasets.make_regression(n_samples=args.examples)
+    data, target = sklearn.datasets.make_regression(n_samples=args.examples, random_state=args.seed)
 
     # TODO: Append a constant feature with value 1 to the end of every input data
 
