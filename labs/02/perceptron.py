@@ -22,10 +22,10 @@ if __name__ == "__main__":
         n_clusters_per_class=1, flip_y=0, class_sep=2, random_state=args.seed)
     target = 2 * target - 1
 
-    # Generate initial perceptron weights
-    weights = np.random.uniform(size=3)
-
     # TODO: Append a constant feature with value 1 to the end of every input data
+
+    # Generate initial perceptron weights
+    weights = np.random.uniform(size=data.shape[1])
 
     done = False
     while not done:
