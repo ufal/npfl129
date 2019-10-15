@@ -39,3 +39,5 @@ if __name__ == "__main__":
         # TODO: Implement the perceptron algorithm, notably one iteration
         # over the data. If the data is correctly separated, set `done=True`,
         # otherwise set `done=False`.
+
+    print(" ".join("{:.2f}".format(weight) for weight in weights))
