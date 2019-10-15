@@ -5,3 +5,4 @@
 #### Lecture assignment: feature_engineering
 #### Lecture assignment: linear_regression_sgd
 #### Lecture assignment: perceptron
+#### Lecture assignment: binary_classification_competition
