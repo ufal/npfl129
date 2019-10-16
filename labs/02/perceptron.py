@@ -37,7 +37,10 @@ if __name__ == "__main__":
             plt.show()
 
         # TODO: Implement the perceptron algorithm, notably one iteration
-        # over the data. If the data is correctly separated, set `done=True`,
+        # over the training data in sequential order. (In practise we might
+        # consider also processing the examples in a randomized order.)
+        # For incorrectly examples perform the required update to the `weights`.
+        # If all training instances are correctly separated, set `done=True`,
         # otherwise set `done=False`.
 
     print(" ".join("{:.2f}".format(weight) for weight in weights))
