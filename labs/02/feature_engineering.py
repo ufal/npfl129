@@ -29,6 +29,8 @@ if __name__ == "__main__":
     #   for the sake of an exercise). Encode the values using one-hot encoding,
     #   probably using `sklearn.preprocess.OneHotEncoder` (note that its output
     #   is by default sparse; you can use `sparse=False` to generate dense output)
+    #   * * * * * Please ignore the warning OneHotEncoder * * * * *
+    #   * * * * * prints and do not pass `categories=auto`* * * * *
     # - for the rest of the columns, normalize their values so that they
     #   have mean 0 and variance 1; you can use `sklearn.preprocessing.StandardScaler`.
     # In the output, there should be first all the one-hot categorical features,
