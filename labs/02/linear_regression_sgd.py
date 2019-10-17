@@ -29,9 +29,9 @@ if __name__ == "__main__":
     # TODO: Append a constant feature with value 1 to the end of every input data
 
     rmses = []
-    # TODO: Using `sklearn.model_selection.KFold(args.folds)`, generate the required
-    # number of folds. The folds are returned as a generator of
-    # (train_data_indices, test_data_indices) pairs.
+    # TODO: Using `split` method of `sklearn.model_selection.KFold(args.folds)`,
+    # generate the required number of folds. The folds are returned as
+    # a generator of (train_data_indices, test_data_indices) pairs.
     for train_indices, test_indices in ...:
         # TODO: Generate train_data, train_target, test_data, test_target using the fold indices
 
