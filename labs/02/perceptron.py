@@ -39,7 +39,8 @@ if __name__ == "__main__":
         # TODO: Implement the perceptron algorithm, notably one iteration
         # over the training data in sequential order. (In practise we might
         # consider also processing the examples in a randomized order.)
-        # For incorrectly examples perform the required update to the `weights`.
+        # During the training data iteration, perform the required update
+        # to the `weights` for incorrectly classified examples.
         # If all training instances are correctly separated, set `done=True`,
         # otherwise set `done=False`.
 
