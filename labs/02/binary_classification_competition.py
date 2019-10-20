@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import lzma
 import pickle
 import os
 import urllib.request
@@ -44,10 +45,11 @@ if __name__ == "__main__":
 
     # TODO: The trained model needs to be saved. All sklearn models can
     # be serialized and deserialized using the standard `pickle` module.
+    # Additionally, we can also compress the model.
     #
     # To save a model, open a target file for binary access, and use
     # `pickle.dump` to save the model to the opened file:
-    # with open(args.model_path, "wb") as model_file:
+    # with lzma.open(args.model_path, "wb") as model_file:
     #       pickle.dump(model, model_file)
 
 # The `recodex_predict` is called during ReCodEx evaluation (there can be
@@ -63,7 +65,7 @@ def recodex_predict(data):
     # You should probably start by loading a model. Start by opening the model
     # file for binary read access and then use `pickle.load` to deserialize the
     # model from the stored binary data:
-    # with open(args.model_path, "rb") as model_file:
+    # with lzma.open(args.model_path, "rb") as model_file:
     #     model = pickle.load(model_file)
 
     # TODO: Return the predictions as a Numpy array.
