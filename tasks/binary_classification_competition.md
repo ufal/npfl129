@@ -12,7 +12,7 @@ template shows how to load the `binary_classification_competition.train.csv.xz`
 training data, downloading it if needed. Note that the input is in
 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) format and we load
 it using [pandas](https://pandas.pydata.org/) as a
-[`pandas.DataFrame`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html),
+[pandas.DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html),
 which is a two-dimensional heterogeneous array with labeled columns.
 Furthermore, the template shows how to save a _compressed_ trained
 estimator and how to load it in `recodex_predict` method.
