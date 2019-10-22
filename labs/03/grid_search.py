@@ -33,8 +33,8 @@ if __name__ == "__main__":
     # 2. performs sklearn.preprocessing.PolynomialFeatures()
     # 3. performs sklearn.linear_model.LogisticRegression(multi_class="multinomial")
     #
-    # Then, using 5-fold sklearn.model_selection.StratifiedKFold(5), evaluate
-    # crossvalidated train performance of the following parameters:
+    # Then, using sklearn.model_selection.StratifiedKFold(5), evaluate crossvalidated
+    # train performance of all combinations of the the following # parameters:
     # - polynomial degree: 1, 2
     # - LogisticRegression regularization C: 0.01, 1, 100
     # - LogisticRegression solver: lbgfs, sag
