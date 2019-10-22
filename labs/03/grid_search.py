@@ -34,12 +34,14 @@ if __name__ == "__main__":
     # 3. performs sklearn.linear_model.LogisticRegression(multi_class="multinomial")
     #
     # Then, using sklearn.model_selection.StratifiedKFold(5), evaluate crossvalidated
-    # train performance of all combinations of the the following # parameters:
+    # train performance of all combinations of the the following parameters:
     # - polynomial degree: 1, 2
     # - LogisticRegression regularization C: 0.01, 1, 100
     # - LogisticRegression solver: lbgfs, sag
     #
-    # For the best combination of parameters, compute the test set accuracy
+    # For the best combination of parameters, compute the test set accuracy.
+    #
+    # The easiest way is to use `sklearn.model_selection.GridSearchCV`.
 
     test_accuracy = ...
     print("{:.2f}".format(100 * test_accuracy))
