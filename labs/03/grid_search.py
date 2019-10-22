@@ -31,7 +31,7 @@ if __name__ == "__main__":
     # TODO: Create a pipeline, which
     # 1. performs sklearn.preprocessing.MinMaxScaler()
     # 2. performs sklearn.preprocessing.PolynomialFeatures()
-    # 3. performs sklearn.linear_model.LogisticRegression(multiclass="multinomial")
+    # 3. performs sklearn.linear_model.LogisticRegression(multi_class="multinomial")
     #
     # Then, using 5-fold sklearn.model_selection.StratifiedKFold(5), evaluate
     # crossvalidated train performance of the following parameters:
