@@ -1,6 +1,6 @@
 ### Assignment: mnist_competition
-#### Date: Deadline: Nov 03, 23:59
-#### Points: 4 points+5 bonus
+#### Date: Deadline: Nov 10, 23:59
+#### Points: 6 points+6 bonus
 
 This assignment is a [competition task](#competitions). Your goal
 is to perform 10-class classification on the well-known
