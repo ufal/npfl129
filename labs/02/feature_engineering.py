@@ -27,7 +27,7 @@ if __name__ == "__main__":
     #   (days in a week, dog breed, ...; in general integer values can also
     #   represent numerical non-categorical values, but we use this assumption
     #   for the sake of an exercise). Encode the values using one-hot encoding,
-    #   probably using `sklearn.preprocess.OneHotEncoder` (note that its output
+    #   probably using `sklearn.preprocessing.OneHotEncoder` (note that its output
     #   is by default sparse; you can use `sparse=False` to generate dense output)
     #   * * * * * Please ignore the warning OneHotEncoder * * * * *
     #   * * * * * prints and do not pass `categories=auto`* * * * *
