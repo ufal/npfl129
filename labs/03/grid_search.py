@@ -37,7 +37,7 @@ if __name__ == "__main__":
     # train performance of all combinations of the the following parameters:
     # - polynomial degree: 1, 2
     # - LogisticRegression regularization C: 0.01, 1, 100
-    # - LogisticRegression solver: lbgfs, sag
+    # - LogisticRegression solver: lbfgs, sag
     #
     # For the best combination of parameters, compute the test set accuracy.
     #
