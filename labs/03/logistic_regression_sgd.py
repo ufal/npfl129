@@ -44,7 +44,7 @@ if __name__ == "__main__":
         # For every `args.batch_size`, average their gradient, and update the weights.
         # You can assume that `args.batch_size` exactly divides `train_data.shape[0]`.
 
-        # TODO: For every episode, measure the average loss and accuracy for both the
+        # TODO: After the SGD iteration, measure the average loss and accuracy for both the
         # train test and the test set. The loss is the average MLE loss (i.e., the
         # negative log likelihood, or crossentropy loss, or KL loss) per example.
         # Print the accuracies in percentages.
