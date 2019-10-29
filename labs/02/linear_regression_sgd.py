@@ -45,7 +45,7 @@ if __name__ == "__main__":
             # TODO: Process the data in the order of `permutation`.
             # For every `args.batch_size`, average their gradient, and update the weights.
             # A gradient for example (x_i, t_i) is `(x_i^T weights - t_i) * x_i`,
-            # and the SGD update is `weights = weights - learning_rate * gradient`.
+            # and the SGD update is `weights = weights - args.learning_rate * gradient`.
             # You can assume that `args.batch_size` exactly divides `train_data.shape[0]`.
 
             # We evaluate RMSE on train and test
