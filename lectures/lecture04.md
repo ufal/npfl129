@@ -4,3 +4,4 @@
 #### Reading: https://ufal.mff.cuni.cz/~straka/courses/npfl129/1920/slides.pdf/npfl129-04.pdf,PDF Slides
 #### Lecture assignment: softmax_classification_sgd
 #### Lecture assignment: mlp_classification_sgd
+#### Lecture assignment: diacritization
