@@ -62,10 +62,11 @@ if __name__ == "__main__":
         #
         # The gradient used in SGD has now two parts, gradient of weghts[0] and weights[1].
         #
-        # Generally you need to:
-        # - run forward propagation, getting hidden and output layer values
-        # - compute the derivative of the loss with respect to **inputs** of the
-        #   softmax on the last layer (it will be quite nice)
+        # You can either compute the gradient directly from the neural network formula,
+        # i.e., as a gradient of -log P(target | data), or you can compute
+        # it "step by step" using chain rule of derivatives, in the following order:
+        # - compute the derivative of the loss with respect to *inputs* of the
+        #   softmax on the last layer (we did this already in softmax_classification_sgd)
         # - compute the derivative with respect to weights[1]
         # - compute the derivative with respect to the hidden layer output
         # - compute the derivative with respect to the hidden layer input
