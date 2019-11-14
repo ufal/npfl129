@@ -1,6 +1,6 @@
 ### Assignment: diacritization
 #### Date: Deadline: Nov 24, 23:59
-#### Points: 4 points+6 bonus
+#### Points: 5 points+6 bonus
 
 The goal of the `diacritization` competition is to learn to add diacritics to
 the given Czech text. We will use a small collection of
