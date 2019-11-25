@@ -68,4 +68,5 @@ def recodex_predict(data):
         model = pickle.load(model_file)
 
     # TODO: Return the predictions as a diacritized `str`. It has to have
-    # exactly the same length as `data`.
+    # exactly the same length as `data` and all corresponding characters
+    # must be the same, except tha may differ in diacritics.
