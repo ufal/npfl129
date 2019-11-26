@@ -71,6 +71,11 @@ if __name__ == "__main__":
         # - compute the derivative with respect to the hidden layer output
         # - compute the derivative with respect to the hidden layer input
         # - compute the derivative with respect to weights[0]
+        #
+        # The derivative of ReLU is special, given that it does not exist
+        # for input value of zero. We handle it by defining it as zero,
+        # i.e., not to propagate the gradient back through ReLU in case the
+        # input was zero.
 
         # TODO: After the SGD iteration, measure the accuracy for both the
         # train test and the test set and print it in percentages.
