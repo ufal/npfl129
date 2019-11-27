@@ -37,7 +37,7 @@ if __name__ == "__main__":
     #   right descendants) approach, splitting every node if `args.max_depth`
     #   and `args.min_to_split` constraints are valid. When splitting, consider
     #   the features in sequential order, then for each feature consider all
-    #   possible split points ordered in ascending size, and perform the
+    #   possible split points ordered in ascending value, and perform the
     #   first encountered split descreasing the criterion the most.
     # - When `args.max_leaves` is not None, always split a node where the
     #   overall criterion value decreases the most (c_left + c_right - c_node).
