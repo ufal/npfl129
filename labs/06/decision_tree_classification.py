@@ -9,10 +9,10 @@ import sklearn.model_selection
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--criterion", default="gini", help="Criterion to use; either `gini` or `entropy`")
-    parser.add_argument("--max_depth", default=None, help="Maximum decision tree depth")
-    parser.add_argument("--min_to_split", default=2, help="Minimum examples required to split")
-    parser.add_argument("--max_leaves", default=None, help="Maximum number of leaf nodes")
+    parser.add_argument("--criterion", default="gini", type=str, help="Criterion to use; either `gini` or `entropy`")
+    parser.add_argument("--max_depth", default=None, type=int, help="Maximum decision tree depth")
+    parser.add_argument("--min_to_split", default=2, type=int, help="Minimum examples required to split")
+    parser.add_argument("--max_leaves", default=None, type=int, help="Maximum number of leaf nodes")
     parser.add_argument("--plot", default=False, action="store_true", help="Plot progress")
     parser.add_argument("--seed", default=42, type=int, help="Random seed")
     parser.add_argument("--test_size", default=42, type=int, help="Test set size")
