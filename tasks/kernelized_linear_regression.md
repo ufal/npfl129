@@ -9,7 +9,7 @@ on the dual formulation. You should support _polynomial_
 and _Gaussian_ kernels and also L2 regularization. More details
 are present in the template.
 
-#Examples Start: kernelized_linear_regression_examples
+#### Examples Start: kernelized_linear_regression_examples
 - `--examples=50 --kernel=rbf --kernel_gamma=1 --iterations=5 --l2=0 --learning_rate=0.05 --seed 42`
 ```
 Iteration 1, train RMSE 0.80, test RMSE 0.68
@@ -42,4 +42,4 @@ Iteration 3, train RMSE 0.66, test RMSE 0.74
 Iteration 4, train RMSE 0.63, test RMSE 0.64
 Iteration 5, train RMSE 0.61, test RMSE 0.74
 ```
-#Examples End:
+#### Examples End:
