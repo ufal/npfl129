@@ -48,7 +48,8 @@ if __name__ == "__main__":
     # - poly: K(x, y; degree, gamma) = (gamma * x^T y + 1) ^ degree
     # - rbf: K(x, y; gamma) = exp^{- gamma * ||x - y||^2}
     #
-    # After each update print RMSE both on training and testing data.
+    # After each update print RMSE (root mean squared error, i.e.,
+    # sqrt(avg_i[(target_i-prediction_i)^2])) both on training and testing data.
     for iteration in range(args.iterations):
         # TODO
 
