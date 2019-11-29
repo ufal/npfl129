@@ -38,6 +38,8 @@ if __name__ == "__main__":
     #   y = phi(x)^T w + bias
     # and the loss in the primary problem is MSE with L2 regularization:
     #   L = sum_{i=1}^N [1/2 * (target_i - phi(x_i)^T w - bias)^2] + 1/2 * args.l2 * w^2
+    # Perform the update by optimizing this exact loss computed over
+    # all training data (so it is a full GD algorithm, no batches or sampling).
     #
     # For bias use explicitly the average of training targets, and do not update
     # it futher during training.
