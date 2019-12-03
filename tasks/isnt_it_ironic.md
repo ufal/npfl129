@@ -1,5 +1,5 @@
 ### Assignment: isnt_it_ironic
-#### Date: Deadline: Nov 24, 23:59
+#### Date: Deadline: Dec 15, 23:59
 #### Points: 7 points+7 bonus
 
 The goal of the `isnt_it_ironic` competition is to learn to classify given
