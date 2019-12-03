@@ -10,7 +10,7 @@ import sklearn.model_selection
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--C", default=1, type=int, help="Inverse regularization strenth")
+    parser.add_argument("--C", default=1, type=float, help="Inverse regularization strenth")
     parser.add_argument("--examples", default=200, type=int, help="Number of examples")
     parser.add_argument("--kernel", default="rbf", type=str, help="Kernel type [poly|rbf]")
     parser.add_argument("--kernel_degree", default=5, type=int, help="Degree for poly kernel")
