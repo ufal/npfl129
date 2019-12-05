@@ -18,7 +18,7 @@ Train acc 83.3%, test acc 75.0%
 ...
 Train acc 85.0%, test acc 74.0%
 ```
-![Decision tree visualization](https://ufal.mff.cuni.cz/~straka/courses/npfl129/1920/tasks/figures/smo_algorithm_1.svg)
+![Decision tree visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/1920/tasks/figures/smo_algorithm_1.svg)
 - `--C 1 --kernel rbf --kernel_gamma=1 --tolerance 0.0001 --examples 160 --num_passes 5 --seed 007 --test_ratio 0.625`
 ```
 Train acc 88.3%, test acc 70.0%
@@ -29,7 +29,7 @@ Train acc 91.7%, test acc 75.0%
 ...
 Train acc 93.3%, test acc 75.0%
 ```
-![Decision tree visualization](https://ufal.mff.cuni.cz/~straka/courses/npfl129/1920/tasks/figures/smo_algorithm_2.svg)
+![Decision tree visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/1920/tasks/figures/smo_algorithm_2.svg)
 - `--C 1 --kernel rbf --kernel_gamma=0.1 --tolerance 0.0001 --examples 160 --num_passes 5 --seed 007 --test_ratio 0.625`
 ```
 Train acc 86.7%, test acc 76.0%
@@ -40,7 +40,7 @@ Train acc 81.7%, test acc 75.0%
 ...
 Train acc 86.7%, test acc 75.0%
 ```
-![Decision tree visualization](https://ufal.mff.cuni.cz/~straka/courses/npfl129/1920/tasks/figures/smo_algorithm_3.svg)
+![Decision tree visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/1920/tasks/figures/smo_algorithm_3.svg)
 - `--C 1 --kernel poly --kernel_degree=3 --kernel_gamma=1 --tolerance 0.0001 --examples 160 --num_passes 5 --seed 007 --test_ratio 0.625`
 ```
 Train acc 73.3%, test acc 62.0%
@@ -51,7 +51,7 @@ Train acc 85.0%, test acc 73.0%
 ...
 Train acc 88.3%, test acc 72.0%
 ```
-![Decision tree visualization](https://ufal.mff.cuni.cz/~straka/courses/npfl129/1920/tasks/figures/smo_algorithm_4.svg)
+![Decision tree visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/1920/tasks/figures/smo_algorithm_4.svg)
 - `--C 5 --kernel poly --kernel_degree=3 --kernel_gamma=1 --tolerance 0.0001 --examples 160 --num_passes 5 --seed 007 --test_ratio 0.625`
 ```
 Train acc 73.3%, test acc 62.0%
@@ -62,7 +62,7 @@ Train acc 65.0%, test acc 62.0%
 ...
 Train acc 88.3%, test acc 74.0%
 ```
-![Decision tree visualization](https://ufal.mff.cuni.cz/~straka/courses/npfl129/1920/tasks/figures/smo_algorithm_5.svg)
+![Decision tree visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/1920/tasks/figures/smo_algorithm_5.svg)
 - `--C 1 --kernel poly --kernel_degree=3 --kernel_gamma=1 --tolerance 0.01 --examples 160 --num_passes 5 --seed 007 --test_ratio 0.625`
 ```
 Train acc 86.7%, test acc 73.0%
@@ -73,5 +73,5 @@ Train acc 68.3%, test acc 73.0%
 ...
 Train acc 78.3%, test acc 68.0%
 ```
-![Decision tree visualization](https://ufal.mff.cuni.cz/~straka/courses/npfl129/1920/tasks/figures/smo_algorithm_6.svg)
+![Decision tree visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/1920/tasks/figures/smo_algorithm_6.svg)
 #### Examples End:
