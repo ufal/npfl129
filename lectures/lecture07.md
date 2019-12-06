@@ -4,3 +4,4 @@
 #### Reading: https://ufal.mff.cuni.cz/~straka/courses/npfl129/1920/slides.pdf/npfl129-07.pdf,PDF Slides
 #### Lecture assignment: smo_algorithm
 #### Lecture assignment: isnt_it_ironic
+#### Lecture assignment: isnt_it_ironic_open
