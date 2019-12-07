@@ -61,17 +61,17 @@ if __name__ == "__main__":
             #     j = j_generator.randint(len(a) - 1)
             #     j = j + (j >= i)
             #
-            # - compute the updated a[j].
-            #   Note that if the quadratic coefficient of the quadratic
-            #   function to solve is >= -args.tolerance, do nothing and
-            #   continue with next i; also do nothing if the updated
-            #   a[j] does not change by more than args.tolerance.
+            # - compute the updated unclipped a_j^new.
+            #   Note that if the second derivative of the loss with respect
+            #   to a[j] is >= -args.tolerance, do not update a[j] and
+            #   continue with next i; also keep the original a[j] if the updated
+            #   a_j^new does not differ from a[j] by more than args.tolerance.
             #
-            # - clip the a[j] to [L, H].
-            #   If the clip window is too narrow, (H - L) < args.tolerance,
-            #   do nothing and continue with next i.
+            # - clip the a_j^new to [L, H].
+            #   If the clip window is too narrow (H - L < args.tolerance),
+            #   keep the original a[j] and continue with next i.
             #
-            # - compute the updated a[i] and b
+            # - update a[j] to a_j^new, and compute the updated a[i] and b
             #
             # - increase a_changed
         passes = 0 if a_changed else passes + 1
