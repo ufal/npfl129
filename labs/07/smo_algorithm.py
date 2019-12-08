@@ -64,12 +64,13 @@ if __name__ == "__main__":
             # - compute the updated unclipped a_j^new.
             #   Note that if the second derivative of the loss with respect
             #   to a[j] is >= -args.tolerance, do not update a[j] and
-            #   continue with next i; also keep the original a[j] if the updated
-            #   a_j^new does not differ from a[j] by more than args.tolerance.
+            #   continue with next i.
             #
             # - clip the a_j^new to [L, H].
-            #   If the clip window is too narrow (H - L < args.tolerance),
-            #   keep the original a[j] and continue with next i.
+            #   If the clip window is too narrow (H - L < args.tolerance), keep
+            #   the original a[j] and continue with next i; also keep the
+            #   original a[j] if the clipped updated a_j^new does not differ
+            #   from the original a[j] by more than args.tolerance.
             #
             # - update a[j] to a_j^new, and compute the updated a[i] and b
             #
