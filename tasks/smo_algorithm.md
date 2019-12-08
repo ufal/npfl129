@@ -3,6 +3,8 @@
 #### Points: 7 points
 #### Examples: smo_algorithm_examples
 
+**<span class="text-danger">The comments in the template were changed on Dec 08.</span>**
+
 Using the [smo_algorithm.py](https://github.com/ufal/npfl129/tree/master/labs/07/smo_algorithm.py)
 template, implement the SMO algorithm for binary classification
 using dual formulation of soft-margin SVM.
