@@ -71,5 +71,5 @@ def recodex_predict(data):
     with lzma.open(args.model_path, "rb") as model_file:
         model = pickle.load(model_file)
 
-    # TODO: Return the predictions as a Pythoh list or Numpy array of
+    # TODO: Return the predictions as a Python list or Numpy array of
     # binary labels of the tweets.
