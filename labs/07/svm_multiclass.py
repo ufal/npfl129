@@ -8,10 +8,7 @@ import sklearn.metrics
 import sklearn.model_selection
 
 def smo(train_data, train_target, test_data, args):
-    # TODO: Use exactly the SMO algorithm from `smo_algorithm` assignment,
-    # but with one more parameter:
-    # - args.max_num_passes: it not None, perform at most this many passes over
-    #   the data (independently on whether `a` values change or not)
+    # TODO: Use exactly the SMO algorithm from `smo_algorithm` assignment.
     #
     # The `j_generator` should be created every time with the same seed.
     pass
@@ -23,7 +20,6 @@ if __name__ == "__main__":
     parser.add_argument("--kernel", default="rbf", type=str, help="Kernel type [poly|rbf]")
     parser.add_argument("--kernel_degree", default=5, type=int, help="Degree for poly kernel")
     parser.add_argument("--kernel_gamma", default=1.0, type=float, help="Gamma for poly and rbf kernel")
-    parser.add_argument("--max_num_passes", default=None, type=int, help="Maximum number of passes in SMO")
     parser.add_argument("--num_passes", default=10, type=int, help="Number of passes without changes to stop after")
     parser.add_argument("--plot", default=False, action="store_true", help="Plot progress")
     parser.add_argument("--seed", default=42, type=int, help="Random seed")
