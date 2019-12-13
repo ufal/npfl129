@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1414pt" height="224pt" viewBox="0.0 0.0 1414.0 224.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="graph" transform="scale(1 1) rotate(0) translate(4 220)">
+<title>Tree</title>
+<polygon fill="none" stroke="none" points="-4,4 -4,-220 1410,-220 1410,4 -4,4"/>
+<g class="node"><title>0</title>
+<polygon fill="none" stroke="black" points="326.5,-216 174.5,-216 174.5,-163 326.5,-163 326.5,-216"/>
+<text text-anchor="middle" x="250.5" y="-200.8" font-family="Times,serif" font-size="14.0">color_intensity &lt;= 4.8</text>
+<text text-anchor="middle" x="250.5" y="-185.8" font-family="Times,serif" font-size="14.0">instances = 136</text>
+<text text-anchor="middle" x="250.5" y="-170.8" font-family="Times,serif" font-size="14.0">counts=[45,54,37]</text>
+<title>1</title>
+<polygon fill="none" stroke="black" points="241.5,-127 111.5,-127 111.5,-74 241.5,-74 241.5,-127"/>
+<text text-anchor="middle" x="176.5" y="-111.8" font-family="Times,serif" font-size="14.0">proline &lt;= 1010.0</text>
+<text text-anchor="middle" x="176.5" y="-96.8" font-family="Times,serif" font-size="14.0">instances = 74</text>
+<text text-anchor="middle" x="176.5" y="-81.8" font-family="Times,serif" font-size="14.0">counts=[26,31,17]</text>
+</g>
+<g class="edge"><title>0&#45;&gt;1</title>
+<path fill="none" stroke="black" d="M228.7,-162.9C221.3,-154.2 212.9,-144.3 205.1,-135.1"/>
+<polygon fill="black" stroke="black" points="207.5,-132.6 198.4,-127.2 202.2,-137.1 207.5,-132.6"/>
+</g>
+<g class="node"><title>5</title>
+<polygon fill="none" stroke="black" points="387.5,-127 259.5,-127 259.5,-74 387.5,-74 387.5,-127"/>
+<text text-anchor="middle" x="323.5" y="-111.8" font-family="Times,serif" font-size="14.0">flavanoids &lt;= 2.0</text>
+<text text-anchor="middle" x="323.5" y="-96.8" font-family="Times,serif" font-size="14.0">instances = 62</text>
+<text text-anchor="middle" x="323.5" y="-81.8" font-family="Times,serif" font-size="14.0">counts=[19,23,20]</text>
+</g>
+<g class="edge"><title>0&#45;&gt;5</title>
+<path fill="none" stroke="black" d="M272.0,-162.9C279.3,-154.2 287.5,-144.3 295.3,-135.1"/>
+<polygon fill="black" stroke="black" points="298.1,-137.2 301.9,-127.2 292.8,-132.7 298.1,-137.2"/>
+</g>
+<g class="node"><title>2</title>
+<polygon fill="none" stroke="black" points="117,-38 -7.1e-15,-38 -7.1e-15,-0 117,-0 117,-38"/>
+<text text-anchor="middle" x="58.5" y="-22.8" font-family="Times,serif" font-size="14.0">instances = 68</text>
+<text text-anchor="middle" x="58.5" y="-7.8" font-family="Times,serif" font-size="14.0">counts=[22,30,16]</text>
+</g>
+<g class="edge"><title>1&#45;&gt;2</title>
+<path fill="none" stroke="black" d="M138.5,-73.9C124.2,-64.3 108.1,-53.4 94.0,-43.9"/>
+<polygon fill="black" stroke="black" points="95.8,-40.9 85.6,-38.2 91.9,-46.7 95.8,-40.9"/>
+</g>
+<g class="node"><title>3</title>
+<polygon fill="none" stroke="black" points="232,-38 135,-38 135,-0 232,-0 232,-38"/>
+<text text-anchor="middle" x="183.5" y="-22.8" font-family="Times,serif" font-size="14.0">instances = 6</text>
+<text text-anchor="middle" x="183.5" y="-7.8" font-family="Times,serif" font-size="14.0">counts=[4,1,1]</text>
+</g>
+<g class="edge"><title>1&#45;&gt;3</title>
+<path fill="none" stroke="black" d="M178.8,-73.9C179.5,-65.7 180.3,-56.6 181.0,-48.3"/>
+<polygon fill="black" stroke="black" points="184.5,-48.5 181.9,-38.2 177.5,-47.9 184.5,-48.5"/>
+</g>
+<g class="node"><title>6</title>
+<polygon fill="none" stroke="black" points="368.5,-38 264.5,-38 264.5,-0 368.5,-0 368.5,-38"/>
+<text text-anchor="middle" x="316.5" y="-22.8" font-family="Times,serif" font-size="14.0">instances = 30</text>
+<text text-anchor="middle" x="316.5" y="-7.8" font-family="Times,serif" font-size="14.0">counts=[9,13,8]</text>
+</g>
+<g class="edge"><title>5&#45;&gt;6</title>
+<path fill="none" stroke="black" d="M321.2,-73.9C320.5,-65.7 319.7,-56.6 319.0,-48.3"/>
+<polygon fill="black" stroke="black" points="322.5,-47.9 318.1,-38.2 315.5,-48.5 322.5,-47.9"/>
+</g>
+<g class="node"><title>7</title>
+<polygon fill="none" stroke="black" points="504,-38 387,-38 387,-0 504,-0 504,-38"/>
+<text text-anchor="middle" x="445.5" y="-22.8" font-family="Times,serif" font-size="14.0">instances = 32</text>
+<text text-anchor="middle" x="445.5" y="-7.8" font-family="Times,serif" font-size="14.0">counts=[10,10,12]</text>
+</g>
+<g class="edge"><title>5&#45;&gt;7</title>
+<path fill="none" stroke="black" d="M362.8,-73.9C377.5,-64.3 394.3,-53.4 408.8,-43.9"/>
+<polygon fill="black" stroke="black" points="411.0,-46.6 417.5,-38.2 407.2,-40.8 411.0,-46.6"/>
+</g>
+<g class="node"><title>10</title>
+<polygon fill="none" stroke="black" points="861,-216 738,-216 738,-163 861,-163 861,-216"/>
+<text text-anchor="middle" x="799.5" y="-200.8" font-family="Times,serif" font-size="14.0">proline &lt;= 755.0</text>
+<text text-anchor="middle" x="799.5" y="-185.8" font-family="Times,serif" font-size="14.0">instances = 136</text>
+<text text-anchor="middle" x="799.5" y="-170.8" font-family="Times,serif" font-size="14.0">counts=[45,54,37]</text>
+<title>11</title>
+<polygon fill="none" stroke="black" points="815,-127 572,-127 572,-74 815,-74 815,-127"/>
+<text text-anchor="middle" x="693.5" y="-111.8" font-family="Times,serif" font-size="14.0">od280/od315_of_diluted_wines &lt;= 1.9</text>
+<text text-anchor="middle" x="693.5" y="-96.8" font-family="Times,serif" font-size="14.0">instances = 90</text>
+<text text-anchor="middle" x="693.5" y="-81.8" font-family="Times,serif" font-size="14.0">counts=[30,35,25]</text>
+</g>
+<g class="edge"><title>10&#45;&gt;11</title>
+<path fill="none" stroke="black" d="M768.3,-162.9C757.2,-153.7 744.5,-143.4 732.8,-133.7"/>
+<polygon fill="black" stroke="black" points="734.8,-130.9 724.9,-127.2 730.4,-136.3 734.8,-130.9"/>
+</g>
+<g class="node"><title>15</title>
+<polygon fill="none" stroke="black" points="977.5,-127 833.5,-127 833.5,-74 977.5,-74 977.5,-127"/>
+<text text-anchor="middle" x="905.5" y="-111.8" font-family="Times,serif" font-size="14.0">total_phenols &lt;= 2.2</text>
+<text text-anchor="middle" x="905.5" y="-96.8" font-family="Times,serif" font-size="14.0">instances = 46</text>
+<text text-anchor="middle" x="905.5" y="-81.8" font-family="Times,serif" font-size="14.0">counts=[15,19,12]</text>
+</g>
+<g class="edge"><title>10&#45;&gt;15</title>
+<path fill="none" stroke="black" d="M830.7,-162.9C841.8,-153.7 854.5,-143.4 866.2,-133.7"/>
+<polygon fill="black" stroke="black" points="868.6,-136.3 874.1,-127.2 864.2,-130.9 868.6,-136.3"/>
+</g>
+<g class="node"><title>12</title>
+<polygon fill="none" stroke="black" points="639,-38 522,-38 522,-0 639,-0 639,-38"/>
+<text text-anchor="middle" x="580.5" y="-22.8" font-family="Times,serif" font-size="14.0">instances = 43</text>
+<text text-anchor="middle" x="580.5" y="-7.8" font-family="Times,serif" font-size="14.0">counts=[13,19,11]</text>
+</g>
+<g class="edge"><title>11&#45;&gt;12</title>
+<path fill="none" stroke="black" d="M657.1,-73.9C643.6,-64.4 628.2,-53.6 614.9,-44.2"/>
+<polygon fill="black" stroke="black" points="616.6,-41.1 606.4,-38.2 612.6,-46.9 616.6,-41.1"/>
+</g>
+<g class="node"><title>13</title>
+<polygon fill="none" stroke="black" points="774,-38 657,-38 657,-0 774,-0 774,-38"/>
+<text text-anchor="middle" x="715.5" y="-22.8" font-family="Times,serif" font-size="14.0">instances = 47</text>
+<text text-anchor="middle" x="715.5" y="-7.8" font-family="Times,serif" font-size="14.0">counts=[17,16,14]</text>
+</g>
+<g class="edge"><title>11&#45;&gt;13</title>
+<path fill="none" stroke="black" d="M700.6,-73.9C702.9,-65.6 705.4,-56.4 707.7,-48.0"/>
+<polygon fill="black" stroke="black" points="711.2,-48.8 710.5,-38.2 704.4,-46.9 711.2,-48.8"/>
+</g>
+<g class="node"><title>16</title>
+<polygon fill="none" stroke="black" points="932,-38 835,-38 835,-0 932,-0 932,-38"/>
+<text text-anchor="middle" x="883.5" y="-22.8" font-family="Times,serif" font-size="14.0">instances = 4</text>
+<text text-anchor="middle" x="883.5" y="-7.8" font-family="Times,serif" font-size="14.0">counts=[3,1,0]</text>
+</g>
+<g class="edge"><title>15&#45;&gt;16</title>
+<path fill="none" stroke="black" d="M898.4,-73.9C896.1,-65.6 893.6,-56.4 891.3,-48.0"/>
+<polygon fill="black" stroke="black" points="894.6,-46.9 888.5,-38.2 887.8,-48.8 894.6,-46.9"/>
+</g>
+<g class="node"><title>17</title>
+<polygon fill="none" stroke="black" points="1067,-38 950,-38 950,-0 1067,-0 1067,-38"/>
+<text text-anchor="middle" x="1008.5" y="-22.8" font-family="Times,serif" font-size="14.0">instances = 42</text>
+<text text-anchor="middle" x="1008.5" y="-7.8" font-family="Times,serif" font-size="14.0">counts=[12,18,12]</text>
+</g>
+<g class="edge"><title>15&#45;&gt;17</title>
+<path fill="none" stroke="black" d="M938.7,-73.9C950.9,-64.5 964.7,-53.8 976.8,-44.5"/>
+<polygon fill="black" stroke="black" points="979.1,-47.1 984.9,-38.2 974.8,-41.6 979.1,-47.1"/>
+</g>
+<g class="node"><title>20</title>
+<polygon fill="none" stroke="black" points="1338,-216 1215,-216 1215,-163 1338,-163 1338,-216"/>
+<text text-anchor="middle" x="1276.5" y="-200.8" font-family="Times,serif" font-size="14.0">proline &lt;= 928.0</text>
+<text text-anchor="middle" x="1276.5" y="-185.8" font-family="Times,serif" font-size="14.0">instances = 136</text>
+<text text-anchor="middle" x="1276.5" y="-170.8" font-family="Times,serif" font-size="14.0">counts=[45,54,37]</text>
+<title>21</title>
+<polygon fill="none" stroke="black" points="1270.5,-127 1142.5,-127 1142.5,-74 1270.5,-74 1270.5,-127"/>
+<text text-anchor="middle" x="1206.5" y="-111.8" font-family="Times,serif" font-size="14.0">flavanoids &lt;= 1.0</text>
+<text text-anchor="middle" x="1206.5" y="-96.8" font-family="Times,serif" font-size="14.0">instances = 94</text>
+<text text-anchor="middle" x="1206.5" y="-81.8" font-family="Times,serif" font-size="14.0">counts=[31,37,26]</text>
+</g>
+<g class="edge"><title>20&#45;&gt;21</title>
+<path fill="none" stroke="black" d="M1255.9,-162.9C1248.9,-154.2 1241.0,-144.3 1233.6,-135.1"/>
+<polygon fill="black" stroke="black" points="1236.2,-132.8 1227.2,-127.2 1230.8,-137.2 1236.2,-132.8"/>
+</g>
+<g class="node"><title>25</title>
+<polygon fill="none" stroke="black" points="1406,-119.5 1289,-119.5 1289,-81.5 1406,-81.5 1406,-119.5"/>
+<text text-anchor="middle" x="1347.5" y="-104.3" font-family="Times,serif" font-size="14.0">instances = 42</text>
+<text text-anchor="middle" x="1347.5" y="-89.3" font-family="Times,serif" font-size="14.0">counts=[14,17,11]</text>
+</g>
+<g class="edge"><title>20&#45;&gt;25</title>
+<path fill="none" stroke="black" d="M1297.4,-162.9C1306.6,-151.7 1317.3,-138.5 1326.5,-127.3"/>
+<polygon fill="black" stroke="black" points="1329.2,-129.5 1332.8,-119.5 1323.8,-125.0 1329.2,-129.5"/>
+</g>
+<g class="node"><title>22</title>
+<polygon fill="none" stroke="black" points="1195.5,-38 1085.5,-38 1085.5,-0 1195.5,-0 1195.5,-38"/>
+<text text-anchor="middle" x="1140.5" y="-22.8" font-family="Times,serif" font-size="14.0">instances = 30</text>
+<text text-anchor="middle" x="1140.5" y="-7.8" font-family="Times,serif" font-size="14.0">counts=[8,12,10]</text>
+</g>
+<g class="edge"><title>21&#45;&gt;22</title>
+<path fill="none" stroke="black" d="M1185.2,-73.9C1177.9,-65.0 1169.6,-55.0 1162.2,-46.1"/>
+<polygon fill="black" stroke="black" points="1164.7,-43.7 1155.6,-38.2 1159.3,-48.2 1164.7,-43.7"/>
+</g>
+<g class="node"><title>23</title>
+<polygon fill="none" stroke="black" points="1331,-38 1214,-38 1214,-0 1331,-0 1331,-38"/>
+<text text-anchor="middle" x="1272.5" y="-22.8" font-family="Times,serif" font-size="14.0">instances = 64</text>
+<text text-anchor="middle" x="1272.5" y="-7.8" font-family="Times,serif" font-size="14.0">counts=[23,25,16]</text>
+</g>
+<g class="edge"><title>21&#45;&gt;23</title>
+<path fill="none" stroke="black" d="M1227.8,-73.9C1235.1,-65.0 1243.4,-55.0 1250.8,-46.1"/>
+<polygon fill="black" stroke="black" points="1253.7,-48.2 1257.4,-38.2 1248.3,-43.7 1253.7,-48.2"/>
+</g>
+</g>
+</svg>
