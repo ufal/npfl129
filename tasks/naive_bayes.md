@@ -1,6 +1,6 @@
 ### Assignment: naive_bayes
 #### Date: Deadline: Jan 12, 23:59
-#### Points: 5 points
+#### Points: 4 points
 #### Examples: naive_bayes_example
 
 Using the [naive_bayes.py](https://github.com/ufal/npfl129/tree/master/labs/09/naive_bayes.py)
