@@ -10,5 +10,16 @@ _open_ track. The differences against the original competition are:
 - you can use any unannotated data
 - use **only** the manual annotations (i.e., labels of irony) from the training
   data, do not search for or create more
-- after Dec 15, the test tweets without annotations will be distributed and you
-  will submit only a text file with their annotations
+
+The test set tweets without annotations
+[are available here](https://ufal.mff.cuni.cz/~straka/courses/npfl129/1920/datasets/isnt_it_ironic.test.zip).
+They can be loaded for example using the `Dataset` class from the
+[isnt_it_ironic.py](https://github.com/ufal/npfl129/tree/master/labs/07/isnt_it_ironic.py)
+template.
+
+Your submission in ReCodEx should consist of:
+- exactly one `.txt` file consisting of the test set annotations, containing
+  on every line either a number `0` or a number `1`;
+- at least one `.py` file with the implementation you utilized to generate the
+  test set annotations (this file is not executed, it is only for me to
+  understand what approach you took)
