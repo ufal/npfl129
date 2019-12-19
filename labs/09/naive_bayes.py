@@ -40,7 +40,6 @@ if __name__ == "__main__":
     parser.add_argument("--naive_bayes_type", default="gaussian", type=str, help="NB type to use")
     parser.add_argument("--seed", default=42, type=int, help="Random seed")
     parser.add_argument("--test_ratio", default=0.5, type=float, help="Test set size ratio")
-    parser.add_argument("--with_reference", default=False, action="store_true", help="Show also reference results")
     args = parser.parse_args()
 
     # Set random seed
