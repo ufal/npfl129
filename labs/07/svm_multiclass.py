@@ -40,7 +40,7 @@ if __name__ == "__main__":
         data, target, stratify=target, test_size=args.test_size, random_state=args.seed)
 
     # TODO: Using One-vs-One scheme, train (K \binom 2) classifiers, one for every
-    # pair of classes.
+    # pair of classes (keeping the original ordering of the data).
 
     # Then, classify the test set by majority voting, using the lowest class
     # index in case of ties. Finally compute `test accuracy`.
