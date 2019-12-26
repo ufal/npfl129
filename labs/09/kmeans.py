@@ -14,7 +14,6 @@ if __name__ == "__main__":
     parser.add_argument("--iterations", default=20, type=int, help="Number of kmeans iterations to perfom")
     parser.add_argument("--plot", default=False, action="store_true", help="Plot the results")
     parser.add_argument("--seed", default=42, type=int, help="Random seed")
-    parser.add_argument("--test_ratio", default=0.5, type=float, help="Test set size ratio")
     args = parser.parse_args()
 
     # Set random seed
