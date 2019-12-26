@@ -29,6 +29,7 @@ if __name__ == "__main__":
     # to `clusters`.
 
     if args.plot:
+        plt.gca().set_aspect(1)
         plt.scatter(data[:, 0], data[:, 1], c=clusters)
         plt.scatter(centers[:, 0], centers[:, 1], marker="P", s=200, c="#ff0000")
         plt.scatter(centers[:, 0], centers[:, 1], marker="P", s=50, c=range(args.clusters))
