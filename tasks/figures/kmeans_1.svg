@@ -399,10 +399,10 @@
 <defs>
 <path d="M 0 3  C 0.8 3 1.6 2.7 2.1 2.1  C 2.7 1.6 3 0.8 3 0  C 3 -0.8 2.7 -1.6 2.1 -2.1  C 1.6 -2.7 0.8 -3 0 -3  C -0.8 -3 -1.6 -2.7 -2.1 -2.1  C -2.7 -1.6 -3 -0.8 -3 0  C -3 0.8 -2.7 1.6 -2.1 2.1  C -1.6 2.7 -0.8 3 0 3  z " id="d" />
 </defs>
-<g clip-path="url(#b)">
-<use style="fill:#440154;stroke:#440154;" x="115.2" xlink:href="#d" y="383.4"/>
-<use style="fill:#21918c;stroke:#21918c;" x="190.1" xlink:href="#d" y="443.0"/>
-<use style="fill:#fde725;stroke:#fde725;" x="211.2" xlink:href="#d" y="501.6"/>
+<g clip-path="url(#a)">
+<use style="fill:#440154;stroke:#440154;" x="193.3" xlink:href="#d" y="416.0"/>
+<use style="fill:#21918c;stroke:#21918c;" x="206.2" xlink:href="#d" y="438.8"/>
+<use style="fill:#fde725;stroke:#fde725;" x="224.1" xlink:href="#d" y="501.2"/>
 <use style="fill:#21918c;stroke:#21918c;" x="200.9" xlink:href="#d" y="429.5"/>
 <use style="fill:#fde725;stroke:#fde725;" x="219.9" xlink:href="#d" y="525.1"/>
 <use style="fill:#fde725;stroke:#fde725;" x="237.0" xlink:href="#d" y="481.0"/>
@@ -493,7 +493,7 @@
 </g>
 </g>
 <g >
-<g clip-path="url(#b)">
+<g clip-path="url(#a)">
 <use style="fill:#ff0000;stroke:#ff0000;" x="115.2" xlink:href="#p" y="383.4"/>
 <use style="fill:#ff0000;stroke:#ff0000;" x="190.1" xlink:href="#p" y="443.0"/>
 <use style="fill:#ff0000;stroke:#ff0000;" x="211.2" xlink:href="#p" y="501.6"/>
@@ -503,7 +503,7 @@
 <defs>
 <path d="M -1.2 3.5  L 1.2 3.5  L 1.2 1.2  L 3.5 1.2  L 3.5 -1.2  L 1.2 -1.2  L 1.2 -3.5  L -1.2 -3.5  L -1.2 -1.2  L -3.5 -1.2  L -3.5 1.2  L -1.2 1.2  z " id="hb" />
 </defs>
-<g clip-path="url(#b)">
+<g clip-path="url(#a)">
 <use style="fill:#440154;stroke:#440154;" x="115.2" xlink:href="#hb" y="383.4"/>
 <use style="fill:#21918c;stroke:#21918c;" x="190.1" xlink:href="#hb" y="443.0"/>
 <use style="fill:#fde725;stroke:#fde725;" x="211.2" xlink:href="#hb" y="501.6"/>
@@ -744,10 +744,10 @@
 <defs>
 <path d="M 0 3  C 0.8 3 1.6 2.7 2.1 2.1  C 2.7 1.6 3 0.8 3 0  C 3 -0.8 2.7 -1.6 2.1 -2.1  C 1.6 -2.7 0.8 -3 0 -3  C -0.8 -3 -1.6 -2.7 -2.1 -2.1  C -2.7 -1.6 -3 -0.8 -3 0  C -3 0.8 -2.7 1.6 -2.1 2.1  C -1.6 2.7 -0.8 3 0 3  z " id="e" />
 </defs>
-<g clip-path="url(#c)">
-<use style="fill:#440154;stroke:#440154;" x="81.9" xlink:href="#e" y="651.1"/>
-<use style="fill:#21918c;stroke:#21918c;" x="181.1" xlink:href="#e" y="721.5"/>
-<use style="fill:#fde725;stroke:#fde725;" x="210.8" xlink:href="#e" y="790.8"/>
+<g clip-path="url(#b)">
+<use style="fill:#21918c;stroke:#21918c;" x="193.3" xlink:href="#e" y="705.2"/>
+<use style="fill:#21918c;stroke:#21918c;" x="206.2" xlink:href="#e" y="728.0"/>
+<use style="fill:#fde725;stroke:#fde725;" x="224.1" xlink:href="#e" y="790.5"/>
 <use style="fill:#21918c;stroke:#21918c;" x="200.9" xlink:href="#e" y="718.8"/>
 <use style="fill:#fde725;stroke:#fde725;" x="219.9" xlink:href="#e" y="814.3"/>
 <use style="fill:#fde725;stroke:#fde725;" x="237.0" xlink:href="#e" y="770.2"/>
@@ -838,20 +838,20 @@
 </g>
 </g>
 <g >
-<g clip-path="url(#c)">
-<use style="fill:#ff0000;stroke:#ff0000;" x="81.9" xlink:href="#p" y="651.1"/>
-<use style="fill:#ff0000;stroke:#ff0000;" x="181.1" xlink:href="#p" y="721.5"/>
-<use style="fill:#ff0000;stroke:#ff0000;" x="210.8" xlink:href="#p" y="790.8"/>
+<g clip-path="url(#b)">
+<use style="fill:#ff0000;stroke:#ff0000;" x="80.8" xlink:href="#p" y="650.4"/>
+<use style="fill:#ff0000;stroke:#ff0000;" x="182.0" xlink:href="#p" y="720.8"/>
+<use style="fill:#ff0000;stroke:#ff0000;" x="211.2" xlink:href="#p" y="790.8"/>
 </g>
 </g>
 <g >
 <defs>
 <path d="M -1.2 3.5  L 1.2 3.5  L 1.2 1.2  L 3.5 1.2  L 3.5 -1.2  L 1.2 -1.2  L 1.2 -3.5  L -1.2 -3.5  L -1.2 -1.2  L -3.5 -1.2  L -3.5 1.2  L -1.2 1.2  z " id="ib" />
 </defs>
-<g clip-path="url(#c)">
-<use style="fill:#440154;stroke:#440154;" x="81.9" xlink:href="#ib" y="651.1"/>
-<use style="fill:#21918c;stroke:#21918c;" x="181.1" xlink:href="#ib" y="721.5"/>
-<use style="fill:#fde725;stroke:#fde725;" x="210.8" xlink:href="#ib" y="790.8"/>
+<g clip-path="url(#b)">
+<use style="fill:#440154;stroke:#440154;" x="80.8" xlink:href="#ib" y="650.4"/>
+<use style="fill:#21918c;stroke:#21918c;" x="182.0" xlink:href="#ib" y="720.8"/>
+<use style="fill:#fde725;stroke:#fde725;" x="211.2" xlink:href="#ib" y="790.8"/>
 </g>
 </g>
 <g >
@@ -1085,10 +1085,10 @@
 <defs>
 <path d="M 0 3  C 0.8 3 1.6 2.7 2.1 2.1  C 2.7 1.6 3 0.8 3 0  C 3 -0.8 2.7 -1.6 2.1 -2.1  C 1.6 -2.7 0.8 -3 0 -3  C -0.8 -3 -1.6 -2.7 -2.1 -2.1  C -2.7 -1.6 -3 -0.8 -3 0  C -3 0.8 -2.7 1.6 -2.1 2.1  C -1.6 2.7 -0.8 3 0 3  z " id="f" />
 </defs>
-<g clip-path="url(#a)">
-<use style="fill:#440154;stroke:#440154;" x="80.9" xlink:href="#f" y="939.7"/>
-<use style="fill:#21918c;stroke:#21918c;" x="180.8" xlink:href="#f" y="1010.3"/>
-<use style="fill:#fde725;stroke:#fde725;" x="210.7" xlink:href="#f" y="1080.1"/>
+<g clip-path="url(#c)">
+<use style="fill:#21918c;stroke:#21918c;" x="193.3" xlink:href="#f" y="994.5"/>
+<use style="fill:#21918c;stroke:#21918c;" x="206.2" xlink:href="#f" y="1017.3"/>
+<use style="fill:#fde725;stroke:#fde725;" x="224.1" xlink:href="#f" y="1079.8"/>
 <use style="fill:#21918c;stroke:#21918c;" x="200.9" xlink:href="#f" y="1008.0"/>
 <use style="fill:#fde725;stroke:#fde725;" x="219.9" xlink:href="#f" y="1103.6"/>
 <use style="fill:#fde725;stroke:#fde725;" x="237.0" xlink:href="#f" y="1059.5"/>
@@ -1179,20 +1179,20 @@
 </g>
 </g>
 <g >
-<g clip-path="url(#a)">
-<use style="fill:#ff0000;stroke:#ff0000;" x="80.9" xlink:href="#p" y="939.7"/>
-<use style="fill:#ff0000;stroke:#ff0000;" x="180.8" xlink:href="#p" y="1010.3"/>
-<use style="fill:#ff0000;stroke:#ff0000;" x="210.7" xlink:href="#p" y="1080.1"/>
+<g clip-path="url(#c)">
+<use style="fill:#ff0000;stroke:#ff0000;" x="80.8" xlink:href="#p" y="939.6"/>
+<use style="fill:#ff0000;stroke:#ff0000;" x="182.0" xlink:href="#p" y="1010.0"/>
+<use style="fill:#ff0000;stroke:#ff0000;" x="211.2" xlink:href="#p" y="1080.1"/>
 </g>
 </g>
 <g >
 <defs>
 <path d="M -1.2 3.5  L 1.2 3.5  L 1.2 1.2  L 3.5 1.2  L 3.5 -1.2  L 1.2 -1.2  L 1.2 -3.5  L -1.2 -3.5  L -1.2 -1.2  L -3.5 -1.2  L -3.5 1.2  L -1.2 1.2  z " id="jb" />
 </defs>
-<g clip-path="url(#a)">
-<use style="fill:#440154;stroke:#440154;" x="80.9" xlink:href="#jb" y="939.7"/>
-<use style="fill:#21918c;stroke:#21918c;" x="180.8" xlink:href="#jb" y="1010.3"/>
-<use style="fill:#fde725;stroke:#fde725;" x="210.7" xlink:href="#jb" y="1080.1"/>
+<g clip-path="url(#c)">
+<use style="fill:#440154;stroke:#440154;" x="80.8" xlink:href="#jb" y="939.6"/>
+<use style="fill:#21918c;stroke:#21918c;" x="182.0" xlink:href="#jb" y="1010.0"/>
+<use style="fill:#fde725;stroke:#fde725;" x="211.2" xlink:href="#jb" y="1080.1"/>
 </g>
 </g>
 <g >
@@ -1428,13 +1428,13 @@
 <clipPath id="y" >
 <rect height="241.0" width="211.4" x="35.3" y="22.3"/>
 </clipPath>
-<clipPath id="b" >
+<clipPath id="a" >
 <rect height="241.0" width="211.4" x="35.3" y="311.6"/>
 </clipPath>
-<clipPath id="c" >
+<clipPath id="b" >
 <rect height="241.0" width="211.4" x="35.3" y="600.8"/>
 </clipPath>
-<clipPath id="a" >
+<clipPath id="c" >
 <rect height="241.0" width="211.4" x="35.3" y="890.1"/>
 </clipPath>
 </defs>

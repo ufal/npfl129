@@ -10,7 +10,7 @@ print out the predicted cluster for every data point.
 #### Examples Start: kmeans_examples
 - `--clusters=3 --examples 90 --iterations 3 --seed 44`
 ```
-0
+1
 1
 2
 1
@@ -30,11 +30,11 @@ print out the predicted cluster for every data point.
 ![KMeans visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/1920/tasks/figures/kmeans_1.svg)
 - `--clusters=5 --examples 140 --iterations 6 --seed 44`
 ```
-0
-1
 2
 3
-4
+2
+3
+2
 0
 2
 2
