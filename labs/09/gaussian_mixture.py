@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     # Start by using the first `args.clusters` samples as the cluster representations,
     # identiy matrices as covariances and uniform distribution as the mixing coefficients.
-    means = data[:args.clusters]
+    means = data[:args.clusters].copy()
     covs = np.stack([np.identity(data.shape[1])] * args.clusters)
     mixing_coefs = np.array([1 / args.clusters] * args.clusters)
 

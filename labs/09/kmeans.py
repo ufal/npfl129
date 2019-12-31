@@ -23,7 +23,7 @@ if __name__ == "__main__":
     data, target = sklearn.datasets.make_blobs(n_samples=args.examples, centers=args.clusters, n_features=2, random_state=args.seed)
 
     # Start by using the first `args.clusters` samples as the cluster representations.
-    centers = data[:args.clusters]
+    centers = data[:args.clusters].copy()
 
     # TODO: Run `args.iterations` of the kmeans algorithm, storing zero-based cluster assignment
     # to `clusters`.
