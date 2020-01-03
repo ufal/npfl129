@@ -23,3 +23,6 @@ Your submission in ReCodEx should consist of:
 - at least one `.py` file with the implementation you utilized to generate the
   test set annotations (this file is not executed, it is only for me to
   understand what approach you took)
+
+**Note that the baseline is now 65%, which is a bit more than the best solution
+of `isnt_it_ironic`.**
