@@ -120,7 +120,7 @@ if __name__ == "__main__":
     #     y_prob(x_i) = softmax(y_raw(x_i))
     # - loss in iteration `t` is
     #     L = (\sum_i NLL(target_i, softmax(y_raw(x_i) + trees_to_train_in_iter_t.predict(x_i)))) +
-    #         1/2 * args.l2 * (sum of all node values of all trees)
+    #         1/2 * args.l2 * (sum of all node values in trees_to_train_in_iter_t)
     # - for every class `c`:
     #   - start by computing `g_i` and `h_i` for every training example `i`;
     #     the `g_i` is the first derivative of NLL(target_i_c, y_prob(x_i)_c) with respect
