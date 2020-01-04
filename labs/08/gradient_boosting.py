@@ -116,6 +116,7 @@ if __name__ == "__main__":
     #   raw weight for the corresponding class.
     # - compute the current predictions `y(x_i)` for every training example `i` as
     #     y_raw(x_i)_c = \sum_{i=1}^{t-1} trees_from_iteration_i_for_class_c.predict(x_i)
+    #                    (note that y_raw is zero for the first iteration)
     #     y_prob(x_i) = softmax(y_raw(x_i))
     # - loss in iteration `t` is
     #     L = (\sum_i NLL(target_i, y_prob(x_i))) + 1/2 * args.l2 * (sum of all weights)
