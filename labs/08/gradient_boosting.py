@@ -130,6 +130,7 @@ if __name__ == "__main__":
     #       w_T = - (\sum_{i \in I_T} g_i) / (args.l2 + sum_{i \in I_T} h_i)
     #     and the value of the loss with the above prediction is
     #       c_GB = - 1/2 (\sum_{i \in I_T} g_i)^2 / (args.l2 + sum_{i \in I_T} h_i)
+    #     which you should use as a splitting criterion.
     #
     # To perform a prediction, analogically compute the y_raw for all trees, and return
     # the class with the highest value (and the smallest class if there is a tie).
