@@ -111,13 +111,13 @@ if __name__ == "__main__":
     #
     # For determinism, create a generator
     #   generator = np.random.RandomState(args.seed)
-    # at the beginning and then use it for all random number generation.
+    # at the beginning and then use this instance for all random number generation.
     #
     # You can use the given implementation of DecisionTree, which you need to
     # modify to support feature subsampling. When searching for the best split
-    # (in the order in which the given implementation creates nodes), try only
-    # a subset of features. Notably generate for every node a feature mask
-    # using
+    # (in the order in which the given implementation creates internal nodes),
+    # try only a subset of features. Notably generate for every node a feature
+    # mask using
     #   generator.uniform(size=number_of_features) <= feature_subsampling
     # which gives a boolean value for every feature, with `True` meaning the
     # feature is used during best split search, and `False` it is not.
