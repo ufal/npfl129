@@ -116,8 +116,8 @@ if __name__ == "__main__":
     # You can use the given implementation of DecisionTree, which you need to
     # modify to support feature subsampling. When searching for the best split
     # (in the order in which the given implementation creates internal nodes),
-    # try only a subset of features. Notably generate for every node a feature
-    # mask using
+    # try only a subset of features. Notably when splitting a node, generate
+    # a feature mask using
     #   generator.uniform(size=number_of_features) <= feature_subsampling
     # which gives a boolean value for every feature, with `True` meaning the
     # feature is used during best split search, and `False` it is not.
