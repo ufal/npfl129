@@ -124,7 +124,7 @@ if __name__ == "__main__":
     # - for every class `c`:
     #   - start by computing `g_i` and `h_i` for every training example `i`;
     #     the `g_i` is the first derivative of NLL(target_i_c, y_prob(x_i)_c) with respect
-    #     to y_prob(x_i)_c, and the `h_i` is the second derivative fo the same.
+    #     to y_raw(x_i)_c, and the `h_i` is the second derivative of the same.
     #   - then, create a decision tree minimizing the above loss L. According to the slides,
     #     the optimum prediction for a given node T with training examples I_T is
     #       w_T = - (\sum_{i \in I_T} g_i) / (args.l2 + sum_{i \in I_T} h_i)
