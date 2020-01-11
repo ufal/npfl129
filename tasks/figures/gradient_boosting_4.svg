@@ -41,7 +41,7 @@
 <title>1</title>
 <polygon fill="none" stroke="black" points="245,-789 137,-789 137,-721 245,-721 245,-789"/>
 <text text-anchor="middle" x="191" y="-773.8" font-family="Times,serif" font-size="14.0">ash &lt;= 2.9</text>
-<text text-anchor="middle" x="191" y="-758.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;36.0</text>
+<text text-anchor="middle" x="191" y="-758.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;18.0</text>
 <text text-anchor="middle" x="191" y="-743.8" font-family="Times,serif" font-size="14.0">instances = 84</text>
 <text text-anchor="middle" x="191" y="-728.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.4</text>
 </g>
@@ -52,7 +52,7 @@
 <g class="node"><title>5</title>
 <polygon fill="none" stroke="black" points="391,-789 263,-789 263,-721 391,-721 391,-789"/>
 <text text-anchor="middle" x="327" y="-773.8" font-family="Times,serif" font-size="14.0">flavanoids &lt;= 2.3</text>
-<text text-anchor="middle" x="327" y="-758.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;56.5</text>
+<text text-anchor="middle" x="327" y="-758.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;28.3</text>
 <text text-anchor="middle" x="327" y="-743.8" font-family="Times,serif" font-size="14.0">instances = 52</text>
 <text text-anchor="middle" x="327" y="-728.8" font-family="Times,serif" font-size="14.0">prediction=2.2</text>
 </g>
@@ -62,7 +62,7 @@
 </g>
 <g class="node"><title>2</title>
 <polygon fill="none" stroke="black" points="127,-685 19,-685 19,-632 127,-632 127,-685"/>
-<text text-anchor="middle" x="73" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;38.4</text>
+<text text-anchor="middle" x="73" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;19.2</text>
 <text text-anchor="middle" x="73" y="-654.8" font-family="Times,serif" font-size="14.0">instances = 83</text>
 <text text-anchor="middle" x="73" y="-639.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.4</text>
 </g>
@@ -72,7 +72,7 @@
 </g>
 <g class="node"><title>3</title>
 <polygon fill="none" stroke="black" points="249,-685 145,-685 145,-632 249,-632 249,-685"/>
-<text text-anchor="middle" x="197" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.4</text>
+<text text-anchor="middle" x="197" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.7</text>
 <text text-anchor="middle" x="197" y="-654.8" font-family="Times,serif" font-size="14.0">instances = 1</text>
 <text text-anchor="middle" x="197" y="-639.8" font-family="Times,serif" font-size="14.0">prediction=2.1</text>
 </g>
@@ -88,7 +88,7 @@
 <text text-anchor="middle" x="188" y="-524.8" font-family="Times,serif" font-size="14.0">prediction=&#45;0.0</text>
 <title>6</title>
 <polygon fill="none" stroke="black" points="375,-685 267,-685 267,-632 375,-632 375,-685"/>
-<text text-anchor="middle" x="321" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.9</text>
+<text text-anchor="middle" x="321" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.9</text>
 <text text-anchor="middle" x="321" y="-654.8" font-family="Times,serif" font-size="14.0">instances = 9</text>
 <text text-anchor="middle" x="321" y="-639.8" font-family="Times,serif" font-size="14.0">prediction=&#45;0.9</text>
 </g>
@@ -98,7 +98,7 @@
 </g>
 <g class="node"><title>7</title>
 <polygon fill="none" stroke="black" points="497,-685 393,-685 393,-632 497,-632 497,-685"/>
-<text text-anchor="middle" x="445" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;79.3</text>
+<text text-anchor="middle" x="445" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;39.6</text>
 <text text-anchor="middle" x="445" y="-654.8" font-family="Times,serif" font-size="14.0">instances = 43</text>
 <text text-anchor="middle" x="445" y="-639.8" font-family="Times,serif" font-size="14.0">prediction=2.9</text>
 </g>
@@ -109,13 +109,13 @@
 <g class="node"><title>10</title>
 <polygon fill="none" stroke="black" points="836,-893 684,-893 684,-825 836,-825 836,-893"/>
 <text text-anchor="middle" x="760" y="-877.8" font-family="Times,serif" font-size="14.0">color_intensity &lt;= 3.8</text>
-<text text-anchor="middle" x="760" y="-862.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;2.5</text>
+<text text-anchor="middle" x="760" y="-862.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.2</text>
 <text text-anchor="middle" x="760" y="-847.8" font-family="Times,serif" font-size="14.0">instances = 136</text>
 <text text-anchor="middle" x="760" y="-832.8" font-family="Times,serif" font-size="14.0">prediction=0.3</text>
 <title>11</title>
 <polygon fill="none" stroke="black" points="742,-789 638,-789 638,-721 742,-721 742,-789"/>
 <text text-anchor="middle" x="690" y="-773.8" font-family="Times,serif" font-size="14.0">ash &lt;= 3.0</text>
-<text text-anchor="middle" x="690" y="-758.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;85.6</text>
+<text text-anchor="middle" x="690" y="-758.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;42.8</text>
 <text text-anchor="middle" x="690" y="-743.8" font-family="Times,serif" font-size="14.0">instances = 49</text>
 <text text-anchor="middle" x="690" y="-728.8" font-family="Times,serif" font-size="14.0">prediction=2.8</text>
 </g>
@@ -126,7 +126,7 @@
 <g class="node"><title>15</title>
 <polygon fill="none" stroke="black" points="902,-789 760,-789 760,-721 902,-721 902,-789"/>
 <text text-anchor="middle" x="831" y="-773.8" font-family="Times,serif" font-size="14.0">magnesium &lt;= 87.5</text>
-<text text-anchor="middle" x="831" y="-758.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;24.9</text>
+<text text-anchor="middle" x="831" y="-758.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;12.4</text>
 <text text-anchor="middle" x="831" y="-743.8" font-family="Times,serif" font-size="14.0">instances = 87</text>
 <text text-anchor="middle" x="831" y="-728.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.1</text>
 </g>
@@ -136,7 +136,7 @@
 </g>
 <g class="node"><title>12</title>
 <polygon fill="none" stroke="black" points="627,-685 523,-685 523,-632 627,-632 627,-685"/>
-<text text-anchor="middle" x="575" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;89.3</text>
+<text text-anchor="middle" x="575" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;44.6</text>
 <text text-anchor="middle" x="575" y="-654.8" font-family="Times,serif" font-size="14.0">instances = 48</text>
 <text text-anchor="middle" x="575" y="-639.8" font-family="Times,serif" font-size="14.0">prediction=2.9</text>
 </g>
@@ -146,7 +146,7 @@
 </g>
 <g class="node"><title>13</title>
 <polygon fill="none" stroke="black" points="753,-685 645,-685 645,-632 753,-632 753,-685"/>
-<text text-anchor="middle" x="699" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.3</text>
+<text text-anchor="middle" x="699" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.2</text>
 <text text-anchor="middle" x="699" y="-654.8" font-family="Times,serif" font-size="14.0">instances = 1</text>
 <text text-anchor="middle" x="699" y="-639.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.0</text>
 </g>
@@ -157,12 +157,12 @@
 <g class="node"><title>40</title>
 <polygon fill="none" stroke="black" points="746,-585 628,-585 628,-517 746,-517 746,-585"/>
 <text text-anchor="middle" x="687" y="-569.8" font-family="Times,serif" font-size="14.0">alcohol &lt;= 12.7</text>
-<text text-anchor="middle" x="687" y="-554.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.5</text>
+<text text-anchor="middle" x="687" y="-554.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.2</text>
 <text text-anchor="middle" x="687" y="-539.8" font-family="Times,serif" font-size="14.0">instances = 136</text>
 <text text-anchor="middle" x="687" y="-524.8" font-family="Times,serif" font-size="14.0">prediction=0.2</text>
 <title>16</title>
 <polygon fill="none" stroke="black" points="875,-685 771,-685 771,-632 875,-632 875,-685"/>
-<text text-anchor="middle" x="823" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;2.9</text>
+<text text-anchor="middle" x="823" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.4</text>
 <text text-anchor="middle" x="823" y="-654.8" font-family="Times,serif" font-size="14.0">instances = 8</text>
 <text text-anchor="middle" x="823" y="-639.8" font-family="Times,serif" font-size="14.0">prediction=1.2</text>
 </g>
@@ -172,7 +172,7 @@
 </g>
 <g class="node"><title>17</title>
 <polygon fill="none" stroke="black" points="1001,-685 893,-685 893,-632 1001,-632 1001,-685"/>
-<text text-anchor="middle" x="947" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;33.5</text>
+<text text-anchor="middle" x="947" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;16.8</text>
 <text text-anchor="middle" x="947" y="-654.8" font-family="Times,serif" font-size="14.0">instances = 79</text>
 <text text-anchor="middle" x="947" y="-639.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.4</text>
 </g>
@@ -183,13 +183,13 @@
 <g class="node"><title>20</title>
 <polygon fill="none" stroke="black" points="1329,-893 1201,-893 1201,-825 1329,-825 1329,-893"/>
 <text text-anchor="middle" x="1265" y="-877.8" font-family="Times,serif" font-size="14.0">flavanoids &lt;= 1.2</text>
-<text text-anchor="middle" x="1265" y="-862.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;2.3</text>
+<text text-anchor="middle" x="1265" y="-862.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.1</text>
 <text text-anchor="middle" x="1265" y="-847.8" font-family="Times,serif" font-size="14.0">instances = 136</text>
 <text text-anchor="middle" x="1265" y="-832.8" font-family="Times,serif" font-size="14.0">prediction=&#45;0.3</text>
 <title>21</title>
 <polygon fill="none" stroke="black" points="1267,-789 1115,-789 1115,-721 1267,-721 1267,-789"/>
 <text text-anchor="middle" x="1191" y="-773.8" font-family="Times,serif" font-size="14.0">color_intensity &lt;= 3.5</text>
-<text text-anchor="middle" x="1191" y="-758.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;52.5</text>
+<text text-anchor="middle" x="1191" y="-758.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;26.2</text>
 <text text-anchor="middle" x="1191" y="-743.8" font-family="Times,serif" font-size="14.0">instances = 35</text>
 <text text-anchor="middle" x="1191" y="-728.8" font-family="Times,serif" font-size="14.0">prediction=2.6</text>
 </g>
@@ -200,7 +200,7 @@
 <g class="node"><title>25</title>
 <polygon fill="none" stroke="black" points="1393,-789 1285,-789 1285,-721 1393,-721 1393,-789"/>
 <text text-anchor="middle" x="1339" y="-773.8" font-family="Times,serif" font-size="14.0">hue &lt;= 0.7</text>
-<text text-anchor="middle" x="1339" y="-758.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;36.5</text>
+<text text-anchor="middle" x="1339" y="-758.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;18.2</text>
 <text text-anchor="middle" x="1339" y="-743.8" font-family="Times,serif" font-size="14.0">instances = 101</text>
 <text text-anchor="middle" x="1339" y="-728.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.3</text>
 </g>
@@ -210,7 +210,7 @@
 </g>
 <g class="node"><title>22</title>
 <polygon fill="none" stroke="black" points="1134,-685 1026,-685 1026,-632 1134,-632 1134,-685"/>
-<text text-anchor="middle" x="1080" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.3</text>
+<text text-anchor="middle" x="1080" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.7</text>
 <text text-anchor="middle" x="1080" y="-654.8" font-family="Times,serif" font-size="14.0">instances = 3</text>
 <text text-anchor="middle" x="1080" y="-639.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.3</text>
 </g>
@@ -220,7 +220,7 @@
 </g>
 <g class="node"><title>23</title>
 <polygon fill="none" stroke="black" points="1256,-685 1152,-685 1152,-632 1256,-632 1256,-685"/>
-<text text-anchor="middle" x="1204" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;63.1</text>
+<text text-anchor="middle" x="1204" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;31.6</text>
 <text text-anchor="middle" x="1204" y="-654.8" font-family="Times,serif" font-size="14.0">instances = 32</text>
 <text text-anchor="middle" x="1204" y="-639.8" font-family="Times,serif" font-size="14.0">prediction=3.0</text>
 </g>
@@ -231,12 +231,12 @@
 <g class="node"><title>50</title>
 <polygon fill="none" stroke="black" points="1260,-585 1132,-585 1132,-517 1260,-517 1260,-585"/>
 <text text-anchor="middle" x="1196" y="-569.8" font-family="Times,serif" font-size="14.0">flavanoids &lt;= 1.4</text>
-<text text-anchor="middle" x="1196" y="-554.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.5</text>
+<text text-anchor="middle" x="1196" y="-554.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.3</text>
 <text text-anchor="middle" x="1196" y="-539.8" font-family="Times,serif" font-size="14.0">instances = 136</text>
 <text text-anchor="middle" x="1196" y="-524.8" font-family="Times,serif" font-size="14.0">prediction=&#45;0.2</text>
 <title>26</title>
 <polygon fill="none" stroke="black" points="1378,-685 1274,-685 1274,-632 1378,-632 1378,-685"/>
-<text text-anchor="middle" x="1326" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;9.2</text>
+<text text-anchor="middle" x="1326" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;4.6</text>
 <text text-anchor="middle" x="1326" y="-654.8" font-family="Times,serif" font-size="14.0">instances = 5</text>
 <text text-anchor="middle" x="1326" y="-639.8" font-family="Times,serif" font-size="14.0">prediction=2.8</text>
 </g>
@@ -246,7 +246,7 @@
 </g>
 <g class="node"><title>27</title>
 <polygon fill="none" stroke="black" points="1504,-685 1396,-685 1396,-632 1504,-632 1504,-685"/>
-<text text-anchor="middle" x="1450" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;47.8</text>
+<text text-anchor="middle" x="1450" y="-669.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;23.9</text>
 <text text-anchor="middle" x="1450" y="-654.8" font-family="Times,serif" font-size="14.0">instances = 96</text>
 <text text-anchor="middle" x="1450" y="-639.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.5</text>
 </g>
@@ -257,7 +257,7 @@
 <g class="node"><title>31</title>
 <polygon fill="none" stroke="black" points="250,-481 106,-481 106,-413 250,-413 250,-481"/>
 <text text-anchor="middle" x="178" y="-465.8" font-family="Times,serif" font-size="14.0">total_phenols &lt;= 2.6</text>
-<text text-anchor="middle" x="178" y="-450.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;7.1</text>
+<text text-anchor="middle" x="178" y="-450.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;3.6</text>
 <text text-anchor="middle" x="178" y="-435.8" font-family="Times,serif" font-size="14.0">instances = 84</text>
 <text text-anchor="middle" x="178" y="-420.8" font-family="Times,serif" font-size="14.0">prediction=&#45;0.9</text>
 </g>
@@ -268,7 +268,7 @@
 <g class="node"><title>35</title>
 <polygon fill="none" stroke="black" points="386,-481 268,-481 268,-413 386,-413 386,-481"/>
 <text text-anchor="middle" x="327" y="-465.8" font-family="Times,serif" font-size="14.0">alcohol &lt;= 13.0</text>
-<text text-anchor="middle" x="327" y="-450.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;7.1</text>
+<text text-anchor="middle" x="327" y="-450.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;3.6</text>
 <text text-anchor="middle" x="327" y="-435.8" font-family="Times,serif" font-size="14.0">instances = 52</text>
 <text text-anchor="middle" x="327" y="-420.8" font-family="Times,serif" font-size="14.0">prediction=0.9</text>
 </g>
@@ -278,7 +278,7 @@
 </g>
 <g class="node"><title>32</title>
 <polygon fill="none" stroke="black" points="124,-377 16,-377 16,-324 124,-324 124,-377"/>
-<text text-anchor="middle" x="70" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;8.2</text>
+<text text-anchor="middle" x="70" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;4.1</text>
 <text text-anchor="middle" x="70" y="-346.8" font-family="Times,serif" font-size="14.0">instances = 72</text>
 <text text-anchor="middle" x="70" y="-331.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.1</text>
 </g>
@@ -304,7 +304,7 @@
 <text text-anchor="middle" x="189" y="-216.8" font-family="Times,serif" font-size="14.0">prediction=&#45;0.0</text>
 <title>36</title>
 <polygon fill="none" stroke="black" points="376,-377 268,-377 268,-324 376,-324 376,-377"/>
-<text text-anchor="middle" x="322" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.7</text>
+<text text-anchor="middle" x="322" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.4</text>
 <text text-anchor="middle" x="322" y="-346.8" font-family="Times,serif" font-size="14.0">instances = 7</text>
 <text text-anchor="middle" x="322" y="-331.8" font-family="Times,serif" font-size="14.0">prediction=&#45;0.8</text>
 </g>
@@ -314,7 +314,7 @@
 </g>
 <g class="node"><title>37</title>
 <polygon fill="none" stroke="black" points="498,-377 394,-377 394,-324 498,-324 498,-377"/>
-<text text-anchor="middle" x="446" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;10.0</text>
+<text text-anchor="middle" x="446" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;5.0</text>
 <text text-anchor="middle" x="446" y="-346.8" font-family="Times,serif" font-size="14.0">instances = 45</text>
 <text text-anchor="middle" x="446" y="-331.8" font-family="Times,serif" font-size="14.0">prediction=1.2</text>
 </g>
@@ -325,7 +325,7 @@
 <g class="node"><title>41</title>
 <polygon fill="none" stroke="black" points="736,-481 608,-481 608,-413 736,-413 736,-481"/>
 <text text-anchor="middle" x="672" y="-465.8" font-family="Times,serif" font-size="14.0">flavanoids &lt;= 1.0</text>
-<text text-anchor="middle" x="672" y="-450.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;11.0</text>
+<text text-anchor="middle" x="672" y="-450.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;5.5</text>
 <text text-anchor="middle" x="672" y="-435.8" font-family="Times,serif" font-size="14.0">instances = 57</text>
 <text text-anchor="middle" x="672" y="-420.8" font-family="Times,serif" font-size="14.0">prediction=1.1</text>
 </g>
@@ -336,7 +336,7 @@
 <g class="node"><title>45</title>
 <polygon fill="none" stroke="black" points="906,-481 754,-481 754,-413 906,-413 906,-481"/>
 <text text-anchor="middle" x="830" y="-465.8" font-family="Times,serif" font-size="14.0">color_intensity &lt;= 3.5</text>
-<text text-anchor="middle" x="830" y="-450.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;5.6</text>
+<text text-anchor="middle" x="830" y="-450.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;2.8</text>
 <text text-anchor="middle" x="830" y="-435.8" font-family="Times,serif" font-size="14.0">instances = 79</text>
 <text text-anchor="middle" x="830" y="-420.8" font-family="Times,serif" font-size="14.0">prediction=&#45;0.8</text>
 </g>
@@ -346,7 +346,7 @@
 </g>
 <g class="node"><title>42</title>
 <polygon fill="none" stroke="black" points="631,-377 523,-377 523,-324 631,-324 631,-377"/>
-<text text-anchor="middle" x="577" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.3</text>
+<text text-anchor="middle" x="577" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.2</text>
 <text text-anchor="middle" x="577" y="-346.8" font-family="Times,serif" font-size="14.0">instances = 9</text>
 <text text-anchor="middle" x="577" y="-331.8" font-family="Times,serif" font-size="14.0">prediction=&#45;0.6</text>
 </g>
@@ -356,7 +356,7 @@
 </g>
 <g class="node"><title>43</title>
 <polygon fill="none" stroke="black" points="753,-377 649,-377 649,-324 753,-324 753,-377"/>
-<text text-anchor="middle" x="701" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;13.6</text>
+<text text-anchor="middle" x="701" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;6.8</text>
 <text text-anchor="middle" x="701" y="-346.8" font-family="Times,serif" font-size="14.0">instances = 48</text>
 <text text-anchor="middle" x="701" y="-331.8" font-family="Times,serif" font-size="14.0">prediction=1.3</text>
 </g>
@@ -367,12 +367,12 @@
 <g class="node"><title>70</title>
 <polygon fill="none" stroke="black" points="749,-277 631,-277 631,-209 749,-209 749,-277"/>
 <text text-anchor="middle" x="690" y="-261.8" font-family="Times,serif" font-size="14.0">alcohol &lt;= 12.7</text>
-<text text-anchor="middle" x="690" y="-246.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.2</text>
+<text text-anchor="middle" x="690" y="-246.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.1</text>
 <text text-anchor="middle" x="690" y="-231.8" font-family="Times,serif" font-size="14.0">instances = 136</text>
 <text text-anchor="middle" x="690" y="-216.8" font-family="Times,serif" font-size="14.0">prediction=0.1</text>
 <title>46</title>
 <polygon fill="none" stroke="black" points="875,-377 771,-377 771,-324 875,-324 875,-377"/>
-<text text-anchor="middle" x="823" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.5</text>
+<text text-anchor="middle" x="823" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.7</text>
 <text text-anchor="middle" x="823" y="-346.8" font-family="Times,serif" font-size="14.0">instances = 4</text>
 <text text-anchor="middle" x="823" y="-331.8" font-family="Times,serif" font-size="14.0">prediction=1.4</text>
 </g>
@@ -382,7 +382,7 @@
 </g>
 <g class="node"><title>47</title>
 <polygon fill="none" stroke="black" points="1001,-377 893,-377 893,-324 1001,-324 1001,-377"/>
-<text text-anchor="middle" x="947" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;8.2</text>
+<text text-anchor="middle" x="947" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;4.1</text>
 <text text-anchor="middle" x="947" y="-346.8" font-family="Times,serif" font-size="14.0">instances = 75</text>
 <text text-anchor="middle" x="947" y="-331.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.0</text>
 </g>
@@ -393,7 +393,7 @@
 <g class="node"><title>51</title>
 <polygon fill="none" stroke="black" points="1261,-481 1109,-481 1109,-413 1261,-413 1261,-481"/>
 <text text-anchor="middle" x="1185" y="-465.8" font-family="Times,serif" font-size="14.0">color_intensity &lt;= 3.7</text>
-<text text-anchor="middle" x="1185" y="-450.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;6.5</text>
+<text text-anchor="middle" x="1185" y="-450.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;3.3</text>
 <text text-anchor="middle" x="1185" y="-435.8" font-family="Times,serif" font-size="14.0">instances = 44</text>
 <text text-anchor="middle" x="1185" y="-420.8" font-family="Times,serif" font-size="14.0">prediction=1.0</text>
 </g>
@@ -404,7 +404,7 @@
 <g class="node"><title>55</title>
 <polygon fill="none" stroke="black" points="1387,-481 1279,-481 1279,-413 1387,-413 1387,-481"/>
 <text text-anchor="middle" x="1333" y="-465.8" font-family="Times,serif" font-size="14.0">hue &lt;= 0.6</text>
-<text text-anchor="middle" x="1333" y="-450.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;10.2</text>
+<text text-anchor="middle" x="1333" y="-450.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;5.1</text>
 <text text-anchor="middle" x="1333" y="-435.8" font-family="Times,serif" font-size="14.0">instances = 92</text>
 <text text-anchor="middle" x="1333" y="-420.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.1</text>
 </g>
@@ -414,7 +414,7 @@
 </g>
 <g class="node"><title>52</title>
 <polygon fill="none" stroke="black" points="1136,-377 1028,-377 1028,-324 1136,-324 1136,-377"/>
-<text text-anchor="middle" x="1082" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.7</text>
+<text text-anchor="middle" x="1082" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.4</text>
 <text text-anchor="middle" x="1082" y="-346.8" font-family="Times,serif" font-size="14.0">instances = 8</text>
 <text text-anchor="middle" x="1082" y="-331.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.0</text>
 </g>
@@ -424,7 +424,7 @@
 </g>
 <g class="node"><title>53</title>
 <polygon fill="none" stroke="black" points="1258,-377 1154,-377 1154,-324 1258,-324 1258,-377"/>
-<text text-anchor="middle" x="1206" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;9.1</text>
+<text text-anchor="middle" x="1206" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;4.5</text>
 <text text-anchor="middle" x="1206" y="-346.8" font-family="Times,serif" font-size="14.0">instances = 36</text>
 <text text-anchor="middle" x="1206" y="-331.8" font-family="Times,serif" font-size="14.0">prediction=1.2</text>
 </g>
@@ -435,7 +435,7 @@
 <g class="node"><title>80</title>
 <polygon fill="none" stroke="black" points="1263,-277 1135,-277 1135,-209 1263,-209 1263,-277"/>
 <text text-anchor="middle" x="1199" y="-261.8" font-family="Times,serif" font-size="14.0">flavanoids &lt;= 1.4</text>
-<text text-anchor="middle" x="1199" y="-246.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.2</text>
+<text text-anchor="middle" x="1199" y="-246.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.1</text>
 <text text-anchor="middle" x="1199" y="-231.8" font-family="Times,serif" font-size="14.0">instances = 136</text>
 <text text-anchor="middle" x="1199" y="-216.8" font-family="Times,serif" font-size="14.0">prediction=&#45;0.2</text>
 <title>56</title>
@@ -450,7 +450,7 @@
 </g>
 <g class="node"><title>57</title>
 <polygon fill="none" stroke="black" points="1506,-377 1398,-377 1398,-324 1506,-324 1506,-377"/>
-<text text-anchor="middle" x="1452" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;10.8</text>
+<text text-anchor="middle" x="1452" y="-361.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;5.4</text>
 <text text-anchor="middle" x="1452" y="-346.8" font-family="Times,serif" font-size="14.0">instances = 91</text>
 <text text-anchor="middle" x="1452" y="-331.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.1</text>
 </g>
@@ -461,7 +461,7 @@
 <g class="node"><title>61</title>
 <polygon fill="none" stroke="black" points="248,-173 104,-173 104,-105 248,-105 248,-173"/>
 <text text-anchor="middle" x="176" y="-157.8" font-family="Times,serif" font-size="14.0">total_phenols &lt;= 1.1</text>
-<text text-anchor="middle" x="176" y="-142.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;3.2</text>
+<text text-anchor="middle" x="176" y="-142.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.6</text>
 <text text-anchor="middle" x="176" y="-127.8" font-family="Times,serif" font-size="14.0">instances = 70</text>
 <text text-anchor="middle" x="176" y="-112.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.0</text>
 </g>
@@ -472,7 +472,7 @@
 <g class="node"><title>65</title>
 <polygon fill="none" stroke="black" points="394,-173 266,-173 266,-105 394,-105 394,-173"/>
 <text text-anchor="middle" x="330" y="-157.8" font-family="Times,serif" font-size="14.0">flavanoids &lt;= 2.2</text>
-<text text-anchor="middle" x="330" y="-142.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.9</text>
+<text text-anchor="middle" x="330" y="-142.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.0</text>
 <text text-anchor="middle" x="330" y="-127.8" font-family="Times,serif" font-size="14.0">instances = 66</text>
 <text text-anchor="middle" x="330" y="-112.8" font-family="Times,serif" font-size="14.0">prediction=0.6</text>
 </g>
@@ -492,7 +492,7 @@
 </g>
 <g class="node"><title>63</title>
 <polygon fill="none" stroke="black" points="251,-69 143,-69 143,-16 251,-16 251,-69"/>
-<text text-anchor="middle" x="197" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;3.2</text>
+<text text-anchor="middle" x="197" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.6</text>
 <text text-anchor="middle" x="197" y="-38.8" font-family="Times,serif" font-size="14.0">instances = 69</text>
 <text text-anchor="middle" x="197" y="-23.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.0</text>
 </g>
@@ -502,7 +502,7 @@
 </g>
 <g class="node"><title>66</title>
 <polygon fill="none" stroke="black" points="377,-69 269,-69 269,-16 377,-16 377,-69"/>
-<text text-anchor="middle" x="323" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.8</text>
+<text text-anchor="middle" x="323" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.4</text>
 <text text-anchor="middle" x="323" y="-38.8" font-family="Times,serif" font-size="14.0">instances = 17</text>
 <text text-anchor="middle" x="323" y="-23.8" font-family="Times,serif" font-size="14.0">prediction=&#45;0.9</text>
 </g>
@@ -512,7 +512,7 @@
 </g>
 <g class="node"><title>67</title>
 <polygon fill="none" stroke="black" points="499,-69 395,-69 395,-16 499,-16 499,-69"/>
-<text text-anchor="middle" x="447" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;3.8</text>
+<text text-anchor="middle" x="447" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.9</text>
 <text text-anchor="middle" x="447" y="-38.8" font-family="Times,serif" font-size="14.0">instances = 49</text>
 <text text-anchor="middle" x="447" y="-23.8" font-family="Times,serif" font-size="14.0">prediction=1.0</text>
 </g>
@@ -523,7 +523,7 @@
 <g class="node"><title>71</title>
 <polygon fill="none" stroke="black" points="733,-173 605,-173 605,-105 733,-105 733,-173"/>
 <text text-anchor="middle" x="669" y="-157.8" font-family="Times,serif" font-size="14.0">flavanoids &lt;= 1.2</text>
-<text text-anchor="middle" x="669" y="-142.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;3.4</text>
+<text text-anchor="middle" x="669" y="-142.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.7</text>
 <text text-anchor="middle" x="669" y="-127.8" font-family="Times,serif" font-size="14.0">instances = 57</text>
 <text text-anchor="middle" x="669" y="-112.8" font-family="Times,serif" font-size="14.0">prediction=0.9</text>
 </g>
@@ -534,7 +534,7 @@
 <g class="node"><title>75</title>
 <polygon fill="none" stroke="black" points="922.5,-173 751.5,-173 751.5,-105 922.5,-105 922.5,-173"/>
 <text text-anchor="middle" x="837" y="-157.8" font-family="Times,serif" font-size="14.0">alcalinity_of_ash &lt;= 22.2</text>
-<text text-anchor="middle" x="837" y="-142.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.6</text>
+<text text-anchor="middle" x="837" y="-142.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.8</text>
 <text text-anchor="middle" x="837" y="-127.8" font-family="Times,serif" font-size="14.0">instances = 79</text>
 <text text-anchor="middle" x="837" y="-112.8" font-family="Times,serif" font-size="14.0">prediction=&#45;0.6</text>
 </g>
@@ -554,7 +554,7 @@
 </g>
 <g class="node"><title>73</title>
 <polygon fill="none" stroke="black" points="754,-69 650,-69 650,-16 754,-16 754,-69"/>
-<text text-anchor="middle" x="702" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;4.4</text>
+<text text-anchor="middle" x="702" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;2.2</text>
 <text text-anchor="middle" x="702" y="-38.8" font-family="Times,serif" font-size="14.0">instances = 45</text>
 <text text-anchor="middle" x="702" y="-23.8" font-family="Times,serif" font-size="14.0">prediction=1.1</text>
 </g>
@@ -564,7 +564,7 @@
 </g>
 <g class="node"><title>76</title>
 <polygon fill="none" stroke="black" points="880,-69 772,-69 772,-16 880,-16 880,-69"/>
-<text text-anchor="middle" x="826" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;3.0</text>
+<text text-anchor="middle" x="826" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.5</text>
 <text text-anchor="middle" x="826" y="-38.8" font-family="Times,serif" font-size="14.0">instances = 63</text>
 <text text-anchor="middle" x="826" y="-23.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.0</text>
 </g>
@@ -585,7 +585,7 @@
 <g class="node"><title>81</title>
 <polygon fill="none" stroke="black" points="1262,-173 1110,-173 1110,-105 1262,-105 1262,-173"/>
 <text text-anchor="middle" x="1186" y="-157.8" font-family="Times,serif" font-size="14.0">color_intensity &lt;= 3.7</text>
-<text text-anchor="middle" x="1186" y="-142.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;2.4</text>
+<text text-anchor="middle" x="1186" y="-142.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.2</text>
 <text text-anchor="middle" x="1186" y="-127.8" font-family="Times,serif" font-size="14.0">instances = 44</text>
 <text text-anchor="middle" x="1186" y="-112.8" font-family="Times,serif" font-size="14.0">prediction=0.9</text>
 </g>
@@ -596,7 +596,7 @@
 <g class="node"><title>85</title>
 <polygon fill="none" stroke="black" points="1388,-173 1280,-173 1280,-105 1388,-105 1388,-173"/>
 <text text-anchor="middle" x="1334" y="-157.8" font-family="Times,serif" font-size="14.0">hue &lt;= 0.6</text>
-<text text-anchor="middle" x="1334" y="-142.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;3.9</text>
+<text text-anchor="middle" x="1334" y="-142.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.9</text>
 <text text-anchor="middle" x="1334" y="-127.8" font-family="Times,serif" font-size="14.0">instances = 92</text>
 <text text-anchor="middle" x="1334" y="-112.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.0</text>
 </g>
@@ -606,7 +606,7 @@
 </g>
 <g class="node"><title>82</title>
 <polygon fill="none" stroke="black" points="1135,-69 1027,-69 1027,-16 1135,-16 1135,-69"/>
-<text text-anchor="middle" x="1081" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.3</text>
+<text text-anchor="middle" x="1081" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;0.1</text>
 <text text-anchor="middle" x="1081" y="-38.8" font-family="Times,serif" font-size="14.0">instances = 8</text>
 <text text-anchor="middle" x="1081" y="-23.8" font-family="Times,serif" font-size="14.0">prediction=&#45;0.8</text>
 </g>
@@ -616,7 +616,7 @@
 </g>
 <g class="node"><title>83</title>
 <polygon fill="none" stroke="black" points="1257,-69 1153,-69 1153,-16 1257,-16 1257,-69"/>
-<text text-anchor="middle" x="1205" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;3.3</text>
+<text text-anchor="middle" x="1205" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;1.6</text>
 <text text-anchor="middle" x="1205" y="-38.8" font-family="Times,serif" font-size="14.0">instances = 36</text>
 <text text-anchor="middle" x="1205" y="-23.8" font-family="Times,serif" font-size="14.0">prediction=1.1</text>
 </g>
@@ -636,7 +636,7 @@
 </g>
 <g class="node"><title>87</title>
 <polygon fill="none" stroke="black" points="1505,-69 1397,-69 1397,-16 1505,-16 1505,-69"/>
-<text text-anchor="middle" x="1451" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;4.2</text>
+<text text-anchor="middle" x="1451" y="-53.8" font-family="Times,serif" font-size="14.0">c_gb = &#45;2.1</text>
 <text text-anchor="middle" x="1451" y="-38.8" font-family="Times,serif" font-size="14.0">instances = 91</text>
 <text text-anchor="middle" x="1451" y="-23.8" font-family="Times,serif" font-size="14.0">prediction=&#45;1.1</text>
 </g>
