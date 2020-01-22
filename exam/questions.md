@@ -94,7 +94,7 @@
   Describe a decision tree, and formulate an algorithm to fit a decision tree
   using a Gini criterion and entropy criterion. Then, define random forests
   model, describe bagging and random subset of features procedure, and show
-  a show a training procedure for random forests.
+  a training procedure for random forests.
 
 - **Gradient Boosting**
   Formulate gradient boosting decision trees, show how prediction is made,
