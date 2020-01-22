@@ -4,8 +4,8 @@
 #### Examples: naive_bayes_example
 
 Using the [naive_bayes.py](https://github.com/ufal/npfl129/tree/master/labs/09/naive_bayes.py)
-template, train either a Gaussian, multinomial or Bernoulli naive Bayes
-classifier.
+template, train a naive Bayes classifier. Implement a Gaussian NB,
+multinomial NB and Bernoulli NB classifiers.
 
 #### Examples Start: naive_bayes_example
 - `--naive_bayes_type=gaussian --gaussian_var_epsilon=1e-6 --seed=42`
