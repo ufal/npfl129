@@ -26,20 +26,21 @@
 
 - **Logistic Regression, SGD**
   Formulate binary classification and logistic regression model including the
-  sigmoid function. Describe what a logit is. Finally, write down a training
-  algorithm based on SGD and explicitly compute the gradient of the loss function.
+  sigmoid function. Describe how we can interpret the model outputs as logits.
+  Finally, write down a training algorithm based on SGD and explicitly compute
+  the gradient of the loss function.
 
 - **Multiclass Logistic Regression, SGD**
   Formulate multiclass classification and multiclass logistic regression model
-  including the softmax function. Describe what a logit is. Finally, write down
-  a training algorithm based on SGD and explicitly compute the gradient of the
-  loss function.
+  including the softmax function. Describe how we can interpret the model
+  outputs as logits. Finally, write down a training algorithm based on SGD and
+  explicitly compute the gradient of the loss function.
 
 - **Multiclass Logistic Regression, Decision Regions**
   Formulate multiclass classification and multiclass logistic regression model
   including the softmax function. Describe what a logit is. Write down
   a training algorithm based on SGD. Finally, show that decision regions
-  of the multiclass logistic regression are singly connected and convex.
+  of the multiclass logistic regression are convex.
 
 - **Multilayer Perceptron, SGD**
   Formulate multiclass classification and multilayer perceptron model,
