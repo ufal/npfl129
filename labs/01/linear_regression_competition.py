@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
     # TODO: Train the model
 
-    # TODO: The trained model needs to be saved. All sklear models can
+    # TODO: The trained model needs to be saved. All sklearn models can
     # be serialized and deserialized using the standard `pickle` module.
     #
     # To save a model, open a target file for binary access, and use
