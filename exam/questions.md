@@ -63,8 +63,9 @@
 - **Hard-Margin Support Vector Machines**
   Formulate what a kernel is, and describe polynomial kernel and Gaussian
   kernel. Formulate kernelized hard-margin support vector machines
-  and write down the dual formulation of the problem (the loss to minimize
-  and constraints to fulfil). Describe what a support vector is
+  and write down both the primal formulation (the loss to minimize and the
+  constraints to fulfil) and the dual formulation (again the loss to minimize
+  and the constraints to fulfil). Describe what a support vector is
   and how a prediction can be made using the support vectors only. Finally,
   describe the one-versus-rest and one-versus-one schemes for extending
   the binary SVM classification to a multiclass one.
@@ -72,7 +73,8 @@
 - **Soft-Margin Support Vector Machines**
   Describe what a kernel is, and describe polynomial kernel and Gaussian kernel.
   Formulate kernelized soft-margin support vector machines and write down the
-  dual formulation of the problem (the loss to minimize and constraints to
+  both the primal formulation (the loss to minimize and the constraints to
+  fulfil) and the dual formulation (again the loss to minimize and the constraints to
   fulfil). Finally, describe what a support vector is, which input examples are
   support vectors, and how a prediction can be made using the support vectors
   only.
