@@ -14,6 +14,6 @@ You can either see the slides
 or locally -- but in that case you need this directory to be served by a real
 web server for the AJAX requests to work. The easiest is probably to run
 ```
-python3 -m http.server
+python3 server.py
 ```
 and then navigating to `localhost:8000`.
