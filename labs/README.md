@@ -1,17 +1,15 @@
-The tasks are evaluated automatically using the [ReCodEx Code
-Examiner](https://recodex.mff.cuni.cz/). The evaluation is
-performed using Python 3.6, scikit-learn 0.21.3, pandas 0.25.1 and NumPy 1.17.2.
+The tasks are evaluated automatically using the
+[ReCodEx Code Examiner](https://recodex.mff.cuni.cz/). To register into ReCodEx,
+[follow these instructions](#faq_recodex).
 
-You can install all required packages either to user packages using
-`pip3 install --user scikit-learn==0.21.3 pandas==0.25.1`,
-or create a virtual environment using `python3 -m venv VENV_DIR`
-and then installing the packages inside it by running
-`VENV_DIR/bin/pip3 install scikit-learn==0.21.3 pandas==0.25.1`.
+The evaluation is performed using Python 3.8, scikit-learn 0.23.2, numpy 1.19.2,
+scipy 1.5.2, pandas 1.1.2 and matplotlib 3.3.2. You should
+[install the exact version of these packages yourselves](#faq_install).
 
 ### Teamwork
 
-Working in teams of size 2 (or at most 3) is encouraged. All members of the team
-must submit in ReCodEx individually, but can have exactly the same
-sources/models/results. **However, each such solution must explicitly list all
-members of the team to allow plagiarism detection using
-[this template](https://github.com/ufal/npfl129/tree/master/labs/team_description.py).**
+Solving assignments in teams of size 2 or 3 is encouraged, but everyone has to
+participate (it is forbidden not to work on an assignment and then submit
+a solution created by other team members). All members of the team
+**must** submit in ReCodEx **individually**, but can have exactly the same
+sources/models/results. **Each such solution must explicitly list all
