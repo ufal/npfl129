@@ -5,7 +5,7 @@
 The goal of the `isnt_it_ironic` competition is to learn to classify given
 texts as ironic or not.
 
-The [isnt_it_ironic.py](https://github.com/ufal/npfl129/tree/master/labs/07/isnt_it_ironic.py)
+The [isnt_it_ironic.py](https://github.com/ufal/npfl129/tree/past-1920/labs/07/isnt_it_ironic.py)
 template shows how to load the training data, downloading it if needed,
 it shows how to save a compressed trained estimator and how to load it in
 `recodex_predict` method.

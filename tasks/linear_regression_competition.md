@@ -7,9 +7,9 @@ is to perform linear regression on the data from a rental shop.
 The train set contains 1000 instances, each instance consists of 12 features,
 both integral and real.
 
-The [linear_regression_competition.py](https://github.com/ufal/npfl129/tree/master/labs/01/linear_regression_competition.py)
+The [linear_regression_competition.py](https://github.com/ufal/npfl129/tree/past-1920/labs/01/linear_regression_competition.py)
 template shows how to load the
-[linear_regression_competition.train.npz](https://github.com/ufal/npfl129/tree/master/labs/01/linear_regression_competition.train.npz)
+[linear_regression_competition.train.npz](https://github.com/ufal/npfl129/tree/past-1920/labs/01/linear_regression_competition.train.npz)
 available in the repository. Furthermore, it shows how to save a trained
 estimator, how to load it, and it shows `recodex_predict` method which
 is called during ReCodEx evaluation.

@@ -3,7 +3,7 @@
 #### Points: 3 points
 #### Examples: kmeans_examples
 
-Using the [kmeans.py](https://github.com/ufal/npfl129/tree/master/labs/09/kmeans.py)
+Using the [kmeans.py](https://github.com/ufal/npfl129/tree/past-1920/labs/09/kmeans.py)
 template, implement the k-means algorithm. After a given number of iterations,
 print out the predicted cluster for every data point.
 

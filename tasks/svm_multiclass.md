@@ -4,7 +4,7 @@
 #### Examples: svm_multiclass_examples
 
 Extend a solution to the `smo_algorithm` assignment to handle multiclass
-classification, using the [svm_multiclass.py](https://github.com/ufal/npfl129/tree/master/labs/07/svm_multiclass.py)
+classification, using the [svm_multiclass.py](https://github.com/ufal/npfl129/tree/past-1920/labs/07/svm_multiclass.py)
 template.
 
 #### Examples Start: svm_multiclass_examples

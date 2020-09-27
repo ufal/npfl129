@@ -14,7 +14,7 @@ _open_ track. The differences against the original competition are:
 The test set tweets without annotations
 [are available here](https://ufal.mff.cuni.cz/~straka/courses/npfl129/1920/datasets/isnt_it_ironic.test.zip).
 They can be loaded for example using the `Dataset` class from the
-[isnt_it_ironic.py](https://github.com/ufal/npfl129/tree/master/labs/07/isnt_it_ironic.py)
+[isnt_it_ironic.py](https://github.com/ufal/npfl129/tree/past-1920/labs/07/isnt_it_ironic.py)
 template.
 
 Your submission in ReCodEx should consist of:

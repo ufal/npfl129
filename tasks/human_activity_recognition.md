@@ -7,7 +7,7 @@ is to perform human activity recognition, namely to recognize one
 of five actions (walking, standing, sitting, standing up, sitting down)
 using data from four accelerometers.
 
-The [human_activity_recognition.py](https://github.com/ufal/npfl129/tree/master/labs/08/human_activity_recognition.py)
+The [human_activity_recognition.py](https://github.com/ufal/npfl129/tree/past-1920/labs/08/human_activity_recognition.py)
 template loads the training data, downloading it if needed, and
 shows how to save a compressed trained estimator and how to load it in
 `recodex_predict` method.

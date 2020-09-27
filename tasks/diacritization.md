@@ -12,7 +12,7 @@ given a text without diacritics and you should return it including diacritical
 marks – to be explicit, we only consider diacritized letters `áčďéěíňóřšťúůýž`
 and their uppercase variants.
 
-The [diacritization.py](https://github.com/ufal/npfl129/tree/master/labs/04/diacritization.py)
+The [diacritization.py](https://github.com/ufal/npfl129/tree/past-1920/labs/04/diacritization.py)
 template shows how to load the training data, downloading it if needed,
 it shows how to save a compressed trained estimator and how to load it in
 `recodex_predict` method.
@@ -21,7 +21,7 @@ Each sentence in the data is stored on a single line, with exactly one
 space character separating input words. The performance of your system is
 measured using _word accuracy_ (the percentage of words you diacritized
 correctly, as computed by the
-[diacritization_eval.py](https://github.com/ufal/npfl129/tree/master/labs/04/diacritization_eval.py)
+[diacritization_eval.py](https://github.com/ufal/npfl129/tree/past-1920/labs/04/diacritization_eval.py)
 script) and your goal is to achieve at least **86.5%**. You can use any sklearn
 algorithm which does not use decision trees to solve this assignment (so no
 random forests, extra trees, gradient boosting, AdaBoost, …).

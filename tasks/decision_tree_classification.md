@@ -3,7 +3,7 @@
 #### Points: 8 points
 #### Examples: decision_tree_classification_examples
 
-Starting with the [decision_tree_classification.py](https://github.com/ufal/npfl129/tree/master/labs/06/decision_tree_classification.py),
+Starting with the [decision_tree_classification.py](https://github.com/ufal/npfl129/tree/past-1920/labs/06/decision_tree_classification.py),
 implement construction of a classification decision tree, supporting both
 `gini` and `entropy` criteria, and `max_depth`, `min_to_split` and `max_leaves`
 constraints.

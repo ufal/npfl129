@@ -3,7 +3,7 @@
 #### Points: 5 points
 #### Examples: gradient_boosting_example
 
-Using the [gradient_boosting.py](https://github.com/ufal/npfl129/tree/master/labs/08/gradient_boosting.py)
+Using the [gradient_boosting.py](https://github.com/ufal/npfl129/tree/past-1920/labs/08/gradient_boosting.py)
 template, train gradient boosted decision tree forest for classification.
 
 #### Examples Start: gradient_boosting_example
