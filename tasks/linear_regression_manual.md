@@ -8,7 +8,7 @@ Starting with the
 template, solve a linear regression problem using the algoritm from the lecture
 which explicitly computes the matrix inversion. Then compute root mean square
 error on the test set.
-### Examples Start: linear_regression_manual_examples
+#### Examples Start: linear_regression_manual_examples
 - `python3 linear_regression_manual.py --test_size=0.1`
 ```
 3.87
