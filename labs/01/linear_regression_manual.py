@@ -8,7 +8,7 @@ import sklearn.model_selection
 parser = argparse.ArgumentParser()
 parser.add_argument("--recodex", default=False, action="store_true", help="Running in ReCodEx")
 parser.add_argument("--seed", default=42, type=int, help="Random seed")
-parser.add_argument("--test_size", default=50, type=int, help="Test size to use")
+parser.add_argument("--test_size", default=0.1, type=lambda x:int(x) if x.isdigit() else float(x), help="Test set size")
 
 def main(args):
     # Load Boston housing dataset
