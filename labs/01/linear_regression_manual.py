@@ -37,6 +37,6 @@ def main(args):
     return rmse
 
 if __name__ == "__main__":
-    args = parser.parse_args()
+    args = parser.parse_args([] if "__file__" not in globals() else None)
     rmse = main(args)
     print("{:.2f}".format(rmse))
