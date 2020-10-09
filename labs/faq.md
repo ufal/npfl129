@@ -34,5 +34,5 @@
 
 - _What are the time and memory limits?_
 
-  The memory limit during evaluation is 1.5GB. The time limit varies, but should
+  The memory limit during evaluation is **1.5GB**. The time limit varies, but should
   be at least 10 seconds and at least twice the running time of my solution.
