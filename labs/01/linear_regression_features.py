@@ -7,11 +7,13 @@ import sklearn.metrics
 import sklearn.model_selection
 
 parser = argparse.ArgumentParser()
+# These arguments will be set appropriately by ReCodEx, even if you change them.
 parser.add_argument("--data_size", default=40, type=int, help="Data size")
 parser.add_argument("--range", default=3, type=int, help="Feature order range")
 parser.add_argument("--recodex", default=False, action="store_true", help="Running in ReCodEx")
 parser.add_argument("--seed", default=42, type=int, help="Random seed")
 parser.add_argument("--test_size", default=0.5, type=lambda x:int(x) if x.isdigit() else float(x), help="Test set size")
+# If you add more arguments, ReCodEx will keep them with your default values.
 
 def main(args):
     # Create the data
