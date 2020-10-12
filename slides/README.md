@@ -11,7 +11,7 @@ You can see the slides either [on-line at ÚFAL](https://ufal.mff.cuni.cz/course
    ```
    git submodule update --init
    ```
-1. Start a simple local webserver which is required for the AJAX requests and SVGZ images to work:
+1. Start a simple local webserver, which is required for the AJAX requests and SVGZ images to work:
    ```
    python3 server.py [port]
    ```
