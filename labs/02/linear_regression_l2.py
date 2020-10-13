@@ -4,6 +4,7 @@ import argparse
 import numpy as np
 import sklearn.datasets
 import sklearn.linear_model
+import sklearn.metrics
 import sklearn.model_selection
 
 parser = argparse.ArgumentParser()
