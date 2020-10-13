@@ -7,7 +7,7 @@ is to perform linear regression on the data from a rental shop.
 The train set contains 1000 instances, each instance consists of 12 features,
 both integral and real.
 
-The [linear_regression_competition.py](https://github.com/ufal/npfl129/tree/master/labs/02/linear_regression_competition.py)
+The [rental_competition.py](https://github.com/ufal/npfl129/tree/master/labs/02/rental_competition.py)
 template shows how to load the training data, downloading it if needed.
 Furthermore, it shows how to save a trained estimator and how to load it during
 prediction.
