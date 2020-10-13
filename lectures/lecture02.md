@@ -5,6 +5,7 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-02-czech.mp4,CZ Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-02-english.mp4,EN Lecture
 #### Lecture assignment: linear_regression_l2
+#### Lecture assignment: linear_regression_sgd
 #### Lecture assignment: feature_engineering
 
 - L2 regularization in linear regression [Section 1.1, 3.1.4 of PRML]
