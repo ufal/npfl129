@@ -29,7 +29,7 @@ def main(args):
     #   (days in a week, dog breed, ...; in general integer values can also
     #   represent numerical non-categorical values, but we use this assumption
     #   for the sake of an exercise). Encode the values with one-hot encoding
-    #   using `sklearn.preprocess.OneHotEncoder` (note that its output is by
+    #   using `sklearn.preprocessing.OneHotEncoder` (note that its output is by
     #   default sparse, you can use `sparse=False` to generate dense output;
     #   also use `handle_unknown="ignore"` to ignore missing values in test set).
     #
@@ -44,7 +44,7 @@ def main(args):
     # If the input values are [a, b, c, d], you should generate
     # [a^2, ab, ac, ad, b^2, bc, bd, c^2, cd, d^2]. You can generate such polynomial
     # features either manually, or using
-    # `sklearn.preprocess.PolynomialFeatures(2, include_bias=False)`.
+    # `sklearn.preprocessing.PolynomialFeatures(2, include_bias=False)`.
 
     # TODO: You can wrap all the feature processing steps into one transformer
     # by using `sklearn.pipeline.Pipeline`. Although not strictly needed, it is
