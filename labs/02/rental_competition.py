@@ -8,6 +8,24 @@ import urllib.request
 import numpy as np
 
 class Dataset:
+    """Rental Dataset.
+
+    The dataset instances consist of the following 12 features:
+    - season (1: winter, 2: sprint, 3: summer, 4: autumn)
+    - year (0: 2011, 1: 2012)
+    - month (1-12)
+    - hour (0-23)
+    - holiday (binary indicator)
+    - day of week (0: Sun, 1: Mon, ..., 6: Sat)
+    - working day (binary indicator; a day is neither weekend nor holiday)
+    - weather (1: clear, 2: mist, 3: light rain, 4: heavy rain)
+    - temperature (normalized so that -8 Celsius is 0 and 39 Celsius is 1)
+    - feeling temperature (normalized so that -16 Celsius is 0 and 50 Celsius is 1)
+    - relative humidity (0-1 range)
+    - windspeed (normalized to 0-1 range)
+
+    The target variable is the number of rentals in the given hour.
+    """
     def __init__(self,
                  name="rental_competition.train.npz",
                  url="https://ufal.mff.cuni.cz/~straka/courses/npfl129/2021/datasets/"):
