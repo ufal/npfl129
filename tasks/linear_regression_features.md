@@ -11,6 +11,7 @@ Try using features $x^1, x^2, …, x^D$ for $D$ from 1 to a given range, and
 report RMSE of every such configuration.
 
 #### Examples Start: linear_regression_features_examples
+Note that your results may sometimes be slightly different (for example because of varying floating point arithmetic on your CPU).
 - `python3 linear_regression_features.py --data_size=10 --test_size=5 --range=5`
 ```
 Maximum feature order 1: 0.74 RMSE

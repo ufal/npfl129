@@ -7,6 +7,7 @@ Starting with the [feature_engineering.py](https://github.com/ufal/npfl129/tree/
 template, learn how to perform basic feature engineering using `scikit-learn`.
 
 #### Examples Start: feature_engineering_examples
+Note that your results may sometimes be slightly different (for example because of varying floating point arithmetic on your CPU).
 - `python3 feature_engineering.py --dataset=boston`
 ```
 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

@@ -10,6 +10,7 @@ which explicitly computes the matrix inversion. Then compute root mean square
 error on the test set.
 
 #### Examples Start: linear_regression_manual_examples
+Note that your results may sometimes be slightly different (for example because of varying floating point arithmetic on your CPU).
 - `python3 linear_regression_manual.py --test_size=0.1`
 ```
 3.87

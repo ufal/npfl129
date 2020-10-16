@@ -8,6 +8,7 @@ implement minibatch SGD for linear regression and compare the results to an
 explicit linear regression solver.
 
 #### Examples Start: linear_regression_sgd_examples
+Note that your results may sometimes be slightly different (for example because of varying floating point arithmetic on your CPU).
 - `python3 linear_regression_sgd.py --batch_size=10 --epochs=50 --learning_rate=0.01`
 ```
 Test RMSE: SGD 88.98, explicit 91.51
