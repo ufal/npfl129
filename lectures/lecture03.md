@@ -6,6 +6,7 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-03-english.mp4,EN Lecture
 #### Lecture assignment: perceptron
 #### Lecture assignment: logistic_regression_sgd
+#### Lecture assignment: grid_search
 
 - Cross-validation [Section 1.3 of PRML]
 - Linear models for classification [Section 4.1.1 of PRML]
