@@ -14,4 +14,5 @@ prediction.
 
 The performance of your system is measured using _root mean squared error_
 and your goal is to achieve RMSE less than 110. Note that you can use
-any number of **linear regression models** to solve this assignment.
+any number of **generalized linear models** with any regularization to solve
+this assignment (but no decision trees, MLPs, …).
