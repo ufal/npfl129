@@ -62,22 +62,22 @@ Learned parameters:
   0.00 0.00 0.00 -0.00 0.00 -0.00 0.00 -0.00 0.00 0.00 0.00 0.00 0.00 0.00 -0.00 -0.00 0.00 0.00 -0.00 0.00 ...
   -0.00 -0.00 0.00 0.00 0.00 -0.00 -0.00 0.00 0.00 0.00 ...
 ```
-- `python3 mlp_classification_sgd.py --iterations=10 --batch_size=1  --hidden_layer=200`
+- `python3 mlp_classification_sgd.py --iterations=10 --batch_size=1  --hidden_layer=200 --test_size=1597`
 ```
-After iteration 1: train acc 94.8%, test acc 93.0%
-After iteration 2: train acc 95.3%, test acc 92.7%
-After iteration 3: train acc 93.6%, test acc 90.7%
-After iteration 4: train acc 95.2%, test acc 93.7%
-After iteration 5: train acc 96.6%, test acc 94.0%
-After iteration 6: train acc 93.6%, test acc 89.7%
-After iteration 7: train acc 98.0%, test acc 94.9%
-After iteration 8: train acc 92.3%, test acc 88.6%
-After iteration 9: train acc 97.5%, test acc 95.1%
-After iteration 10: train acc 94.0%, test acc 89.6%
+After iteration 1: train acc 88.0%, test acc 78.3%
+After iteration 2: train acc 83.0%, test acc 75.6%
+After iteration 3: train acc 91.5%, test acc 82.7%
+After iteration 4: train acc 90.5%, test acc 85.3%
+After iteration 5: train acc 74.5%, test acc 69.0%
+After iteration 6: train acc 85.0%, test acc 78.8%
+After iteration 7: train acc 98.0%, test acc 89.4%
+After iteration 8: train acc 92.0%, test acc 84.7%
+After iteration 9: train acc 99.5%, test acc 90.7%
+After iteration 10: train acc 97.5%, test acc 91.7%
 Learned parameters:
   -0.03 0.09 0.05 0.02 -0.07 -0.07 -0.09 0.07 0.02 0.04 -0.10 0.09 0.07 -0.06 -0.06 -0.06 -0.04 0.00 -0.01 -0.04 ...
-  0.01 -0.09 0.04 -0.09 0.06 0.06 -0.05 -0.04 -0.00 0.02 -0.04 0.02 -0.04 -0.09 -0.10 -0.08 0.06 0.09 -0.02 0.01 ...
-  0.00 -0.00 -0.00 -0.00 -0.00 -0.00 -0.01 -0.00 -0.00 -0.02 0.00 -0.00 -0.00 -0.00 -0.00 -0.00 -0.02 -0.00 -0.00 0.00 ...
-  -0.12 0.13 -0.12 -0.11 -0.16 0.02 -0.18 -0.08 0.53 0.12 ...
+  0.01 -0.09 0.04 -0.09 0.06 0.06 -0.05 -0.04 -0.00 0.02 -0.05 -0.02 -0.06 -0.13 -0.11 -0.10 0.05 0.08 0.10 0.04 ...
+  0.00 -0.00 -0.00 -0.00 -0.00 -0.00 -0.00 -0.01 0.00 -0.00 -0.00 -0.00 -0.00 0.00 -0.00 -0.00 -0.00 -0.00 -0.00 0.00 ...
+  -0.03 0.06 -0.06 -0.00 -0.05 -0.04 -0.06 -0.03 0.20 0.02 ...
 ```
 #### Examples End:
