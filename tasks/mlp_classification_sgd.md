@@ -4,7 +4,7 @@
 #### Examples: mlp_classification_sgd_examples
 
 Starting with the [mlp_classification_sgd.py](https://github.com/ufal/npfl129/tree/master/labs/04/mlp_classification_sgd.py),
-implement minibatch SGD for multinomial logistic regression.
+implement minibatch SGD for multilayer perceptron classification.
 
 #### Examples Start: mlp_classification_sgd_examples
 Note that your results may sometimes be slightly different (for example because of varying floating point arithmetic on your CPU).
