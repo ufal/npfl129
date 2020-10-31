@@ -43,6 +43,11 @@ def main(args):
         # TODO: Process the data in the order of `permutation`.
         # For every `args.batch_size`, average their gradient, and update the weights.
         # You can assume that `args.batch_size` exactly divides `train_data.shape[0]`.
+        #
+        # Note that you need to be careful when computing softmax, because the exponentiation
+        # in softmax can easily overflow. To avoid it, you can use the fact that
+        # softmax(z) = softmax(z + any_constant) and compute softmax(z) = softmax(z - maximum_of_z).
+        # That way we only exponentiate values which are non-positive, and overflow does not occur.
 
         # TODO: After the SGD iteration, measure the average loss and accuracy for both the
         # train test and the test set. The loss is the average MLE loss (i.e., the
