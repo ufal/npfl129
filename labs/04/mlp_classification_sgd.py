@@ -61,7 +61,7 @@ def main(args):
         # For every `args.batch_size`, average their gradient, and update the weights.
         # You can assume that `args.batch_size` exactly divides `train_data.shape[0]`.
         #
-        # The gradient used in SGD has now four parts, gradient of weghts[0] and weights[1]
+        # The gradient used in SGD has now four parts, gradient of weights[0] and weights[1]
         # and gradient of biases[0] and biases[1].
         #
         # You can either compute the gradient directly from the neural network formula,
