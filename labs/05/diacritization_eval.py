@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 
 def accuracy(gold, system):
-    assert len(gold) == len(system), "The gold and system outputs must have same length: {} vs {}.".format(len(gold), len(system))
+    assert isinstance(gold, str) and isinstance(system, str), "The gold and system outputs must be strings"
     gold, system = gold.split(), system.split()
-    assert len(gold) == len(system), "The gold and system outputs must have same number of tokens: {} vs {}.".format(len(gold), len(system))
+    assert len(gold) == len(system), "The gold and system outputs must have same number of words: {} vs {}.".format(len(gold), len(system))
 
-    tokens, correct = 0, 0
+    words, correct = 0, 0
     for gold_token, system_token in zip(gold, system):
-        tokens += 1
+        words += 1
         correct += gold_token == system_token
 
-    return correct / tokens
+    return correct / words
 
 if __name__ == "__main__":
     import argparse
