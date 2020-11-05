@@ -31,6 +31,9 @@ def main(args):
     # Split the dataset into a train set and a test set.
     # Use `sklearn.model_selection.train_test_split` method call, passing
     # arguments `test_size=args.test_size, random_state=args.seed`.
+    #
+    # Argument `stratify` splits the dataset with equal distribution of target classes in both parts,
+    # be careful to not modify the variable passed into that argument.
     train_data, test_data, train_target, test_target = sklearn.model_selection.train_test_split(
         data, target, stratify=target, test_size=args.test_size, random_state=args.seed)
 
