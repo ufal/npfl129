@@ -13,9 +13,9 @@ Note that your results may sometimes be slightly different (for example because 
 K-nn accuracy for 1 nearest neighbors, L_2 metric, uniform weights: 67.60%
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/k_nearest_neighbors_1.svgz)
-- `python3 k_nearest_neighbors.py --k=2 --p=2 --weights=uniform --test_size=500 --train_size=100`
+- `python3 k_nearest_neighbors.py --k=3 --p=2 --weights=uniform --test_size=500 --train_size=100`
 ```
-K-nn accuracy for 2 nearest neighbors, L_2 metric, uniform weights: 59.80%
+K-nn accuracy for 3 nearest neighbors, L_2 metric, uniform weights: 61.40%
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/k_nearest_neighbors_2.svgz)
 - `python3 k_nearest_neighbors.py --k=1 --p=2 --weights=uniform --test_size=500 --train_size=1000`
@@ -28,24 +28,24 @@ K-nn accuracy for 1 nearest neighbors, L_2 metric, uniform weights: 87.40%
 K-nn accuracy for 5 nearest neighbors, L_2 metric, uniform weights: 88.80%
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/k_nearest_neighbors_4.svgz)
+- `python3 k_nearest_neighbors.py --k=5 --p=1 --weights=uniform --test_size=500 --train_size=1000`
+```
+K-nn accuracy for 5 nearest neighbors, L_1 metric, uniform weights: 86.60%
+```
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/k_nearest_neighbors_5.svgz)
+- `python3 k_nearest_neighbors.py --k=5 --p=3 --weights=uniform --test_size=500 --train_size=1000`
+```
+K-nn accuracy for 5 nearest neighbors, L_3 metric, uniform weights: 89.20%
+```
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/k_nearest_neighbors_6.svgz)
 - `python3 k_nearest_neighbors.py --k=1 --p=2 --weights=uniform --test_size=500 --train_size=5000`
 ```
 K-nn accuracy for 1 nearest neighbors, L_2 metric, uniform weights: 94.00%
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/k_nearest_neighbors_5.svgz)
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/k_nearest_neighbors_7.svgz)
 - `python3 k_nearest_neighbors.py --k=10 --p=2 --weights=uniform --test_size=500 --train_size=5000`
 ```
 K-nn accuracy for 10 nearest neighbors, L_2 metric, uniform weights: 94.00%
-```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/k_nearest_neighbors_6.svgz)
-- `python3 k_nearest_neighbors.py --k=10 --p=1 --weights=uniform --test_size=500 --train_size=5000`
-```
-K-nn accuracy for 10 nearest neighbors, L_1 metric, uniform weights: 92.40%
-```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/k_nearest_neighbors_7.svgz)
-- `python3 k_nearest_neighbors.py --k=10 --p=3 --weights=uniform --test_size=500 --train_size=5000`
-```
-K-nn accuracy for 10 nearest neighbors, L_3 metric, uniform weights: 94.20%
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/k_nearest_neighbors_8.svgz)
 - `python3 k_nearest_neighbors.py --k=10 --p=2 --weights=inverse --test_size=500 --train_size=5000`
