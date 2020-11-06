@@ -28,7 +28,6 @@ class Dataset:
             self.target = dataset_file.read()
         self.data = self.target.translate(self.DIA_TO_NODIA)
 
-
 parser = argparse.ArgumentParser()
 # These arguments will be set appropriately by ReCodEx, even if you change them.
 parser.add_argument("--predict", default=None, type=str, help="Run prediction on given data")
@@ -57,7 +56,8 @@ def main(args):
         with lzma.open(args.model_path, "rb") as model_file:
             model = pickle.load(model_file)
 
-        # TODO: Generate `predictions` with the test set predictions.
+        # TODO: Generate `predictions` with the test set predictions. Specifically,
+        # produce a diacritized `str` with exactly the same number of words as `test.data`.
         predictions = None
 
         return predictions
