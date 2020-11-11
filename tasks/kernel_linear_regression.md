@@ -1,16 +1,16 @@
-### Assignment: kernelized_linear_regression
+### Assignment: kernel_linear_regression
 #### Date: Deadline: Nov 24, 23:59
 #### Points: 5 points
-#### Examples: kernelized_linear_regression_examples
+#### Examples: kernel_linear_regression_examples
 
-Starting with the [kernelized_linear_regression.py](https://github.com/ufal/npfl129/tree/master/labs/06/kernelized_linear_regression.py),
-implement kernelized linear regression training using SGD
+Starting with the [kernel_linear_regression.py](https://github.com/ufal/npfl129/tree/master/labs/06/kernel_linear_regression.py),
+implement kernel linear regression training using SGD
 on the dual formulation. You should support _polynomial_
 and _Gaussian_ kernels and also L2 regularization.
 
-#### Examples Start: kernelized_linear_regression_examples
+#### Examples Start: kernel_linear_regression_examples
 Note that your results may sometimes be slightly different (for example because of varying floating point arithmetic on your CPU).
-- `python3 kernelized_linear_regression.py --batch_size=1 --kernel=poly --kernel_degree=3 --learning_rate=0.1`
+- `python3 kernel_linear_regression.py --batch_size=1 --kernel=poly --kernel_degree=3 --learning_rate=0.1`
 ```
 Iteration 10, train RMSE 0.59, test RMSE 1.10
 Iteration 20, train RMSE 0.48, test RMSE 0.98
@@ -33,8 +33,8 @@ Iteration 180, train RMSE 0.48, test RMSE 1.24
 Iteration 190, train RMSE 0.47, test RMSE 1.13
 Iteration 200, train RMSE 0.48, test RMSE 1.12
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernelized_linear_regression_1.svgz)
-- `python3 kernelized_linear_regression.py --batch_size=1 --kernel=poly --kernel_degree=5 --learning_rate=0.05`
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernel_linear_regression_1.svgz)
+- `python3 kernel_linear_regression.py --batch_size=1 --kernel=poly --kernel_degree=5 --learning_rate=0.05`
 ```
 Iteration 10, train RMSE 0.61, test RMSE 1.59
 Iteration 20, train RMSE 0.52, test RMSE 0.92
@@ -57,8 +57,8 @@ Iteration 180, train RMSE 0.31, test RMSE 0.29
 Iteration 190, train RMSE 0.31, test RMSE 0.24
 Iteration 200, train RMSE 0.37, test RMSE 0.34
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernelized_linear_regression_2.svgz)
-- `python3 kernelized_linear_regression.py --batch_size=5 --kernel=poly --kernel_degree=5 --learning_rate=0.1 --iterations=400`
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernel_linear_regression_2.svgz)
+- `python3 kernel_linear_regression.py --batch_size=5 --kernel=poly --kernel_degree=5 --learning_rate=0.1 --iterations=400`
 ```
 Iteration 10, train RMSE 0.52, test RMSE 1.20
 Iteration 20, train RMSE 0.48, test RMSE 1.01
@@ -101,8 +101,8 @@ Iteration 380, train RMSE 0.35, test RMSE 0.46
 Iteration 390, train RMSE 0.35, test RMSE 0.41
 Iteration 400, train RMSE 0.33, test RMSE 0.28
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernelized_linear_regression_3.svgz)
-- `python3 kernelized_linear_regression.py --batch_size=1 --kernel=rbf`
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernel_linear_regression_3.svgz)
+- `python3 kernel_linear_regression.py --batch_size=1 --kernel=rbf`
 ```
 Iteration 10, train RMSE 0.78, test RMSE 0.66
 Iteration 20, train RMSE 0.74, test RMSE 0.61
@@ -125,8 +125,8 @@ Iteration 180, train RMSE 0.42, test RMSE 0.49
 Iteration 190, train RMSE 0.41, test RMSE 0.49
 Iteration 200, train RMSE 0.40, test RMSE 0.50
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernelized_linear_regression_4.svgz)
-- `python3 kernelized_linear_regression.py --batch_size=1 --kernel=rbf --kernel_gamma=0.5`
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernel_linear_regression_4.svgz)
+- `python3 kernel_linear_regression.py --batch_size=1 --kernel=rbf --kernel_gamma=0.5`
 ```
 Iteration 10, train RMSE 0.80, test RMSE 0.69
 Iteration 20, train RMSE 0.79, test RMSE 0.67
@@ -149,8 +149,8 @@ Iteration 180, train RMSE 0.69, test RMSE 0.56
 Iteration 190, train RMSE 0.68, test RMSE 0.56
 Iteration 200, train RMSE 0.68, test RMSE 0.56
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernelized_linear_regression_5.svgz)
-- `python3 kernelized_linear_regression.py --batch_size=1 --kernel=rbf --kernel_gamma=5`
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernel_linear_regression_5.svgz)
+- `python3 kernel_linear_regression.py --batch_size=1 --kernel=rbf --kernel_gamma=5`
 ```
 Iteration 10, train RMSE 0.52, test RMSE 0.40
 Iteration 20, train RMSE 0.36, test RMSE 0.22
@@ -173,8 +173,8 @@ Iteration 180, train RMSE 0.21, test RMSE 0.17
 Iteration 190, train RMSE 0.21, test RMSE 0.17
 Iteration 200, train RMSE 0.21, test RMSE 0.17
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernelized_linear_regression_6.svgz)
-- `python3 kernelized_linear_regression.py --batch_size=1 --kernel=rbf --kernel_gamma=50`
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernel_linear_regression_6.svgz)
+- `python3 kernel_linear_regression.py --batch_size=1 --kernel=rbf --kernel_gamma=50`
 ```
 Iteration 10, train RMSE 0.52, test RMSE 0.44
 Iteration 20, train RMSE 0.36, test RMSE 0.28
@@ -197,8 +197,8 @@ Iteration 180, train RMSE 0.19, test RMSE 0.15
 Iteration 190, train RMSE 0.19, test RMSE 0.15
 Iteration 200, train RMSE 0.19, test RMSE 0.15
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernelized_linear_regression_7.svgz)
-- `python3 kernelized_linear_regression.py --batch_size=1 --kernel=rbf --kernel_gamma=50 --l2=0.5`
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernel_linear_regression_7.svgz)
+- `python3 kernel_linear_regression.py --batch_size=1 --kernel=rbf --kernel_gamma=50 --l2=0.5`
 ```
 Iteration 10, train RMSE 0.53, test RMSE 0.44
 Iteration 20, train RMSE 0.37, test RMSE 0.30
@@ -221,8 +221,8 @@ Iteration 180, train RMSE 0.21, test RMSE 0.15
 Iteration 190, train RMSE 0.21, test RMSE 0.15
 Iteration 200, train RMSE 0.21, test RMSE 0.15
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernelized_linear_regression_8.svgz)
-- `python3 kernelized_linear_regression.py --batch_size=1 --kernel=poly --kernel_degree=3`
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernel_linear_regression_8.svgz)
+- `python3 kernel_linear_regression.py --batch_size=1 --kernel=poly --kernel_degree=3`
 ```
 Iteration 10, train RMSE 0.73, test RMSE 0.61
 Iteration 20, train RMSE 0.68, test RMSE 0.61
@@ -245,8 +245,8 @@ Iteration 180, train RMSE 0.47, test RMSE 1.03
 Iteration 190, train RMSE 0.47, test RMSE 1.05
 Iteration 200, train RMSE 0.47, test RMSE 1.05
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernelized_linear_regression_9.svgz)
-- `python3 kernelized_linear_regression.py --batch_size=1 --kernel=poly --kernel_degree=5`
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernel_linear_regression_9.svgz)
+- `python3 kernel_linear_regression.py --batch_size=1 --kernel=poly --kernel_degree=5`
 ```
 Iteration 10, train RMSE 0.55, test RMSE 0.87
 Iteration 20, train RMSE 0.49, test RMSE 0.98
@@ -269,5 +269,5 @@ Iteration 180, train RMSE 0.44, test RMSE 0.99
 Iteration 190, train RMSE 0.43, test RMSE 0.94
 Iteration 200, train RMSE 0.43, test RMSE 0.91
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernelized_linear_regression_10.svgz)
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernel_linear_regression_10.svgz)
 #### Examples End:
