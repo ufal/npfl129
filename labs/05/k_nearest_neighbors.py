@@ -52,8 +52,8 @@ def main(args):
     #
     # Find `args.k` nearest neighbors, choosing the ones with smallest train_data
     # indices in case of ties. Use the most frequent class (optionally weighted
-    # by a given scheme described below) as prediction, again using the one with
-    # smaller index when there are multiple classes with the same frequency.
+    # by a given scheme described below) as prediction, choosing the one with the
+    # smallest class index when there are multiple classes with the same frequency.
     #
     # Use L_p norm for a given p (1, 2, 3) to measure distances.
     #
