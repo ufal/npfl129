@@ -198,28 +198,28 @@ Iteration 190, train RMSE 0.19, test RMSE 0.15
 Iteration 200, train RMSE 0.19, test RMSE 0.15
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernel_linear_regression_7.svgz)
-- `python3 kernel_linear_regression.py --batch_size=1 --kernel=rbf --kernel_gamma=50 --l2=0.5`
+- `python3 kernel_linear_regression.py --batch_size=1 --kernel=rbf --kernel_gamma=50 --l2=0.02`
 ```
-Iteration 10, train RMSE 0.53, test RMSE 0.44
-Iteration 20, train RMSE 0.37, test RMSE 0.30
-Iteration 30, train RMSE 0.29, test RMSE 0.23
-Iteration 40, train RMSE 0.25, test RMSE 0.19
-Iteration 50, train RMSE 0.24, test RMSE 0.17
-Iteration 60, train RMSE 0.23, test RMSE 0.17
-Iteration 70, train RMSE 0.22, test RMSE 0.16
-Iteration 80, train RMSE 0.22, test RMSE 0.16
-Iteration 90, train RMSE 0.21, test RMSE 0.16
-Iteration 100, train RMSE 0.21, test RMSE 0.15
-Iteration 110, train RMSE 0.21, test RMSE 0.15
-Iteration 120, train RMSE 0.21, test RMSE 0.15
-Iteration 130, train RMSE 0.21, test RMSE 0.15
-Iteration 140, train RMSE 0.21, test RMSE 0.15
-Iteration 150, train RMSE 0.21, test RMSE 0.15
-Iteration 160, train RMSE 0.21, test RMSE 0.15
-Iteration 170, train RMSE 0.21, test RMSE 0.15
-Iteration 180, train RMSE 0.21, test RMSE 0.15
-Iteration 190, train RMSE 0.21, test RMSE 0.15
-Iteration 200, train RMSE 0.21, test RMSE 0.15
+Iteration 10, train RMSE 0.54, test RMSE 0.45
+Iteration 20, train RMSE 0.39, test RMSE 0.31
+Iteration 30, train RMSE 0.32, test RMSE 0.25
+Iteration 40, train RMSE 0.28, test RMSE 0.21
+Iteration 50, train RMSE 0.26, test RMSE 0.20
+Iteration 60, train RMSE 0.25, test RMSE 0.19
+Iteration 70, train RMSE 0.25, test RMSE 0.18
+Iteration 80, train RMSE 0.24, test RMSE 0.18
+Iteration 90, train RMSE 0.24, test RMSE 0.18
+Iteration 100, train RMSE 0.24, test RMSE 0.17
+Iteration 110, train RMSE 0.24, test RMSE 0.17
+Iteration 120, train RMSE 0.24, test RMSE 0.17
+Iteration 130, train RMSE 0.24, test RMSE 0.17
+Iteration 140, train RMSE 0.24, test RMSE 0.17
+Iteration 150, train RMSE 0.24, test RMSE 0.17
+Iteration 160, train RMSE 0.24, test RMSE 0.17
+Iteration 170, train RMSE 0.24, test RMSE 0.17
+Iteration 180, train RMSE 0.24, test RMSE 0.17
+Iteration 190, train RMSE 0.24, test RMSE 0.17
+Iteration 200, train RMSE 0.24, test RMSE 0.17
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/kernel_linear_regression_8.svgz)
 #### Examples End:
