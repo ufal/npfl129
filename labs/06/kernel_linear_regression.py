@@ -40,7 +40,7 @@ def main(args):
     # We assume the primary formulation of our model is
     #   y = phi(x)^T w + bias
     # and the loss in the primary problem is batched MSE with L2 regularization:
-    #   L = sum_{i \in B} 1/|B| * [1/2 * (target_i - phi(x_i)^T w - bias)^2] + 1/2 * args.l2 * w^2
+    #   L = sum_{i \in B} 1/|B| * [1/2 * (phi(x_i)^T w + bias - target_i)^2] + 1/2 * args.l2 * w^2
     #
     # For `bias`, use explicitly the average of the training targets, and do
     # not update it futher during training.
