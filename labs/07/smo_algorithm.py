@@ -96,7 +96,7 @@ def main(args):
         n_samples=args.data_size, n_features=2, n_informative=2, n_redundant=0, random_state=args.seed)
     target = 2 * target - 1
 
-    # Split the dataset into a train set and a test set. using
+    # Split the dataset into a train set and a test set.
     train_data, test_data, train_target, test_target = sklearn.model_selection.train_test_split(
         data, target, test_size=args.test_size, random_state=args.seed)
 
