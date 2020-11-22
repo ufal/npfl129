@@ -6,3 +6,4 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-07-english.mp4,EN Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-07-czech.practicals.mp4,CZ Practicals
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-07-english.practicals.mp4,EN Practicals
+#### Lecture assignment: smo_algorithm
