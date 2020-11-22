@@ -59,7 +59,10 @@ def smo(args, train_data, train_target, test_data, test_target):
             #   by less than `args.tolerance`, do not update a[j] and continue
             #   with next i.
 
-            # - update a[j] to a_j^new, and compute the updated a[i] and b
+            # - update a[j] to a_j^new, and compute the updated a[i] and b.
+            #
+            #   During the update of b, compare the a[i] and a[j] to zero by
+            #   `> args.tolerance` and to C using `< args.C - args.tolerance`.
 
             # - increase `as_changed`
 
