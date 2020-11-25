@@ -17,3 +17,9 @@ The performance of your solution will be evaluated using
 and if you surpass at least **55%**, you will obtain 7 points.
 Note that you can use **any sklearn algorithm** to solve this exercise
 (or anything you implement yourselves).
+
+You might find
+[TfidfTransformer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html)
+or
+[TfidfVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
+useful.
