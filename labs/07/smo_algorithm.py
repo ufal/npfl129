@@ -44,9 +44,9 @@ def smo(args, train_data, train_target, test_data, test_target):
             # We want j != i, so we "skip" over the value of i
             j = j + (j >= i)
 
-            # TODO: Check that a[i] fulfuls the KKT condition, using `args.tolerance` during comparisons.
+            # TODO: Check that a[i] fulfils the KKT conditions, using `args.tolerance` during comparisons.
 
-            # If the conditions, do not hold, then
+            # If the conditions do not hold, then
             # - compute the updated unclipped a_j^new.
             #
             #   If the second derivative of the loss with respect to a[j]
@@ -67,7 +67,7 @@ def smo(args, train_data, train_target, test_data, test_target):
             # - increase `as_changed`
 
         # TODO: After each iteration, measure the accuracy for both the
-        # train test and the test set and append it to `train_accs` and `test_accs`.
+        # train set and the test set and append it to `train_accs` and `test_accs`.
         train_accs.append(None)
         test_accs.append(None)
 
