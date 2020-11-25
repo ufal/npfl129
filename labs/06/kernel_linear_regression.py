@@ -26,10 +26,10 @@ def main(args):
 
     # Generate an artifical regression dataset
     train_data = np.linspace(-1, 1, args.data_size)
-    train_targets = np.sin(5 * train_data) + generator.normal(scale=0.25, size=args.data_size) + 1
+    train_target = np.sin(5 * train_data) + generator.normal(scale=0.25, size=args.data_size) + 1
 
     test_data = np.linspace(-1.2, 1.2, 2 * args.data_size)
-    test_targets = np.sin(5 * test_data) + 1
+    test_target = np.sin(5 * test_data) + 1
 
     betas = np.zeros(args.data_size)
 
@@ -72,8 +72,8 @@ def main(args):
         # If you want the plotting to work (not required for ReCodEx), compute the `test_predictions`.
         test_predictions = None
 
-        plt.plot(train_data, train_targets, "bo", label="Train targets")
-        plt.plot(test_data, test_targets, "ro", label="Test targets")
+        plt.plot(train_data, train_target, "bo", label="Train target")
+        plt.plot(test_data, test_target, "ro", label="Test target")
         plt.plot(test_data, test_predictions, "g-", label="Predictions")
         plt.legend()
         if args.plot is True: plt.show()
