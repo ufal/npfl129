@@ -32,7 +32,7 @@ def main(args):
     #   features. For variance estimation use
     #     1/N * \sum_x (x - mean)^2
     #   and additionally increase all estimated variances by `args.alpha`
-    #   You can use `scikit.stats.norm` to compute probability density function
+    #   You can use `scipy.stats.norm` to compute probability density function
     #   of a Gaussian distribution.
     # - "multinomial": Multinomial NB with smoothing factor `args.alpha`
     # - "bernoulli": Bernoulli NB with smoothing factor `args.alpha`
