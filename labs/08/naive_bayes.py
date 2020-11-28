@@ -31,13 +31,15 @@ def main(args):
     # - "gaussian": Fit Gaussian NB, by estimating mean and variance of the input
     #   features. For variance estimation use
     #     1/N * \sum_x (x - mean)^2
-    #   and additionally increase all estimated variances by `args.alpha`
-    #   You can use `scipy.stats.norm` to compute probability density function
-    #   of a Gaussian distribution.
+    #   and additionally increase all estimated variances by `args.alpha`.
     # - "multinomial": Multinomial NB with smoothing factor `args.alpha`
     # - "bernoulli": Bernoulli NB with smoothing factor `args.alpha`
 
     # TODO: Predict the test data classes and compute test accuracy.
+    #
+    # You can use `scipy.stats.norm` to compute probability density function
+    # of a Gaussian distribution -- it offers `pdf` and `logpdf` methods, among
+    # others.
     test_accuracy = None
 
     return test_accuracy
