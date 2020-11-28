@@ -22,7 +22,7 @@ class Dataset:
         self.target = []
 
         with zipfile.ZipFile(name, "r") as dataset_file:
-            with dataset_file.open(name.replace(".zip", ".txt"), "r") as train_file:
+            with dataset_file.open(os.path.basename(name).replace(".zip", ".txt"), "r") as train_file:
                 for line in train_file:
                     label, text = line.decode("utf-8").rstrip("\n").split("\t")
                     self.data.append(text)
