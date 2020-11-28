@@ -1,6 +1,6 @@
 ### Assignment: isnt_it_ironic
 #### Date: Deadline: Dec 08, 23:59
-#### Points: 7 points+7 bonus
+#### Points: 5 points+6 bonus
 
 The goal of the `isnt_it_ironic` [competition task](#competitions) is to learn to
 classify given text as ironic or not.
@@ -14,7 +14,7 @@ Each instance is a string of an English tweet. The texts have
 already been tokenized and tokens are separated by exactly one space.
 The performance of your solution will be evaluated using
 F1-score with [sklearn.metrics.f1_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)
-and if you surpass at least **55%**, you will obtain 7 points.
+and if you surpass at least **57%**, you will obtain 5 points.
 Note that you can use **any sklearn algorithm** to solve this exercise
 (or anything you implement yourselves).
 
