@@ -32,14 +32,18 @@ def main(args):
     #   features. For variance estimation use
     #     1/N * \sum_x (x - mean)^2
     #   and additionally increase all estimated variances by `args.alpha`.
-    # - "multinomial": Multinomial NB with smoothing factor `args.alpha`
-    # - "bernoulli": Bernoulli NB with smoothing factor `args.alpha`
+    #
+    #   During prediction, compute probability density function of a Gaussian
+    #   distribution using `scipy.stats.norm`, which offers `pdf` and `logpdf`
+    #   methods, among others.
+    #
+    # - "multinomial": Multinomial NB with smoothing factor `args.alpha`.
+    #
+    # - "bernoulli": Bernoulli NB with smoothing factor `args.alpha`.
+    #   Do not forget that Bernoulli NB works with binary data, so consider
+    #   all non-zero features as ones during both estimation and prediction.
 
     # TODO: Predict the test data classes and compute test accuracy.
-    #
-    # You can use `scipy.stats.norm` to compute probability density function
-    # of a Gaussian distribution -- it offers `pdf` and `logpdf` methods, among
-    # others.
     test_accuracy = None
 
     return test_accuracy
