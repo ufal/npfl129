@@ -6,3 +6,4 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-09-english.mp4,EN Lecture
 #### Lecture assignment: decision_tree
 #### Lecture assignment: random_forest
+#### Lecture assignment: human_activity_recognition
