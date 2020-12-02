@@ -39,7 +39,7 @@ def main(args):
     #   with values 1, 7, 3, the split points are 2 and 5).
     #
     # - Allow splitting a node only if:
-    #   - when `args.max_depth` is not None, its depth must be at most `args.max_depth`;
+    #   - when `args.max_depth` is not None, its depth must be less than `args.max_depth`;
     #     depth of the root node is zero;
     #   - there are at least `args.min_to_split` corresponding instances;
     #   - the criterion value is not zero.
