@@ -39,7 +39,7 @@ def main(args):
     if args.predict is None:
         # We are training a model.
         np.random.seed(args.seed)
-        train = Dataset("human_activity_recognition.train.csv.xz")
+        train = Dataset()
 
         # TODO: Train a model on the given dataset and store it in `model`.
         model = None
