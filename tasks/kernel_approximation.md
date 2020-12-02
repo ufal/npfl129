@@ -18,11 +18,11 @@ Test set accuracy: 94.68%
 ```
 - `python3 kernel_approximation.py --rff=300`
 ```
-Test set accuracy: 83.84%
+Test set accuracy: 84.36%
 ```
 - `python3 kernel_approximation.py --rff=800`
 ```
-Test set accuracy: 91.92%
+Test set accuracy: 91.64%
 ```
 - `python3 kernel_approximation.py --nystroem=100`
 ```
