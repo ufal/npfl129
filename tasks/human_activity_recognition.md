@@ -1,6 +1,6 @@
 ### Assignment: human_activity_recognition
 #### Date: Deadline: Dec 15, 23:59
-#### Points: 5 points+4 bonus
+#### Points: 4 points+4 bonus
 
 This assignment is a [competition task](#competitions). Your goal
 is to perform human activity recognition, namely to recognize one
