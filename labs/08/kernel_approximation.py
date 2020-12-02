@@ -78,7 +78,7 @@ class NystroemTransformer(sklearn.base.TransformerMixin):
         # given two sets of examples.
         #
         # A reasonably efficient implementation should probably compute the
-        # kernel line-by-line, computing K(X_i, Z) using a singe `np.linalg.norm`
+        # kernel line-by-line, computing K(X_i, Z) using a single `np.linalg.norm`
         # call, and then concatenate the results using `np.stack`.
         raise NotImplementedError()
 
