@@ -8,3 +8,4 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-08-english.practicals.mp4,EN Practicals
 #### Lecture assignment: naive_bayes
 #### Lecture assignment: isnt_it_ironic
+#### Lecture assignment: kernel_approximation
