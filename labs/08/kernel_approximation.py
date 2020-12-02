@@ -52,7 +52,7 @@ class RFFsTransformer(sklearn.base.TransformerMixin):
         self._seed = seed
 
     def fit(self, X, y=None):
-        generator = np.random.RandomState(args.seed)
+        generator = np.random.RandomState(self._seed)
 
         # TODO: Generate suitable `w` and `b`.
         # To obtain deterministic results, generate
@@ -83,7 +83,7 @@ class NystroemTransformer(sklearn.base.TransformerMixin):
         raise NotImplementedError()
 
     def fit(self, X, y=None):
-        generator = np.random.RandomState(args.seed)
+        generator = np.random.RandomState(self._seed)
 
         # TODO: Choose a random subset of examples, utilizing indices
         #   indices = generator.choice(X.shape[0], size=self._n_components, replace=False)
