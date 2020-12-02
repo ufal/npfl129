@@ -6,15 +6,11 @@ import urllib.request
 
 import numpy as np
 import sklearn.base
-import sklearn.datasets
+import sklearn.linear_model
 import sklearn.metrics
 import sklearn.model_selection
 import sklearn.pipeline
-import sklearn.kernel_approximation
-import sklearn.linear_model
-import sklearn.decomposition
 import sklearn.svm
-import sklearn.neural_network
 
 class MNIST:
     """MNIST Dataset.
