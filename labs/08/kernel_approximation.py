@@ -74,7 +74,7 @@ class NystroemTransformer(sklearn.base.TransformerMixin):
         self._seed = seed
 
     def _rbf_kernel(self, X, Z):
-        # TODO: Compute the RBF kernel with `args._gamma` for
+        # TODO: Compute the RBF kernel with `self._gamma` for
         # given two sets of examples.
         #
         # A reasonably efficient implementation should probably compute the
