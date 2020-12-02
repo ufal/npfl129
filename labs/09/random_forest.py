@@ -50,7 +50,7 @@ def main(args):
     #
     # - if `args.bootstrapping` is set, right before training a decision tree,
     #   create a bootstrap sample of the training data using the following indices
-    #     indices = generator.randint(len(train_data), size=len(train_data))
+    #     indices = generator.choice(len(train_data), size=len(train_data))
     #   and if `args.bootstrapping` is not set, use the original training data.
     #
     # During prediction, use voting to find the most frequent class for a given
