@@ -122,7 +122,7 @@ def main(args):
             plt.legend(loc="upper center", ncol=4)
 
         # If you want plotting to work (not required for ReCodEx), you need to
-        # define `predict_function` computing SVM prediction `y(x)` for the given x.
+        # define `predict_function` computing SVM value `y(x)` for the given x.
         predict_function = lambda x: None
 
         plot(predict_function, support_vectors)
