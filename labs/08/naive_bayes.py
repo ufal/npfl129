@@ -25,21 +25,21 @@ def main(args):
     train_data, test_data, train_target, test_target = sklearn.model_selection.train_test_split(
         data, target, test_size=args.test_size, random_state=args.seed)
 
-    # TODO: Fit the naive Bayes classifier on the train data.
+    # TODO: Train a naive Bayes classifier on the train data.
     #
     # The `args.naive_bayes_type` can be one of:
-    # - "gaussian": Fit Gaussian NB, by estimating mean and variance of the input
-    #   features. For variance estimation use
+    # - "gaussian": implement Gaussian NB training, by estimating mean and
+    #   variance of the input features. For variance estimation use
     #     1/N * \sum_x (x - mean)^2
     #   and additionally increase all estimated variances by `args.alpha`.
     #
-    #   During prediction, compute probability density function of a Gaussian
+    #   During prediction, you can compute probability density function of a Gaussian
     #   distribution using `scipy.stats.norm`, which offers `pdf` and `logpdf`
     #   methods, among others.
     #
-    # - "multinomial": Multinomial NB with smoothing factor `args.alpha`.
+    # - "multinomial": Implement multinomial NB with smoothing factor `args.alpha`.
     #
-    # - "bernoulli": Bernoulli NB with smoothing factor `args.alpha`.
+    # - "bernoulli": Implement Bernoulli NB with smoothing factor `args.alpha`.
     #   Do not forget that Bernoulli NB works with binary data, so consider
     #   all non-zero features as ones during both estimation and prediction.
 
