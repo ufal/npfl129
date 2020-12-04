@@ -49,6 +49,9 @@ def main(args):
     # TODO: Classify the test set by majority voting of all the trained classifiers,
     # using the lowest class index in the case of ties.
     #
+    # Note that during prediction, only the support vectors returned by the `smo`
+    # should be used, not all training data.
+    #
     # Finally, compute the test set prediction accuracy.
     test_accuracy = None
 
