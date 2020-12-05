@@ -29,8 +29,8 @@ Test accuracy 84.32%
 ```
 Test accuracy 89.66%
 ```
-- `python3 naive_bayes.py --classes=10 --naive_bayes_type=gaussian --alpha=10`
+- `python3 naive_bayes.py --classes=10 --naive_bayes_type=gaussian --alpha=10 --seed=41`
 ```
-Test accuracy 91.32%
+Test accuracy 91.55%
 ```
 #### Examples End:
