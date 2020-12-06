@@ -32,8 +32,11 @@ def main(args):
     #   generator = np.random.RandomState(args.seed)
     # at the beginning and then use this instance for all random number generation.
     #
-    # Use a simplified decision tree from the `decision_tree` assignment. The
-    # tree needs to support only the `entropy` criterion and `max_depth` constraint.
+    # Use a simplified decision tree from the `decision_tree` assignment:
+    # - use `entropy` as the criterion
+    # - use `max_depth` constraint, so split a node only if:
+    #   - its depth is less than `args.max_depth`
+    #   - the criterion is not 0 (the corresponding instance targetsare not the same)
     # When splitting nodes, proceed in the depth-first order, splitting all nodes
     # in left subtrees before nodes in right subtrees.
     #
@@ -44,7 +47,8 @@ def main(args):
     #     generator.uniform(size=number_of_features) <= feature_subsampling
     #   which gives a boolean value for every feature, with `True` meaning the
     #   feature is used during best split search, and `False` it is not.
-    #   (When feature_subsampling == 1, all features are used.)
+    #   (When feature_subsampling == 1, all features are used, but the mask
+    #   should still be generated.)
     #
     # - train a random forest consisting of `args.trees` decision trees
     #
