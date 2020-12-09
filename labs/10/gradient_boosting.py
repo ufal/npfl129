@@ -50,6 +50,11 @@ def main(args):
     #     and the value of the loss with the above prediction is
     #       c_GB = - 1/2 (\sum_{i \in I_T} g_i)^2 / (args.l2 + sum_{i \in I_T} h_i)
     #     which you should use as a splitting criterion.
+    #
+    # During tree construction, we split a node if:
+    # - its depth is less than `args.max_depth`
+    # - there is more than 1 example corresponding to it (this was covered by
+    #     a non-zero criterion value in the previous assignments)
 
     # TODO: Finally, measure your training and testing accuracies when
     # using 1, 2, ..., `args.trees` of the created trees.
