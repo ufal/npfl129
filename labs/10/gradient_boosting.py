@@ -35,8 +35,8 @@ def main(args):
     # - the goal is to train `classes` regression trees, each predicting
     #   raw weight for the corresponding class.
     # - compute the current predictions `y_t(x_i)` for every training example `i` as
-    #     y_t(x_i)_c = \sum_{i=1}^{t-1} args.learning_rate * tree_{iter=i,class=c}.predict(x_i)
-    #   (note that y_0 is zero)
+    #     y_t(x_i)_c = \sum_{i=1}^t args.learning_rate * tree_{iter=i,class=c}.predict(x_i)
+    #     (note that y_0 is zero)
     # - loss in iteration `t` is
     #     L = (\sum_i NLL(target_i, softmax(y_{t-1}(x_i) + trees_to_train_in_iter_t.predict(x_i)))) +
     #         1/2 * args.l2 * (sum of all node values in trees_to_train_in_iter_t)
