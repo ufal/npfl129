@@ -5,3 +5,4 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-10-czech.mp4,CZ Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-10-english.mp4,EN Lecture
 #### Lecture assignment: gradient_boosting
+#### Lecture assignment: nli_competition
