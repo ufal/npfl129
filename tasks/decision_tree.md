@@ -31,10 +31,10 @@ Train accuracy: 97.8%
 Test accuracy: 92.9%
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/decision_tree_3.svgz)
-- `python3 decision_tree.py --criterion=gini --min_to_split=42 --max_leaves=5 --seed=91`
+- `python3 decision_tree.py --criterion=gini --min_to_split=40 --max_leaves=4 --seed=92`
 ```
-Train accuracy: 98.5%
-Test accuracy: 92.9%
+Train accuracy: 94.1%
+Test accuracy: 81.0%
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/decision_tree_4.svgz)
 - `python3 decision_tree.py --criterion=entropy --min_to_split=55 --seed=97`
@@ -55,10 +55,10 @@ Train accuracy: 98.5%
 Test accuracy: 88.1%
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/decision_tree_7.svgz)
-- `python3 decision_tree.py --criterion=entropy --min_to_split=40 --max_leaves=6 --seed=97`
+- `python3 decision_tree.py --criterion=entropy --min_to_split=45 --max_depth=2 --seed=100`
 ```
-Train accuracy: 99.3%
-Test accuracy: 90.5%
+Train accuracy: 94.9%
+Test accuracy: 78.6%
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/decision_tree_8.svgz)
 #### Examples End:
