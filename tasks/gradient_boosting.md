@@ -1,6 +1,6 @@
 ### Assignment: gradient_boosting
 #### Date: Deadline: Jan 05, 23:59
-#### Points: 5 points
+#### Points: 6 points
 #### Examples: gradient_boosting_examples
 
 Using the [gradient_boosting.py](https://github.com/ufal/npfl129/tree/master/labs/10/gradient_boosting.py)

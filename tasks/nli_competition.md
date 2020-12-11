@@ -1,6 +1,6 @@
 ### Assignment: nli_competition
 #### Date: Deadline: Jan 05, 23:59
-#### Points: 6 points+? bonus
+#### Points: 5 points+? bonus
 
 In this [competition task](#competitions) you will be solving the Native
 Language Identification. In that task, you get an English essay writen by
