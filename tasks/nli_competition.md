@@ -16,7 +16,7 @@ accuracy, while current state-of-the-art is at least 87.1% (Malmasi and Dras, 20
 
 Because the data is not publicly available, you can download it only through
 ReCodEx. Please do not distribute it. To load the dataset, use the
-[nli_competition.py](https://github.com/ufal/npfl114/tree/master/labs/10/nli_competition.py)
+[nli_competition.py](https://github.com/ufal/npfl129/tree/master/labs/10/nli_competition.py)
 template.
 
 The performance of your system is measured using _accuracy_ of correctly
