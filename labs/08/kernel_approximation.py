@@ -91,8 +91,8 @@ class NystroemTransformer(sklearn.base.TransformerMixin):
         # Then, compute K as the RBF kernel of the chosen examples and
         # V as K^{-1/2} -- use `np.linalg.svd(K, hermitian=True)` to compute
         # the SVD (equal to eigenvalue decomposition for real symmetric matrices).
-        # Add 1e-12 to the diagonal matrix returned by SVD before computing
-        # the inverse of the square root.
+        # Add 1e-12 to the diagonal of the diagonal matrix returned by SVD
+        # before computing the inverse of the square root.
 
         return self
 
