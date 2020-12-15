@@ -26,7 +26,7 @@ def main(args):
     train_data, test_data, train_target, test_target = sklearn.model_selection.train_test_split(
         data, target, test_size=args.test_size, random_state=args.seed)
 
-    # TODO: Create a decision tree on the trainining data.
+    # TODO: Manually create a decision tree on the trainining data.
     #
     # - For each node, predict the most frequent class (and the one with
     #   smallest index if there are several such classes).
