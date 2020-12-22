@@ -28,18 +28,18 @@ Test set accuracy: 80.44%
 ```
 - `python3 pca.py --max_iter=20 --pca=20`
 ```
-Test set accuracy: 87.84%
+Test set accuracy: 87.76%
 ```
 - `python3 pca.py --max_iter=20 --pca=50`
 ```
-Test set accuracy: 90.00%
+Test set accuracy: 89.92%
 ```
 - `python3 pca.py --max_iter=20 --pca=100`
 ```
-Test set accuracy: 90.76%
+Test set accuracy: 90.68%
 ```
 - `python3 pca.py --max_iter=20 --pca=200`
 ```
-Test set accuracy: 90.92%
+Test set accuracy: 90.88%
 ```
 #### Examples End:
