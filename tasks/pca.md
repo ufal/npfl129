@@ -1,5 +1,5 @@
 ### Assignment: pca
-#### Date: Deadline: Feb 14, 23:59
+#### Date: Deadline: Feb 28, 23:59
 #### Points: 3 points
 #### Examples: pca_examples
 
