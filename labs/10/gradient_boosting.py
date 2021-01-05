@@ -38,11 +38,11 @@ def main(args):
     #     y_t(x_i)_c = \sum_{i=1}^t args.learning_rate * tree_{iter=i,class=c}.predict(x_i)
     #     (note that y_0 is zero)
     # - loss in iteration `t` is
-    #     L = (\sum_i NLL(target_i, softmax(y_{t-1}(x_i) + trees_to_train_in_iter_t.predict(x_i)))) +
+    #     L = (\sum_i NLL(onehot_target_i, softmax(y_{t-1}(x_i) + trees_to_train_in_iter_t.predict(x_i)))) +
     #         1/2 * args.l2 * (sum of all node values in trees_to_train_in_iter_t)
     # - for every class `c`:
     #   - start by computing `g_i` and `h_i` for every training example `i`;
-    #     the `g_i` is the first derivative of NLL(target_i_c, softmax(y_{t-1}(x_i))_c)
+    #     the `g_i` is the first derivative of NLL(onehot_target_i_c, softmax(y_{t-1}(x_i))_c)
     #     with respect to y_{t-1}(x_i)_c, and the `h_i` is the second derivative of the same.
     #   - then, create a decision tree minimizing the above loss L. According to the slides,
     #     the optimum prediction for a given node T with training examples I_T is
