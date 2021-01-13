@@ -6,9 +6,10 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-01-english.mp4,EN Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-01-czech.practicals.mp4,CZ Practicals
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-01-english.practicals.mp4,EN Practicals
+#### Questions: #lecture_1_questions
 #### Lecture assignment: linear_regression_manual
 #### Lecture assignment: linear_regression_features
 
-_Introduction to machine learning_
+- _Introduction to machine learning_
 - Basic definitions [Sections 1 and 1.1 of PRML]
 - Linear regression model [Section 3.1 of PRML]

@@ -6,6 +6,7 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-03-english.mp4,EN Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-03-czech.practicals.mp4,CZ Practicals
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-03-english.practicals.mp4,EN Practicals
+#### Questions: #lecture_3_questions
 #### Lecture assignment: perceptron
 #### Lecture assignment: logistic_regression_sgd
 #### Lecture assignment: grid_search
@@ -16,4 +17,5 @@
 - Perceptron algorithm [Section 4.1.7 of PRML]
 - Probability distributions [Bernoulli Section 2.1, Categorical Section 2.2, Gaussian Section 2.3 of PRML]
 - Information theory [Section 1.6 of PRML]
+- Maximum likely estimation [Section 1.2.5 of PRML] 
 - Logistic regression [Section 4.3.2 of PRML]

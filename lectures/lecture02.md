@@ -6,13 +6,14 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-02-english.mp4,EN Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-02-czech.practicals.mp4,CZ Practicals
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-02-english.practicals.mp4,EN Practicals
+#### Questions: #lecture_2_questions
 #### Lecture assignment: linear_regression_l2
 #### Lecture assignment: linear_regression_sgd
 #### Lecture assignment: feature_engineering
 #### Lecture assignment: rental_competition
 
 - L2 regularization in linear regression [Section 1.1, 3.1.4 of PRML]
-- _Solving linear regression with SVD [slides]_
+- _Solving linear regression with SVD_
 - Random variables and probability distributions [Section 1.2, 1.2.1 of PRML]
 - Expectation and variance [Section 1.2.2 of PRML]
 - Gradient descent [Section 5.2.4 of PRML]

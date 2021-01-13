@@ -6,5 +6,13 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-05-english.mp4,EN Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-05-czech.practicals.mp4,CZ Practicals
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-05-english.practicals.mp4,EN Practicals
+#### Questions: #lecture_5_questions
 #### Lecture assignment: k_nearest_neighbors
 #### Lecture assignment: diacritization
+
+- Lagrange multipliers [Appendix E of PRML]
+- _Calculus of variations [Appendix D of PRML]_
+- _Normal distribution via the maximum entropy principle [2 pages before Section 1.6.1 of PRML]_
+- Derivation of softmax via the maximum entropy principle [[The equivalence of logistic regression and maximum entropy models writeup](https://github.com/WinVector/Examples/blob/main/dfiles/LogisticRegressionMaxEnt.pdf)]
+- $F_1$ score and $F_β$ score
+- K-nearest neighbors [Section 2.5.2 of PRML]
