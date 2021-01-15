@@ -6,5 +6,11 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-11-english.mp4,EN Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-11-czech.practicals.mp4,CZ Practicals
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-11-english.practicals.mp4,EN Practicals
+#### Questions: #lecture_11_questions
 #### Lecture assignment: pca
 #### Lecture assignment: kmeans
+
+- Principal component analysis [Sections 12.1 and 12.4.2 of PRML]
+- Power iteration algorithm
+- K-Means clustering [Section 9.1 of PRML]
+- Multivariate Gaussian [Section 2.3 of PRML]

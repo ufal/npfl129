@@ -6,6 +6,12 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-09-english.mp4,EN Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-09-czech.practicals.mp4,CZ Practicals
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-09-english.practicals.mp4,EN Practicals
+#### Questions: #lecture_9_questions
 #### Lecture assignment: decision_tree
 #### Lecture assignment: random_forest
 #### Lecture assignment: human_activity_recognition
+
+- Covariance and correlation
+- Model ensembling [Section 14.2 of PRML]
+- Decision trees [Section 14.4 of PRML]
+- Random forests
