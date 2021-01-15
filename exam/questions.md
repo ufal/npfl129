@@ -123,9 +123,6 @@
   a $K$-class classifier by combining multiple binary classifiers. [5]
 
 ####Questions@: ,Lecture 8 Questions
-- Show how are Random Fourier features sampled and how they are then applied
-  on input data. [10]
-
 - Write down how is a Nyström approximation of an RBF kernel constructed. [10]
 
 - Describe how is a trained Nyström approximation of an RBF kernel applied
