@@ -144,3 +144,123 @@
 
 - Describe how are $p(x_i | C_k)$ modelled and estimated in Bernoulli NB
   classifier. [5]
+
+####Questions@: ,Lecture 9 Questions
+- Write down the definition of covariance and Pearson covariation coefficient.
+  [5]
+
+- Prove that independent variables are uncorrelated. [5]
+
+- Explain how are the Spearman's rank correlation coefficient and the Kendall
+  rank correlation coefficient computed. [5]
+
+- Considering an averaging ensemble of $M$ models, prove the relation of the
+  average mean squared error of the ensemble to the average error of the
+  individual models, assuming the model errors have zero mean and are
+  uncorrelated. [10]
+
+- In a regression decision tree, define the squared error criterion and
+  describe how a node is split during training. [5]
+
+- In a classification decision tree, define the Gini index and
+  describe how a node is split during training. [5]
+
+- In a classification decision tree, define the entropy criterion and
+  describe how a node is split during training. [5]
+
+- For binary classification, derive Gini index from squared error loss. [10]
+
+- For $k$-class classification, derive entropy criterion from non-averaged NLL loss. [10]
+
+- Describe how is a random forest trained (including bagging and random subset
+  of features) and how is prediction performed for regression and classification. [10]
+
+####Questions@: ,Lecture 10 Questions
+- For a $k$-class classification, describe how to perform prediction with
+  a gradient boosting decision tree trained for $T$ timestamps. [5]
+
+- Write down the loss function which we optimize in gradient boosting decision
+  tree during the construction of $t^\mathrm{th}$ tree. Then define $g_i$
+  and $h_i$ and show the value $w_\mathcal{T}$ of optimal prediction in node
+  $\mathcal{T}$. [10]
+
+- Write down the loss function which we optimize in gradient boosting decision
+  tree during the construction of $t^\mathrm{th}$ tree. Then define $g_i$
+  and $h_i$ and the criterion used during node splitting. [10]
+
+- How is the learning rate used during training and prediction of a gradient
+  boosting decision tree? [5]
+
+- Considering a $k$-class classification, describe which individual trees are
+  created during gradient boosted decision tree training, in which order they
+  are constructed and what per-example loss is used for training every one of
+  them (without describing the training process of the individual trees
+  themselves). [5]
+
+####Questions@: ,Lecture 11 Questions
+- When discovering the first principal component, write the value of the
+  variance we aim to maximize, both without and with the covariance matrix
+  (and define the covariance matrix). [5]
+
+- When discovering the first $M$ principal components, write the value of the
+  reconstruction loss we aim to minimize, both without and with the covariance
+  matrix (and define the covariance matrix). [5]
+
+- Write down the result of whitening (sphering) the data matrix $\boldsymbol X$.
+
+- Explain how to compute the first $M$ principal components using the SVD
+  decomposition of the data matrix $\boldsymbol X$. [5]
+
+- Write down the algorithm of computing the first $M$ principal components
+  of the data matrix $\boldsymbol X$ using the power iteration algorithm. [10]
+
+- Describe the K-means algorithm. [10]
+
+- Define the multivariate Gaussian distribution of dimension $D$. [5]
+
+- Show how to sample from a multivariate Gaussian distribution
+  $\mathcal{N}(\boldsymbol \mu, \boldsymbol \Sigma)$ with a full covariance
+  matrix, by using random samples from $\mathcal{N}(0, \boldsymbol I)$
+  distribution. [5]
+
+- Describe the constant surfaces of a multivariate Gaussian distribution with
+  (1) $\sigma^2 \boldsymbol I$ covariation, (2) a diagonal covariation matrix,
+  (3) a full covariation matrix. [5]
+
+####Questions@: ,Lecture 12 Questions
+- Considering a Gaussian mixture with $K$ cluster, explain how we represent
+  the individual clusters and write down the likelihood of an example
+  $\boldsymbol x$ for a given Gaussian mixture. [5]
+
+- Write down the log likelihood of a dataset for a given Gaussian mixture. [5]
+
+- Considering the algorithm for Gaussian mixture clustering, write down the
+  E step (how to compute the responsibilities) and the M step (how to update
+  the means, covariances and priors of the individual clusters). [10]
+
+- Write down the MSE loss of a regression problem, and formulate the
+  bias-variance trade-off, i.e., the decomposition of expected MSE loss
+  (with respect to a randomly sampled test set) into bias, variance and
+  irreducible error terms. [10]
+
+####Questions@: ,Lecture 13 Questions
+- Considering statistical hypothesis testing, define type I errors, type II
+  errors and significance level. [5]
+
+- Explain what a test statistic and a p-value are. [5]
+
+- Write down the steps of a statistical hypothesis test. [10]
+
+- Explain the differences between a one-sample test, two-sample test and
+  a paired test. [5]
+
+- When considering multiple comparison problem, define the family-wise
+  error rate, and formulate the Bonferroni correction, which allows
+  to limit the family-wise error rate by a given $\alpha$. [5]
+
+- For a trained model and a given test set, write how to estimate
+  95\% confidence intervals using bootstrap resampling. [10]
+
+- For two trained models, write how to perform a statistical hypothesis
+  test that the first model is better with significance level $α$,
+  using a paired bootstrap resampling test. [10]
