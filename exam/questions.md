@@ -121,3 +121,26 @@
 
 - Describe the one-versus-one and one-versus-rest schemes of constructing
   a $K$-class classifier by combining multiple binary classifiers. [5]
+
+####Questions@: ,Lecture 8 Questions
+- Show how are Random Fourier features sampled and how they are then applied
+  on input data. [10]
+
+- Write down how is a Nyström approximation of an RBF kernel constructed. [10]
+
+- Describe how is a trained Nyström approximation of an RBF kernel applied
+  to input data. [5]
+
+- Explain how is the TF-IDF weight of a given term computed. [5]
+
+- Write down how is $p(C_k | \boldsymbol x)$ approximated in a Naive Bayes
+  classifier, and explicitly state the Naive Bayes assumption. [5]
+
+- Describe how are $p(x_i | C_k)$ modelled and estimated in Gaussian NB
+  classifier. [5]
+
+- Describe how are $p(x_i | C_k)$ modelled and estimated in Multinomial NB
+  classifier. [5]
+
+- Describe how are $p(x_i | C_k)$ modelled and estimated in Bernoulli NB
+  classifier. [5]
