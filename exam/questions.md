@@ -258,6 +258,5 @@
 - For a trained model and a given test set, write how to estimate
   95\% confidence intervals using bootstrap resampling. [10]
 
-- For two trained models, write how to perform a statistical hypothesis
-  test that the first model is better with significance level $α$,
-  using a paired bootstrap resampling test. [10]
+- For two trained models, explain how to perform a paired bootstrap
+  test that the first model is better with a significance level $α$. [10]
