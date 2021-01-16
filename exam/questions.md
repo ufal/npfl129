@@ -25,7 +25,7 @@
 - Define binary classification, write down the perceptron algorithm and show
   how a prediction is made for a given example. [5]
 
-- Show that the perceptron algorithm an instance of a stochastic gradient
+- Show that the perceptron algorithm is an instance of a stochastic gradient
   descent. Why are the learning rates not needed? [5]
 
 - Define entropy, cross-entropy, Kullback-Leibler divergence, and prove
