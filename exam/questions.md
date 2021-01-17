@@ -74,7 +74,8 @@
   Formulate the three conditions we impose on the searched $π: ℝ^D → ℝ^K$, and
   write down the Lagrangian to be maximized. [10]
 
-- Define precision, recall, $F_1$ score and $F_β$ score. [5]
+- Define precision, recall, $F_1$ score and $F_β$ score (we stated several
+  formulations for $F_1$ and $F_β$ scores; any of them will do). [5]
 
 - Explain the difference between micro-averaged and macro-averaged $F_1$ score. [5]
 
