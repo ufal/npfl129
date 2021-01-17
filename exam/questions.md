@@ -53,7 +53,7 @@
 
 - Describe how does a single-layer MLP with $i$ input neurons, $h$ hidden
   neurons, $o$ output neurons, hidden activation $f$ and output activation $a$
-  computes the results. [5]
+  compute the results. [5]
 
 - List the definitions of frequently used MLP output layer activations (the ones
   producing parameters of a Bernoulli distribution and a categorical distribution).
