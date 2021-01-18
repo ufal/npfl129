@@ -93,7 +93,7 @@
   unseen data are made. [10]
 
 - Derive the primary formulation of hard-margin SVM (the value to minimize,
-  the constrains to fulfil) as a maximum-margin classifier. [5]
+  the constraints to fulfil) as a maximum-margin classifier. [5]
 
 - Starting from primary hard-margin SVM formulation, derive the dual formulation
   (the Lagrangian L, the required conditions, the KKT conditions). [10]
