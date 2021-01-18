@@ -70,12 +70,13 @@
 
 ####Questions@: ,Lecture 5 Questions
 - Consider derivation of softmax using maximum entropy principle, assuming
-  we have a dataset of $N$ examples $(x_i, t_i), x_i ∈ ℝ^D, t_i ∈ \{1, 2, …, K\}$.
-  Formulate the three conditions we impose on the searched $π: ℝ^D → ℝ^K$, and
-  write down the Lagrangian to be maximized. [10]
+  we have a dataset of $N$ examples $(x_i, t_i), x_i \in \mathbb{R}^D,
+  t_i \in \{1, 2, \ldots, K\}$. Formulate the three conditions we impose on the
+  searched $\pi: \mathbb{R}^D \rightarrow \mathbb{R}^K$, and write down the
+  Lagrangian to be maximized. [10]
 
-- Define precision, recall, $F_1$ score and $F_β$ score (we stated several
-  formulations for $F_1$ and $F_β$ scores; any of them will do). [5]
+- Define precision, recall, $F_1$ score and $F_\beta$ score (we stated several
+  formulations for $F_1$ and $F_\beta$ scores; any of them will do). [5]
 
 - Explain the difference between micro-averaged and macro-averaged $F_1$ score. [5]
 
@@ -84,9 +85,9 @@
   and softmax weighting. [5]
 
 ####Questions@: ,Lecture 6 Questions
-- Define a kernel based on a feature map $φ$, and write down the formulae for
-  (1) a polynomial kernel of degree $d$, (2) a polynomial kernel of degree at
-  most $d$, (3) an RBF kernel. [5]
+- Define a kernel based on a feature map $\varphi$, and write down the formulae
+  for (1) a polynomial kernel of degree $d$, (2) a polynomial kernel of degree
+  at most $d$, (3) an RBF kernel. [5]
 
 - Define a kernel and write down the mini-batch SGD training algorithm of dual
   formulation of kernel linear regression. Then, describe how predictions for
@@ -261,4 +262,4 @@
   95\% confidence intervals using bootstrap resampling. [10]
 
 - For two trained models, explain how to perform a paired bootstrap
-  test that the first model is better with a significance level $α$. [10]
+  test that the first model is better with a significance level $\alpha$. [10]
