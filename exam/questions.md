@@ -205,6 +205,7 @@
   matrix (and define the covariance matrix). [5]
 
 - Write down the result of whitening (sphering) the data matrix $\boldsymbol X$.
+  [5]
 
 - Explain how to compute the first $M$ principal components using the SVD
   decomposition of the data matrix $\boldsymbol X$. [5]
