@@ -103,8 +103,8 @@
 - Starting from primary hard-margin SVM formulation, derive the dual formulation
   (the Lagrangian L, the required conditions, the KKT conditions). [10]
 
-- Starting from dual formulation of hard-margin SVM, define what
-  a support vector is, and how predictions are performed for unseen data. [5]
+- Considering hard-margin SVM, define what a support vector is, and how
+  predictions are performed for unseen data. [5]
 
 ####Questions@: ,Lecture 7 Questions
 - Write down the primary formulation of soft-margin SVM using the slack
