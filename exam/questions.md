@@ -165,8 +165,8 @@
   rank correlation coefficient computed (no need to describe the Pearson
   correlation coefficient). [5]
 
-- Considering an averaging ensemble of $M$ models, prove the relation of the
-  average mean squared error of the ensemble to the average error of the
+- Considering an averaging ensemble of $M$ models, prove the relation between
+  the average mean squared error of the ensemble and the average error of the
   individual models, assuming the model errors have zero mean and are
   uncorrelated. [10]
 
