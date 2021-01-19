@@ -18,7 +18,7 @@
   to optimum almost surely. [5]
 
 - Write an $L_2$-regularized minibatch SGD algorithm for training a linear
-  regression model, including the explicit formulae of the loss function and
+  regression model, including the explicit formulas of the loss function and
   its gradient. [5]
 
 ####Questions@: ,Lecture 3 Questions
@@ -40,7 +40,7 @@
   model as logits. [5]
 
 - Write down an $L_2$-regularized minibatch SGD algorithm for training a
-  (binary) logistic regression model, including the explicit formulae of the
+  (binary) logistic regression model, including the explicit formulas of the
   loss function and its gradient. [10]
 
 ####Questions@: ,Lecture 4 Questions
@@ -52,7 +52,7 @@
   part of the model as logits. [5]
 
 - Write down an $L_2$-regularized minibatch SGD algorithm for training a
-  $k$-class multiclass logistic regression model, including the explicit formulae of the
+  $k$-class multiclass logistic regression model, including the explicit formulas of the
   loss function and its gradient. [10]
 
 - Describe how does a single-layer MLP with $i$ input neurons, $h$ hidden
@@ -66,7 +66,7 @@
 
 - Considering a single-layer MLP with $i$ input neurons, a ReLU hidden layer
   with $h$ units and softmax output layer with $o$ units, write down explicit
-  formulae of the gradient of all the MLP parameters (two weight matrices and
+  formulas of the gradient of all the MLP parameters (two weight matrices and
   two bias vectors), assuming input $\boldsymbol x$, target $t$ and negative log
   likelihood loss. [10]
 
@@ -89,7 +89,7 @@
   and softmax weighting. [5]
 
 ####Questions@: ,Lecture 6 Questions
-- Define a kernel based on a feature map $\varphi$, and write down the formulae
+- Define a kernel based on a feature map $\varphi$, and write down the formulas
   for (1) a polynomial kernel of degree $d$, (2) a polynomial kernel of degree
   at most $d$, (3) an RBF kernel. [5]
 
@@ -127,7 +127,7 @@
 - Describe the part of the SMO algorithm which updates $b$ to maximize the
   Lagrangian. If you explain how is the update derived (so that if I performed
   the instructions, I would come up with two $b$ candidates and a rule how
-  to utilize them), you do not need to write explicit formulae. [10]
+  to utilize them), you do not need to write explicit formulas. [10]
 
 - Describe the one-versus-one and one-versus-rest schemes of constructing
   a $K$-class classifier by combining multiple binary classifiers. [5]
