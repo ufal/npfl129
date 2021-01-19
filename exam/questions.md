@@ -242,7 +242,7 @@
   (3) a full covariation matrix. [5]
 
 ####Questions@: ,Lecture 12 Questions
-- Considering a Gaussian mixture with $K$ cluster, explain how we represent
+- Considering a Gaussian mixture with $K$ clusters, explain how we represent
   the individual clusters and write down the likelihood of an example
   $\boldsymbol x$ for a given Gaussian mixture. [5]
 
