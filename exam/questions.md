@@ -46,13 +46,13 @@
 ####Questions@: ,Lecture 4 Questions
 - Define mean squared error and show how it can be derived using MLE. [5]
 
-- Considering $k$-class multiclass logistic regression model, write down its
+- Considering $K$-class multiclass logistic regression model, write down its
   parameters and explain how is prediction performed (including the formula for
   the softmax function). Describe how we can interpret the outputs of the linear
   part of the model as logits. [5]
 
 - Write down an $L_2$-regularized minibatch SGD algorithm for training a
-  $k$-class multiclass logistic regression model, including the explicit formulas of the
+  $K$-class multiclass logistic regression model, including the explicit formulas of the
   loss function and its gradient. [10]
 
 - Describe how does a single-layer MLP with $i$ input neurons, $h$ hidden
@@ -173,24 +173,24 @@
 - In a regression decision tree, define the squared error criterion and
   describe how a node is split during training. [5]
 
-- In a $k$-class classification decision tree, define the Gini index and
+- In a $K$-class classification decision tree, define the Gini index and
   describe how a node is split during training. [5]
 
-- In a $k$-class Vclassification decision tree, define the entropy criterion and
+- In a $K$-class Vclassification decision tree, define the entropy criterion and
   describe how a node is split during training. [5]
 
 - For binary classification, derive the Gini index from a squared error loss. [10]
 
-- For $k$-class classification, derive the entropy criterion from a non-averaged
+- For $K$-class classification, derive the entropy criterion from a non-averaged
   NLL loss. [10]
 
 - Describe how is a random forest trained (including bagging and random subset
   of features) and how is prediction performed for regression and classification. [10]
 
 ####Questions@: ,Lecture 10 Questions
-- For a $k$-class classification, describe how to perform prediction with
+- For a $K$-class classification, describe how to perform prediction with
   a gradient boosting decision tree trained for $T$ timestamps (how the
-  individual trees perform prediction and how are the $k \cdot T$ trees
+  individual trees perform prediction and how are the $K \cdot T$ trees
   combined to produce the predicted categorical distribution). [5]
 
 - Write down the loss function which we optimize in gradient boosting decision
@@ -205,7 +205,7 @@
 - How is the learning rate used during training and prediction of a gradient
   boosting decision tree? [5]
 
-- Considering a $k$-class classification, describe which individual trees (and
+- Considering a $K$-class classification, describe which individual trees (and
   in which order) are created during gradient boosted decision tree training,
   and what per-example loss is used for training every one of them (expressed
   using predictions of the already trained trees). You do not need to describe
