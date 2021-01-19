@@ -162,7 +162,8 @@
 - Prove that independent variables are uncorrelated. [5]
 
 - Explain how are the Spearman's rank correlation coefficient and the Kendall
-  rank correlation coefficient computed. [5]
+  rank correlation coefficient computed (no need to describe the Pearson
+  correlation coefficient). [5]
 
 - Considering an averaging ensemble of $M$ models, prove the relation of the
   average mean squared error of the ensemble to the average error of the
