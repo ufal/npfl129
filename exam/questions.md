@@ -125,7 +125,9 @@
   maximize the Lagrangian. [10]
 
 - Describe the part of the SMO algorithm which updates $b$ to maximize the
-  Lagrangian. [10]
+  Lagrangian. If you explain how is the update derived (so that if I performed
+  the instructions, I would come up with two $b$ candidates and a rule how
+  to utilize them), you do not need to write explicit formulae. [10]
 
 - Describe the one-versus-one and one-versus-rest schemes of constructing
   a $K$-class classifier by combining multiple binary classifiers. [5]
