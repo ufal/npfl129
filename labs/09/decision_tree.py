@@ -26,16 +26,16 @@ def main(args):
     train_data, test_data, train_target, test_target = sklearn.model_selection.train_test_split(
         data, target, test_size=args.test_size, random_state=args.seed)
 
-    # TODO: Manually create a decision tree on the trainining data.
+    # TODO: Manually create a decision tree on the training data.
     #
     # - For each node, predict the most frequent class (and the one with
     #   smallest index if there are several such classes).
     #
     # - When splitting a node, consider the features in sequential order, then
     #   for each feature consider all possible split points ordered in ascending
-    #   value, and perform the first encountered split descreasing the criterion
+    #   value, and perform the first encountered split decreasing the criterion
     #   the most. Each split point is an average of two nearest unique feature values
-    #   of the instances corresponding to the given node (i.e., for four instances
+    #   of the instances corresponding to the given node (e.g., for four instances
     #   with values 1, 7, 3, 3 the split points are 2 and 5).
     #
     # - Allow splitting a node only if:
