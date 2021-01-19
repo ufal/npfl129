@@ -244,7 +244,8 @@
   the individual clusters and write down the likelihood of an example
   $\boldsymbol x$ for a given Gaussian mixture. [5]
 
-- Write down the log likelihood of a dataset for a given Gaussian mixture. [5]
+- Write down the log likelihood of an $N$-element dataset for a given Gaussian
+  mixture model with $K$ components. [5]
 
 - Considering the algorithm for Gaussian mixture clustering, write down the
   E step (how to compute the responsibilities) and the M step (how to update
