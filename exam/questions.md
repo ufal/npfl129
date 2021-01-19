@@ -139,13 +139,13 @@
 - Write down how is $p(C_k | \boldsymbol x)$ approximated in a Naive Bayes
   classifier, and explicitly state the Naive Bayes assumption. [5]
 
-- Describe how are $p(x_i | C_k)$ modelled and estimated in Gaussian NB
+- Describe how are $p(x_i | C_k)$ modeled and estimated in Gaussian NB
   classifier. [5]
 
-- Describe how are $p(x_i | C_k)$ modelled and estimated in Multinomial NB
+- Describe how are $p(x_i | C_k)$ modeled and estimated in Multinomial NB
   classifier. [5]
 
-- Describe how are $p(x_i | C_k)$ modelled and estimated in Bernoulli NB
+- Describe how are $p(x_i | C_k)$ modeled and estimated in Bernoulli NB
   classifier. [5]
 
 ####Questions@: ,Lecture 9 Questions
