@@ -271,8 +271,10 @@
   error rate, and formulate the Bonferroni correction, which allows
   to limit the family-wise error rate by a given $\alpha$. [5]
 
-- For a trained model and a given test set, write how to estimate
-  95\% confidence intervals using bootstrap resampling. [10]
+- For a trained model and a given test set with $N$ examples and metric $E$,
+  write how to estimate 95\% confidence intervals using bootstrap resampling.
+  [10]
 
-- For two trained models, explain how to perform a paired bootstrap
-  test that the first model is better with a significance level $\alpha$. [10]
+- For two trained models and a given test set with $N$ examples and metric $E$,
+  explain how to perform a paired bootstrap test that the first model is better
+  than the other with a significance level $\alpha$. [10]
