@@ -204,11 +204,11 @@
 - How is the learning rate used during training and prediction of a gradient
   boosting decision tree? [5]
 
-- Considering a $k$-class classification, describe which individual trees are
-  created during gradient boosted decision tree training, in which order they
-  are constructed and what per-example loss is used for training every one of
-  them (without describing the training process of the individual trees
-  themselves). [5]
+- Considering a $k$-class classification, describe which individual trees (and
+  in which order) are created during gradient boosted decision tree training,
+  and what per-example loss is used for training every one of them (expressed
+  using predictions of the already trained trees). You do not need to describe
+  the training process of the individual trees themselves. [5]
 
 ####Questions@: ,Lecture 11 Questions
 - When discovering the first principal component, write the value of the
