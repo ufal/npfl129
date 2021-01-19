@@ -8,7 +8,7 @@
 
 ####Questions@: ,Lecture 2 Questions
 - Define expectation and variance of a random variable. Then define bias of
-  an estimator and show that estimating an expectation using a simple sample
+  an estimator and show that estimating an expectation using a single sample
   is unbiased. [5]
 
 - Describe gradient descent and compare it to stochastic (i.e., online) gradient
@@ -34,8 +34,10 @@
 - Describe maximum likelihood estimation, as minimizing NLL, cross-entropy and
   KL divergence. [5]
 
-- Describe (binary) logistic regression model including the sigmoid function.
-  Describe how we can interpret the model outputs as logits. [5]
+- Considering (binary) logistic regression model, write down its parameters
+  and explain how is prediction performed (including the formula for the sigmoid
+  function). Describe how we can interpret the outputs of the linear part of the
+  model as logits. [5]
 
 - Write down an $L_2$-regularized minibatch SGD algorithm for training a
   (binary) logistic regression model, including the explicit formulae of the
@@ -44,11 +46,13 @@
 ####Questions@: ,Lecture 4 Questions
 - Define mean squared error and show how it can be derived using MLE. [5]
 
-- Describe multiclass logistic regression model including the softmax function.
-  Describe how we can interpret the model outputs as logits. [5]
+- Considering $k$-class multiclass logistic regression model, write down its
+  parameters and explain how is prediction performed (including the formula for
+  the softmax function). Describe how we can interpret the outputs of the linear
+  part of the model as logits. [5]
 
 - Write down an $L_2$-regularized minibatch SGD algorithm for training a
-  multiclass logistic regression model, including the explicit formulae of the
+  $k$-class multiclass logistic regression model, including the explicit formulae of the
   loss function and its gradient. [10]
 
 - Describe how does a single-layer MLP with $i$ input neurons, $h$ hidden
@@ -58,7 +62,7 @@
 - List the definitions of frequently used MLP output layer activations (the ones
   producing parameters of a Bernoulli distribution and a categorical distribution).
   Then write down three commonly used hidden layer activations (sigmoid, tanh,
-  ReLU), including their partial derivatives. [5]
+  ReLU). [5]
 
 - Considering a single-layer MLP with $i$ input neurons, a ReLU hidden layer
   with $h$ units and softmax output layer with $o$ units, write down explicit
@@ -209,12 +213,12 @@
   [5]
 
 - Explain how to compute the first $M$ principal components using the SVD
-  decomposition of the data matrix $\boldsymbol X$. [5]
+  decomposition of the centered data matrix $\boldsymbol X$. [5]
 
 - Write down the algorithm of computing the first $M$ principal components
   of the data matrix $\boldsymbol X$ using the power iteration algorithm. [10]
 
-- Describe the K-means algorithm. [10]
+- Describe the K-means algorithm, including the `kmeans++` initialization. [10]
 
 - Define the multivariate Gaussian distribution of dimension $D$. [5]
 
