@@ -152,8 +152,8 @@
   [5]
 
 ####Questions@: ,Lecture 9 Questions
-- Write down the definition of covariance and Pearson covariation coefficient.
-  [5]
+- Write down the definition of covariance and Pearson correlation coefficient
+  $\rho$. [5]
 
 - Prove that independent variables are uncorrelated. [5]
 
