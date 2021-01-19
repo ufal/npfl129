@@ -186,7 +186,9 @@
 
 ####Questions@: ,Lecture 10 Questions
 - For a $k$-class classification, describe how to perform prediction with
-  a gradient boosting decision tree trained for $T$ timestamps. [5]
+  a gradient boosting decision tree trained for $T$ timestamps (how the
+  individual trees perform prediction and how are the $k \cdot T$ trees
+  combined to produce the predicted categorical distribution). [5]
 
 - Write down the loss function which we optimize in gradient boosting decision
   tree during the construction of $t^\mathrm{th}$ tree. Then define $g_i$
