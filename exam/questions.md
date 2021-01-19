@@ -7,9 +7,9 @@
   $\boldsymbol X^T \boldsymbol X$ is regular. [10]
 
 ####Questions@: ,Lecture 2 Questions
-- Define expectation and variance of a random variable. Then define bias of
-  an estimator and show that estimating an expectation using a single sample
-  is unbiased. [5]
+- Define expectation $\mathbb{E}[f(x)]$ and variance $\operatorname{Var}(f(x))$
+  of a random variable. Then define bias of an estimator and show that
+  estimating an expectation using a single sample is unbiased. [5]
 
 - Describe gradient descent and compare it to stochastic (i.e., online) gradient
   descent and minibatch stochastic gradient descent. [5]
