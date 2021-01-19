@@ -139,14 +139,17 @@
 - Write down how is $p(C_k | \boldsymbol x)$ approximated in a Naive Bayes
   classifier, and explicitly state the Naive Bayes assumption. [5]
 
-- Describe how are $p(x_i | C_k)$ modeled and estimated in Gaussian NB
-  classifier. [5]
+- Considering a Gaussian naive Bayes, describe how are $p(x_i | C_k$ modeled
+  (what distribution, which parameters) and how we estimate it during fitting.
+  [5]
 
-- Describe how are $p(x_i | C_k)$ modeled and estimated in Multinomial NB
-  classifier. [5]
+- Considering a Multinomial naive Bayes, describe how are $p(\boldsymbol
+  x | C_k$ modeled (what distribution, which parameters) and how we estimate it
+  during fitting. [5]
 
-- Describe how are $p(x_i | C_k)$ modeled and estimated in Bernoulli NB
-  classifier. [5]
+- Considering a Bernoulli naive Bayes, describe how are $p(x_i | C_k$ modeled
+  (what distribution, which parameters) and how we estimate it during fitting.
+  [5]
 
 ####Questions@: ,Lecture 9 Questions
 - Write down the definition of covariance and Pearson covariation coefficient.
