@@ -168,15 +168,16 @@
 - In a regression decision tree, define the squared error criterion and
   describe how a node is split during training. [5]
 
-- In a classification decision tree, define the Gini index and
+- In a $k$-class classification decision tree, define the Gini index and
   describe how a node is split during training. [5]
 
-- In a classification decision tree, define the entropy criterion and
+- In a $k$-class Vclassification decision tree, define the entropy criterion and
   describe how a node is split during training. [5]
 
-- For binary classification, derive Gini index from squared error loss. [10]
+- For binary classification, derive the Gini index from a squared error loss. [10]
 
-- For $k$-class classification, derive entropy criterion from non-averaged NLL loss. [10]
+- For $k$-class classification, derive the entropy criterion from a non-averaged
+  NLL loss. [10]
 
 - Describe how is a random forest trained (including bagging and random subset
   of features) and how is prediction performed for regression and classification. [10]
