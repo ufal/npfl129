@@ -32,7 +32,7 @@
   the Gibbs inequality (i.e., that KL divergence is non-negative). [5]
 
 - Describe maximum likelihood estimation, as minimizing NLL, cross-entropy and
-  KL divergence. [5]
+  KL divergence. [10]
 
 - Considering (binary) logistic regression model, write down its parameters
   and explain how is prediction performed (including the formula for the sigmoid
