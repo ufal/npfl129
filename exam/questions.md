@@ -176,7 +176,7 @@
 - In a $K$-class classification decision tree, define the Gini index and
   describe how a node is split during training. [5]
 
-- In a $K$-class Vclassification decision tree, define the entropy criterion and
+- In a $K$-class classification decision tree, define the entropy criterion and
   describe how a node is split during training. [5]
 
 - For binary classification, derive the Gini index from a squared error loss. [10]
