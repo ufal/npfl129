@@ -55,9 +55,10 @@
   $K$-class multiclass logistic regression model, including the explicit formulas of the
   loss function and its gradient. [10]
 
-- Describe how does a single-layer MLP with $i$ input neurons, $h$ hidden
-  neurons, $o$ output neurons, hidden activation $f$ and output activation $a$
-  compute the results. [5]
+- Considering a single-layer MLP with $D$ input neurons, $H$ hidden
+  neurons, $K$ output neurons, hidden activation $f$ and output activation $a$,
+  list its parameters including their size and write down how is the output
+  computed. [5]
 
 - List the definitions of frequently used MLP output layer activations (the ones
   producing parameters of a Bernoulli distribution and a categorical distribution).
