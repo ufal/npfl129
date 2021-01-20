@@ -65,8 +65,8 @@
   Then write down three commonly used hidden layer activations (sigmoid, tanh,
   ReLU). [5]
 
-- Considering a single-layer MLP with $i$ input neurons, a ReLU hidden layer
-  with $h$ units and softmax output layer with $o$ units, write down explicit
+- Considering a single-layer MLP with $D$ input neurons, a ReLU hidden layer
+  with $H$ units and softmax output layer with $K$ units, write down the
   formulas of the gradient of all the MLP parameters (two weight matrices and
   two bias vectors), assuming input $\boldsymbol x$, target $t$ and negative log
   likelihood loss. [10]
