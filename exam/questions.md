@@ -172,14 +172,17 @@
   individual models, assuming the model errors have zero mean and are
   uncorrelated. [10]
 
-- In a regression decision tree, define the squared error criterion and
-  describe how a node is split during training. [5]
+- In a regression decision tree, state what values are kept in internal nodes,
+  define the squared error criterion and describe how a leaf is split during
+  training (without discussing splitting constraints). [5]
 
-- In a $K$-class classification decision tree, define the Gini index and
-  describe how a node is split during training. [5]
+- In a $K$-class classification decision tree, state what values are kept in
+  internal nodes, define the Gini index and describe how a node is split during
+  training (without discussing splitting constraints). [5]
 
-- In a $K$-class classification decision tree, define the entropy criterion and
-  describe how a node is split during training. [5]
+- In a $K$-class classification decision tree, state what values are kept in
+  internal nodes, define the entropy criterion and describe how a node is split during
+  training (without discussing splitting constraints). [5]
 
 - For binary classification, derive the Gini index from a squared error loss. [10]
 
