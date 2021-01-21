@@ -8,7 +8,7 @@
 
 ####Questions@: ,Lecture 2 Questions
 - Define expectation $\mathbb{E}[f(x)]$ and variance $\operatorname{Var}(f(x))$
-  of a random variable. Then define bias of an estimator and show that
+  of a discrete random variable. Then define bias of an estimator and show that
   estimating an expectation using a single sample is unbiased. [5]
 
 - Describe gradient descent and compare it to stochastic (i.e., online) gradient
