@@ -158,10 +158,10 @@
   [5]
 
 ####Questions@: ,Lecture 9 Questions
-- Write down the definition of covariance and Pearson correlation coefficient
-  $\rho$. [5]
-
 - Prove that independent variables are uncorrelated. [5]
+
+- Write down the definition of covariance and Pearson correlation coefficient
+  $\rho$, including its range. [5]
 
 - Explain how are the Spearman's rank correlation coefficient and the Kendall
   rank correlation coefficient computed (no need to describe the Pearson
