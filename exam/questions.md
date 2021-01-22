@@ -145,17 +145,17 @@
 - Write down how is $p(C_k | \boldsymbol x)$ approximated in a Naive Bayes
   classifier, and explicitly state the Naive Bayes assumption. [5]
 
-- Considering a Gaussian naive Bayes, describe how are $p(x_i | C_k$ modeled
-  (what distribution, which parameters) and how we estimate it during fitting.
-  [5]
-
-- Considering a Multinomial naive Bayes, describe how are $p(\boldsymbol
-  x | C_k$ modeled (what distribution, which parameters) and how we estimate it
+- Considering a Gaussian naive Bayes, describe how are $p(x_i | C_k)$ modeled
+  (what distribution and which parameters does it have) and how we estimate it
   during fitting. [5]
 
-- Considering a Bernoulli naive Bayes, describe how are $p(x_i | C_k$ modeled
-  (what distribution, which parameters) and how we estimate it during fitting.
-  [5]
+- Considering a Multinomial naive Bayes, describe how are
+  $p(\boldsymbol x | C_k)$ modeled (what distribution and which parameters does
+  it have) and how we estimate it during fitting. [5]
+
+- Considering a Bernoulli naive Bayes, describe how are $p(x_i | C_k)$ modeled
+  (what distribution and which parameters does it have) and how we estimate it
+  during fitting. [5]
 
 ####Questions@: ,Lecture 9 Questions
 - Prove that independent variables are uncorrelated. [5]
