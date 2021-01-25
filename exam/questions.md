@@ -158,7 +158,7 @@
   during fitting. [5]
 
 ####Questions@: ,Lecture 9 Questions
-- Prove that independent variables are uncorrelated. [5]
+- Prove that independent discrete random variables are uncorrelated. [5]
 
 - Write down the definition of covariance and Pearson correlation coefficient
   $\rho$, including its range. [5]
