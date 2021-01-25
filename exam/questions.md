@@ -14,7 +14,7 @@
 - Describe gradient descent and compare it to stochastic (i.e., online) gradient
   descent and minibatch stochastic gradient descent. [5]
 
-- Formulate conditions on the sequence of learning rates used in SGD to convert
+- Formulate conditions on the sequence of learning rates used in SGD to converge
   to optimum almost surely. [5]
 
 - Write an $L_2$-regularized minibatch SGD algorithm for training a linear
