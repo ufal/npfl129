@@ -26,7 +26,8 @@
   how a prediction is made for a given example. [5]
 
 - Show that the perceptron algorithm is an instance of a stochastic gradient
-  descent. Why are the learning rates not needed? [5]
+  descent. Why are the learning rates not needed (i.e., why does not the result
+  of the training depend on the learning rate)? [5]
 
 - Define entropy, cross-entropy, Kullback-Leibler divergence, and prove
   the Gibbs inequality (i.e., that KL divergence is non-negative). [5]
