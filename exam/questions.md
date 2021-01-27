@@ -92,9 +92,9 @@
   and softmax weighting. [5]
 
 ####Questions@: ,Lecture 6 Questions
-- Define a kernel based on a feature map $\varphi$, and write down the formulas
-  for (1) a polynomial kernel of degree $d$, (2) a polynomial kernel of degree
-  at most $d$, (3) an RBF kernel. [5]
+- Define a kernel based on a feature map $\varphi: \mathbb{R}^D \rightarrow \mathbb{R}^F$,
+  and write down the formulas for (1) a polynomial kernel of degree $d$, (2)
+  a polynomial kernel of degree at most $d$, (3) an RBF kernel. [5]
 
 - Define a kernel and write down the mini-batch SGD training algorithm of dual
   formulation of kernel linear regression. Then, describe how predictions for
