@@ -218,11 +218,11 @@
   the training process of the individual trees themselves. [5]
 
 ####Questions@: ,Lecture 11 Questions
-- When discovering the first principal component, write the value of the
+- When deriving the first principal component, write the value of the
   variance we aim to maximize, both without and with the covariance matrix
   (and define the covariance matrix). [5]
 
-- When discovering the first $M$ principal components, write the value of the
+- When deriving the first $M$ principal components, write the value of the
   reconstruction loss we aim to minimize, both without and with the covariance
   matrix (and define the covariance matrix). [5]
 
