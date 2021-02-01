@@ -223,8 +223,9 @@
   (and define the covariance matrix). [5]
 
 - When deriving the first $M$ principal components, write the value of the
-  reconstruction loss we aim to minimize, both without and with the covariance
-  matrix (and define the covariance matrix). [5]
+  reconstruction loss we aim to minimize using all but the first $M$ principal
+  components, both without and with the covariance matrix (and define the
+  covariance matrix). [10]
 
 - Write down the result of whitening (sphering) the data matrix $\boldsymbol X$.
   [5]
