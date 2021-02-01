@@ -35,30 +35,30 @@
 - Describe maximum likelihood estimation, as minimizing NLL, cross-entropy and
   KL divergence. [10]
 
-- Considering (binary) logistic regression model, write down its parameters
-  and explain how is prediction performed (including the formula for the sigmoid
-  function). Describe how we can interpret the outputs of the linear part of the
-  model as logits. [5]
+- Considering binary logistic regression model, write down its parameters
+  (including their size) and explain how is prediction performed (including the
+  formula for the sigmoid function). Describe how we can interpret the outputs
+  of the linear part of the model as logits. [5]
 
 - Write down an $L_2$-regularized minibatch SGD algorithm for training a
-  (binary) logistic regression model, including the explicit formulas of the
+  binary logistic regression model, including the explicit formulas of the
   loss function and its gradient. [10]
 
 ####Questions@: ,Lecture 4 Questions
 - Define mean squared error and show how it can be derived using MLE. [5]
 
-- Considering $K$-class logistic regression model, write down its
-  parameters and explain how is prediction performed (including the formula for
-  the softmax function). Describe how we can interpret the outputs of the linear
-  part of the model as logits. [5]
+- Considering $K$-class logistic regression model, write down its parameters
+  (including their size) and explain how is prediction performed (including the
+  formula for the softmax function). Describe how we can interpret the outputs
+  of the linear part of the model as logits. [5]
 
-- Write down an $L_2$-regularized minibatch SGD algorithm for training a
-  $K$-class logistic regression model, including the explicit formulas of the
+- Write down an $L_2$-regularized minibatch SGD algorithm for training
+  a $K$-class logistic regression model, including the explicit formulas of the
   loss function and its gradient. [10]
 
 - Considering a single-layer MLP with $D$ input neurons, $H$ hidden
   neurons, $K$ output neurons, hidden activation $f$ and output activation $a$,
-  list its parameters including their size and write down how is the output
+  list its parameters (including their size) and write down how is the output
   computed. [5]
 
 - List the definitions of frequently used MLP output layer activations (the ones
