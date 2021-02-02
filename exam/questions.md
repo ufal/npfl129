@@ -122,7 +122,7 @@
 - Describe the high-level overview of the SMO algorithm (the test whether
   the KKT conditions hold, how we select the $a_i$ and $a_j$ to update,
   what is the goal of updating the $a_i$ and $a_j$, how do we detect
-  convergence; but without the update of $a_i$, $a_j$, $b$ themselves). [10]
+  convergence; but without the update of $a_i$, $a_j$, $b$ themselves). [5]
 
 - Describe the part of the SMO algorithm which updates $a_i$ and $a_j$ to
   maximize the Lagrangian. [10]
