@@ -215,7 +215,7 @@
   in which order) are created during gradient boosted decision tree training,
   and what per-example loss is used for training every one of them (expressed
   using predictions of the already trained trees). You do not need to describe
-  the training process of the individual trees themselves. [5]
+  the training process of the individual trees themselves. [10]
 
 ####Questions@: ,Lecture 11 Questions
 - When deriving the first principal component, write the value of the
