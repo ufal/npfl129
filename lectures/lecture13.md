@@ -8,6 +8,7 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-13-english.practicals.mp4,EN Practicals
 #### Questions: #lecture_13_questions
 #### Lecture assignment: gaussian_mixture
+#### Lecture assignment: bootstrap_resampling
 
 - Statistical hypothesis testing
 - Bootstrap resampling
