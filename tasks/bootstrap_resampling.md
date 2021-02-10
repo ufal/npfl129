@@ -16,10 +16,33 @@ Note that your results may sometimes be slightly different (for example because 
 - `python3 bootstrap_resampling.py --seed=49 --test_size=0.9 --bootstrap_samples=1000`
 ```
 Confidence intervals of the two models:
-- [89.62% .. 92.40%]
-- [90.67% .. 93.33%]
-The p-value of the test: 0.00%
+- [90.23% .. 93.02%]
+- [90.98% .. 93.63%]
+The p-value of the test: 1.40%
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/bootstrap_resampling_1.svgz)
 - `python3 bootstrap_resampling.py --seed=49 --test_size=0.9 --bootstrap_samples=10000`
 ```
+Confidence intervals of the two models:
+- [90.30% .. 93.02%]
+- [91.10% .. 93.70%]
+The p-value of the test: 1.71%
+```
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/bootstrap_resampling_2.svgz)
+- `python3 bootstrap_resampling.py --seed=49 --test_size=0.9 --bootstrap_samples=100000`
+```
+Confidence intervals of the two models:
+- [90.30% .. 92.95%]
+- [91.10% .. 93.70%]
+The p-value of the test: 1.62%
+```
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/bootstrap_resampling_3.svgz)
+- `python3 bootstrap_resampling.py --seed=85 --test_size=0.95 --bootstrap_samples=50000`
+```
+Confidence intervals of the two models:
+- [86.83% .. 89.87%]
+- [87.18% .. 90.16%]
+The p-value of the test: 15.63%
+```
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2021/tasks/figures/bootstrap_resampling_4.svgz)
+#### Examples End:
