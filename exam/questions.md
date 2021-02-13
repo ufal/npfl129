@@ -283,7 +283,7 @@
 
 - For a trained model and a given test set with $N$ examples and metric $E$,
   write how to estimate 95\% confidence intervals using bootstrap resampling.
-  [10]
+  [5]
 
 - For two trained models and a given test set with $N$ examples and metric $E$,
   explain how to perform a paired bootstrap test that the first model is better
