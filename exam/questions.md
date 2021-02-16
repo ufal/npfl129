@@ -130,7 +130,7 @@
   not need to write explicit formulas. [10]
 
 - Describe the part of the SMO algorithm which updates $b$ to maximize the
-  Lagrangian. If you explain how is the update derived (so that if I performed
+  Lagrangian. If you explain how is the update derived (so that if I followed
   the instructions, I would come up with two $b$ candidates and a rule how
   to utilize them), you do not need to write explicit formulas. [10]
 
