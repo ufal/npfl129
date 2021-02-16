@@ -125,7 +125,9 @@
   convergence; but without the update of $a_i$, $a_j$, $b$ themselves). [5]
 
 - Describe the part of the SMO algorithm which updates $a_i$ and $a_j$ to
-  maximize the Lagrangian. [10]
+  maximize the Lagrangian. If you explain how is the update derived (so that if
+  I followed the instructions, I would come up with the update rules), you do
+  not need to write explicit formulas. [10]
 
 - Describe the part of the SMO algorithm which updates $b$ to maximize the
   Lagrangian. If you explain how is the update derived (so that if I performed
