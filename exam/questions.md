@@ -269,8 +269,9 @@
   irreducible error terms. [10]
 
 ####Questions@: ,Lecture 13 Questions
-- Considering statistical hypothesis testing, define type I errors, type II
-  errors and significance level. [5]
+- Considering statistical hypothesis testing, define type I errors and type II
+  errors (in terms of the null hypothesis). Finally define what a significance
+  level is. [5]
 
 - Explain what a test statistic and a p-value are. [5]
 
