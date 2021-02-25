@@ -229,8 +229,8 @@
   components, both without and with the covariance matrix (and define the
   covariance matrix). [10]
 
-- Write down the result of whitening (sphering) the data matrix $\boldsymbol X$.
-  [5]
+- Write down the formula for whitening (sphering) the data matrix $\boldsymbol X$,
+  and state what mean and covariance does the result has. [5]
 
 - Explain how to compute the first $M$ principal components using the SVD
   decomposition of the centered data matrix $\boldsymbol X$. [5]
