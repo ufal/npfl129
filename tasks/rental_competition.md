@@ -2,7 +2,7 @@
 #### Date: Deadline: Oct 27, 23:59
 #### Points: 3 points+5 bonus
 
-This assignment is a [competition task](https://ufal.mff.cuni.cz/courses/npfl129#competitions). Your goal
+This assignment is a [competition task](https://ufal.mff.cuni.cz/courses/npfl129/2021-winter#competitions). Your goal
 is to perform linear regression on the data from a rental shop.
 The train set contains 1000 instances, each instance consists of 12 features,
 both integral and real.

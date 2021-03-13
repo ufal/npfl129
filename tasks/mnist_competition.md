@@ -2,7 +2,7 @@
 #### Date: Deadline: Nov 10, 23:59
 #### Points: 6 points+6 bonus
 
-This assignment is a [competition task](https://ufal.mff.cuni.cz/courses/npfl129#competitions). Your goal
+This assignment is a [competition task](https://ufal.mff.cuni.cz/courses/npfl129/2021-winter#competitions). Your goal
 is to perform 10-class classification on the well-known
 [MNIST](http://yann.lecun.com/exdb/mnist/) dataset.
 The train set contains 60k images, each consisting of $28×28$ pixels with values
