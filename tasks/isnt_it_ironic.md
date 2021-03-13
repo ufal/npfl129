@@ -2,7 +2,7 @@
 #### Date: Deadline: Dec 08, 23:59
 #### Points: 5 points+6 bonus
 
-The goal of the `isnt_it_ironic` [competition task](#competitions) is to learn to
+The goal of the `isnt_it_ironic` [competition task](https://ufal.mff.cuni.cz/courses/npfl129#competitions) is to learn to
 classify given text as ironic or not.
 
 The [isnt_it_ironic.py](https://github.com/ufal/npfl129/tree/master/labs/08/isnt_it_ironic.py)

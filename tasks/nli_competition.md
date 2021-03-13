@@ -2,7 +2,7 @@
 #### Date: Deadline: Jan 05, 23:59
 #### Points: 5 points+5 bonus
 
-In this [competition task](#competitions) you will be solving the Native
+In this [competition task](https://ufal.mff.cuni.cz/courses/npfl129#competitions) you will be solving the Native
 Language Identification. In that task, you get an English essay writen by
 a non-native individual and your goal is to identify their native language.
 
