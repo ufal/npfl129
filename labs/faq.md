@@ -5,14 +5,73 @@
 - _Installing to central user packages repository_
 
   You can install all required packages to central user packages repository using
- `pip3 install --user scikit-learn==0.23.2 pandas==1.1.2 numpy==1.18.5 scipy==1.5.2 matplotlib==3.3.2`.
+ `pip3 install --user scikit-learn==1.0 numpy==1.21.2 scipy==1.7.1 pandas==1.3.3 matplotlib==3.4.3`.
 
 - _Installing to a virtual environment_
 
   Python supports virtual environments, which are directories containing
-  independent sets of installed packages. You can create the virtual environment
+  independent sets of installed packages. You can create a virtual environment
   by running `python3 -m venv VENV_DIR` followed by
-  `VENV_DIR/bin/pip3 install scikit-learn==0.23.2 pandas==1.1.2 numpy==1.18.5 scipy==1.5.2 matplotlib==3.3.2`.
+  `VENV_DIR/bin/pip3 install scikit-learn==1.0 numpy==1.21.2 scipy==1.7.1 pandas==1.3.3 matplotlib==3.4.3`.
+
+### TOCEntry: Git
+
+- _Is it possible to keep the solutions in a Git repository_
+
+  Definitely, keeping the solutions in a branch of your repository,
+  where you merge it with the course repository, is probably a good idea.
+  However, please keep the cloned repository with your solutions **private**.
+
+- _Do not create a **public** fork of the repository on Github_
+
+  If you keep your solutions in a Github repository, please do not create
+  a clone of the repository by using the Fork button – this way, the cloned
+  repository would be **public**.
+
+- _How to clone the course repository_
+
+  To clone the course repository, run
+  ```
+  git clone https://github.com/ufal/npfl129
+  ```
+  This creates the repository in `npfl129` subdirectory; if you want a different
+  name, add it as a last parameter.
+
+  To update the repository, run `git pull` inside the repository directory.
+
+- _How to keep the course repository as a branch in your repository_
+
+  If you want to store the course repository just in a local branch of your
+  existing repository, you can run the following command while in it:
+  ```
+  git remote add upstream https://github.com/ufal/npfl129
+  git fetch upstream
+  git checkout -t upstream/master
+  ```
+  This creates a branch `master`; if you want a different name, add
+  `-b BRANCH_NAME` to the last command.
+
+  In both cases, you can update your checkout by running `git pull` while in it.
+
+- _How to merge the course repository with your modifications_
+
+  If you want to store your solutions in a branch merged with the course
+  repository, you should start by
+  ```
+  git remote add upstream https://github.com/ufal/npfl129
+  git pull upstream master
+  ```
+  which creates a branch `master`; if you want a different name,
+  change the last argument to `master:BRANCH_NAME`.
+
+  You can then commit to this branch and push it to some your repository.
+
+  To merge the current course repository with your branch, run
+  ```
+  git merge ustream master
+  ```
+  while in your branch. Of course, it might be necessary to resolve conflicts
+  if both you and I modified the same place in the templates.
 
 ### TOCEntry: ReCodEx
 
