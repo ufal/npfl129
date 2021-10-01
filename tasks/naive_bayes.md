@@ -3,7 +3,7 @@
 #### Points: 4 points
 #### Examples: naive_bayes_examples
 
-Using the [naive_bayes.py](https://github.com/ufal/npfl129/tree/master/labs/08/naive_bayes.py)
+Using the [naive_bayes.py](https://github.com/ufal/npfl129/tree/past-2021/labs/08/naive_bayes.py)
 template, implement a naive Bayes classifier (without using the `sklearn` one).
 Support all of Gaussian NB, multinomial NB and Bernoulli NB.
 

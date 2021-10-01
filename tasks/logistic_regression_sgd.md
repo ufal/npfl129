@@ -3,7 +3,7 @@
 #### Points: 5 points
 #### Examples: logistic_regression_sgd_examples
 
-Starting with the [logistic_regression_sgd.py](https://github.com/ufal/npfl129/tree/master/labs/03/logistic_regression_sgd.py),
+Starting with the [logistic_regression_sgd.py](https://github.com/ufal/npfl129/tree/past-2021/labs/03/logistic_regression_sgd.py),
 implement minibatch SGD for logistic regression.
 
 #### Examples Start: logistic_regression_sgd_examples

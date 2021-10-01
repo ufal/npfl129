@@ -3,7 +3,7 @@
 #### Points: 3 points
 #### Examples: random_forest_examples
 
-Using the [random_forest.py](https://github.com/ufal/npfl129/tree/master/labs/09/random_forest.py)
+Using the [random_forest.py](https://github.com/ufal/npfl129/tree/past-2021/labs/09/random_forest.py)
 template, train a random forest, which is a collection of decision trees trained
 with dataset bagging and random feature subsampling.
 

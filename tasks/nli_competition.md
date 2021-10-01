@@ -15,7 +15,7 @@ high performance.
 
 Because the data is not publicly available, you can download it only through
 ReCodEx. Please do not distribute it. To load the dataset, use the
-[nli_competition.py](https://github.com/ufal/npfl129/tree/master/labs/10/nli_competition.py)
+[nli_competition.py](https://github.com/ufal/npfl129/tree/past-2021/labs/10/nli_competition.py)
 template.
 
 The performance of your system is measured using _accuracy_ of correctly

@@ -3,7 +3,7 @@
 #### Points: 3 points
 #### Examples: kmeans_examples
 
-Using the [kmeans.py](https://github.com/ufal/npfl129/tree/master/labs/11/kmeans.py)
+Using the [kmeans.py](https://github.com/ufal/npfl129/tree/past-2021/labs/11/kmeans.py)
 template, implement the K-Means algorithm with both
 - random initialization,
 - `kmeans++` initialization.

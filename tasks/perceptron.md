@@ -3,7 +3,7 @@
 #### Points: 2 points
 #### Examples: perceptron_examples
 
-Starting with the [perceptron.py](https://github.com/ufal/npfl129/tree/master/labs/03/perceptron.py)
+Starting with the [perceptron.py](https://github.com/ufal/npfl129/tree/past-2021/labs/03/perceptron.py)
 template, implement the perceptron algorithm.
 
 #### Examples Start: perceptron_examples

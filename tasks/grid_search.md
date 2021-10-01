@@ -3,7 +3,7 @@
 #### Points: 3 points
 #### Examples: grid_search_examples
 
-Starting with [grid_search.py](https://github.com/ufal/npfl129/tree/master/labs/03/grid_search.py)
+Starting with [grid_search.py](https://github.com/ufal/npfl129/tree/past-2021/labs/03/grid_search.py)
 template, perform a hyperparameter grid search, evaluating hyperparameter performance
 using a stratified k-fold crossvalidation, and finally evaluate a model
 trained with best hyparparameters on all training data. The easiest way is

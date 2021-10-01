@@ -4,7 +4,7 @@
 #### Examples: linear_regression_features_examples
 
 Starting with the
-[linear_regression_features.py](https://github.com/ufal/npfl129/tree/master/labs/01/linear_regression_features.py)
+[linear_regression_features.py](https://github.com/ufal/npfl129/tree/past-2021/labs/01/linear_regression_features.py)
 template, use `scikit-learn` to train a model of a 1D curve.
 
 Try using features $x^1, x^2, …, x^D$ for $D$ from 1 to a given range, and

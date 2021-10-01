@@ -3,7 +3,7 @@
 #### Points: 3 points
 #### Examples: kernel_approximation_examples
 
-Using the [kernel_approximation.py](https://github.com/ufal/npfl129/tree/master/labs/08/kernel_approximation.py)
+Using the [kernel_approximation.py](https://github.com/ufal/npfl129/tree/past-2021/labs/08/kernel_approximation.py)
 template, implement the RFF and Nyström approximations of an RBF kernel.
 
 #### Examples Start: kernel_approximation_examples

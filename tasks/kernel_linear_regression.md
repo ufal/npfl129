@@ -3,7 +3,7 @@
 #### Points: 5 points
 #### Examples: kernel_linear_regression_examples
 
-Starting with the [kernel_linear_regression.py](https://github.com/ufal/npfl129/tree/master/labs/06/kernel_linear_regression.py),
+Starting with the [kernel_linear_regression.py](https://github.com/ufal/npfl129/tree/past-2021/labs/06/kernel_linear_regression.py),
 implement kernel linear regression training using SGD
 on the dual formulation. You should support _polynomial_
 and _Gaussian_ kernels and also L2 regularization.

@@ -3,7 +3,7 @@
 #### Points: 2 points
 #### Examples: linear_regression_l2_examples
 
-Starting with the [linear_regression_l2.py](https://github.com/ufal/npfl129/tree/master/labs/02/linear_regression_l2.py)
+Starting with the [linear_regression_l2.py](https://github.com/ufal/npfl129/tree/past-2021/labs/02/linear_regression_l2.py)
 template, use `scikit-learn` to train L2-regularized linear regression models
 and print the results of the best of them.
 

@@ -3,7 +3,7 @@
 #### Points: 4 points
 #### Examples: k_nearest_neighbors_examples
 
-Starting with the [k_nearest_neighbors.py](https://github.com/ufal/npfl129/tree/master/labs/05/k_nearest_neighbors.py),
+Starting with the [k_nearest_neighbors.py](https://github.com/ufal/npfl129/tree/past-2021/labs/05/k_nearest_neighbors.py),
 implement k-nearest neighbors algoritm for classifying MNIST.
 
 #### Examples Start: k_nearest_neighbors_examples
