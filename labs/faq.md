@@ -5,14 +5,14 @@
 - _Installing to central user packages repository_
 
   You can install all required packages to central user packages repository using
- `pip3 install --user scikit-learn==1.0 numpy==1.21.2 scipy==1.7.1 pandas==1.3.3 matplotlib==3.4.3`.
+ `pip3 install --user scikit-learn==1.0 numpy==1.19.5 scipy==1.7.1 pandas==1.3.3 matplotlib==3.4.3`.
 
 - _Installing to a virtual environment_
 
   Python supports virtual environments, which are directories containing
   independent sets of installed packages. You can create a virtual environment
   by running `python3 -m venv VENV_DIR` followed by
-  `VENV_DIR/bin/pip3 install scikit-learn==1.0 numpy==1.21.2 scipy==1.7.1 pandas==1.3.3 matplotlib==3.4.3`.
+  `VENV_DIR/bin/pip3 install scikit-learn==1.0 numpy==1.19.5 scipy==1.7.1 pandas==1.3.3 matplotlib==3.4.3`.
 
 ### TOCEntry: Git
 
