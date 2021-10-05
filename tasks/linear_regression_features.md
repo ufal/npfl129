@@ -12,7 +12,7 @@ a given range, and report RMSE of every such configuration.
 
 #### Tests Start: linear_regression_features_examples
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
-- `python3 linear_regression_features.py --data_size=10 --test_size=5 --range=5`
+- `python3 linear_regression_features.py --data_size=10 --test_size=5 --range=6`
 ```
 Maximum feature order 1: 0.74 RMSE
 Maximum feature order 2: 1.87 RMSE
