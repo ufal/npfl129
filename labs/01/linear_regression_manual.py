@@ -41,4 +41,4 @@ def main(args: argparse.Namespace):
 if __name__ == "__main__":
     args = parser.parse_args([] if "__file__" not in globals() else None)
     rmse = main(args)
-    print("{:.2f}".format(rmse))
+    if rmse: print("{:.2f}".format(rmse))
