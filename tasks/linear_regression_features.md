@@ -19,6 +19,7 @@ Maximum feature order 2: 1.87 RMSE
 Maximum feature order 3: 0.53 RMSE
 Maximum feature order 4: 4.52 RMSE
 Maximum feature order 5: 1.70 RMSE
+Maximum feature order 6: 2.82 RMSE
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/linear_regression_features_1.svgz)
 - `python3 linear_regression_features.py --data_size=30 --test_size=20 --range=9`
