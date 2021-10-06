@@ -23,8 +23,8 @@ def main(args: argparse.Namespace) -> list[float]:
 
     rmses = []
     for order in range(1, args.range + 1):
-        # TODO: Create features of x^1, ..., x^order (so you need to  gradually
-        # append x^order in each for-cycle iteration).
+        # TODO: Create features (x^1, x^2, ..., x^order), preferably in this ordering.
+        # Note you can just append x^order to the features from the previous iteration.
 
         # TODO: Split the data into a train set and a test set.
         # Use `sklearn.model_selection.train_test_split` method call, passing
