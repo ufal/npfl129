@@ -68,7 +68,7 @@
 
   To merge the current course repository with your branch, run
   ```
-  git merge ustream master
+  git merge upstream master
   ```
   while in your branch. Of course, it might be necessary to resolve conflicts
   if both you and I modified the same place in the templates.
