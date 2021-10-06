@@ -19,8 +19,8 @@ def main(args: argparse.Namespace) -> float:
 
     # The input data are in `dataset.data`, targets are in `dataset.target`.
 
-    # If you want to learn about the dataset, uncomment the following line.
-    # print(dataset.DESCR)
+    # If you want to learn about the dataset, you can print some information
+    # about it using `print(dataset.DESCR)`.
 
     # TODO: Append a new feature to all input data, with value "1"
 
