@@ -13,7 +13,7 @@ parser.add_argument("--seed", default=42, type=int, help="Random seed")
 parser.add_argument("--test_size", default=0.1, type=lambda x:int(x) if x.isdigit() else float(x), help="Test set size")
 # If you add more arguments, ReCodEx will keep them with your default values.
 
-def main(args: argparse.Namespace):
+def main(args: argparse.Namespace) -> float:
     # Load the Diabetes dataset
     dataset = sklearn.datasets.load_diabetes()
 
