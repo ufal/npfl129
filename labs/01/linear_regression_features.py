@@ -45,9 +45,6 @@ def main(args: argparse.Namespace) -> list[float]:
 
         if args.plot:
             import matplotlib.pyplot as plt
-            if args.plot is not True:
-                if not plt.gcf().get_axes(): plt.figure(figsize=(6.4*3, 4.8*3))
-                plt.subplot(3, 3, 1 + len(plt.gcf().get_axes()))
             plt.plot(train_data[:, 0], train_target, "go")
             plt.plot(test_data[:, 0], test_target, "ro")
             plt.plot(np.linspace(xs[0], xs[-1], num=100),
