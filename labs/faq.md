@@ -16,7 +16,7 @@
 
 ### TOCEntry: Git
 
-- _Is it possible to keep the solutions in a Git repository_
+- _Is it possible to keep the solutions in a Git repository?_
 
   Definitely, keeping the solutions in a branch of your repository,
   where you merge it with the course repository, is probably a good idea.
@@ -28,7 +28,7 @@
   a clone of the repository by using the Fork button – this way, the cloned
   repository would be **public**.
 
-- _How to clone the course repository_
+- _How to clone the course repository?_
 
   To clone the course repository, run
   ```
@@ -39,7 +39,7 @@
 
   To update the repository, run `git pull` inside the repository directory.
 
-- _How to keep the course repository as a branch in your repository_
+- _How to keep the course repository as a branch in your repository?_
 
   If you want to store the course repository just in a local branch of your
   existing repository, you can run the following command while in it:
@@ -53,7 +53,7 @@
 
   In both cases, you can update your checkout by running `git pull` while in it.
 
-- _How to merge the course repository with your modifications_
+- _How to merge the course repository with your modifications?_
 
   If you want to store your solutions in a branch merged with the course
   repository, you should start by
@@ -93,6 +93,6 @@
 
 - _What are the time and memory limits?_
 
-  The memory limit during evaluation is **1.5GB**. The time limit varies, but should
+  The memory limit during evaluation is **1.5GB**. The time limit varies, but it should
   be at least 10 seconds and at least twice the running time of my solution. For
   competition assignments, the time limit is 5 minutes.
