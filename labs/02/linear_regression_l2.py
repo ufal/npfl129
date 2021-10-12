@@ -35,7 +35,7 @@ def main(args: argparse.Namespace) -> tuple[float, float]:
         # This block is not required to pass in ReCodEx, however, it is useful
         # to learn to visualize the results.
 
-        # If you collect the respective results for `lambdas` to an array called `rmse`,
+        # If you collect the respective results for `lambdas` to an array called `rmses`,
         # the following lines will plot the result if you add `--plot` argument.
         import matplotlib.pyplot as plt
         plt.plot(lambdas, rmses)
