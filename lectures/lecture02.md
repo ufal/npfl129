@@ -7,6 +7,7 @@
 #### Questions: #lecture_2_questions
 #### Lecture assignment: linear_regression_l2
 #### Lecture assignment: linear_regression_sgd
+#### Lecture assignment: feature_engineering
 
 - L2 regularization in linear regression [Section 1.1, 3.1.4 of PRML]
 - _Solving linear regression with SVD_
