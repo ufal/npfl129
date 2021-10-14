@@ -11,7 +11,7 @@ class Dataset:
     """Rental Dataset.
 
     The dataset instances consist of the following 12 features:
-    - season (1: winter, 2: sprint, 3: summer, 4: autumn)
+    - season (1: winter, 2: spring, 3: summer, 4: autumn)
     - year (0: 2011, 1: 2012)
     - month (1-12)
     - hour (0-23)
