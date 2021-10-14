@@ -22,13 +22,13 @@
   where you merge it with the course repository, is probably a good idea.
   However, please keep the cloned repository with your solutions **private**.
 
-- _On Github, do not create a **public** fork with your solutions_
+- _On GitHub, do not create a **public** fork with your solutions_
 
-  If you keep your solutions in a Github repository, please do not create
+  If you keep your solutions in a GitHub repository, please do not create
   a clone of the repository by using the Fork button – this way, the cloned
   repository would be **public**.
 
-  Of course, if you just want to create a pull request, Github requires a public
+  Of course, if you just want to create a pull request, GitHub requires a public
   fork and that is fine – just do not store your solutions in it.
 
 - _How to clone the course repository?_
