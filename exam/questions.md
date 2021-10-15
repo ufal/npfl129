@@ -11,7 +11,7 @@
   of a discrete random variable. Then define bias of an estimator and show that
   estimating an expectation using a single sample is unbiased. [5]
 
-- Describe gradient descent and compare it to stochastic (i.e., online) gradient
+- Describe standard gradient descent and compare it to stochastic (i.e., online) gradient
   descent and minibatch stochastic gradient descent. [5]
 
 - Formulate conditions on the sequence of learning rates used in SGD to converge
