@@ -20,3 +20,28 @@
 - Write an $L_2$-regularized minibatch SGD algorithm for training a linear
   regression model, including the explicit formulas of the loss function and
   its gradient. [5]
+
+####Questions@: ,Lecture 3 Questions
+- Define binary classification, write down the perceptron algorithm and show
+  how a prediction is made for a given example. [5]
+
+- Show that the perceptron algorithm is an instance of a stochastic gradient
+  descent. Why are the learning rates not needed (i.e., why does not the result
+  of the training depend on the learning rate)? [5]
+
+- Define entropy, cross-entropy, Kullback-Leibler divergence, and prove
+  the Gibbs inequality (i.e., that KL divergence is non-negative). [5]
+
+- Define data distribution, empirical data distribution and likelihood. [5]
+
+- Describe maximum likelihood estimation, as minimizing NLL, cross-entropy and
+  KL divergence. [10]
+
+- Considering binary logistic regression model, write down its parameters
+  (including their size) and explain how is prediction performed (including the
+  formula for the sigmoid function). Describe how we can interpret the outputs
+  of the linear part of the model as logits. [5]
+
+- Write down an $L_2$-regularized minibatch SGD algorithm for training a
+  binary logistic regression model, including the explicit formulas of the
+  loss function and its gradient. [10]
