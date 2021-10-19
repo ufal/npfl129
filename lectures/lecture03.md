@@ -5,6 +5,10 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-03-czech.mp4, CZ Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-03-english.mp4, EN Lecture
 #### Questions: #lecture_3_questions
+#### Lecture assignment: perceptron
+#### Lecture assignment: logistic_regression_sgd
+#### Lecture assignment: grid_search
+#### Lecture assignment: thyroid_competition
 
 - Cross-validation [Section 1.3 of PRML]
 - Linear models for classification [Section 4.1.1 of PRML]
