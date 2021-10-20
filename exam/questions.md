@@ -1,4 +1,4 @@
-####Questions@: ,Lecture 1 Questions
+#### Questions@: ,Lecture 1 Questions
 - Define prediction function of a linear regression model and write down
   $L_2$-regularized mean squared error loss. [5]
 
@@ -6,7 +6,7 @@
   show how the explicit solution can be obtained, assuming
   $\boldsymbol X^T \boldsymbol X$ is regular. [10]
 
-####Questions@: ,Lecture 2 Questions
+#### Questions@: ,Lecture 2 Questions
 - Define expectation $\mathbb{E}[f(x)]$ and variance $\operatorname{Var}(f(x))$
   of a discrete random variable. Then define bias of an estimator and show that
   estimating an expectation using a single sample is unbiased. [5]
@@ -21,7 +21,7 @@
   regression model, including the explicit formulas of the loss function and
   its gradient. [5]
 
-####Questions@: ,Lecture 3 Questions
+#### Questions@: ,Lecture 3 Questions
 - Define binary classification, write down the perceptron algorithm and show
   how a prediction is made for a given example. [5]
 
