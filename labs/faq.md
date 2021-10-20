@@ -18,7 +18,7 @@
 
 - _Is it possible to keep the solutions in a Git repository?_
 
-  Definitely, keeping the solutions in a branch of your repository,
+  Definitely. Keeping the solutions in a branch of your repository,
   where you merge it with the course repository, is probably a good idea.
   However, please keep the cloned repository with your solutions **private**.
 
