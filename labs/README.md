@@ -7,7 +7,7 @@ scipy 1.7.1, pandas 1.3.3 and matplotlib 3.4.3. You should
 
 ### Teamwork
 
-Solving assignments in teams of size 2 or 3 is encouraged, but **everyone has to
+Solving assignments in teams (of size at most 3) is encouraged, but **everyone has to
 participate** (it is forbidden not to work on an assignment and then submit
 a solution created by other team members). All members of the team
 **must** submit in ReCodEx **individually**, but can have exactly the same
