@@ -1,6 +1,7 @@
 ### Assignment: grid_search
 #### Date: Deadline: Nov 01, 23:59
 #### Points: 2 points
+#### Examples: grid_search_examples
 #### Tests: grid_search_tests
 
 Starting with [grid_search.py](https://github.com/ufal/npfl129/tree/master/labs/03/grid_search.py)
@@ -9,7 +10,7 @@ using a stratified k-fold crossvalidation, and finally evaluate a model
 trained with best hyparparameters on all training data. The easiest way is
 to utilize `sklearn.model_selection.GridSearchCV`.
 
-### Tests Start: grid_search_tests
+#### Examples Start: grid_search_examples
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
 - `python3 grid_search.py --test_size=0.5`
 ```
@@ -41,6 +42,17 @@ Rank: 10 Cross-val: 89.2% lr__C: 100   lr__solver: lbfgs polynomial__degree: 1
 Rank:  1 Cross-val: 96.5% lr__C: 100   lr__solver: lbfgs polynomial__degree: 2    
 Rank:  9 Cross-val: 89.2% lr__C: 100   lr__solver: sag   polynomial__degree: 1    
 Rank:  2 Cross-val: 96.1% lr__C: 100   lr__solver: sag   polynomial__degree: 2    
+Test accuracy: 96.98
+```
+#### Examples End:
+#### Tests Start: grid_search_tests
+_Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
+- `python3 grid_search.py --test_size=0.5`
+```
+Test accuracy: 98.33
+```
+- `python3 grid_search.py --test_size=0.7`
+```
 Test accuracy: 96.98
 ```
 #### Tests End:
