@@ -35,7 +35,7 @@ def main(args: argparse.Namespace) -> float:
     # 3. performs sklearn.linear_model.LogisticRegression(random_state=args.seed)
     #
     # Then, using sklearn.model_selection.StratifiedKFold(5), evaluate crossvalidated
-    # train performance of all combinations of the the following parameters:
+    # train performance of all combinations of the following parameters:
     # - polynomial degree: 1, 2
     # - LogisticRegression regularization C: 0.01, 1, 100
     # - LogisticRegression solver: lbfgs, sag
