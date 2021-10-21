@@ -23,7 +23,7 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
     # Create a random generator with a given seed
     generator = np.random.RandomState(args.seed)
 
-    # Generate an artifical regression dataset
+    # Generate an artifical classification dataset
     data, target = sklearn.datasets.make_classification(
         n_samples=args.data_size, n_features=2, n_informative=2, n_redundant=0, random_state=args.seed)
 
@@ -44,7 +44,7 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
         # You can assume that `args.batch_size` exactly divides `train_data.shape[0]`.
 
         # TODO: After the SGD iteration, measure the average loss and accuracy for both the
-        # train test and the test set. The loss is the average MLE loss (i.e., the
+        # train set and the test set. The loss is the average MLE loss (i.e., the
         # negative log likelihood, or crossentropy loss, or KL loss) per example.
         train_accuracy, train_loss, test_accuracy, test_loss = None, None, None, None
 
