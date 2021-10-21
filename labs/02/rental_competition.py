@@ -3,6 +3,7 @@ import argparse
 import lzma
 import os
 import pickle
+import typing
 import urllib.request
 
 import numpy as np
@@ -47,7 +48,7 @@ parser.add_argument("--seed", default=42, type=int, help="Random seed")
 # For these and any other arguments you add, ReCodEx will keep your default value.
 parser.add_argument("--model_path", default="rental_competition.model", type=str, help="Model path")
 
-def main(args: argparse.Namespace):
+def main(args: argparse.Namespace) -> typing.Union[None, np.ndarray]:
     if args.predict is None:
         # We are training a model.
         np.random.seed(args.seed)
