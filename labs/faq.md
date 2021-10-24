@@ -37,8 +37,8 @@
   ```
   git clone https://github.com/ufal/npfl129
   ```
-  This creates the repository in the`npfl129` subdirectory; if you want a different
-  name, add it as the last parameter.
+  This creates the repository in the `npfl129` subdirectory; if you want a different
+  name, add it as a last parameter.
 
   To update the repository, run `git pull` inside the repository directory.
 
