@@ -61,7 +61,7 @@ def main(args: argparse.Namespace):
             pickle.dump(model, model_file)
 
     else:
-        # Use the model and return test set predictions, as either a Python list or a NumPy array.
+        # Use the model and return test set predictions, either as a Python list or a NumPy array.
         test = Dataset(args.predict)
 
         with lzma.open(args.model_path, "rb") as model_file:

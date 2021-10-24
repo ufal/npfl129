@@ -19,7 +19,7 @@
 - _Is it possible to keep the solutions in a Git repository?_
 
   Definitely. Keeping the solutions in a branch of your repository,
-  where you merge it with the course repository, is probably a good idea.
+  where you merge them with the course repository, is probably a good idea.
   However, please keep the cloned repository with your solutions **private**.
 
 - _On GitHub, do not create a **public** fork with your solutions_
@@ -37,8 +37,8 @@
   ```
   git clone https://github.com/ufal/npfl129
   ```
-  This creates the repository in `npfl129` subdirectory; if you want a different
-  name, add it as a last parameter.
+  This creates the repository in the`npfl129` subdirectory; if you want a different
+  name, add it as the last parameter.
 
   To update the repository, run `git pull` inside the repository directory.
 
