@@ -33,7 +33,7 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
     # Use `sklearn.model_selection.train_test_split` method call, passing
     # arguments `test_size=args.test_size, random_state=args.seed`.
 
-    # Generate initial linear regression weights
+    # Generate initial logistic regression weights
     weights = generator.uniform(size=train_data.shape[1], low=-0.1, high=0.1)
 
     for iteration in range(args.iterations):
