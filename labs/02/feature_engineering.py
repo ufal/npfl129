@@ -36,14 +36,14 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, np.ndarray]:
     # - for the rest of the columns, normalize their values so that they
     #   have mean 0 and variance 1; use `sklearn.preprocessing.StandardScaler`.
     #
-    # In the output, firstly there should be all the one-hot categorical features,
+    # In the output, first there should be all the one-hot categorical features,
     # and then the real-valued features. To process different dataset columns
     # differently, you can use `sklearn.compose.ColumnTransformer`.
 
     # TODO: To the current features, append polynomial features of order 2.
     # If the input values are [a, b, c, d], you should append
     # [a^2, ab, ac, ad, b^2, bc, bd, c^2, cd, d^2]. You can generate such polynomial
-    # features either manually or using
+    # features either manually, or you can generate them with
     # `sklearn.preprocessing.PolynomialFeatures(2, include_bias=False)`.
 
     # TODO: You can wrap all the feature processing steps into one transformer
