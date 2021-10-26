@@ -5,6 +5,9 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-04-czech.mp4, CZ Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-04-english.mp4, EN Lecture
 #### Questions: #lecture_4_questions
+#### Lecture assignment: softmax_classification_sgd
+#### Lecture assignment: mlp_classification_sgd
+#### Lecture assignment: mnist_competition
 
 - _Generalized linear models_
 - MSE as MLE [Section 3.1.1 of PRML]
