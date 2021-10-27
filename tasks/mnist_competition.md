@@ -17,4 +17,5 @@ prediction.
 
 The performance of your system is measured using _accuracy_ of correctly
 predicted examples and your goal is to achieve at least 94% accuracy.
- Note that you can use **any sklearn algorithm** to solve this exercise.
+Note that you can use **any sklearn algorithm** to solve this exercise
+(and of course anything you implement yourself).
