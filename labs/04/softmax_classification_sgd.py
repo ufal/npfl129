@@ -40,8 +40,8 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
     for epoch in range(args.epochs):
         permutation = generator.permutation(train_data.shape[0])
 
-        # TODO: Process the data in the order of `permutation`.
-        # For every `args.batch_size`, average their gradient, and update the weights.
+        # TODO: Process the data in the order of `permutation`. For every
+        # `args.batch_size` of them, average their gradient, and update the weights.
         # You can assume that `args.batch_size` exactly divides `train_data.shape[0]`.
         #
         # Note that you need to be careful when computing softmax, because the exponentiation

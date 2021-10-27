@@ -57,8 +57,8 @@ def main(args: argparse.Namespace) -> tuple[tuple[np.ndarray, ...], list[float]]
     for epoch in range(args.epochs):
         permutation = generator.permutation(train_data.shape[0])
 
-        # TODO: Process the data in the order of `permutation`.
-        # For every `args.batch_size`, average their gradient, and update the weights.
+        # TODO: Process the data in the order of `permutation`. For every
+        # `args.batch_size` of them, average their gradient, and update the weights.
         # You can assume that `args.batch_size` exactly divides `train_data.shape[0]`.
         #
         # The gradient used in SGD has now four parts, gradient of weights[0] and weights[1]
