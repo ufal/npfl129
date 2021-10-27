@@ -1,6 +1,6 @@
 ### Assignment: mnist_competition
 #### Date: Deadline: Nov 8, 23:59
-#### Points: 5 points+6 bonus
+#### Points: 4 points+6 bonus
 
 This assignment is a [competition task](https://ufal.mff.cuni.cz/courses/npfl129/2021-winter#competitions). Your goal
 is to perform 10-class classification on the well-known
