@@ -9,18 +9,18 @@ implement minibatch SGD for multinomial logistic regression.
 
 #### Examples Start: softmax_classification_sgd_examples
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
-- `python3 softmax_classification_sgd.py --batch_size=10 --iterations=10 --learning_rate=0.005`
+- `python3 softmax_classification_sgd.py --batch_size=10 --epochs=10 --learning_rate=0.005`
 ```
-After iteration 1: train loss 0.3130 acc 90.8%, test loss 0.3529 acc 88.7%
-After iteration 2: train loss 0.2134 acc 93.9%, test loss 0.2450 acc 92.5%
-After iteration 3: train loss 0.1366 acc 96.8%, test loss 0.1735 acc 94.6%
-After iteration 4: train loss 0.1374 acc 96.2%, test loss 0.1705 acc 94.0%
-After iteration 5: train loss 0.1169 acc 97.2%, test loss 0.1667 acc 95.1%
-After iteration 6: train loss 0.0978 acc 97.5%, test loss 0.1340 acc 96.1%
-After iteration 7: train loss 0.0878 acc 98.0%, test loss 0.1366 acc 95.9%
-After iteration 8: train loss 0.0889 acc 97.5%, test loss 0.1515 acc 95.1%
-After iteration 9: train loss 0.0819 acc 98.0%, test loss 0.1336 acc 96.5%
-After iteration 10: train loss 0.0801 acc 97.9%, test loss 0.1342 acc 96.4%
+After epoch 1: train loss 0.3130 acc 90.8%, test loss 0.3529 acc 88.7%
+After epoch 2: train loss 0.2134 acc 93.9%, test loss 0.2450 acc 92.5%
+After epoch 3: train loss 0.1366 acc 96.8%, test loss 0.1735 acc 94.6%
+After epoch 4: train loss 0.1374 acc 96.2%, test loss 0.1705 acc 94.0%
+After epoch 5: train loss 0.1169 acc 97.2%, test loss 0.1667 acc 95.1%
+After epoch 6: train loss 0.0978 acc 97.5%, test loss 0.1340 acc 96.1%
+After epoch 7: train loss 0.0878 acc 98.0%, test loss 0.1366 acc 95.9%
+After epoch 8: train loss 0.0889 acc 97.5%, test loss 0.1515 acc 95.1%
+After epoch 9: train loss 0.0819 acc 98.0%, test loss 0.1336 acc 96.5%
+After epoch 10: train loss 0.0801 acc 97.9%, test loss 0.1342 acc 96.4%
 Learned weights:
   -0.03 -0.10 0.01 0.08 -0.05 0.01 -0.06 0.05 0.07 -0.10 ...
   0.09 0.07 -0.15 -0.02 -0.21 0.13 -0.01 -0.06 0.02 -0.07 ...
@@ -33,18 +33,18 @@ Learned weights:
   0.02 -0.02 0.01 -0.08 0.03 0.01 -0.10 -0.03 0.08 -0.05 ...
   0.04 -0.05 -0.07 0.09 -0.00 -0.05 0.10 -0.09 -0.01 0.01 ...
 ```
-- `python3 softmax_classification_sgd.py --batch_size=1 --iterations=10 --learning_rate=0.005 --test_size=1597`
+- `python3 softmax_classification_sgd.py --batch_size=1 --epochs=10 --learning_rate=0.005 --test_size=1597`
 ```
-After iteration 1: train loss 1.7683 acc 73.5%, test loss 2.0028 acc 72.2%
-After iteration 2: train loss 0.7731 acc 88.5%, test loss 1.5349 acc 77.8%
-After iteration 3: train loss 1.2201 acc 82.5%, test loss 2.0733 acc 73.7%
-After iteration 4: train loss 1.1711 acc 89.5%, test loss 2.3419 acc 79.0%
-After iteration 5: train loss 0.1996 acc 97.5%, test loss 0.7725 acc 89.1%
-After iteration 6: train loss 0.6093 acc 92.5%, test loss 1.6294 acc 81.0%
-After iteration 7: train loss 0.1480 acc 97.5%, test loss 0.8089 acc 87.6%
-After iteration 8: train loss 0.0691 acc 97.5%, test loss 1.3602 acc 83.4%
-After iteration 9: train loss 0.0346 acc 99.0%, test loss 0.7549 acc 89.9%
-After iteration 10: train loss 0.0631 acc 98.5%, test loss 0.7471 acc 90.6%
+After epoch 1: train loss 1.7683 acc 73.5%, test loss 2.0028 acc 72.2%
+After epoch 2: train loss 0.7731 acc 88.5%, test loss 1.5349 acc 77.8%
+After epoch 3: train loss 1.2201 acc 82.5%, test loss 2.0733 acc 73.7%
+After epoch 4: train loss 1.1711 acc 89.5%, test loss 2.3419 acc 79.0%
+After epoch 5: train loss 0.1996 acc 97.5%, test loss 0.7725 acc 89.1%
+After epoch 6: train loss 0.6093 acc 92.5%, test loss 1.6294 acc 81.0%
+After epoch 7: train loss 0.1480 acc 97.5%, test loss 0.8089 acc 87.6%
+After epoch 8: train loss 0.0691 acc 97.5%, test loss 1.3602 acc 83.4%
+After epoch 9: train loss 0.0346 acc 99.0%, test loss 0.7549 acc 89.9%
+After epoch 10: train loss 0.0631 acc 98.5%, test loss 0.7471 acc 90.6%
 Learned weights:
   -0.03 -0.10 0.04 0.14 0.10 0.01 -0.07 0.05 0.07 -0.15 ...
   0.09 0.10 -0.30 -0.23 -0.35 0.29 -0.13 -0.06 0.02 -0.12 ...
@@ -57,18 +57,18 @@ Learned weights:
   0.02 -0.01 -0.08 -0.07 -0.06 -0.16 -0.15 -0.03 0.08 -0.22 ...
   0.04 -0.04 -0.10 0.09 0.01 -0.21 0.31 -0.08 -0.01 -0.12 ...
 ```
-- `python3 softmax_classification_sgd.py --batch_size=100 --iterations=10 --learning_rate=0.05`
+- `python3 softmax_classification_sgd.py --batch_size=100 --epochs=10 --learning_rate=0.05`
 ```
-After iteration 1: train loss 4.1126 acc 77.8%, test loss 4.2883 acc 75.5%
-After iteration 2: train loss 0.4290 acc 90.5%, test loss 0.5414 acc 89.8%
-After iteration 3: train loss 0.6189 acc 88.0%, test loss 0.5752 acc 89.2%
-After iteration 4: train loss 0.3084 acc 91.9%, test loss 0.3482 acc 91.3%
-After iteration 5: train loss 0.2757 acc 93.2%, test loss 0.3792 acc 91.3%
-After iteration 6: train loss 0.2559 acc 92.7%, test loss 0.3718 acc 91.8%
-After iteration 7: train loss 0.1164 acc 96.8%, test loss 0.1761 acc 95.1%
-After iteration 8: train loss 0.2891 acc 91.5%, test loss 0.4110 acc 90.2%
-After iteration 9: train loss 0.1256 acc 96.4%, test loss 0.1977 acc 94.9%
-After iteration 10: train loss 0.1239 acc 96.3%, test loss 0.1847 acc 95.0%
+After epoch 1: train loss 4.1126 acc 77.8%, test loss 4.2883 acc 75.5%
+After epoch 2: train loss 0.4290 acc 90.5%, test loss 0.5414 acc 89.8%
+After epoch 3: train loss 0.6189 acc 88.0%, test loss 0.5752 acc 89.2%
+After epoch 4: train loss 0.3084 acc 91.9%, test loss 0.3482 acc 91.3%
+After epoch 5: train loss 0.2757 acc 93.2%, test loss 0.3792 acc 91.3%
+After epoch 6: train loss 0.2559 acc 92.7%, test loss 0.3718 acc 91.8%
+After epoch 7: train loss 0.1164 acc 96.8%, test loss 0.1761 acc 95.1%
+After epoch 8: train loss 0.2891 acc 91.5%, test loss 0.4110 acc 90.2%
+After epoch 9: train loss 0.1256 acc 96.4%, test loss 0.1977 acc 94.9%
+After epoch 10: train loss 0.1239 acc 96.3%, test loss 0.1847 acc 95.0%
 Learned weights:
   -0.03 -0.10 -0.05 0.07 -0.08 -0.04 -0.06 0.05 0.07 -0.12 ...
   0.09 0.05 -0.24 -0.03 -0.25 0.16 -0.01 -0.06 0.02 -0.13 ...
@@ -84,10 +84,10 @@ Learned weights:
 #### Examples End:
 #### Tests Start: softmax_classification_sgd_tests
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
-- `python3 softmax_classification_sgd.py --batch_size=10  --iterations=2 --learning_rate=0.005`
+- `python3 softmax_classification_sgd.py --batch_size=10  --epochs=2 --learning_rate=0.005`
 ```
-After iteration 1: train loss 0.3130 acc 90.8%, test loss 0.3529 acc 88.7%
-After iteration 2: train loss 0.2134 acc 93.9%, test loss 0.2450 acc 92.5%
+After epoch 1: train loss 0.3130 acc 90.8%, test loss 0.3529 acc 88.7%
+After epoch 2: train loss 0.2134 acc 93.9%, test loss 0.2450 acc 92.5%
 Learned weights:
   -0.03 -0.10 0.01 0.06 -0.07 0.04 -0.05 0.05 0.07 -0.10 ...
   0.09 0.08 -0.12 -0.08 -0.10 0.09 -0.03 -0.06 0.02 -0.01 ...
@@ -100,9 +100,9 @@ Learned weights:
   0.02 -0.02 0.01 -0.03 0.00 -0.03 -0.09 -0.03 0.08 -0.07 ...
   0.04 -0.04 -0.05 0.05 -0.04 -0.05 0.09 -0.08 -0.01 -0.04 ...
 ```
-- `python3 softmax_classification_sgd.py --batch_size=1   --iterations=1 --learning_rate=0.005 --test_size=1597`
+- `python3 softmax_classification_sgd.py --batch_size=1   --epochs=1 --learning_rate=0.005 --test_size=1597`
 ```
-After iteration 1: train loss 1.7683 acc 73.5%, test loss 2.0028 acc 72.2%
+After epoch 1: train loss 1.7683 acc 73.5%, test loss 2.0028 acc 72.2%
 Learned weights:
   -0.03 -0.10 0.03 0.08 0.03 0.03 -0.07 0.05 0.07 -0.15 ...
   0.09 0.08 -0.25 -0.15 -0.17 0.11 -0.00 -0.06 0.02 -0.05 ...
@@ -115,11 +115,11 @@ Learned weights:
   0.02 0.00 0.02 -0.17 -0.01 -0.04 -0.12 -0.03 0.08 -0.09 ...
   0.04 -0.04 -0.02 0.06 -0.07 -0.05 0.16 -0.08 -0.01 -0.01 ...
 ```
-- `python3 softmax_classification_sgd.py --batch_size=100 --iterations=3 --learning_rate=0.05`
+- `python3 softmax_classification_sgd.py --batch_size=100 --epochs=3 --learning_rate=0.05`
 ```
-After iteration 1: train loss 4.1126 acc 77.8%, test loss 4.2883 acc 75.5%
-After iteration 2: train loss 0.4290 acc 90.5%, test loss 0.5414 acc 89.8%
-After iteration 3: train loss 0.6189 acc 88.0%, test loss 0.5752 acc 89.2%
+After epoch 1: train loss 4.1126 acc 77.8%, test loss 4.2883 acc 75.5%
+After epoch 2: train loss 0.4290 acc 90.5%, test loss 0.5414 acc 89.8%
+After epoch 3: train loss 0.6189 acc 88.0%, test loss 0.5752 acc 89.2%
 Learned weights:
   -0.03 -0.10 -0.04 0.08 -0.07 -0.02 -0.05 0.05 0.07 -0.12 ...
   0.09 0.06 -0.23 -0.08 -0.12 0.11 -0.04 -0.06 0.02 -0.09 ...

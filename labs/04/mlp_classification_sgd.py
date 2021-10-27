@@ -11,8 +11,8 @@ parser = argparse.ArgumentParser()
 # These arguments will be set appropriately by ReCodEx, even if you change them.
 parser.add_argument("--batch_size", default=10, type=int, help="Batch size")
 parser.add_argument("--classes", default=10, type=int, help="Number of classes to use")
+parser.add_argument("--epochs", default=10, type=int, help="Number of SGD training epochs")
 parser.add_argument("--hidden_layer", default=50, type=int, help="Hidden layer size")
-parser.add_argument("--iterations", default=10, type=int, help="Number of iterations over the data")
 parser.add_argument("--learning_rate", default=0.01, type=float, help="Learning rate")
 parser.add_argument("--recodex", default=False, action="store_true", help="Running in ReCodEx")
 parser.add_argument("--seed", default=42, type=int, help="Random seed")
@@ -54,7 +54,7 @@ def main(args: argparse.Namespace) -> tuple[tuple[np.ndarray, ...], list[float]]
         # That way we only exponentiate values which are non-positive, and overflow does not occur.
         raise NotImplementedError()
 
-    for iteration in range(args.iterations):
+    for epoch in range(args.epochs):
         permutation = generator.permutation(train_data.shape[0])
 
         # TODO: Process the data in the order of `permutation`.
@@ -74,12 +74,12 @@ def main(args: argparse.Namespace) -> tuple[tuple[np.ndarray, ...], list[float]]
         # - compute the derivative with respect to the hidden layer input
         # - compute the derivative with respect to weights[0] and biases[0]
 
-        # TODO: After the SGD iteration, measure the accuracy for both the
+        # TODO: After the SGD epoch, measure the accuracy for both the
         # train test and the test set.
         train_accuracy, test_accuracy = None, None
 
-        print("After iteration {}: train acc {:.1f}%, test acc {:.1f}%".format(
-            iteration + 1, 100 * train_accuracy, 100 * test_accuracy))
+        print("After epoch {}: train acc {:.1f}%, test acc {:.1f}%".format(
+            epoch + 1, 100 * train_accuracy, 100 * test_accuracy))
 
     return tuple(weights + biases), [train_accuracy, test_accuracy]
 

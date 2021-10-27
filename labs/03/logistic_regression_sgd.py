@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser()
 # These arguments will be set appropriately by ReCodEx, even if you change them.
 parser.add_argument("--batch_size", default=10, type=int, help="Batch size")
 parser.add_argument("--data_size", default=100, type=int, help="Data size")
-parser.add_argument("--iterations", default=50, type=int, help="Number of iterations over the data")
+parser.add_argument("--epochs", default=50, type=int, help="Number of SGD training epochs")
 parser.add_argument("--learning_rate", default=0.01, type=float, help="Learning rate")
 parser.add_argument("--plot", default=False, const=True, nargs="?", type=str, help="Plot the predictions")
 parser.add_argument("--recodex", default=False, action="store_true", help="Running in ReCodEx")
@@ -36,26 +36,26 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
     # Generate initial logistic regression weights
     weights = generator.uniform(size=train_data.shape[1], low=-0.1, high=0.1)
 
-    for iteration in range(args.iterations):
+    for epoch in range(args.epochs):
         permutation = generator.permutation(train_data.shape[0])
 
         # TODO: Process the data in the order of `permutation`. For every
         # `args.batch_size` of them, average their gradient, and update the weights.
         # You can assume that `args.batch_size` exactly divides `train_data.shape[0]`.
 
-        # TODO: After the SGD iteration, measure the average loss and accuracy for both the
+        # TODO: After the SGD epoch, measure the average loss and accuracy for both the
         # train set and the test set. The loss is the average MLE loss (i.e., the
         # negative log likelihood, or crossentropy loss, or KL loss) per example.
         train_accuracy, train_loss, test_accuracy, test_loss = None, None, None, None
 
-        print("After iteration {}: train loss {:.4f} acc {:.1f}%, test loss {:.4f} acc {:.1f}%".format(
-            iteration + 1, train_loss, 100 * train_accuracy, test_loss, 100 * test_accuracy))
+        print("After epoch {}: train loss {:.4f} acc {:.1f}%, test loss {:.4f} acc {:.1f}%".format(
+            epoch + 1, train_loss, 100 * train_accuracy, test_loss, 100 * test_accuracy))
 
         if args.plot:
             import matplotlib.pyplot as plt
             if args.plot is not True:
-                if not iteration: plt.figure(figsize=(6.4*3, 4.8*(args.iterations+2)//3))
-                plt.subplot(3, (args.iterations+2)//3, 1 + iteration)
+                if not epoch: plt.figure(figsize=(6.4*3, 4.8*(args.epochs+2)//3))
+                plt.subplot(3, (args.epochs+2)//3, 1 + epoch)
             xs = np.linspace(np.min(data[:, 0]), np.max(data[:, 0]), 50)
             ys = np.linspace(np.min(data[:, 1]), np.max(data[:, 1]), 50)
             predictions = [[1 / (1 + np.exp(-([x, y, 1] @ weights))) for x in xs] for y in ys]

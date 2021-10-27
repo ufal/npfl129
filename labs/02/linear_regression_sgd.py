@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser()
 # These arguments will be set appropriately by ReCodEx, even if you change them.
 parser.add_argument("--batch_size", default=10, type=int, help="Batch size")
 parser.add_argument("--data_size", default=100, type=int, help="Data size")
-parser.add_argument("--epochs", default=50, type=int, help="Number of SGD iterations over the data")
+parser.add_argument("--epochs", default=50, type=int, help="Number of SGD training epochs")
 parser.add_argument("--l2", default=0.0, type=float, help="L2 regularization strength")
 parser.add_argument("--learning_rate", default=0.01, type=float, help="Learning rate")
 parser.add_argument("--plot", default=False, const=True, nargs="?", type=str, help="Plot the predictions")

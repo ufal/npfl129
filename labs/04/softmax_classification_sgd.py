@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser()
 # These arguments will be set appropriately by ReCodEx, even if you change them.
 parser.add_argument("--batch_size", default=10, type=int, help="Batch size")
 parser.add_argument("--classes", default=10, type=int, help="Number of classes to use")
-parser.add_argument("--iterations", default=10, type=int, help="Number of iterations over the data")
+parser.add_argument("--epochs", default=10, type=int, help="Number of SGD training epochs")
 parser.add_argument("--learning_rate", default=0.01, type=float, help="Learning rate")
 parser.add_argument("--recodex", default=False, action="store_true", help="Running in ReCodEx")
 parser.add_argument("--seed", default=42, type=int, help="Random seed")
@@ -37,7 +37,7 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
     # Generate initial model weights
     weights = generator.uniform(size=[train_data.shape[1], args.classes], low=-0.1, high=0.1)
 
-    for iteration in range(args.iterations):
+    for epoch in range(args.epochs):
         permutation = generator.permutation(train_data.shape[0])
 
         # TODO: Process the data in the order of `permutation`.
@@ -49,13 +49,13 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
         # softmax(z) = softmax(z + any_constant) and compute softmax(z) = softmax(z - maximum_of_z).
         # That way we only exponentiate values which are non-positive, and overflow does not occur.
 
-        # TODO: After the SGD iteration, measure the average loss and accuracy for both the
+        # TODO: After the SGD epoch, measure the average loss and accuracy for both the
         # train test and the test set. The loss is the average MLE loss (i.e., the
         # negative log likelihood, or crossentropy loss, or KL loss) per example.
         train_accuracy, train_loss, test_accuracy, test_loss = None, None, None, None
 
-        print("After iteration {}: train loss {:.4f} acc {:.1f}%, test loss {:.4f} acc {:.1f}%".format(
-            iteration + 1, train_loss, 100 * train_accuracy, test_loss, 100 * test_accuracy))
+        print("After epoch {}: train loss {:.4f} acc {:.1f}%, test loss {:.4f} acc {:.1f}%".format(
+            epoch + 1, train_loss, 100 * train_accuracy, test_loss, 100 * test_accuracy))
 
     return weights, [(train_loss, train_accuracy), (test_loss, test_accuracy)]
 
