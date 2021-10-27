@@ -1,6 +1,6 @@
 ### Assignment: mnist_competition
 #### Date: Deadline: Nov 8, 23:59
-#### Points: 6 points+6 bonus
+#### Points: 5 points+6 bonus
 
 This assignment is a [competition task](https://ufal.mff.cuni.cz/courses/npfl129/2021-winter#competitions). Your goal
 is to perform 10-class classification on the well-known
@@ -16,6 +16,6 @@ Furthermore, it shows how to save a trained estimator and how to load it during
 prediction.
 
 The performance of your system is measured using _accuracy_ of correctly
-predicted examples and your goal is to achieve at least 94% accuracy.
+predicted examples and your goal is to achieve at least 97% accuracy.
 Note that you can use **any sklearn algorithm** to solve this exercise
 (and of course anything you implement yourself).
