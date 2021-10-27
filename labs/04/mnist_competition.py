@@ -15,6 +15,7 @@ class Dataset:
     """
     def __init__(self,
                  name="mnist.train.npz",
+                 data_size=None,
                  url="https://ufal.mff.cuni.cz/~straka/courses/npfl129/2122/datasets/"):
         if not os.path.exists(name):
             print("Downloading dataset {}...".format(name))
@@ -23,7 +24,7 @@ class Dataset:
         # Load the dataset, i.e., `data` and optionally `target`.
         dataset = np.load(name)
         for key, value in dataset.items():
-            setattr(self, key, value)
+            setattr(self, key, value[:data_size])
         self.data = self.data.reshape([-1, 28*28]).astype(np.float)
 
 
