@@ -1,7 +1,7 @@
 ### Assignment: linear_regression_features
 #### Date: Deadline: Oct 18, 23:59
 #### Points: 3 points
-#### Tests: linear_regression_features_examples
+#### Tests: linear_regression_features_tests
 
 Starting with the
 [linear_regression_features.py](https://github.com/ufal/npfl129/tree/master/labs/01/linear_regression_features.py)
@@ -10,7 +10,7 @@ template, use `scikit-learn` to train a model of a 1D curve.
 Try using a concatenation of features $x^1, x^2, …, x^D$ for $D$ from 1 to
 a given range, and report RMSE of every such configuration.
 
-#### Tests Start: linear_regression_features_examples
+#### Tests Start: linear_regression_features_tests
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
 - `python3 linear_regression_features.py --data_size=10 --test_size=5 --range=6`
 ```

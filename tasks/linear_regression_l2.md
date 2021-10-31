@@ -13,10 +13,10 @@ _Note that your results may be slightly different (because of varying floating p
 ```
 0.49 52.11
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/linear_regression_l2_1.svgz)
+![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/linear_regression_l2_1.svgz)
 - `python3 linear_regression_l2.py --test_size=0.80`
 ```
 0.10 53.53
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/linear_regression_l2_2.svgz)
+![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/linear_regression_l2_2.svgz)
 #### Tests End:

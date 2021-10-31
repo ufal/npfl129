@@ -12,15 +12,15 @@ _Note that your results may be slightly different (because of varying floating p
 ```
 Learned weights 4.10 2.94 -1.00
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/perceptron_1.svgz)
+![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/perceptron_1.svgz)
 - `python3 perceptron.py --data_size=50 --seed=320`
 ```
 Learned weights -2.30 -1.96 -2.00
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/perceptron_2.svgz)
+![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/perceptron_2.svgz)
 - `python3 perceptron.py --data_size=200 --seed=92`
 ```
 Learned weights 4.43 1.54 -2.00
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/perceptron_3.svgz)
+![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/perceptron_3.svgz)
 #### Tests End:
