@@ -5,6 +5,7 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-05-czech.mp4, CZ Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-05-english.mp4, EN Lecture
 #### Questions: #lecture_5_questions
+#### Lecture assignment: k_nearest_neighbors
 
 - Lagrange multipliers [Appendix E of PRML]
 - _Calculus of variations [Appendix D of PRML]_
