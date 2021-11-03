@@ -43,14 +43,15 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
         # `args.batch_size` of them, average their gradient, and update the weights.
         # You can assume that `args.batch_size` exactly divides `train_data.shape[0]`.
         #
-        # Note that you need to be careful when computing softmax, because the exponentiation
+        # Note that you need to be careful when computing softmax because the exponentiation
         # in softmax can easily overflow. To avoid it, you should use the fact that
         # softmax(z) = softmax(z + any_constant) and compute softmax(z) = softmax(z - maximum_of_z).
-        # That way we only exponentiate values which are non-positive, and overflow does not occur.
+        # That way we only exponentiate non-positive values, and overflow does not occur.
 
         # TODO: After the SGD epoch, measure the average loss and accuracy for both the
         # train test and the test set. The loss is the average MLE loss (i.e., the
-        # negative log likelihood, or crossentropy loss, or KL loss) per example.
+        # negative log-likelihood, or cross-entropy loss, or KL loss) per example.
+        
         train_accuracy, train_loss, test_accuracy, test_loss = None, None, None, None
 
         print("After epoch {}: train loss {:.4f} acc {:.1f}%, test loss {:.4f} acc {:.1f}%".format(
