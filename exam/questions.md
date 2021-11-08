@@ -93,3 +93,21 @@
   classification. Define $L_p$ norm and describe uniform, inverse
   and softmax weighting. [5]
 
+#### Questions@:, Lecture 6 Questions
+- Define a kernel based on a feature map $\varphi: \mathbb{R}^D \rightarrow \mathbb{R}^F$,
+  and write down the formulas for (1) a polynomial kernel of degree $d$, (2)
+  a polynomial kernel of degree at most $d$, (3) an RBF kernel. [5]
+
+- Define a kernel and write down the mini-batch SGD training algorithm of dual
+  formulation of kernel linear regression. Then, describe how predictions for
+  unseen data are made. [10]
+
+- Derive the primary formulation of hard-margin SVM (the value to minimize,
+  the constraints to fulfil) as a maximum-margin classifier. [5]
+
+- Starting from primary hard-margin SVM formulation, derive the dual formulation
+  (the Lagrangian L, the required conditions, the KKT conditions). [10]
+
+- Considering hard-margin SVM, define what a support vector is, and how
+  predictions are performed for unseen data. [5]
+
