@@ -43,8 +43,8 @@ def main(args: argparse.Namespace) -> tuple[list[float], list[float]]:
     # Regarding the L2 regularization, note that it always affects all betas, not
     # just the ones in the batch.
     #
-    # For `bias`, use explicitly the average of the training targets, and do
-    # not update it futher during training.
+    # For `bias`, explicitly use the average of the training targets, and do
+    # not update it further during training.
     #
     # Instead of using feature map `phi` directly, we use a given kernel computing
     #   K(x, y) = phi(x)^T phi(y)
