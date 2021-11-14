@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import sys
 import urllib.request
 
 class Dictionary:
@@ -7,7 +8,7 @@ class Dictionary:
                  name="fiction-dictionary.txt",
                  url="https://ufal.mff.cuni.cz/~straka/courses/npfl129/2122/datasets/"):
         if not os.path.exists(name):
-            print("Downloading {}...".format(name))
+            print("Downloading dataset {}...".format(name), file=sys.stderr)
             urllib.request.urlretrieve(url + name, filename=name)
             urllib.request.urlretrieve(url + name.replace(".txt", ".LICENSE"), filename=name.replace(".txt", ".LICENSE"))
 

@@ -3,6 +3,7 @@ import argparse
 import lzma
 import os
 import pickle
+import sys
 import urllib.request
 
 import numpy as np
@@ -30,7 +31,7 @@ class Dataset:
                  name="rental_competition.train.npz",
                  url="https://ufal.mff.cuni.cz/~straka/courses/npfl129/2122/datasets/"):
         if not os.path.exists(name):
-            print("Downloading dataset {}...".format(name))
+            print("Downloading dataset {}...".format(name), file=sys.stderr)
             urllib.request.urlretrieve(url + name, filename=name)
 
         # Load the dataset and return the data and targets.
