@@ -51,20 +51,21 @@ def main(args: argparse.Namespace) -> float:
 
     # TODO: Generate `test_predictions` with classes predicted for `test_data`.
     #
-    # Find `args.k` nearest neighbors, choosing the ones with smallest train_data
+    # Find `args.k` nearest neighbors, choosing the ones with the smallest train_data
     # indices in case of ties. Use the most frequent class (optionally weighted
     # by a given scheme described below) as prediction, choosing the one with the
     # smallest class index when there are multiple classes with the same frequency.
     #
-    # Use L_p norm for a given p (either 1, 2 or 3) to measure distances.
+    # Use L_p norm for a given p (either 1, 2, or 3) to measure distances.
     #
     # The weighting can be:
     # - "uniform": all nearest neighbors have the same weight
     # - "inverse": `1/distances` is used as weights
     # - "softmax": `softmax(-distances)` is used as weights
     #
-    # If you want to plot misclassified examples, you need to also fill `test_neighbors`
+    # If you want to plot misclassified examples, you also need to fill `test_neighbors`
     # with indices of nearest neighbors; but it is not needed for passing in ReCodEx.
+
     test_predictions = None
 
     accuracy = sklearn.metrics.accuracy_score(test_target, test_predictions)
