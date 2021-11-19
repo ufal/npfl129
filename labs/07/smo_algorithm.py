@@ -87,7 +87,6 @@ def smo(
     # TODO: Create an array of support vectors (in the same order in which they appeared
     # in the training data; to avoid rounding errors, consider a training example
     # a support vector only if a_i > `args.tolerance`) and their weights (a_i * t_i).
-    # Note that until now the full `a` should have been used for prediction.
     support_vectors, support_vector_weights = None, None
 
     print("Done, iteration {}, support vectors {}, train acc {:.1f}%, test acc {:.1f}%".format(
