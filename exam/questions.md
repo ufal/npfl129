@@ -139,3 +139,37 @@
 - Describe the one-versus-one and one-versus-rest schemes of constructing
   a $K$-class classifier by combining multiple binary classifiers. [5]
 
+#### Questions@:, Lecture 8 Questions
+- Explain how is the TF-IDF weight of a given document-term computed. [5]
+
+- Define conditional entropy, mutual information, write down relation
+  between them, and finally prove that mutual information is zero
+  if and only if the two random variables are independent (you do not
+  need to prove statements about $D_\textrm{KL}$). [5]
+
+- Show that TF-IDF terms can be considered portions of a suitable mutual
+  information. [5]
+
+- Show that $L_2$-regularization can be obtained from a suitable prior
+  by Bayesian inference (from the MAP estimate). [5]
+
+- Write down how is $p(C_k | \boldsymbol x)$ approximated in a Naive Bayes
+  classifier, explicitly state the Naive Bayes assumption, and show how
+  prediction is performed. [5]
+
+- Considering a Gaussian naive Bayes, describe how are $p(x_i | C_k)$ modeled
+  (what distribution and which parameters does it have) and how we estimate it
+  during fitting. [5]
+
+- Considering a Multinomial naive Bayes, describe how are
+  $p(\boldsymbol x | C_k)$ modeled (what distribution and which parameters does
+  it have) and how we estimate it during fitting. [5]
+
+- Considering a Bernoulli naive Bayes, describe how are $p(x_i | C_k)$ modeled
+  (what distribution and which parameters does it have) and how we estimate it
+  during fitting. [5]
+
+- Describe the difference between a generative and a discriminative model,
+  the strengths of these models, and explain why is logistic regression
+  and multinomial/Bernoulli naive Bayes called a generative-discriminative pair.
+  [5]
