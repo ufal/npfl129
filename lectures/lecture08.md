@@ -5,6 +5,7 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-08-czech.mp4, CZ Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-08-english.mp4, EN Lecture
 #### Questions: #lecture_8_questions
+#### Lecture assignment: tf_idf
 #### Lecture assignment: naive_bayes
 #### Lecture assignment: isnt_it_ironic
 
