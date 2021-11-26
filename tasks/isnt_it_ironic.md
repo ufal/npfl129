@@ -1,5 +1,5 @@
 ### Assignment: isnt_it_ironic
-#### Date: Deadline: Dec 06, 23:59
+#### Date: Deadline: ~~Dec 06~~ Dec 13, 23:59
 #### Points: 5 points+5 bonus
 
 The goal of the `isnt_it_ironic` [competition task](https://ufal.mff.cuni.cz/courses/npfl129/2122-winter#competitions) is to learn to

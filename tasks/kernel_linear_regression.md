@@ -1,5 +1,5 @@
 ### Assignment: kernel_linear_regression
-#### Date: Deadline: Nov 22, 23:59
+#### Date: Deadline: ~~Nov 22~~ Dec 06, 23:59
 #### Points: 5 points
 #### Examples: kernel_linear_regression_examples
 #### Tests: kernel_linear_regression_tests

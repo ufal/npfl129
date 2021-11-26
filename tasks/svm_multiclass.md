@@ -1,5 +1,5 @@
 ### Assignment: svm_multiclass
-#### Date: Deadline: Nov 29, 23:59
+#### Date: Deadline: ~~Nov 29~~ Dec 06, 23:59
 #### Points: 3 points
 #### Tests: svm_multiclass_tests
 

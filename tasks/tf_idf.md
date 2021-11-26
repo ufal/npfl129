@@ -1,5 +1,5 @@
 ### Assignment: tf_idf
-#### Date: Deadline: Dec 06, 23:59
+#### Date: Deadline: ~~Dec 06~~ Dec 13, 23:59
 #### Points: 3 points
 
 Using the [tf_idf.py](https://github.com/ufal/npfl129/tree/master/labs/08/tf_idf.py)

@@ -1,5 +1,5 @@
 ### Assignment: naive_bayes
-#### Date: Deadline: Dec 06, 23:59
+#### Date: Deadline: ~~Dec 06~~ Dec 13, 23:59
 #### Points: 3 points
 #### Tests: naive_bayes_tests
 
