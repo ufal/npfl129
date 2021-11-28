@@ -173,3 +173,38 @@
   the strengths of these models, and explain why is logistic regression
   and multinomial/Bernoulli naive Bayes called a generative-discriminative pair.
   [5]
+
+#### Questions@:, Lecture 9 Questions
+- Prove that independent discrete random variables are uncorrelated. [5]
+
+- Write down the definition of covariance and Pearson correlation coefficient
+  $\rho$, including its range. [5]
+
+- Explain how are the Spearman's rank correlation coefficient and the Kendall
+  rank correlation coefficient computed (no need to describe the Pearson
+  correlation coefficient). [5]
+
+- Considering an averaging ensemble of $M$ models, prove the relation between
+  the average mean squared error of the ensemble and the average error of the
+  individual models, assuming the model errors have zero mean and are
+  uncorrelated. [10]
+
+- In a regression decision tree, state what values are kept in internal nodes,
+  define the squared error criterion and describe how a leaf is split during
+  training (without discussing splitting constraints). [5]
+
+- In a $K$-class classification decision tree, state what values are kept in
+  internal nodes, define the Gini index and describe how a node is split during
+  training (without discussing splitting constraints). [5]
+
+- In a $K$-class classification decision tree, state what values are kept in
+  internal nodes, define the entropy criterion and describe how a node is split during
+  training (without discussing splitting constraints). [5]
+
+- For binary classification, derive the Gini index from a squared error loss. [10]
+
+- For $K$-class classification, derive the entropy criterion from a non-averaged
+  NLL loss. [10]
+
+- Describe how is a random forest trained (including bagging and random subset
+  of features) and how is prediction performed for regression and classification. [10]
