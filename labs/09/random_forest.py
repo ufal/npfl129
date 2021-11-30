@@ -34,7 +34,7 @@ def main(args: argparse.Namespace) -> tuple[float, float]:
 
     generator_bootstrapping = np.random.RandomState(args.seed)
     def bootstrap_dataset(train_data:np.ndarray) -> np.ndarray:
-        return generator_bootstrapping.choice(len(train_data), size=len(train_data))
+        return generator_bootstrapping.choice(len(train_data), size=len(train_data), replace=True)
 
     # TODO: Create a random forest on the trainining data.
     #
@@ -48,16 +48,17 @@ def main(args: argparse.Namespace) -> tuple[float, float]:
     #
     # Additionally, implement:
     # - feature subsampling: when searching for the best split, try only
-    #   a subset of features. When splitting a node, start by generating
-    #   a feature mask using
+    #   a subset of features. Notably, when splitting a node (i.e., when the
+    #   splitting conditions [depth, criterion != 0] are satisfied), start by
+    #   generating a feature mask using
     #     subsample_features(number_of_features)
     #   which gives a boolean value for every feature, with `True` meaning the
-    #   feature is used during best split search, and `False` it is not.
-    #   (When feature_subsampling == 1, all features are used.)
+    #   feature is used during best split search, and `False` it is not
+    #   (i.e., when feature_subsampling == 1, all features are used).
     #
     # - train a random forest consisting of `args.trees` decision trees
     #
-    # - if `args.bagging` is set, right before training a decision tree,
+    # - if `args.bagging` is set, before training each decision tree
     #   create a bootstrap sample of the training data by calling
     #     dataset_indices = bootstrap_dataset(train_data)
     #   and if `args.bagging` is not set, use the original training data.
