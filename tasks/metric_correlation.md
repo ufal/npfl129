@@ -1,4 +1,5 @@
-### Assignment: metric_correlation Dec 20, 23:59
+### Assignment: metric_correlation 
+#### Date: Deadline: Dec 20, 23:59
 #### Points: 2 points
 #### Tests: metric_correlation_tests
 
