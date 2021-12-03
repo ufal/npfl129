@@ -48,7 +48,7 @@ def main(args: argparse.Namespace) -> float:
         newsgroups.data, newsgroups.target, test_size=args.test_size, random_state=args.seed)
 
     # TODO: Create a feature for every word that is present at least twice
-    # in the training data. A word is every sequence of at least 2 word characters,
+    # in the training data. A word is every maximum sequence of at least 2 word characters,
     # where a word character corresponds to a regular expression `\w`.
 
     # TODO: Weight the selected features using
@@ -56,7 +56,7 @@ def main(args: argparse.Namespace) -> float:
     # - inverse document frequency (IDF), if `args.idf` is set; use
     #   the variant which contains `+1` in the denominator;
     # - TF * IDF, if both `args.tf` and `args.idf` are set;
-    # - binary indicators, if nether `args.tf` nor `args.idf` are set.
+    # - binary indicators, if neither `args.tf` nor `args.idf` are set.
     # Note that IDFs are computed on the train set and then reused without
     # modification on the test set, while TF is computed for every document separately.
     #
