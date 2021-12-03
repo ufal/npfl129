@@ -48,7 +48,7 @@ def main(args: argparse.Namespace) -> float:
         newsgroups.data, newsgroups.target, test_size=args.test_size, random_state=args.seed)
 
     # TODO: Create a feature for every word that is present at least twice
-    # in the training data. A word is every maximum sequence of at least 2 word characters,
+    # in the training data. A word is every maximal sequence of at least 2 word characters,
     # where a word character corresponds to a regular expression `\w`.
 
     # TODO: Weight the selected features using
