@@ -208,3 +208,27 @@
 
 - Describe how is a random forest trained (including bagging and random subset
   of features) and how is prediction performed for regression and classification. [10]
+
+#### Questions@:, Lecture 10 Questions
+- Write down the loss function which we optimize in gradient boosting decision
+  tree during the construction of $t^\mathrm{th}$ tree. Then define $g_i$
+  and $h_i$ and show the value $w_\mathcal{T}$ of optimal prediction in node
+  $\mathcal{T}$. [10]
+
+- Write down the loss function which we optimize in gradient boosting decision
+  tree during the construction of $t^\mathrm{th}$ tree. Then define $g_i$
+  and $h_i$ and the criterion used during node splitting. [10]
+
+- How is the learning rate used during training and prediction of a gradient
+  boosting decision tree? [5]
+
+- For a $K$-class classification, describe how to perform prediction with
+  a gradient boosting decision tree trained for $T$ timestamps (how the
+  individual trees perform prediction and how are the $K \cdot T$ trees
+  combined to produce the predicted categorical distribution). [5]
+
+- Considering a $K$-class classification, describe which individual trees (and
+  in which order) are created during gradient boosted decision tree training,
+  and what per-example loss is used for training every one of them (expressed
+  using predictions of the already trained trees). You do not need to describe
+  the training process of the individual trees themselves. [10]

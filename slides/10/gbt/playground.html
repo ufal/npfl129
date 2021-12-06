@@ -1,0 +1,199 @@
+<html>
+  <head>
+    <title>Gradient Boosting Playground</title>
+    <style>
+div.demo-wrapper {
+    width: 850px;
+}
+
+div.dataset-column{
+    width: 70px;
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.left-column{
+    width: 300px;
+    padding-left: 25px;
+    padding-right: 25px;
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table.controls {
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    background-color: #eee;
+    font-size: 14px;
+    text-align: center;
+}
+
+input[type=range] {
+    vertical-align: text-top;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.display-label{
+    font-size: 14px;
+    line-height: 1em;
+}
+
+#playground_visualization_canvas{
+    margin: 10px 5px 0px 5px;
+}
+
+#playground_learning_curves_canvas{
+    margin-bottom: 5px;
+}
+
+div#playground_trees_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+canvas.separate_tree_visualization {
+    margin: 10px 5px;
+}
+
+div.plus_control_element {
+    width: 22px;
+    height: 22px;
+    padding: 13px 3px;
+}
+
+div.plus_control_element > div {
+    background-image: url('plus-sign.png');
+    background-size: 22px 22px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+div.plus_control_element.participates-in-sum > div{
+    box-shadow: 0 0 0 5px #cbc;
+}
+
+div.plus_control_element:hover > div {
+    box-shadow: 0 0 0 5px #bdb;
+}
+
+canvas.separate_tree_visualization.participates-in-sum {
+    outline: 5px solid #cbc;
+}
+
+canvas.separate_tree_visualization:hover {
+    outline: 5px solid #bdb;
+}
+
+div.plus_control_element {
+    display: inline-block;
+}
+
+canvas.dataset-preview {
+    margin: 8px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+canvas.selected-dataset-preview{
+    outline: 5px solid #bbb;
+}
+
+canvas.dataset-preview:hover {
+    outline: 5px solid #bdb;
+}
+
+span.train-loss-number{
+    display: inline-block;
+    width: 60px;
+}
+
+span.loss-number{
+    display: inline-block;
+    width: 40px;
+}
+    </style>
+  </head>
+  <body>
+    This is an interactive demonstration-explanation of gradient boosting
+    algorithm, taken from
+    <a href="http://arogozhnikov.github.io/2016/07/05/gradient_boosting_playground.html">http://arogozhnikov.github.io/2016/07/05/gradient_boosting_playground.html</a>.
+
+      <div class="demo-wrapper">
+        <div style="display: flex; align-items: flex-start;">
+          <div class='dataset-column'>
+            <div>Dataset:</div>
+            <div id="classification_datasets"></div>
+          </div>
+          <div class='left-column'>
+            <div>Prediction:</div>
+            <canvas id="playground_visualization_canvas"></canvas>
+            <div>&uparrow;</div>
+            <div class='display-label' style="height: 50px; text-align: center;" id="playground_prediction_label"></div>
+            <div class='display-label'><span style="color: #888;">train loss: <span id="playground_train_loss_display" class="train-loss-number"></span></span>
+              test loss: <span id="playground_test_loss_display" class="loss-number"></span>
+            </div>
+            <canvas id="playground_learning_curves_canvas"></canvas>
+          </div>
+          <div>
+            <div>Decision functions of first <span id="span_n_shown_trees"></span> trees</div>
+            <div id="playground_trees_container"></div>
+          </div>
+        </div>
+
+        <table class="controls">
+          <tr>
+            <td>
+              <label for="playground_depth_control">tree depth: </label><span
+                     id="playground_depth_display"></span><br/>
+                   <input type="range" min="1" max="8" value="4" id="playground_depth_control">
+            </td>
+            <td class="control">
+              <label for="playground_rate_control">learning rate: </label><span
+                     id="playground_rate_display"></span><br/>
+                   <input type="range" min="5" max="100" value="10" step="5" id="playground_rate_control">
+            </td>
+            <td class="control">
+              <label for="playground_angle_control">rotate dataset: </label><br/>
+              <input type="range" min="0" max="90" value="0" step="10" id="playground_angle_control">
+            </td>
+            <td rowspan="2" style="text-align: left;">
+              <input type="checkbox" id="playground_rotate_control">
+              <label for="playground_rotate_control">rotate trees</label>
+              <br />
+              <input type="checkbox" id="playground_show_gradient_control" checked="checked">
+              <label for="playground_show_gradient_control">show gradients on hover</label>
+              <br />
+              <nobr>
+              <input type="checkbox" id="playground_use_newton_raphson">
+              <label for="playground_use_newton_raphson">use Newton-Raphson update</label></nobr>
+            </td>
+          </tr>
+          <tr>
+            <td class="control">
+              <label for="playground_subsample_control">subsample: </label><span
+                     id="playground_subsample_display"></span>%<br/>
+                   <input type="range" min="10" max="100" value="100" step="10" id="playground_subsample_control">
+            </td>
+            <td class="control">
+              <label for="playground_ntrees_control"># trees: </label><span
+                     id="playground_ntrees_display"></span><br/>
+                   <input type="range" min="50" max="200" value="50" step="50" id="playground_ntrees_control">
+            </td>
+          </tr>
+        </table>
+      </div>
+    <script type="text/javascript" src="utils-compiled.js"></script>
+    <script type="text/javascript" src="gradient_boosting-compiled.js"></script>
+    <script type="text/javascript" src="datasets-compiled.js"></script>
+    <script type="text/javascript" src="boosting_playground-compiled.js"></script>
+  </body>
+</html>
