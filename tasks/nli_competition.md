@@ -1,5 +1,5 @@
 ### Assignment: nli_competition
-3### Date: Deadline: Jan 03, 23:59
+#### Date: Deadline: Jan 03, 23:59
 #### Points: 5 points+5 bonus
 
 In this [competition task](https://ufal.mff.cuni.cz/courses/npfl129/2122-winter#competitions) you will be solving the Native
