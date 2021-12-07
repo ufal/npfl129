@@ -5,5 +5,7 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-10-czech.mp4, CZ Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-10-english.mp4, EN Lecture
 #### Questions: #lecture_10_questions
+#### Lecture assignment: gradient_boosting
+#### Lecture assignment: nli_competition
 
 - Gradient boosting decision trees [Paper [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/abs/1603.02754)]
