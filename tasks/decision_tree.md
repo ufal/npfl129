@@ -1,7 +1,7 @@
 ### Assignment: decision_tree
 #### Date: Deadline: Dec 20, 23:59
 #### Points: 4 points
-#### Examples: decision_tree_examples
+#### Tests: decision_tree_tests
 
 Starting with the [decision_tree.py](https://github.com/ufal/npfl129/tree/master/labs/09/decision_tree.py),
 manually implement construction of a classification decision tree, supporting both
@@ -11,54 +11,54 @@ constraints.
 In this assignment, you will get partial points during ReCodEx evaluation,
 depending on which argument values your solution support.
 
-#### Examples Start: decision_tree_examples
+#### Tests Start: decision_tree_tests
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
-- `python3 decision_tree.py --criterion=gini --min_to_split=50`
+- `python3 decision_tree.py --dataset=digits --criterion=gini --min_to_split=250`
 ```
-Train accuracy: 93.2%
-Test accuracy: 84.4%
+Train accuracy: 60.7%
+Test accuracy: 59.6%
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_1.svgz)
-- `python3 decision_tree.py --criterion=gini --max_depth=2`
+![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_1.svgz)
+- `python3 decision_tree.py --dataset=digits --criterion=gini --max_depth=3`
 ```
-Train accuracy: 94.0%
-Test accuracy: 84.4%
+Train accuracy: 41.1%
+Test accuracy: 38.0%
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_2.svgz)
-- `python3 decision_tree.py --criterion=gini --max_leaves=4`
+![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_2.svgz)
+- `python3 decision_tree.py --dataset=digits --criterion=gini --max_leaves=8`
 ```
-Train accuracy: 97.7%
-Test accuracy: 93.3%
+Train accuracy: 60.1%
+Test accuracy: 57.1%
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_3.svgz)
-- `python3 decision_tree.py --criterion=gini --min_to_split=40 --max_leaves=4`
+![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_3.svgz)
+- `python3 decision_tree.py --dataset=digits --criterion=gini --min_to_split=220 --max_leaves=8`
 ```
-Train accuracy: 97.7%
-Test accuracy: 93.3%
+Train accuracy: 60.7%
+Test accuracy: 59.6%
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_4.svgz)
-- `python3 decision_tree.py --criterion=entropy --min_to_split=55`
+![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_4.svgz)
+- `python3 decision_tree.py --dataset=digits --criterion=entropy --min_to_split=420`
 ```
-Train accuracy: 91.0%
-Test accuracy: 86.7%
+Train accuracy: 42.4%
+Test accuracy: 40.2%
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_5.svgz)
-- `python3 decision_tree.py --criterion=entropy --max_depth=2`
+![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_5.svgz)
+- `python3 decision_tree.py --dataset=breast_cancer --criterion=entropy --max_depth=3 --seed=44`
 ```
-Train accuracy: 94.0%
-Test accuracy: 88.9%
+Train accuracy: 94.8%
+Test accuracy: 93.7%
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_6.svgz)
-- `python3 decision_tree.py --criterion=entropy --max_leaves=4`
+![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_6.svgz)
+- `python3 decision_tree.py --dataset=digits --criterion=entropy --max_leaves=7`
 ```
-Train accuracy: 94.7%
-Test accuracy: 88.9%
+Train accuracy: 53.2%
+Test accuracy: 51.6%
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_7.svgz)
-- `python3 decision_tree.py --criterion=entropy --min_to_split=45 --max_depth=2`
+![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_7.svgz)
+- `python3 decision_tree.py --dataset=breast_cancer --criterion=entropy --min_to_split=55 --max_depth=3 --seed=44`
 ```
-Train accuracy: 91.0%
-Test accuracy: 86.7%
+Train accuracy: 94.4%
+Test accuracy: 93.7%
 ```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_8.svgz)
-#### Examples End:
+![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2122/tasks/figures/decision_tree_8.svgz)
+#### Tests End:
