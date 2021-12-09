@@ -1,5 +1,5 @@
 ### Assignment: gradient_boosting
-#### Date: Deadline: Jan 05, 23:59
+#### Date: Deadline: Jan 03, 23:59
 #### Points: 6 points
 #### Tests: gradient_boosting_tests
 
