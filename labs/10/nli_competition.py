@@ -11,7 +11,7 @@ class Dataset:
 
     def __init__(self, name="nli_dataset.train.txt"):
         if not os.path.exists(name):
-            raise RuntimeError("The {} was not found, please download it from ReCodEx.".format(name))
+            raise RuntimeError("The {} was not found, please download it from ReCodEx".format(name))
 
         # Load the dataset and split it into `data` and `target`.
         self.data, self.prompts, self.levels, self.target = [], [], [], []
