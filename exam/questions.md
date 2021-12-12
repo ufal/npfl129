@@ -232,3 +232,36 @@
   and what per-example loss is used for training every one of them (expressed
   using predictions of the already trained trees). You do not need to describe
   the training process of the individual trees themselves. [10]
+
+#### Questions@:, Lecture 11 Questions
+- When deriving the first principal component, write the value of the
+  variance we aim to maximize, both without and with the covariance matrix
+  (and define the covariance matrix). [5]
+
+- When deriving the first $M$ principal components, write the value of the
+  reconstruction loss we aim to minimize using all but the first $M$ principal
+  components, both without and with the covariance matrix (and define the
+  covariance matrix). [10]
+
+- Write down the formula for whitening (sphering) the data matrix $\boldsymbol X$,
+  and state what mean and covariance does the result has. [5]
+
+- Explain how to compute the first $M$ principal components using the SVD
+  decomposition of the centered data matrix $\boldsymbol X$. [5]
+
+- Write down the algorithm of computing the first $M$ principal components
+  of the data matrix $\boldsymbol X$ using the power iteration algorithm. [10]
+
+- Describe the K-means algorithm, including the `kmeans++` initialization. [10]
+
+- Define the multivariate Gaussian distribution of dimension $D$. [5]
+
+- Show how to sample from a multivariate Gaussian distribution
+  $\mathcal{N}(\boldsymbol \mu, \boldsymbol \Sigma)$ with a full covariance
+  matrix, by using random samples from $\mathcal{N}(0, \boldsymbol I)$
+  distribution. [5]
+
+- Describe the constant surfaces of a multivariate Gaussian distribution with
+  (1) $\sigma^2 \boldsymbol I$ covariation, (2) a diagonal covariation matrix,
+  (3) a full covariation matrix. [5]
+
