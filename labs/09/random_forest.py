@@ -42,7 +42,7 @@ def main(args: argparse.Namespace) -> tuple[float, float]:
     # - use `entropy` as the criterion
     # - use `max_depth` constraint, so split a node only if:
     #   - its depth is less than `args.max_depth`
-    #   - the criterion is not 0 (the corresponding instance targetsare not the same)
+    #   - the criterion is not 0 (the corresponding instance targets are not the same)
     # When splitting nodes, proceed in the depth-first order, splitting all nodes
     # in left subtrees before nodes in right subtrees.
     #
