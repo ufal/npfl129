@@ -6,6 +6,7 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-11-english.mp4, EN Lecture
 #### Questions: #lecture_11_questions
 #### Lecture assignment: pca
+#### Lecture assignment: kmeans
 
 - Principal component analysis [Sections 12.1 and 12.4.2 of PRML]
 - Power iteration algorithm
