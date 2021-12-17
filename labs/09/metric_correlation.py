@@ -61,7 +61,7 @@ def main(args: argparse.Namespace) -> tuple[float, float]:
     for beta in np.linspace(0, 2, 201):
         betas.append(beta)
 
-        # TODO: For each bootstap dataset, compute the F_beta score using
+        # TODO: For each bootstrap dataset, compute the F_beta score using
         # the counts in `predictions` and then manually compute the Pearson
         # correlation between the computed scores and `human_ratings`. Append
         # the result to `correlations`.

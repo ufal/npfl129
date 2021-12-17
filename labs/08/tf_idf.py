@@ -65,7 +65,7 @@ def main(args: argparse.Namespace) -> float:
     # from sklearn (pass the `algorithm="brute"` option), with `args.k` nearest
     # neighbors. For TF-IDF vectors, the cosine similarity is usually used, where
     #   cosine_similarity(x, y) = x^T y / (||x|| * ||y||).
-    #
+    
     # To employ this metric, you have several options:
     # - you could try finding out whether `KNeighborsClassifier` supports it directly;
     # - or you could compute it yourself, but if you do, you have to precompute it
@@ -74,7 +74,7 @@ def main(args: argparse.Namespace) -> float:
     # - finally, the nearest neighbors according to cosine_similarity are equivalent to
     #   the neighbors obtained by the usual Euclidean distance on L2-normalized vectors.
 
-    # TODO: Evaluate the performance using macro-averaged F1 score.
+    # TODO: Evaluate the performance using a macro-averaged F1 score.
     f1_score = None
 
     return f1_score
