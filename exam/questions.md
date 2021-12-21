@@ -157,7 +157,7 @@
   classifier, explicitly state the Naive Bayes assumption, and show how
   prediction is performed. [5]
 
-- Considering a Gaussian naive Bayes, describe how are $p(x_i | C_k)$ modeled
+- Considering a Gaussian naive Bayes, describe how are $p(x_d | C_k)$ modeled
   (what distribution and which parameters does it have) and how we estimate it
   during fitting. [5]
 
@@ -165,7 +165,7 @@
   $p(\boldsymbol x | C_k)$ modeled (what distribution and which parameters does
   it have) and how we estimate it during fitting. [5]
 
-- Considering a Bernoulli naive Bayes, describe how are $p(x_i | C_k)$ modeled
+- Considering a Bernoulli naive Bayes, describe how are $p(x_d | C_k)$ modeled
   (what distribution and which parameters does it have) and how we estimate it
   during fitting. [5]
 
