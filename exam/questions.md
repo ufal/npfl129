@@ -254,6 +254,7 @@
 
 - Describe the K-means algorithm, including the `kmeans++` initialization. [10]
 
+#### Questions@:, Lecture 12 Questions
 - Define the multivariate Gaussian distribution of dimension $D$. [5]
 
 - Show how to sample from a multivariate Gaussian distribution
@@ -265,3 +266,18 @@
   (1) $\sigma^2 \boldsymbol I$ covariation, (2) a diagonal covariation matrix,
   (3) a full covariation matrix. [5]
 
+- Considering a Gaussian mixture with $K$ clusters, explain how we represent
+  the individual clusters and write down the likelihood of an example
+  $\boldsymbol x$ for a given Gaussian mixture. [5]
+
+- Write down the log likelihood of an $N$-element dataset for a given Gaussian
+  mixture model with $K$ components. [5]
+
+- Considering the algorithm for Gaussian mixture clustering, write down the
+  E step (how to compute the responsibilities) and the M step (how to update
+  the means, covariances and priors of the individual clusters). [10]
+
+- Write down the MSE loss of a regression problem, and formulate the
+  bias-variance trade-off, i.e., the decomposition of expected MSE loss
+  (with respect to a randomly sampled test set) into bias, variance and
+  irreducible error terms. [10]
