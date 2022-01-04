@@ -6,6 +6,7 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-13-english.mp4, EN Lecture
 #### Questions: #lecture_13_questions
 #### Lecture assignment: bootstrap_resampling
+#### Lecture assignment: permutation_test
 
 - Statistical hypothesis testing
 - Bootstrap resampling
