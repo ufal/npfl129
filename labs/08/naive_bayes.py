@@ -33,7 +33,7 @@ def main(args: argparse.Namespace) -> float:
     #     1/N * \sum_x (x - mean)^2
     #   and additionally increase all estimated variances by `args.alpha`.
     #
-    #   During prediction, you can compute probability density function of a Gaussian
+    #   During prediction, you can compute the probability density function of a Gaussian
     #   distribution using `scipy.stats.norm`, which offers `pdf` and `logpdf`
     #   methods, among others.
     #

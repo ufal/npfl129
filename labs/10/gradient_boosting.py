@@ -29,7 +29,7 @@ def main(args: argparse.Namespace) -> tuple[list[float], list[float]]:
 
     classes = np.max(target) + 1
 
-    # TODO: Create a gradient boosted trees on the classification training data.
+    # TODO: Create gradient boosted trees on the classification training data.
     #
     # Notably, train for `args.trees` iteration. During iteration `t`:
     # - the goal is to train `classes` regression trees, each predicting

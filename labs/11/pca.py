@@ -15,7 +15,7 @@ class MNIST:
     """MNIST Dataset.
 
     The train set contains 60000 images of handwritten digits. The data
-    contain 28*28=784 values in range 0-255, the targets are numbers 0-9.
+    contain 28*28=784 values in the range 0-255, the targets are numbers 0-9.
     """
     def __init__(self,
                  name="mnist.train.npz",

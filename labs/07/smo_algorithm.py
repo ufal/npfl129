@@ -48,7 +48,7 @@ def smo(
             # We want j != i, so we "skip" over the value of i
             j = j + (j >= i)
 
-            # TODO: Check that a[i] fulfils the KKT conditions, using `args.tolerance` during comparisons.
+            # TODO: Check that a[i] fulfills the KKT conditions, using `args.tolerance` during comparisons.
 
             # If the conditions do not hold, then
             # - compute the updated unclipped a_j^new.
