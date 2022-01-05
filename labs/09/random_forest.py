@@ -44,7 +44,7 @@ def main(args: argparse.Namespace) -> tuple[float, float]:
     #   - its depth is less than `args.max_depth`
     #   - the criterion is not 0 (the corresponding instance targets are not the same)
     # When splitting nodes, proceed in the depth-first order, splitting all nodes
-    # into left subtrees before nodes in right subtrees.
+    # in the left subtree before the nodes in right subtree.
     #
     # Additionally, implement:
     # - feature subsampling: when searching for the best split, try only
@@ -55,14 +55,14 @@ def main(args: argparse.Namespace) -> tuple[float, float]:
     #   which gives a boolean value for every feature, with `True` meaning the
     #   feature is used during best split search, and `False` it is not
     #   (i.e., when feature_subsampling == 1, all features are used).
-    
+    #
     # - train a random forest consisting of `args.trees` decision trees
-    
+    #
     # - if `args.bagging` is set, before training each decision tree
     #   create a bootstrap sample of the training data by calling
     #     dataset_indices = bootstrap_dataset(train_data)
     #   and if `args.bagging` is not set, use the original training data.
-    
+    #
     # During prediction, use voting to find the most frequent class for a given
     # input, choosing the one with the smallest class index in case of a tie.
 
