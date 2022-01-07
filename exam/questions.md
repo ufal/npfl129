@@ -58,6 +58,8 @@
   a $K$-class logistic regression model, including the explicit formulas of the
   loss function and its gradient. [10]
 
+- Prove why are decision regions of a multiclass logistic regression convex. [5]
+
 - Considering a single-layer MLP with $D$ input neurons, $H$ hidden
   neurons, $K$ output neurons, hidden activation $f$ and output activation $a$,
   list its parameters (including their size) and write down how is the output
@@ -77,6 +79,13 @@
 - Formulate the Universal approximation theorem. [5]
 
 #### Questions@:, Lecture 5 Questions
+- How do we search for a minimum of a function
+  $f(\boldsymbol x): \mathbb{R}^D \rightarrow \mathbb{R}$ subject to equality
+  constraints $g_1(\boldsymbol x)=0, \ldots, g_m(\boldsymbol x)=0$? [5]
+
+- Prove which categorical distribution with $N$ classes has maximum
+  entropy. [5]
+
 - Consider derivation of softmax using maximum entropy principle, assuming
   we have a dataset of $N$ examples $(x_i, t_i), x_i \in \mathbb{R}^D,
   t_i \in \{1, 2, \ldots, K\}$. Formulate the three conditions we impose on the
@@ -105,6 +114,12 @@
 - Derive the primary formulation of hard-margin SVM (the value to minimize,
   the constraints to fulfil) as a maximum-margin classifier. [5]
 
+- How do we search for a minimum of a function
+  $f(\boldsymbol x): \mathbb{R}^D \rightarrow \mathbb{R}$ subject to an inequality
+  constraint $g(\boldsymbol x) \ge 0$? Formulate both the variant with KKT
+  conditions and the variant with the $\lambda$ maximization, and prove that they
+  are equivalent. [10]
+
 - Starting from primary hard-margin SVM formulation, derive the dual formulation
   (the Lagrangian L, the required conditions, the KKT conditions). [10]
 
@@ -122,7 +137,7 @@
   loss. [5]
 
 - Describe the high-level overview of the SMO algorithm (the test whether
-  the KKT conditions hold, how we select the $a_i$ and $a_j$ to update,
+  the KKT conditions hold, how do we select the $a_i$ and $a_j$ to update,
   what is the goal of updating the $a_i$ and $a_j$, how do we detect
   convergence; but without the update of $a_i$, $a_j$, $b$ themselves). [5]
 
@@ -207,7 +222,7 @@
   NLL loss. [10]
 
 - Describe how is a random forest trained (including bagging and random subset
-  of features) and how is prediction performed for regression and classification. [10]
+  of features) and how is prediction performed for regression and classification. [5]
 
 #### Questions@:, Lecture 10 Questions
 - Write down the loss function which we optimize in gradient boosting decision
@@ -247,7 +262,7 @@
   and state what mean and covariance does the result has. [5]
 
 - Explain how to compute the first $M$ principal components using the SVD
-  decomposition of the centered data matrix $\boldsymbol X$. [5]
+  decomposition of the data matrix $\boldsymbol X$. [5]
 
 - Write down the algorithm of computing the first $M$ principal components
   of the data matrix $\boldsymbol X$ using the power iteration algorithm. [10]
@@ -281,3 +296,31 @@
   bias-variance trade-off, i.e., the decomposition of expected MSE loss
   (with respect to a randomly sampled test set) into bias, variance and
   irreducible error terms. [10]
+
+#### Questions@:, Lecture 13 Questions
+- Considering statistical hypothesis testing, define type I errors and type II
+  errors (in terms of the null hypothesis). Finally define what a significance
+  level is. [5]
+
+- Explain what a test statistic and a p-value are. [5]
+
+- Write down the steps of a statistical hypothesis test. [5]
+
+- Explain the differences between a one-sample test, two-sample test and
+  a paired test. [5]
+
+- When considering multiple comparison problem, define the family-wise
+  error rate, and formulate the Bonferroni correction, which allows
+  to limit the family-wise error rate by a given $\alpha$. [5]
+
+- For a trained model and a given test set with $N$ examples and metric $E$,
+  write how to estimate 95\% confidence intervals using bootstrap resampling.
+  [5]
+
+- For two trained models and a given test set with $N$ examples and metric $E$,
+  explain how to perform a paired bootstrap test that the first model is better
+  than the other. [5]
+
+- For two trained models and a given test set with $N$ examples and metric $E$,
+  explain how to perform a random permutation test that the first model is better
+  than the other with a significance level $\alpha$. [5]
