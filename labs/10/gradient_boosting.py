@@ -31,7 +31,7 @@ def main(args: argparse.Namespace) -> tuple[list[float], list[float]]:
 
     # TODO: Create gradient boosted trees on the classification training data.
     #
-    # Notably, train for `args.trees` iteration. During iteration `t`:
+    # Notably, train for `args.trees` iteration. During the iteration `t`:
     # - the goal is to train `classes` regression trees, each predicting
     #   a part of logit for the corresponding class.
     # - compute the current predictions `y_{t-1}(x_i)` for every training example `i` as
@@ -42,12 +42,12 @@ def main(args: argparse.Namespace) -> tuple[list[float], list[float]]:
     #         1/2 * args.l2 * (sum of all node values in trees_to_train_in_iter_t)
     # - for every class `c`:
     #   - start by computing `g_i` and `h_i` for every training example `i`;
-    #     the `g_i` is the first derivative of NLL(onehot_target_i_c, softmax(y_{t-1}(x_i))_c)
-    #     with respect to y_{t-1}(x_i)_c, and the `h_i` is the second derivative of the same.
-    #   - then, create a decision tree minimizing the above loss L. According to the slides,
+    #     the `g_i` is the first and the `h_i` is the second derivative of 
+    #     NLL(onehot_target_i_c, softmax(y_{t-1}(x_i))_c) with respect to y_{t-1}(x_i)_c.
+    #   - then, create a decision tree minimizing the above mentioned loss L. According to the slides,
     #     the optimum prediction for a given node T with training examples I_T is
     #       w_T = - (\sum_{i \in I_T} g_i) / (args.l2 + sum_{i \in I_T} h_i)
-    #     and the value of the loss with the above prediction is
+    #     and the value of the loss with this prediction is
     #       c_GB = - 1/2 (\sum_{i \in I_T} g_i)^2 / (args.l2 + sum_{i \in I_T} h_i)
     #     which you should use as a splitting criterion.
     #
@@ -60,7 +60,7 @@ def main(args: argparse.Namespace) -> tuple[list[float], list[float]]:
     # using 1, 2, ..., `args.trees` of the created trees.
     #
     # To perform a prediction using t trees, compute the y_t(x_i) and return the
-    # class with the highest value (and the smallest class if there is a tie).
+    # class with the highest value (pick the smallest class if there is a tie).
     train_accuracies = []
     test_accuracies = []
 

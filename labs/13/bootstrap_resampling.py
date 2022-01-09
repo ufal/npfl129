@@ -48,7 +48,7 @@ def main(args: argparse.Namespace) -> tuple[list[tuple[float, float]], float]:
     # by sampling from `test_data` and `test_target`, using the following indices:
     #   indices = generator.choice(len(test_data), size=len(test_data), replace=True)
     #
-    # Store the accuraccies in percents of the individual models on these test
+    # Store the accuracies in percents of the individual models on these test
     # sets into the `scores` array of shape `[2, args.bootstrap_samples]`.
     scores = None
 
@@ -65,10 +65,10 @@ def main(args: argparse.Namespace) -> tuple[list[tuple[float, float]], float]:
     #
     # Notably, compute the probability that the null hypothesis hold
     # (beware that this quantity is not a p-value) as the ratio of the model score
-    # differences which are less or equal to zero. Store it in `result` as a percentage.
+    # differences that are less or equal to zero. Store it in `result` as a percentage.
     result = None
 
-    # Plot the histograms, confidence intervals and the p-value if requested.
+    # Plot the histograms, confidence intervals, and the p-value if requested.
     if args.plot:
         import matplotlib.pyplot as plt
         def histogram(ax, data, color=None):
