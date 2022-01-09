@@ -32,7 +32,7 @@
 - Define entropy, cross-entropy, Kullback-Leibler divergence, and prove
   the Gibbs inequality (i.e., that KL divergence is non-negative). [5]
 
-- Define data distribution, empirical data distribution and likelihood. [5]
+- Define data distribution, empirical data distribution, and likelihood. [5]
 
 - Describe maximum likelihood estimation, as minimizing NLL, cross-entropy and
   KL divergence. [10]
@@ -71,7 +71,7 @@
   ReLU). [5]
 
 - Considering a single-layer MLP with $D$ input neurons, a ReLU hidden layer
-  with $H$ units and softmax output layer with $K$ units, write down the
+  with $H$ units and a softmax output layer with $K$ units, write down the
   formulas of the gradient of all the MLP parameters (two weight matrices and
   two bias vectors), assuming input $\boldsymbol x$, target $t$ and negative log
   likelihood loss. [10]
@@ -96,11 +96,11 @@
   and $F_\beta$ score (we stated several formulations for $F_1$ and $F_\beta$
   scores; any of them will do). [5]
 
-- Explain the difference between micro-averaged and macro-averaged $F_1$ score. [5]
+- Explain the difference between micro-averaged and macro-averaged $F_1$ scores. [5]
 
 - Describe k-nearest neighbors prediction, both for regression and
   classification. Define $L_p$ norm and describe uniform, inverse
-  and softmax weighting. [5]
+  , and softmax weighting. [5]
 
 #### Questions@:, Lecture 6 Questions
 - Define a kernel based on a feature map $\varphi: \mathbb{R}^D \rightarrow \mathbb{R}^F$,
@@ -112,7 +112,7 @@
   unseen data are made. [10]
 
 - Derive the primary formulation of hard-margin SVM (the value to minimize,
-  the constraints to fulfil) as a maximum-margin classifier. [5]
+  the constraints to fulfill) as a maximum-margin classifier. [5]
 
 - How do we search for a minimum of a function
   $f(\boldsymbol x): \mathbb{R}^D \rightarrow \mathbb{R}$ subject to an inequality
@@ -128,7 +128,7 @@
 
 #### Questions@:, Lecture 7 Questions
 - Write down the primary formulation of soft-margin SVM using the slack
-  variables (the value to minimize, the constraints to fulfil). [5]
+  variables (the value to minimize, the constraints to fulfill). [5]
 
 - Starting from primary soft-margin SVM formulation, derive the dual formulation
   (the Lagrangian L, the required conditions, the KKT conditions). [10]
@@ -148,21 +148,21 @@
 
 - Describe the part of the SMO algorithm which updates $b$ to maximize the
   Lagrangian. If you explain how is the update derived (so that if I followed
-  the instructions, I would come up with two $b$ candidates and a rule how
+  the instructions, I would come up with two $b$ candidates and a rule on how
   to utilize them), you do not need to write explicit formulas. [10]
 
 - Describe the one-versus-one and one-versus-rest schemes of constructing
   a $K$-class classifier by combining multiple binary classifiers. [5]
 
 #### Questions@:, Lecture 8 Questions
-- Explain how is the TF-IDF weight of a given document-term computed. [5]
+- Explain how is the TF-IDF weight of a given document term computed. [5]
 
-- Define conditional entropy, mutual information, write down relation
+- Define conditional entropy, mutual information, write down the relation
   between them, and finally prove that mutual information is zero
   if and only if the two random variables are independent (you do not
   need to prove statements about $D_\textrm{KL}$). [5]
 
-- Show that TF-IDF terms can be considered portions of a suitable mutual
+- Show that TF-IDF terms can be considered portions of suitable mutual
   information. [5]
 
 - Show that $L_2$-regularization can be obtained from a suitable prior
@@ -201,7 +201,7 @@
 
 - Considering an averaging ensemble of $M$ models, prove the relation between
   the average mean squared error of the ensemble and the average error of the
-  individual models, assuming the model errors have zero mean and are
+  individual models, assuming the model errors have zero means and are
   uncorrelated. [10]
 
 - In a regression decision tree, state what values are kept in internal nodes,
@@ -209,7 +209,7 @@
   training (without discussing splitting constraints). [5]
 
 - In a $K$-class classification decision tree, state what values are kept in
-  internal nodes, define the Gini index and describe how a node is split during
+  internal nodes, define the Gini index, and describe how a node is split during
   training (without discussing splitting constraints). [5]
 
 - In a $K$-class classification decision tree, state what values are kept in
@@ -221,7 +221,7 @@
 - For $K$-class classification, derive the entropy criterion from a non-averaged
   NLL loss. [10]
 
-- Describe how is a random forest trained (including bagging and random subset
+- Describe how is a random forest trained (including bagging and a random subset
   of features) and how is prediction performed for regression and classification. [5]
 
 #### Questions@:, Lecture 10 Questions
@@ -285,7 +285,7 @@
   the individual clusters and write down the likelihood of an example
   $\boldsymbol x$ for a given Gaussian mixture. [5]
 
-- Write down the log likelihood of an $N$-element dataset for a given Gaussian
+- Write down the log-likelihood of an $N$-element dataset for a given Gaussian
   mixture model with $K$ components. [5]
 
 - Considering the algorithm for Gaussian mixture clustering, write down the
@@ -294,24 +294,24 @@
 
 - Write down the MSE loss of a regression problem, and formulate the
   bias-variance trade-off, i.e., the decomposition of expected MSE loss
-  (with respect to a randomly sampled test set) into bias, variance and
+  (with respect to a randomly sampled test set) into bias, variance, and
   irreducible error terms. [10]
 
 #### Questions@:, Lecture 13 Questions
 - Considering statistical hypothesis testing, define type I errors and type II
-  errors (in terms of the null hypothesis). Finally define what a significance
+  errors (in terms of the null hypothesis). Finally, define what a significance
   level is. [5]
 
 - Explain what a test statistic and a p-value are. [5]
 
 - Write down the steps of a statistical hypothesis test. [5]
 
-- Explain the differences between a one-sample test, two-sample test and
+- Explain the differences between a one-sample test, two-sample test, and
   a paired test. [5]
 
 - When considering multiple comparison problem, define the family-wise
   error rate, and formulate the Bonferroni correction, which allows
-  to limit the family-wise error rate by a given $\alpha$. [5]
+  limiting the family-wise error rate by a given $\alpha$. [5]
 
 - For a trained model and a given test set with $N$ examples and metric $E$,
   write how to estimate 95\% confidence intervals using bootstrap resampling.
