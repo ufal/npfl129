@@ -262,7 +262,7 @@
   and state what mean and covariance does the result has. [5]
 
 - Explain how to compute the first $M$ principal components using the SVD
-  decomposition of the data matrix $\boldsymbol X$. [5]
+  decomposition of the data matrix $\boldsymbol X$, and why it works. [5]
 
 - Write down the algorithm of computing the first $M$ principal components
   of the data matrix $\boldsymbol X$ using the power iteration algorithm. [10]
