@@ -108,7 +108,7 @@
   a polynomial kernel of degree at most $d$, (3) an RBF kernel. [5]
 
 - Define a kernel and write down the mini-batch SGD training algorithm of dual
-  formulation of kernel linear regression. Then, describe how predictions for
+  formulation of kernel linear regression. Then describe how predictions for
   unseen data are made. [10]
 
 - Derive the primary formulation of hard-margin SVM (the value to minimize,
