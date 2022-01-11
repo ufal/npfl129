@@ -121,7 +121,8 @@
   are equivalent. [10]
 
 - Starting from primary hard-margin SVM formulation, derive the dual formulation
-  (the Lagrangian L, the required conditions, the KKT conditions). [10]
+  (the Lagrangian $\mathcal{L}$ in the form used for training and prediction,
+  the required conditions, the KKT conditions of the solution). [10]
 
 - Considering hard-margin SVM, define what a support vector is, and how
   predictions are performed for unseen data. [5]
@@ -131,7 +132,8 @@
   variables (the value to minimize, the constraints to fulfil). [5]
 
 - Starting from primary soft-margin SVM formulation, derive the dual formulation
-  (the Lagrangian L, the required conditions, the KKT conditions). [10]
+  (the Lagrangian $\mathcal{L}$ in the form used for training and prediction,
+  the required conditions, the KKT conditions of the solution). [10]
 
 - Write down the primary formulation of soft-margin SVM using the hinge
   loss. [5]
