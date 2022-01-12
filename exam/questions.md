@@ -32,7 +32,7 @@
 - Define entropy, cross-entropy, Kullback-Leibler divergence, and prove
   the Gibbs inequality (i.e., that KL divergence is non-negative). [5]
 
-- Define data distribution, empirical data distribution, and likelihood. [5]
+- Define data distribution, empirical data distribution and likelihood. [5]
 
 - Describe maximum likelihood estimation, as minimizing NLL, cross-entropy and
   KL divergence. [10]
@@ -100,7 +100,7 @@
 
 - Describe k-nearest neighbors prediction, both for regression and
   classification. Define $L_p$ norm and describe uniform, inverse
-  , and softmax weighting. [5]
+  and softmax weighting. [5]
 
 #### Questions@:, Lecture 6 Questions
 - Define a kernel based on a feature map $\varphi: \mathbb{R}^D \rightarrow \mathbb{R}^F$,
@@ -211,7 +211,7 @@
   training (without discussing splitting constraints). [5]
 
 - In a $K$-class classification decision tree, state what values are kept in
-  internal nodes, define the Gini index, and describe how a node is split during
+  internal nodes, define the Gini index and describe how a node is split during
   training (without discussing splitting constraints). [5]
 
 - In a $K$-class classification decision tree, state what values are kept in
@@ -296,7 +296,7 @@
 
 - Write down the MSE loss of a regression problem, and formulate the
   bias-variance trade-off, i.e., the decomposition of expected MSE loss
-  (with respect to a randomly sampled test set) into bias, variance, and
+  (with respect to a randomly sampled test set) into bias, variance and
   irreducible error terms. [10]
 
 #### Questions@:, Lecture 13 Questions
@@ -308,7 +308,7 @@
 
 - Write down the steps of a statistical hypothesis test. [5]
 
-- Explain the differences between a one-sample test, two-sample test, and
+- Explain the differences between a one-sample test, two-sample test and
   a paired test. [5]
 
 - When considering multiple comparison problem, define the family-wise
