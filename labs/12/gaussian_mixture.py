@@ -51,15 +51,14 @@ def main(args: argparse.Namespace) -> np.ndarray:
     data, target = sklearn.datasets.make_blobs(
         n_samples=args.examples, centers=args.clusters, n_features=2, random_state=args.seed)
 
-    # TODO(kmeans): Initialize `means` with shape [args.clusters, data.shape[1]] in the following way:
-    # - if args.init == "random":
-    #       - as K random data points, using the indices returned by
-    #           generator.choice(len(data), size=args.clusters, replace=False)
-    # - if args.init == "kmeans++":
-    #       - generate the first cluster index by generator.randint(len(data))
-    #       and then iteratively sample the rest of the cluster indices proportionally to
-    #       the square of their distances to their closest cluster using
-    #           generator.choice(unused_points_indices, p=square_distances / np.sum(square_distances))
+    # TODO(kmeans): Initialize `means` with shape [args.clusters, data.shape[1]] as follows:
+    # - if args.init == "random", use K random data points with the indices returned by
+    #     generator.choice(len(data), size=args.clusters, replace=False)
+    # - if args.init == "kmeans++", generate the first cluster index by
+    #     generator.randint(len(data))
+    #   and then iteratively sample the rest of the cluster indices proportionally to
+    #   the square of their distances to their closest cluster using
+    #     generator.choice(unused_points_indices, p=square_distances / np.sum(square_distances))
     #   Use the `np.linalg.norm` to measure the distances.
     means = None
 
