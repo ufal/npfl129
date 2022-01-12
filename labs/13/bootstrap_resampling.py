@@ -68,7 +68,7 @@ def main(args: argparse.Namespace) -> tuple[list[tuple[float, float]], float]:
     # differences that are less or equal to zero. Store it in `result` as a percentage.
     result = None
 
-    # Plot the histograms, confidence intervals, and the p-value if requested.
+    # Plot the histograms, confidence intervals and the p-value, if requested.
     if args.plot:
         import matplotlib.pyplot as plt
         def histogram(ax, data, color=None):
