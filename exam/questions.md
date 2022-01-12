@@ -150,14 +150,14 @@
 
 - Describe the part of the SMO algorithm which updates $b$ to maximize the
   Lagrangian. If you explain how is the update derived (so that if I followed
-  the instructions, I would come up with two $b$ candidates and a rule on how
-  to utilize them), you do not need to write explicit formulas. [10]
+  the instructions, I would come up with two $b$ candidates and a rule to
+  utilize them), you do not need to write explicit formulas. [10]
 
 - Describe the one-versus-one and one-versus-rest schemes of constructing
   a $K$-class classifier by combining multiple binary classifiers. [5]
 
 #### Questions@:, Lecture 8 Questions
-- Explain how is the TF-IDF weight of a given document term computed. [5]
+- Explain how is the TF-IDF weight of a given document-term pair computed. [5]
 
 - Define conditional entropy, mutual information, write down the relation
   between them, and finally prove that mutual information is zero
