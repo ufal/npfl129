@@ -44,7 +44,7 @@ def main(args: argparse.Namespace) -> tuple[list[float], list[float]]:
     #   - start by computing `g_i` and `h_i` for every training example `i`;
     #     the `g_i` is the first and the `h_i` is the second derivative of
     #     NLL(onehot_target_i_c, softmax(y_{t-1}(x_i))_c) with respect to y_{t-1}(x_i)_c.
-    #   - then, create a decision tree minimizing the above mentioned loss L. According to the slides,
+    #   - then, create a decision tree minimizing the loss L. According to the slides,
     #     the optimum prediction for a given node T with training examples I_T is
     #       w_T = - (\sum_{i \in I_T} g_i) / (args.l2 + sum_{i \in I_T} h_i)
     #     and the value of the loss with this prediction is
