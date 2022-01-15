@@ -261,7 +261,7 @@
   covariance matrix). [10]
 
 - Write down the formula for whitening (sphering) the data matrix $\boldsymbol X$,
-  and state what mean and covariance does the result has. [5]
+  and state what mean and covariance does the result have. [5]
 
 - Explain how to compute the first $M$ principal components using the SVD
   decomposition of the data matrix $\boldsymbol X$, and why it works. [5]
