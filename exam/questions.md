@@ -112,7 +112,8 @@
   unseen data are made. [10]
 
 - Derive the primary formulation of hard-margin SVM (the value to minimize,
-  the constraints to fulfill) as a maximum-margin classifier. [5]
+  the constraints to fulfill) as a maximum-margin classifier (i.e., start by
+  margin maximization). [5]
 
 - How do we search for a minimum of a function
   $f(\boldsymbol x): \mathbb{R}^D \rightarrow \mathbb{R}$ subject to an inequality
