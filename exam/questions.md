@@ -312,7 +312,7 @@
   a paired test. [5]
 
 - When considering multiple comparison problem, define the family-wise
-  error rate, and formulate the Bonferroni correction, which allows
+  error rate, and prove the Bonferroni correction, which allows
   limiting the family-wise error rate by a given $\alpha$. [5]
 
 - For a trained model and a given test set with $N$ examples and metric $E$,
