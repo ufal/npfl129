@@ -94,7 +94,7 @@
 
 - Define precision (including true positives and others), recall, $F_1$ score
   and $F_\beta$ score (we stated several formulations for $F_1$ and $F_\beta$
-  scores; any of them will do). [5]
+  scores; any one of them will do). [5]
 
 - Explain the difference between micro-averaged and macro-averaged $F_1$ scores. [5]
 
