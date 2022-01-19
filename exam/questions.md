@@ -307,7 +307,8 @@
 
 - Explain what a test statistic and a p-value are. [5]
 
-- Write down the steps of a statistical hypothesis test. [5]
+- Write down the steps of a statistical hypothesis test, including a definition
+  of a p-value. [5]
 
 - Explain the differences between a one-sample test, two-sample test and
   a paired test. [5]
