@@ -267,7 +267,7 @@
 - Explain how to compute the first $M$ principal components using the SVD
   decomposition of the data matrix $\boldsymbol X$, and why it works. [5]
 
-- Write down the algorithm of computing the first $M$ principal components
+- Write down the algorithm for computing the first $M$ principal components
   of the data matrix $\boldsymbol X$ using the power iteration algorithm. [10]
 
 - Describe the K-means algorithm, including the `kmeans++` initialization. [10]
