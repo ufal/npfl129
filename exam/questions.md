@@ -38,7 +38,7 @@
   KL divergence. [10]
 
 - Considering binary logistic regression model, write down its parameters
-  (including their size) and explain how is prediction performed (including the
+  (including their size) and explain how prediction is performed (including the
   formula for the sigmoid function). Describe how we can interpret the outputs
   of the linear part of the model as logits. [5]
 
@@ -50,7 +50,7 @@
 - Define mean squared error and show how it can be derived using MLE. [5]
 
 - Considering $K$-class logistic regression model, write down its parameters
-  (including their size) and explain how is prediction performed (including the
+  (including their size) and explain how prediction is performed (including the
   formula for the softmax function). Describe how we can interpret the outputs
   of the linear part of the model as logits. [5]
 
@@ -62,8 +62,8 @@
 
 - Considering a single-layer MLP with $D$ input neurons, $H$ hidden
   neurons, $K$ output neurons, hidden activation $f$ and output activation $a$,
-  list its parameters (including their size) and write down how is the output
-  computed. [5]
+  list its parameters (including their size) and write down how the output
+  is computed. [5]
 
 - List the definitions of frequently used MLP output layer activations (the ones
   producing parameters of a Bernoulli distribution and a categorical distribution).
@@ -145,12 +145,12 @@
   convergence; but without the update of $a_i$, $a_j$, $b$ themselves). [5]
 
 - Describe the part of the SMO algorithm which updates $a_i$ and $a_j$ to
-  maximize the Lagrangian. If you explain how is the update derived (so that if
+  maximize the Lagrangian. If you explain how the update is derived (so that if
   I followed the instructions, I would come up with the update rules), you do
   not need to write explicit formulas. [10]
 
 - Describe the part of the SMO algorithm which updates $b$ to maximize the
-  Lagrangian. If you explain how is the update derived (so that if I followed
+  Lagrangian. If you explain how the update is derived (so that if I followed
   the instructions, I would come up with two $b$ candidates and a rule to
   utilize them), you do not need to write explicit formulas. [10]
 
@@ -171,7 +171,7 @@
 - Show that $L_2$-regularization can be obtained from a suitable prior
   by Bayesian inference (from the MAP estimate). [5]
 
-- Write down how is $p(C_k | \boldsymbol x)$ approximated in a Naive Bayes
+- Write down how $p(C_k | \boldsymbol x)$ is approximated in a Naive Bayes
   classifier, explicitly state the Naive Bayes assumption, and show how
   prediction is performed. [5]
 
@@ -224,8 +224,8 @@
 - For $K$-class classification, derive the entropy criterion from a non-averaged
   NLL loss. [10]
 
-- Describe how is a random forest trained (including bagging and a random subset
-  of features) and how is prediction performed for regression and classification. [5]
+- Describe how a random forest is trained (including bagging and a random subset
+  of features) and how prediction is performed for regression and classification. [5]
 
 #### Questions@:, Lecture 10 Questions
 - Write down the loss function which we optimize in gradient boosting decision
