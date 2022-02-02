@@ -29,8 +29,9 @@
   descent. Why are the learning rates not needed (i.e., why are the predictions
   of a trained model the same for all positive learning rates)? [5]
 
-- Define entropy, cross-entropy, Kullback-Leibler divergence, and prove
-  the Gibbs inequality (i.e., that KL divergence is non-negative). [5]
+- For discrete random variables, define entropy, cross-entropy, Kullback-Leibler
+  divergence, and prove the Gibbs inequality (i.e., that KL divergence is
+  non-negative). [5]
 
 - Define data distribution, empirical data distribution and likelihood. [5]
 
