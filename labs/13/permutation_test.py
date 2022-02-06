@@ -50,10 +50,13 @@ def main(args: argparse.Namespace) -> float:
     # into the `scores`, as percents.
     scores = None
 
+    # TODO: Store the performance of the `models[1]` as percents in `second_model`.
+    second_model = None
+
     # TODO: Assuming the null hypothesis that the models have the same performance,
     # perform one-sided random permutation test and estimate its p-value
-    # as a ratio of `scores` that are greater or equal to the performance of `models[1]`.
-    # Store it in the `p_value` variable as a percentage.
+    # as a ratio of `scores` that are greater or equal to the `second_model` performance.
+    # Store the result in the `p_value` variable as a percentage.
     p_value = None
 
     # Plot the histograms, confidence intervals and the p-value if requested.
