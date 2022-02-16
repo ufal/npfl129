@@ -12,5 +12,5 @@
 #### Lecture assignment: isnt_it_ironic
 
 - TF-IDF
-- Naive Bayess classifier [Basic idea in Section 8.2.2 of PRML]
+- Naive Bayes classifier [Basic idea in Section 8.2.2 of PRML]
   - _[On Discriminative vs. Generative Classifiers: A comparison of logistic regression and naive Bayes](http://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf)_
