@@ -8,7 +8,7 @@ of five actions (`walking`, `standing`, `sitting`, `standing up`, `sitting down`
 using data from four accelerometers. The train set consists of 50k
 examples, the test set of approximately 115k.
 
-The [human_activity_recognition.py](https://github.com/ufal/npfl129/tree/master/labs/09/human_activity_recognition.py)
+The [human_activity_recognition.py](https://github.com/ufal/npfl129/tree/past-2122/labs/09/human_activity_recognition.py)
 template shows how to load the training data, downloading it if needed.
 
 Your model will be evaluated using _accuracy_ and your goal is to achieve at

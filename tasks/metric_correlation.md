@@ -3,7 +3,7 @@
 #### Points: 2 points
 #### Tests: metric_correlation_tests
 
-Using the [metric_correlation.py](https://github.com/ufal/npfl129/tree/master/labs/09/metric_correlation.py)
+Using the [metric_correlation.py](https://github.com/ufal/npfl129/tree/past-2122/labs/09/metric_correlation.py)
 template, find a $\beta$ for which $F_\beta$ score correlates
 best with human ratings.
 

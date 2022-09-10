@@ -4,7 +4,7 @@
 #### Tests: svm_multiclass_tests
 
 Extend your solution to the `smo_algorithm` assignment to handle multiclass
-classification, using the [svm_multiclass.py](https://github.com/ufal/npfl129/tree/master/labs/07/svm_multiclass.py)
+classification, using the [svm_multiclass.py](https://github.com/ufal/npfl129/tree/past-2122/labs/07/svm_multiclass.py)
 template.
 
 #### Tests Start: svm_multiclass_tests

@@ -3,7 +3,7 @@
 #### Points: 4 points
 #### Tests: k_nearest_neighbors_tests
 
-Starting with the [k_nearest_neighbors.py](https://github.com/ufal/npfl129/tree/master/labs/05/k_nearest_neighbors.py),
+Starting with the [k_nearest_neighbors.py](https://github.com/ufal/npfl129/tree/past-2122/labs/05/k_nearest_neighbors.py),
 implement k-nearest neighbors algoritm for classifying MNIST, without using the
 `sklearn.neighbors` module in any way.
 

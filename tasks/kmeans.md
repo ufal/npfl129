@@ -4,7 +4,7 @@
 #### Examples: kmeans_examples
 #### Tests: kmeans_tests
 
-Using the [kmeans.py](https://github.com/ufal/npfl129/tree/master/labs/11/kmeans.py)
+Using the [kmeans.py](https://github.com/ufal/npfl129/tree/past-2122/labs/11/kmeans.py)
 template, implement the K-Means algorithm with both
 - random initialization,
 - `kmeans++` initialization.

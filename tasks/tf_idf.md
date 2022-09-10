@@ -3,7 +3,7 @@
 #### Points: 3 points
 #### Tests: tf_idf_tests
 
-Using the [tf_idf.py](https://github.com/ufal/npfl129/tree/master/labs/08/tf_idf.py)
+Using the [tf_idf.py](https://github.com/ufal/npfl129/tree/past-2122/labs/08/tf_idf.py)
 template, perform classification of text documents from the
 [20 Newsgroups dataset](http://qwone.com/~jason/20Newsgroups/). To represent the
 documents, use TF and/or IDF weights, which you implement manually (without

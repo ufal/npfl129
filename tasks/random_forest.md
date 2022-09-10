@@ -4,7 +4,7 @@
 #### Examples: random_forest_examples
 #### Tests: random_forest_tests
 
-Using the [random_forest.py](https://github.com/ufal/npfl129/tree/master/labs/09/random_forest.py)
+Using the [random_forest.py](https://github.com/ufal/npfl129/tree/past-2122/labs/09/random_forest.py)
 template, train a random forest, which is a collection of decision trees trained
 with dataset bagging and random feature subsampling.
 

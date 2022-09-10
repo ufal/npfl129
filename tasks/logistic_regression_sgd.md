@@ -3,7 +3,7 @@
 #### Points: 5 points
 #### Tests: logistic_regression_sgd_tests
 
-Starting with the [logistic_regression_sgd.py](https://github.com/ufal/npfl129/tree/master/labs/03/logistic_regression_sgd.py),
+Starting with the [logistic_regression_sgd.py](https://github.com/ufal/npfl129/tree/past-2122/labs/03/logistic_regression_sgd.py),
 implement minibatch SGD for logistic regression.
 
 #### Tests Start: logistic_regression_sgd_tests
