@@ -3,7 +3,9 @@
 #### Slides: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2122/slides/?03
 #### Reading: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2122/slides.pdf/npfl129-03.pdf, PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-03-czech.mp4, CZ Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-03-czech.practicals.mle.mp4, CZ MLE from Practicals
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-03-english.mp4, EN Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2122/npfl129-03-english.practicals.mle.mp4, EN MLE from Practicals
 #### Questions: #lecture_3_questions
 #### Lecture assignment: perceptron
 #### Lecture assignment: logistic_regression_sgd
