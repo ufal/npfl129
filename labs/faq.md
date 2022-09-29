@@ -13,6 +13,14 @@
   independent sets of installed packages. You can create a virtual environment
   by running `python3 -m venv VENV_DIR` followed by
   `VENV_DIR/bin/pip3 install scikit-learn==1.1.2 numpy==1.23.3 scipy==1.9.1 pandas==1.4.4 matplotlib==3.5.3`.
+  (or `VENV_DIR/Scripts/pip3` on Windows).
+
+- _**Windows** installation_
+
+  - On Windows, it can happen that `python3` is not in PATH, while `py` command
+    is – in that case you can use `py -m venv VENV_DIR`, which uses the newest
+    Python available, or for example `py -3.9 -m venv VENV_DIR`, which uses
+    Python version 3.9.
 
 ### TOCEntry: Git
 
