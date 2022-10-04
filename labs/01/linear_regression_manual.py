@@ -34,7 +34,7 @@ def main(args: argparse.Namespace) -> float:
     # TODO: Predict target values on the test set.
 
     # TODO: Manually compute root mean square error on the test set predictions.
-    rmse = None
+    rmse = ...
 
     return rmse
 

@@ -33,14 +33,14 @@ def main(args: argparse.Namespace) -> list[float]:
 
         # TODO: Fit a linear regression model using `sklearn.linear_model.LinearRegression`;
         # consult the documentation and see especially the `fit` method.
-        model = None
+        model = ...
 
         # TODO: Predict targets on the test set using the `predict` method of the trained model.
 
         # TODO: Compute root mean square error on the test set predictions.
         # You can either do it manually or look at `sklearn.metrics.mean_squared_error` method
         # and its `squared` parameter.
-        rmse = None
+        rmse = ...
 
         rmses.append(rmse)
 
