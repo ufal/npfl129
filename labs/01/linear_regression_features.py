@@ -51,8 +51,8 @@ def main(args: argparse.Namespace) -> list[float]:
             if args.plot is not True:
                 plt.gcf().get_axes() or plt.figure(figsize=(6.4*3, 4.8*3))
                 plt.subplot(3, 3, 1 + len(plt.gcf().get_axes()))
-            plt.plot(train_data[:, 0], train_target, "go")
-            plt.plot(test_data[:, 0], test_target, "ro")
+            plt.plot([x[0] for x in train_data], train_target, "go")
+            plt.plot([x[0] for x in test_data], test_target, "ro")
             plt.plot(np.linspace(xs[0], xs[-1], num=100),
                      model.predict(np.power.outer(np.linspace(xs[0], xs[-1], num=100), np.arange(1, order + 1))), "b")
             plt.show() if args.plot is True else plt.savefig(args.plot, transparent=True, bbox_inches="tight")
