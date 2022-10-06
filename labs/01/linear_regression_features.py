@@ -45,6 +45,8 @@ def main(args: argparse.Namespace) -> list[float]:
         rmses.append(rmse)
 
         if args.plot:
+            # The plotting code assumes the train/test data/targets are in variables
+            # `train_data`, `train_target`, `test_data`, `test_target`.
             import matplotlib.pyplot as plt
             if args.plot is not True:
                 plt.gcf().get_axes() or plt.figure(figsize=(6.4*3, 4.8*3))
