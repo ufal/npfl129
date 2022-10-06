@@ -45,7 +45,7 @@ def main(args: argparse.Namespace) -> list[float]:
         rmses.append(rmse)
 
         if args.plot:
-            # The plotting code assumes the train/test data/targets are in variables
+            # The plotting code assumes the train/test data/targets are in numpy arrays
             # `train_data`, `train_target`, `test_data`, `test_target`.
             import matplotlib.pyplot as plt
             if args.plot is not True:
