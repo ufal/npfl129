@@ -3,7 +3,7 @@
 #### Points: 3 points+4 bonus
 
 This assignment is a [competition task](https://ufal.mff.cuni.cz/courses/npfl129/2223-winter#competitions). Your goal
-is to perform linear regression on the data from a rental shop.
+is to perform regression on the data from a rental shop.
 The train set contains 1000 instances, each instance consists of 12 features,
 both integral and real.
 
