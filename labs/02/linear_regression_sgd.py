@@ -25,7 +25,7 @@ def main(args: argparse.Namespace) -> tuple[list[float], float, float]:
     # Create a random generator with a given seed
     generator = np.random.RandomState(args.seed)
 
-    # Generate an artifical regression dataset
+    # Generate an artificial regression dataset
     data, target = sklearn.datasets.make_regression(n_samples=args.data_size, random_state=args.seed)
 
     # TODO: Append a constant feature with value 1 to the end of every input data
