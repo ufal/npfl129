@@ -44,7 +44,7 @@ def main(args: argparse.Namespace) -> tuple[list[float], float, float]:
 
         # TODO: Process the data in the order of `permutation`. For every
         # `args.batch_size` of them, average their gradient, and update the weights.
-        # A gradient for example `(x_i, t_i)` is `(x_i^T weights - t_i) * x_i`,
+        # A gradient for example `(x_i, t_i)` is `(x_i^T * weights - t_i) * x_i`,
         # and the SGD update is
         #   weights = weights - args.learning_rate * (gradient + args.l2 * weights)`.
         # You can assume that `args.batch_size` exactly divides `train_data.shape[0]`.
@@ -69,6 +69,6 @@ def main(args: argparse.Namespace) -> tuple[list[float], float, float]:
 
 if __name__ == "__main__":
     args = parser.parse_args([] if "__file__" not in globals() else None)
-    weights, sgd_rmse, explicit_rmse = main(args)
+    weights, sgd_rmse, explicit_rmse = main(args)                                           
     print("Test RMSE: SGD {:.2f}, explicit {:.2f}".format(sgd_rmse, explicit_rmse))
     print("Learned weights:", *("{:.2f}".format(weight) for weight in weights[:12]), "...")
