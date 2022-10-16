@@ -59,7 +59,7 @@ def main(args: argparse.Namespace) -> tuple[list[float], float, float]:
         import matplotlib.pyplot as plt
         plt.plot(train_rmses, label="Train")
         plt.plot(test_rmses, label="Test")
-        plt.xlabel("Iterations")
+        plt.xlabel("Epochs")
         plt.ylabel("RMSE")
         plt.legend()
         plt.show() if args.plot is True else plt.savefig(args.plot, transparent=True, bbox_inches="tight")
