@@ -69,6 +69,6 @@ def main(args: argparse.Namespace) -> tuple[list[float], float, float]:
 
 if __name__ == "__main__":
     args = parser.parse_args([] if "__file__" not in globals() else None)
-    weights, sgd_rmse, explicit_rmse = main(args)                                           
+    weights, sgd_rmse, explicit_rmse = main(args)
     print("Test RMSE: SGD {:.2f}, explicit {:.2f}".format(sgd_rmse, explicit_rmse))
     print("Learned weights:", *("{:.2f}".format(weight) for weight in weights[:12]), "...")
