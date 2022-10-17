@@ -1,6 +1,6 @@
 ### Assignment: thyroid_competition
 #### Date: Deadline: Oct 31, 7:59 a.m.
-#### Points: 4 points+4 bonus
+#### Points: 3 points+4 bonus
 
 This assignment is a [competition task](https://ufal.mff.cuni.cz/courses/npfl129/2223-winter#competitions). Your goal
 is to perform binary classification – given medical data with 15 binary and
