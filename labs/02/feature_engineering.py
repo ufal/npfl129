@@ -45,7 +45,8 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, np.ndarray]:
     # If the input values are `[a, b, c, d]`, you should append
     # `[a^2, ab, ac, ad, b^2, bc, bd, c^2, cd, d^2]`. You can generate such polynomial
     # features either manually, or you can generate them with
-    # `sklearn.preprocessing.PolynomialFeatures(2, include_bias=False)`.
+    # `sklearn.preprocessing.PolynomialFeatures(2, include_bias=False)`,
+    # which also appends them to the original features.
 
     # TODO: You can wrap all the feature processing steps into one transformer
     # by using `sklearn.pipeline.Pipeline`. Although not strictly needed, it is
