@@ -36,7 +36,7 @@ class Dataset:
     - relative humidity (0-1 range)
     - windspeed (normalized to 0-1 range)
 
-    The target variable is the number of rentals in the given hour.
+    The target variable is the number of rented bikes in the given hour.
     """
     def __init__(self,
                  name="rental_competition.train.npz",
