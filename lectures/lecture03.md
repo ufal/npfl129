@@ -3,6 +3,8 @@
 #### Slides: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides/?03
 #### Reading: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides.pdf/npfl129-03.pdf, PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-03-czech.mp4, CZ Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-03-czech.logreg.mp4, CZ Logistic Regression
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-03-czech.practicals.mp4, CZ Practicals
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-03-english.mp4, EN Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-03-english.logit.mp4, EN Logit
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-03-english.practicals.mp4, EN Practicals
