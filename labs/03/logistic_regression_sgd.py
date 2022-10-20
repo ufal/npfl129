@@ -23,7 +23,7 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
     # Create a random generator with a given seed
     generator = np.random.RandomState(args.seed)
 
-    # Generate an artifical classification dataset
+    # Generate an artificial classification dataset
     data, target = sklearn.datasets.make_classification(
         n_samples=args.data_size, n_features=2, n_informative=2, n_redundant=0, random_state=args.seed)
 
