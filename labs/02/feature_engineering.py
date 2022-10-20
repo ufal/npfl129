@@ -51,9 +51,11 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, np.ndarray]:
     # by using `sklearn.pipeline.Pipeline`. Although not strictly needed, it is
     # usually comfortable.
 
-    # TODO: Fit the feature processing steps on the training data.
-    # Then transform the training data into `train_data` (you can do both these
-    # steps using `fit_transform`), and transform testing data to `test_data`.
+    # TODO: Fit the feature preprocessing steps (the composed pipeline with all of
+    # them; or the individual steps, if you prefer) on the training data (using `fit`).
+    # Then transform the training data into `train_data` (with a `transform` call;
+    # however, you can combine the two methods into a single `fit_transform` call).
+    # Finally, transform testing data to `test_data`.
     train_data = ...
     test_data = ...
 
