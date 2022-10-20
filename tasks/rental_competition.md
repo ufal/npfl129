@@ -14,5 +14,5 @@ prediction.
 
 The performance of your system is measured using _root mean squared error_
 and your goal is to achieve RMSE less than 100. Note that you can use
-any number of **generalized linear models** with any regularization to solve
+any number of **generalized linear models from sklearn** to solve
 this assignment (but no decision trees, MLPs, …).
