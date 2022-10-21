@@ -67,4 +67,5 @@ if __name__ == "__main__":
     train_data, test_data = main(args)
     for dataset in [train_data, test_data]:
         for line in range(min(dataset.shape[0], 5)):
-            print(" ".join("{:.4g}".format(dataset[line, column]) for column in range(min(dataset.shape[1], 140))))
+            print(" ".join("{:.4g}".format(dataset[line, column]) for column in range(min(dataset.shape[1], 140))),
+                  *["..."] if dataset.shape[1] > 140 else [])
