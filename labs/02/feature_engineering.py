@@ -44,8 +44,9 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, np.ndarray]:
     # TODO: To the current features, append polynomial features of order 2.
     # If the input values are `[a, b, c, d]`, you should append
     # `[a^2, ab, ac, ad, b^2, bc, bd, c^2, cd, d^2]`. You can generate such polynomial
-    # features either manually, or you can generate them with
-    # `sklearn.preprocessing.PolynomialFeatures(2, include_bias=False)`.
+    # features either manually, or you can employ the provided transformer
+    #   sklearn.preprocessing.PolynomialFeatures(2, include_bias=False)
+    # which appends such polynomial features of order 2 to the given features.
 
     # TODO: You can wrap all the feature processing steps into one transformer
     # by using `sklearn.pipeline.Pipeline`. Although not strictly needed, it is
