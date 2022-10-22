@@ -30,11 +30,11 @@ def main(args: argparse.Namespace) -> float:
     # arguments `test_size=args.test_size, random_state=args.seed`.
 
     # TODO: Create a pipeline, which
-    # 1. performs sklearn.preprocessing.MinMaxScaler()
-    # 2. performs sklearn.preprocessing.PolynomialFeatures()
-    # 3. performs sklearn.linear_model.LogisticRegression(random_state=args.seed)
+    # 1. passes the inputs through `sklearn.preprocessing.MinMaxScaler()`,
+    # 2. passes the result through `sklearn.preprocessing.PolynomialFeatures()`,
+    # 3. passes the result through `sklearn.linear_model.LogisticRegression(random_state=args.seed)`.
     #
-    # Then, using sklearn.model_selection.StratifiedKFold(5), evaluate crossvalidated
+    # Then, using `sklearn.model_selection.StratifiedKFold(5)`, evaluate crossvalidated
     # train performance of all combinations of the following parameters:
     # - polynomial degree: 1, 2
     # - LogisticRegression regularization C: 0.01, 1, 100
