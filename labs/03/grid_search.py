@@ -45,6 +45,14 @@ def main(args: argparse.Namespace) -> float:
     # The easiest way is to use `sklearn.model_selection.GridSearchCV`.
     test_accuracy = ...
 
+    # If `model` is a fitted `GridSearchCV`, you can use the following code
+    # to show the results of all hyperparameter values evaluated:
+    #   for rank, accuracy, params in zip(model.cv_results_["rank_test_score"],
+    #                                     model.cv_results_["mean_test_score"],
+    #                                     model.cv_results_["params"]):
+    #       print("Rank: {:2d} Cross-val: {:.1f}%".format(rank, 100 * accuracy),
+    #             *("{}: {:<5}".format(key, value) for key, value in params.items()))
+
     return test_accuracy
 
 
