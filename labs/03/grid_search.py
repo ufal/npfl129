@@ -46,7 +46,7 @@ def main(args: argparse.Namespace) -> float:
     test_accuracy = ...
 
     # If `model` is a fitted `GridSearchCV`, you can use the following code
-    # to show the results of all hyperparameter values evaluated:
+    # to show the results of all the hyperparameter values evaluated:
     #   for rank, accuracy, params in zip(model.cv_results_["rank_test_score"],
     #                                     model.cv_results_["mean_test_score"],
     #                                     model.cv_results_["params"]):
