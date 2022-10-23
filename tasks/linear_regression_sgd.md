@@ -47,8 +47,8 @@ Learned weights: 3.20 8.00 0.57 32.21 -2.49 -2.45 -2.28 5.57 1.69 -11.47 -14.00 
 ![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/linear_regression_sgd_6.svgz)
 - `python3 linear_regression_sgd.py --batch_size=50 --epochs=500 --learning_rate=0.01 --l2=0.1`
 ```
-Test RMSE: SGD 90.57, explicit 91.38
-Learned weights: 3.43 7.35 0.36 30.36 -2.14 -1.67 -1.89 5.79 1.72 -10.71 -13.46 -3.75 ...
+Test RMSE: SGD 90.71, explicit 91.38
+Learned weights: 3.40 7.36 0.32 30.21 -2.14 -1.68 -1.88 5.79 1.72 -10.84 -13.45 -3.73 ...
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/linear_regression_sgd_7.svgz)
 #### Tests End:
