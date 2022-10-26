@@ -53,6 +53,14 @@ def main(args: argparse.Namespace) -> float:
     #       print("Rank: {:2d} Cross-val: {:.1f}%".format(rank, 100 * accuracy),
     #             *("{}: {:<5}".format(key, value) for key, value in params.items()))
 
+    # Note that with some hyperparameter values above, the training does not
+    # converge in the default limit of 100 epochs and shows `ConvergenceWarning`s.
+    # You can verify that increasing the number of epochs influences the results
+    # only marginally, so there is no reason to do it. To get rid of the warnings,
+    # you can add `-W ignore::UserWarnings` just after `python` on the command line,
+    # or you can use the following code (and the corresponding imports):
+    #   warnings.filterwarnings("ignore", category=sklearn.exceptions.ConvergenceWarning)
+
     return test_accuracy
 
 
