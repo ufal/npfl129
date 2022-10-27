@@ -24,6 +24,7 @@ def main(args: argparse.Namespace) -> np.ndarray:
     target = 2 * target - 1
 
     # TODO: Append a constant feature with value 1 to the end of every input data
+    # (This replaces the need for separate Bias, so now: bias = 1 * last_weight )
 
     # Generate initial perceptron weights
     weights = np.zeros(data.shape[1])

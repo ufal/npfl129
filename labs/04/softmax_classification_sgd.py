@@ -26,6 +26,7 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
     data, target = sklearn.datasets.load_digits(n_class=args.classes, return_X_y=True)
 
     # Append a constant feature with value 1 to the end of every input data
+    # (This replaces the need for separate Bias, so now: bias = 1 * last_weight )
     data = np.pad(data, [(0, 0), (0, 1)], constant_values=1)
 
     # Split the dataset into a train set and a test set.

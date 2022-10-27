@@ -23,6 +23,7 @@ def main(args: argparse.Namespace) -> float:
     # about it using `print(dataset.DESCR)`.
 
     # TODO: Append a new feature to all input data, with value "1"
+    # (This replaces the need for separate Bias, so now: bias = 1 * last_weight )
 
     # TODO: Split the dataset into a train set and a test set.
     # Use `sklearn.model_selection.train_test_split` method call, passing

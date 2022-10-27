@@ -29,6 +29,7 @@ def main(args: argparse.Namespace) -> tuple[list[float], float, float]:
     data, target = sklearn.datasets.make_regression(n_samples=args.data_size, random_state=args.seed)
 
     # TODO: Append a constant feature with value 1 to the end of every input data
+    # (This replaces the need for separate Bias, so now: bias = 1 * last_weight )
 
     # TODO: Split the dataset into a train set and a test set.
     # Use `sklearn.model_selection.train_test_split` method call, passing
