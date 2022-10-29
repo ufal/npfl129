@@ -11,20 +11,16 @@
       if (lecture) {
         slimd.start(lecture + "/" + lecture + ".md", slimd.root + "templates/ufal.js");
       } else {
-        function querySlides(i, body) {
+        async function querySlides(i, body) {
           var lecture = (i < 10 ? ('0' + i) : i);
-          var xhr = new XMLHttpRequest();
-          xhr.open("GET", lecture + "/" + lecture + ".md", true);
-          xhr.onload = function() {
-            if (xhr.status === 200) {
-              querySlides(i + 1, body + "<li><a href='?" + lecture + "'>Lecture " + lecture + "</a></li>\n");
-            } else {
-              var lectures = document.createElement("div");
-              lectures.innerHTML = body + "</ul>\n";
-              document.body.appendChild(lectures);
-            }
-          };
-          xhr.send();
+          const response = await fetch(lecture + "/" + lecture + ".md");
+          if (response.ok) {
+            querySlides(i + 1, body + "<li><a href='?" + lecture + "'>Lecture " + lecture + "</a></li>\n");
+          } else {
+            var lectures = document.createElement("div");
+            lectures.innerHTML = body + "</ul>\n";
+            document.body.appendChild(lectures);
+          }
         }
         querySlides(1, "<h1>NPFL129 Slides</h1>\n<ul>\n");
       }
