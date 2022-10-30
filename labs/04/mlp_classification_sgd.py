@@ -20,10 +20,10 @@ parser.add_argument("--test_size", default=797, type=lambda x: int(x) if x.isdig
 
 
 def main(args: argparse.Namespace) -> tuple[tuple[np.ndarray, ...], list[float]]:
-    # Create a random generator with a given seed
+    # Create a random generator with a given seed.
     generator = np.random.RandomState(args.seed)
 
-    # Use the digits dataset
+    # Use the digits dataset.
     data, target = sklearn.datasets.load_digits(n_class=args.classes, return_X_y=True)
 
     # Split the dataset into a train set and a test set.
@@ -32,7 +32,7 @@ def main(args: argparse.Namespace) -> tuple[tuple[np.ndarray, ...], list[float]]
     train_data, test_data, train_target, test_target = sklearn.model_selection.train_test_split(
         data, target, test_size=args.test_size, random_state=args.seed)
 
-    # Generate initial model weights
+    # Generate initial model weights.
     weights = [generator.uniform(size=[train_data.shape[1], args.hidden_layer], low=-0.1, high=0.1),
                generator.uniform(size=[args.hidden_layer, args.classes], low=-0.1, high=0.1)]
     biases = [np.zeros(args.hidden_layer), np.zeros(args.classes)]
