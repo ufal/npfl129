@@ -14,7 +14,7 @@ parser.add_argument("--test_size", default=0.1, type=lambda x: int(x) if x.isdig
 
 
 def main(args: argparse.Namespace) -> float:
-    # Load the Diabetes dataset
+    # Load the Diabetes dataset.
     dataset = sklearn.datasets.load_diabetes()
 
     # The input data are in `dataset.data`, targets are in `dataset.target`.
