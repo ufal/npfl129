@@ -22,10 +22,10 @@ parser.add_argument("--test_size", default=0.5, type=lambda x: int(x) if x.isdig
 
 
 def main(args: argparse.Namespace) -> tuple[list[float], float, float]:
-    # Create a random generator with a given seed
+    # Create a random generator with a given seed.
     generator = np.random.RandomState(args.seed)
 
-    # Generate an artificial regression dataset
+    # Generate an artificial regression dataset.
     data, target = sklearn.datasets.make_regression(n_samples=args.data_size, random_state=args.seed)
 
     # TODO: Append a constant feature with value 1 to the end of every input data.
@@ -36,7 +36,7 @@ def main(args: argparse.Namespace) -> tuple[list[float], float, float]:
     # arguments `test_size=args.test_size, random_state=args.seed`.
     train_data, test_data, train_target, test_target = ...
 
-    # Generate initial linear regression weights
+    # Generate initial linear regression weights.
     weights = generator.uniform(size=train_data.shape[1], low=-0.1, high=0.1)
 
     train_rmses, test_rmses = [], []
