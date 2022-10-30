@@ -20,10 +20,10 @@ parser.add_argument("--test_size", default=0.5, type=lambda x: int(x) if x.isdig
 
 
 def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]]]:
-    # Create a random generator with a given seed
+    # Create a random generator with a given seed.
     generator = np.random.RandomState(args.seed)
 
-    # Generate an artificial classification dataset
+    # Generate an artificial classification dataset.
     data, target = sklearn.datasets.make_classification(
         n_samples=args.data_size, n_features=2, n_informative=2, n_redundant=0, random_state=args.seed)
 
@@ -34,7 +34,7 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
     # Use `sklearn.model_selection.train_test_split` method call, passing
     # arguments `test_size=args.test_size, random_state=args.seed`.
 
-    # Generate initial logistic regression weights
+    # Generate initial logistic regression weights.
     weights = generator.uniform(size=train_data.shape[1], low=-0.1, high=0.1)
 
     for epoch in range(args.epochs):
