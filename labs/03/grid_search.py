@@ -18,7 +18,7 @@ parser.add_argument("--test_size", default=0.5, type=lambda x: int(x) if x.isdig
 
 
 def main(args: argparse.Namespace) -> float:
-    # Load digit dataset
+    # Load digit dataset.
     dataset = sklearn.datasets.load_digits()
     dataset.target = dataset.target % 2
 
