@@ -78,3 +78,27 @@
   likelihood loss. [10]
 
 - Formulate the Universal approximation theorem. [5]
+
+#### Questions@:, Lecture 5 Questions
+- How do we search for a minimum of a function
+  $f(\boldsymbol x): \mathbb{R}^D \rightarrow \mathbb{R}$ subject to equality
+  constraints $g_1(\boldsymbol x)=0, \ldots, g_m(\boldsymbol x)=0$? [5]
+
+- Prove which categorical distribution with $N$ classes has maximum
+  entropy. [5]
+
+- Consider derivation of softmax using maximum entropy principle, assuming
+  we have a dataset of $N$ examples $(x_i, t_i), x_i \in \mathbb{R}^D,
+  t_i \in \{1, 2, \ldots, K\}$. Formulate the three conditions we impose on the
+  searched $\pi: \mathbb{R}^D \rightarrow \mathbb{R}^K$, and write down the
+  Lagrangian to be maximized. [10]
+
+- Define precision (including true positives and others), recall, $F_1$ score
+  and $F_\beta$ score (we stated several formulations for $F_1$ and $F_\beta$
+  scores; any one of them will do). [5]
+
+- Explain the difference between micro-averaged and macro-averaged $F_1$ scores. [5]
+
+- Describe k-nearest neighbors prediction, both for regression and
+  classification. Define $L_p$ norm and describe uniform, inverse
+  and softmax weighting. [5]
