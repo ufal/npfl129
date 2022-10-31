@@ -93,12 +93,12 @@
   searched $\pi: \mathbb{R}^D \rightarrow \mathbb{R}^K$, and write down the
   Lagrangian to be maximized. [10]
 
-- Define precision (including true positives and others), recall, $F_1$ score
+- Define precision (including true positives and others), recall, $F_1$ score,
   and $F_\beta$ score (we stated several formulations for $F_1$ and $F_\beta$
   scores; any one of them will do). [5]
 
 - Explain the difference between micro-averaged and macro-averaged $F_1$ scores. [5]
 
 - Describe k-nearest neighbors prediction, both for regression and
-  classification. Define $L_p$ norm and describe uniform, inverse
+  classification. Define $L_p$ norm and describe uniform, inverse, 
   and softmax weighting. [5]
