@@ -3,6 +3,9 @@
 #### Slides: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides/?05
 #### Reading: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides.pdf/npfl129-05.pdf,PDF Slides
 #### Questions: #lecture_5_questions
+#### Lecture assignment: multilabel_classification_sgd
+#### Lecture assignment: k_nearest_neighbors
+#### Lecture assignment: diacritization
 
 - Lagrange multipliers [Appendix E of PRML]
 - _Calculus of variations [Appendix D of PRML]_
