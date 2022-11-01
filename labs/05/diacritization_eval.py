@@ -4,8 +4,8 @@ def accuracy(gold: str, system: str) -> float:
     assert isinstance(gold, str) and isinstance(system, str), "The gold and system outputs must be strings"
 
     gold, system = gold.split(), system.split()
-    assert len(gold) == len(system), "The gold and system outputs must have same number of words: {} vs {}.".format(
-        len(gold), len(system))
+    assert len(gold) == len(system), \
+        "The gold and system outputs must have the same number of words: {} vs {}.".format(len(gold), len(system))
 
     words, correct = 0, 0
     for gold_token, system_token in zip(gold, system):
