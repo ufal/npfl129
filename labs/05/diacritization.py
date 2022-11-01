@@ -4,8 +4,8 @@ import lzma
 import os
 import pickle
 import sys
-import urllib.request
 from typing import Optional
+import urllib.request
 
 import numpy as np
 
