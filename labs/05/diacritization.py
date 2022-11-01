@@ -5,6 +5,7 @@ import os
 import pickle
 import sys
 import urllib.request
+from typing import Optional
 
 import numpy as np
 
