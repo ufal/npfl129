@@ -19,10 +19,10 @@ parser.add_argument("--test_size", default=797, type=lambda x: int(x) if x.isdig
 
 
 def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]]]:
-    # Create a random generator with a given seed
+    # Create a random generator with a given seed.
     generator = np.random.RandomState(args.seed)
 
-    # Use the digits dataset
+    # Use the digits dataset.
     data, target = sklearn.datasets.load_digits(n_class=args.classes, return_X_y=True)
 
     # Append a constant feature with value 1 to the end of every input data.
@@ -35,7 +35,7 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
     train_data, test_data, train_target, test_target = sklearn.model_selection.train_test_split(
         data, target, test_size=args.test_size, random_state=args.seed)
 
-    # Generate initial model weights
+    # Generate initial model weights.
     weights = generator.uniform(size=[train_data.shape[1], args.classes], low=-0.1, high=0.1)
 
     for epoch in range(args.epochs):

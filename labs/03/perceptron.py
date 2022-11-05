@@ -14,10 +14,10 @@ parser.add_argument("--seed", default=42, type=int, help="Random seed")
 
 
 def main(args: argparse.Namespace) -> np.ndarray:
-    # Create a random generator with a given seed
+    # Create a random generator with a given seed.
     generator = np.random.RandomState(args.seed)
 
-    # Generate a binary classification data with labels [-1, 1]
+    # Generate a binary classification data with labels [-1, 1].
     data, target = sklearn.datasets.make_classification(
         n_samples=args.data_size, n_features=2, n_informative=2, n_redundant=0,
         n_clusters_per_class=1, flip_y=0, class_sep=2, random_state=args.seed)
@@ -26,7 +26,7 @@ def main(args: argparse.Namespace) -> np.ndarray:
     # TODO: Append a constant feature with value 1 to the end of every input data.
     # Then we do not need to explicitly represent bias - it becomes the last weight.
 
-    # Generate initial perceptron weights
+    # Generate initial perceptron weights.
     weights = np.zeros(data.shape[1])
 
     done = False
