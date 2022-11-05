@@ -22,7 +22,7 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
     # Create a random generator with a given seed.
     generator = np.random.RandomState(args.seed)
 
-    # Use the digits dataset.
+    # Load the digits dataset.
     data, target = sklearn.datasets.load_digits(n_class=args.classes, return_X_y=True)
 
     # Append a constant feature with value 1 to the end of every input data.

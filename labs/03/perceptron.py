@@ -17,7 +17,7 @@ def main(args: argparse.Namespace) -> np.ndarray:
     # Create a random generator with a given seed.
     generator = np.random.RandomState(args.seed)
 
-    # Generate a binary classification data with labels [-1, 1].
+    # Generate a binary classification data with labels {-1, 1}.
     data, target = sklearn.datasets.make_classification(
         n_samples=args.data_size, n_features=2, n_informative=2, n_redundant=0,
         n_clusters_per_class=1, flip_y=0, class_sep=2, random_state=args.seed)

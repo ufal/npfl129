@@ -61,9 +61,9 @@ def main(args: argparse.Namespace) -> float:
     # Use L_p norm for a given p (either 1, 2 or 3) to measure distances.
     #
     # The weighting can be:
-    # - "uniform": all nearest neighbors have the same weight
-    # - "inverse": `1/distances` is used as weights
-    # - "softmax": `softmax(-distances)` is used as weights
+    # - "uniform": all nearest neighbors have the same weight,
+    # - "inverse": `1/distances` is used as weights,
+    # - "softmax": `softmax(-distances)` is used as weights.
     #
     # If you want to plot misclassified examples, you also need to fill `test_neighbors`
     # with indices of nearest neighbors; but it is not needed for passing in ReCodEx.

@@ -20,7 +20,7 @@ parser.add_argument("--test_size", default=0.5, type=lambda x: int(x) if x.isdig
 
 
 def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]]]:
-    # Create a random generator with a given seed
+    # Create a random generator with a given seed.
     generator = np.random.RandomState(args.seed)
 
     # Generate an artificial classification dataset.
@@ -43,7 +43,7 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
     train_data, test_data, train_target, test_target = sklearn.model_selection.train_test_split(
         data, target, test_size=args.test_size, random_state=args.seed)
 
-    # Generate initial model weights
+    # Generate initial model weights.
     weights = generator.uniform(size=[train_data.shape[1], args.classes], low=-0.1, high=0.1)
 
     for epoch in range(args.epochs):

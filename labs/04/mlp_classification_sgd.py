@@ -23,7 +23,7 @@ def main(args: argparse.Namespace) -> tuple[tuple[np.ndarray, ...], list[float]]
     # Create a random generator with a given seed.
     generator = np.random.RandomState(args.seed)
 
-    # Use the digits dataset.
+    # Load the digits dataset.
     data, target = sklearn.datasets.load_digits(n_class=args.classes, return_X_y=True)
 
     # Split the dataset into a train set and a test set.
@@ -68,11 +68,11 @@ def main(args: argparse.Namespace) -> tuple[tuple[np.ndarray, ...], list[float]]
         # i.e., as a gradient of $-log P(target | data)$, or you can compute
         # it step by step using the chain rule of derivatives, in the following order:
         # - compute the derivative of the loss with respect to *inputs* of the
-        #   softmax on the last layer
-        # - compute the derivative with respect to `weights[1]` and `biases[1]`
-        # - compute the derivative with respect to the hidden layer output
-        # - compute the derivative with respect to the hidden layer input
-        # - compute the derivative with respect to `weights[0]` and `biases[0]`
+        #   softmax on the last layer,
+        # - compute the derivative with respect to `weights[1]` and `biases[1]`,
+        # - compute the derivative with respect to the hidden layer output,
+        # - compute the derivative with respect to the hidden layer input,
+        # - compute the derivative with respect to `weights[0]` and `biases[0]`.
 
         # TODO: After the SGD epoch, measure the accuracy for both the
         # train test and the test set.

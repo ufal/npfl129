@@ -18,7 +18,7 @@ parser.add_argument("--test_size", default=0.5, type=lambda x: int(x) if x.isdig
 
 
 def main(args: argparse.Namespace) -> list[float]:
-    # Create the data.
+    # Create artificial noisy data.
     xs = np.linspace(0, 7, num=args.data_size)
     ys = np.sin(xs) + np.random.RandomState(args.seed).normal(0, 0.2, size=args.data_size)
 

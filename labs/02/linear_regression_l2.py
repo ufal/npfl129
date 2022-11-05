@@ -17,7 +17,7 @@ parser.add_argument("--test_size", default=0.5, type=lambda x: int(x) if x.isdig
 
 
 def main(args: argparse.Namespace) -> tuple[float, float]:
-    # Load the Diabetes dataset.
+    # Load the diabetes dataset.
     dataset = sklearn.datasets.load_diabetes()
 
     # TODO: Split the dataset into a train set and a test set.
