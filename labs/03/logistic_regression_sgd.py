@@ -46,7 +46,7 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
 
         # TODO: After the SGD epoch, measure the average loss and accuracy for both the
         # train set and the test set. The loss is the average MLE loss (i.e., the
-        # negative log likelihood, or crossentropy loss, or KL loss) per example.
+        # negative log likelihood, or cross-entropy loss, or KL loss) per example.
         train_accuracy, train_loss, test_accuracy, test_loss = ...
 
         print("After epoch {}: train loss {:.4f} acc {:.1f}%, test loss {:.4f} acc {:.1f}%".format(
