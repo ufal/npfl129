@@ -33,9 +33,9 @@ def main(args: argparse.Namespace) -> tuple[tuple[np.ndarray, ...], list[float]]
         data, target, test_size=args.test_size, random_state=args.seed)
 
     # Generate initial model weights.
-    weights = [generator.uniform(size=[train_data.shape[1], args.hidden_layer], low=-0.1, high=0.1),
-               generator.uniform(size=[args.hidden_layer, args.classes], low=-0.1, high=0.1)]
-    biases = [np.zeros(args.hidden_layer), np.zeros(args.classes)]
+    weights = np.array([generator.uniform(size=[train_data.shape[1], args.hidden_layer], low=-0.1, high=0.1),
+               generator.uniform(size=[args.hidden_layer, args.classes], low=-0.1, high=0.1)], dtype="object")
+    biases = np.array([np.zeros(args.hidden_layer), np.zeros(args.classes)], dtype="object")
 
     def forward(inputs):
         # TODO: Implement forward propagation, returning *both* the value of the hidden
