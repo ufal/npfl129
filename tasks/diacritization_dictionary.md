@@ -12,7 +12,7 @@ The dictionary is not guaranteed to contain all words from the training and
 testing data, but if it contains a word, you can rely on all valid Czech
 diacritization variants being present.
 
-The rules of the competition is the same as of the `diacritization` competition,
+The rules of the competition are the same as of the `diacritization` competition,
 except that
 - you can utilize the dictionary, both during training and inference;
 - in order to pass, you need to achieve at least **95%** word accuracy.
