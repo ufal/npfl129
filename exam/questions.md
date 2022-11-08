@@ -110,7 +110,7 @@
 
 - Define a kernel and write down the mini-batch SGD training algorithm of dual
   formulation of kernel linear regression (including the update for the bias).
-  Then describe how predictions for unseen data are made. [10]
+  Then describe how are predictions for unseen data made. [10]
 
 - Derive the primary formulation of hard-margin SVM (the value to minimize,
   the constraints to fulfill) as a maximum-margin classifier (i.e., start by
@@ -124,8 +124,8 @@
 
 - Starting from primary hard-margin SVM formulation, derive the dual formulation
   (the Lagrangian $\mathcal{L}$ in the form used for training, the required
-  conditions, the KKT conditions of the solution, and how is prediction
+  conditions, the KKT conditions of the solution, and how is the prediction
   performed). [10]
 
-- Considering hard-margin SVM, define what a support vector is, and how
-  predictions are performed for unseen data. [5]
+- Considering hard-margin SVM, define what is a support vector, and how are
+  predictions performed for unseen data. [5]
