@@ -8,10 +8,10 @@ parser = argparse.ArgumentParser()
 # These arguments will be set appropriately by ReCodEx, even if you change them.
 parser.add_argument("--batch_size", default=1, type=int, help="Batch size")
 parser.add_argument("--data_size", default=50, type=int, help="Data size")
+parser.add_argument("--epochs", default=200, type=int, help="Number of SGD training epochs")
 parser.add_argument("--kernel", default="rbf", type=str, help="Kernel type [poly|rbf]")
 parser.add_argument("--kernel_degree", default=3, type=int, help="Degree for poly kernel")
 parser.add_argument("--kernel_gamma", default=1.0, type=float, help="Gamma for poly and rbf kernel")
-parser.add_argument("--iterations", default=200, type=int, help="Number of training iterations")
 parser.add_argument("--l2", default=0.0, type=float, help="L2 regularization weight")
 parser.add_argument("--learning_rate", default=0.01, type=float, help="Learning rate")
 parser.add_argument("--plot", default=False, const=True, nargs="?", type=str, help="Plot the predictions")
@@ -31,43 +31,44 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, float, list[float], list
     test_data = np.linspace(-1.2, 1.2, 2 * args.data_size)
     test_target = np.sin(5 * test_data) + 1
 
+    # Initialize the parameters: the betas and the bias.
     betas = np.zeros(args.data_size)
     bias = 0
 
-    # TODO: Perform `args.iterations` of SGD-like updates, but in dual formulation
-    # using `betas` as weights of individual training examples.
-    #
-    # We assume the primary formulation of our model is
-    #   y = phi(x)^T w + bias
-    # and the loss in the primary problem is batched MSE with L2 regularization:
-    #   L = sum_{i \in B} 1/|B| * [1/2 * (phi(x_i)^T w + bias - target_i)^2] + 1/2 * args.l2 * w^2
-    # Regarding the L2 regularization, note that it always affects all betas, not
-    # just the ones in the batch.
-    #
-    # For `bias`, you need to represent and update it explicitly.
-    #
-    # Instead of using feature map `phi` directly, we use a given kernel computing
-    #   K(x, y) = phi(x)^T phi(y)
-    # We consider the following `args.kernel`s:
-    # - "poly": K(x, y; degree, gamma) = (gamma * x^T y + 1) ^ degree
-    # - "rbf": K(x, y; gamma) = exp^{- gamma * ||x - y||^2}
-    #
-    # After each iteration, compute RMSE both on training and testing data.
     train_rmses, test_rmses = [], []
-
-    for iteration in range(args.iterations):
+    for epoch in range(args.epochs):
         permutation = generator.permutation(train_data.shape[0])
 
-        # TODO: Process the data in the order of `permutation`, performing
-        # batched updates to the `betas`. You can assume that `args.batch_size`
+        # TODO: Process the data in the order of `permutation`. For every
+        # `args.batch_size` of them, compute their gradient of the loss, and
+        # update the `betas` and the `bias`. You can assume that `args.batch_size`
         # exactly divides `train_data.shape[0]`.
+        #
+        # We assume the primary formulation of our model is
+        #   y = phi(x)^T w + bias,
+        # the weights are represented using betas in the dual formulation
+        #   w = \sum_i beta_i phi(x_i),
+        # and the loss for a batch $B$ in the primary formulation is the MSE with L2 regularization:
+        #   L = \sum_{i \in B} 1/|B| * [1/2 (phi(x_i)^T w + bias - t_i)^2] + 1/2 * args.l2 * ||w||^2
+        # You should update the `betas` and the `bias`, so that the update
+        # is equivalent to the update in the primary formulation. Be aware that
+        # for a single batch, only some betas are updated because of the MSE, but
+        # all betas are updated because of L2 regularization.
+        #
+        # Instead of using the feature map $phi$ directly, we use a given kernel computing
+        #   K(x, y) = phi(x)^T phi(y)
+        # We consider the following `args.kernel`s:
+        # - "poly": K(x, y; degree, gamma) = (gamma * x^T y + 1) ^ degree
+        # - "rbf": K(x, y; gamma) = exp^{- gamma * ||x - y||^2}
+        # The kernel parameters are specified in `args.kernel_gamma` and `args.kernel_degree`.
 
-        # TODO: Append RMSE on training and testing data to `train_rmses` and
-        # `test_rmses` after the iteration.
+        # TODO: Append current RMSE on train/test data to `train_rmses`/`test_rmses`.
+        train_rmses.append(...)
+        test_rmses.append(...)
 
-        if (iteration + 1) % 10 == 0:
-            print("Iteration {}, train RMSE {:.2f}, test RMSE {:.2f}".format(
-                iteration + 1, train_rmses[-1], test_rmses[-1]))
+        if (epoch + 1) % 10 == 0:
+            print("After epoch {}: train RMSE {:.2f}, test RMSE {:.2f}".format(
+                epoch + 1, train_rmses[-1], test_rmses[-1]))
 
     if args.plot:
         import matplotlib.pyplot as plt
