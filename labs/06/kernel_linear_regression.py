@@ -56,10 +56,10 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, float, list[float], list
         # all betas are updated because of L2 regularization.
         #
         # Instead of using the feature map $phi$ directly, we use a given kernel computing
-        #   K(x, y) = phi(x)^T phi(y)
+        #   K(x, z) = phi(x)^T phi(z)
         # We consider the following `args.kernel`s:
-        # - "poly": K(x, y; degree, gamma) = (gamma * x^T y + 1) ^ degree
-        # - "rbf": K(x, y; gamma) = exp^{- gamma * ||x - y||^2}
+        # - "poly": K(x, z; degree, gamma) = (gamma * x^T z + 1) ^ degree
+        # - "rbf": K(x, z; gamma) = exp^{- gamma * ||x - z||^2}
         # The kernel parameters are specified in `args.kernel_gamma` and `args.kernel_degree`.
 
         # TODO: Append current RMSE on train/test data to `train_rmses`/`test_rmses`.
