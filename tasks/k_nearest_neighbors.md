@@ -1,5 +1,5 @@
 ### Assignment: k_nearest_neighbors
-#### Date: Deadline: Nov 14, 7:59 a.m.
+#### Date: Deadline: ~~Nov 14~~ Nov 21, 7:59 a.m.
 #### Points: 3 points
 #### Tests: k_nearest_neighbors_tests
 
