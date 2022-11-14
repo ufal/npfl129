@@ -1,6 +1,6 @@
 ### Assignment: diacritization
 #### Date: Deadline: Nov 14, 7:59 a.m.
-#### Points: 5 points+5 bonus
+#### Points: 6 points+5 bonus
 
 The goal of the `diacritization` [competition task](https://ufal.mff.cuni.cz/courses/npfl129/2223-winter#competitions)
 is to learn to add diacritics to the given Czech text. We will use a small
