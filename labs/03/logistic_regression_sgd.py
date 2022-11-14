@@ -60,7 +60,7 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, list[tuple[float, float]
             xs = np.linspace(np.min(data[:, 0]), np.max(data[:, 0]), 50)
             ys = np.linspace(np.min(data[:, 1]), np.max(data[:, 1]), 50)
             predictions = [[1 / (1 + np.exp(-([x, y, 1] @ weights))) for x in xs] for y in ys]
-            plt.contourf(xs, ys, predictions, levels=21, cmap="RdBu", alpha=0.7)
+            plt.contourf(xs, ys, predictions, levels=20, cmap="RdBu", alpha=0.7)
             plt.contour(xs, ys, predictions, levels=[0.25, 0.5, 0.75], colors="k")
             plt.scatter(train_data[:, 0], train_data[:, 1], c=train_target, label="train", marker="P", cmap="RdBu")
             plt.scatter(test_data[:, 0], test_data[:, 1], c=test_target, label="test", cmap="RdBu")
