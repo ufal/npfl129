@@ -1,6 +1,6 @@
 ### Assignment: smo_algorithm
 #### Date: Deadline: Nov 28, 7:59 a.m.
-#### Points: 6 points
+#### Points: 7 points
 #### Examples: smo_algorithm_examples
 #### Tests: smo_algorithm_tests
 
