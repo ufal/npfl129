@@ -5,6 +5,7 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-07-english.mp4, EN Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-07-english.smo-computations.mp4, EN SMO Computations
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-07-english.practicals.mp4, EN Practicals
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-07-czech.mp4, CZ Lecture
 #### Questions: #lecture_7_questions
 #### Lecture assignment: smo_algorithm
 #### Lecture assignment: svm_multiclass
