@@ -49,7 +49,7 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, float, list[float], list
         # the weights are represented using betas in the dual formulation
         #   w = \sum_i beta_i phi(x_i),
         # and the loss for a batch $B$ in the primary formulation is the MSE with L2 regularization:
-        #   L = \sum_{i \in B} 1/|B| * [1/2 (phi(x_i)^T w + bias - t_i)^2] + 1/2 * args.l2 * ||w||^2
+        #   L = 1/|B| * \sum_{i \in B} [1/2 (phi(x_i)^T w + bias - t_i)^2] + 1/2 * args.l2 * ||w||^2
         # You should update the `betas` and the `bias`, so that the update
         # is equivalent to the update in the primary formulation. Be aware that
         # for a single batch, only some betas are updated because of the MSE, but
