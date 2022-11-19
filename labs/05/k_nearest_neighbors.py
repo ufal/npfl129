@@ -53,8 +53,7 @@ def main(args: argparse.Namespace) -> float:
 
     # TODO: Generate `test_predictions` with classes predicted for `test_data`.
     #
-    # Find `args.k` nearest neighbors, choosing the ones with the smallest train_data
-    # indices in case of ties. Use the most frequent class (optionally weighted
+    # Find `args.k` nearest neighbors. Use the most frequent class (optionally weighted
     # by a given scheme described below) as prediction, choosing the one with the
     # smallest class index when there are multiple classes with the same frequency.
     #
