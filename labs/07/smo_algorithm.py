@@ -25,8 +25,8 @@ parser.add_argument("--tolerance", default=1e-7, type=float, help="Default toler
 
 def kernel(args: argparse.Namespace, x: np.ndarray, y: np.ndarray) -> np.ndarray:
     # TODO: As in `kernel_linear_regression`, We consider the following `args.kernel`s:
-    # - "poly": K(x, y; degree, gamma) = (gamma * x^T y + 1) ^ degree
-    # - "rbf": K(x, y; gamma) = exp^{- gamma * ||x - y||^2}
+    # - "poly": K(x, z; degree, gamma) = (gamma * x^T z + 1) ^ degree
+    # - "rbf": K(x, z; gamma) = exp^{- gamma * ||x - z||^2}
     raise NotImplementedError()
 
 
