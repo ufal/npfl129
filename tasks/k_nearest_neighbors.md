@@ -5,7 +5,7 @@
 
 Starting with the [k_nearest_neighbors.py](https://github.com/ufal/npfl129/tree/master/labs/05/k_nearest_neighbors.py),
 implement k-nearest neighbors algorithm for classifying MNIST, without using the
-`sklearn.neighbors` module in any way.
+`sklearn.neighbors` module or `scipy.spatial` module in any way.
 
 #### Tests Start: k_nearest_neighbors_tests
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
