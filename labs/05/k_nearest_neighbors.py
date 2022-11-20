@@ -55,7 +55,7 @@ def main(args: argparse.Namespace) -> float:
     #
     # Find `args.k` nearest neighbors. Use the most frequent class (optionally weighted
     # by a given scheme described below) as prediction, choosing the one with the
-    # smallest class index when there are multiple classes with the same frequency.
+    # smallest class number when there are multiple classes with the same frequency.
     #
     # Use L_p norm for a given p (either 1, 2 or 3) to measure distances.
     #
