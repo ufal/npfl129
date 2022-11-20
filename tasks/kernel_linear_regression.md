@@ -11,30 +11,30 @@ and _Gaussian_ kernels and also L2 regularization.
 
 #### Examples Start: kernel_linear_regression_examples
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
-- `python3 kernel_linear_regression.py --batch_size=1 --kernel=poly --kernel_degree=3 --learning_rate=0.1`
+- `python3 kernel_linear_regression.py --batch_size=5 --kernel=poly --kernel_degree=3 --learning_rate=0.1`
 ```
-After epoch 10: train RMSE 0.62, test RMSE 1.13
-After epoch 20: train RMSE 0.51, test RMSE 0.98
-After epoch 30: train RMSE 0.54, test RMSE 1.18
-After epoch 40: train RMSE 0.51, test RMSE 1.13
-After epoch 50: train RMSE 0.47, test RMSE 1.12
-After epoch 60: train RMSE 0.51, test RMSE 1.22
-After epoch 70: train RMSE 0.51, test RMSE 1.30
-After epoch 80: train RMSE 0.48, test RMSE 1.24
-After epoch 90: train RMSE 0.48, test RMSE 1.12
-After epoch 100: train RMSE 0.50, test RMSE 1.00
-After epoch 110: train RMSE 0.57, test RMSE 1.25
-After epoch 120: train RMSE 0.55, test RMSE 1.38
-After epoch 130: train RMSE 0.53, test RMSE 1.29
-After epoch 140: train RMSE 0.51, test RMSE 1.25
-After epoch 150: train RMSE 0.58, test RMSE 1.21
-After epoch 160: train RMSE 0.49, test RMSE 1.03
-After epoch 170: train RMSE 0.51, test RMSE 1.12
-After epoch 180: train RMSE 0.48, test RMSE 1.22
+After epoch 10: train RMSE 0.69, test RMSE 0.61
+After epoch 20: train RMSE 0.61, test RMSE 0.65
+After epoch 30: train RMSE 0.56, test RMSE 0.72
+After epoch 40: train RMSE 0.53, test RMSE 0.77
+After epoch 50: train RMSE 0.51, test RMSE 0.84
+After epoch 60: train RMSE 0.49, test RMSE 0.91
+After epoch 70: train RMSE 0.48, test RMSE 0.98
+After epoch 80: train RMSE 0.48, test RMSE 1.01
+After epoch 90: train RMSE 0.47, test RMSE 1.04
+After epoch 100: train RMSE 0.47, test RMSE 1.05
+After epoch 110: train RMSE 0.48, test RMSE 1.09
+After epoch 120: train RMSE 0.47, test RMSE 1.12
+After epoch 130: train RMSE 0.47, test RMSE 1.12
+After epoch 140: train RMSE 0.47, test RMSE 1.13
+After epoch 150: train RMSE 0.47, test RMSE 1.13
+After epoch 160: train RMSE 0.47, test RMSE 1.10
+After epoch 170: train RMSE 0.47, test RMSE 1.13
+After epoch 180: train RMSE 0.47, test RMSE 1.16
 After epoch 190: train RMSE 0.47, test RMSE 1.14
-After epoch 200: train RMSE 0.49, test RMSE 1.10
-Learned betas -17.58 -11.77 0.17 10.94 6.38 7.94 18.47 14.35 7.00 10.15 2.17 0.51 1.74 -11.90 -13.97 ...
-Learned bias 0.48665425877260254
+After epoch 200: train RMSE 0.47, test RMSE 1.14
+Learned betas -2.28 -1.44 0.55 2.41 1.17 1.48 3.39 2.52 0.96 1.62 0.11 -0.37 -0.20 -2.91 -3.15 ...
+Learned bias 0.44076460113546156
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/kernel_linear_regression_1.svgz)
 - `python3 kernel_linear_regression.py --batch_size=1 --kernel=poly --kernel_degree=5 --learning_rate=0.05`
@@ -112,7 +112,7 @@ After epoch 180: train RMSE 0.47, test RMSE 1.03
 After epoch 190: train RMSE 0.47, test RMSE 1.04
 After epoch 200: train RMSE 0.56, test RMSE 0.96
 Learned betas -0.65 -0.47 -0.10 0.55 0.39 0.34 0.87 0.60 0.26 0.44 0.05 -0.00 0.05 -0.68 -0.76 ...
-Learned bias 0.9258410067869752
+Learned bias 0.9258410067869733
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/kernel_linear_regression_4.svgz)
 - `python3 kernel_linear_regression.py --batch_size=1 --kernel=rbf`
@@ -167,30 +167,30 @@ Learned betas 1.45 1.28 1.74 2.17 1.18 1.01 1.67 0.98 0.03 0.19 -0.69 -1.02 -0.9
 Learned bias 0.6326715226190537
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/kernel_linear_regression_6.svgz)
-- `python3 kernel_linear_regression.py --batch_size=1 --kernel=rbf --kernel_gamma=5`
+- `python3 kernel_linear_regression.py --batch_size=2 --kernel=rbf --kernel_gamma=5`
 ```
-After epoch 10: train RMSE 0.52, test RMSE 0.40
-After epoch 20: train RMSE 0.36, test RMSE 0.22
-After epoch 30: train RMSE 0.27, test RMSE 0.15
-After epoch 40: train RMSE 0.24, test RMSE 0.14
-After epoch 50: train RMSE 0.22, test RMSE 0.15
-After epoch 60: train RMSE 0.22, test RMSE 0.16
-After epoch 70: train RMSE 0.21, test RMSE 0.17
-After epoch 80: train RMSE 0.21, test RMSE 0.17
-After epoch 90: train RMSE 0.21, test RMSE 0.18
-After epoch 100: train RMSE 0.21, test RMSE 0.18
-After epoch 110: train RMSE 0.21, test RMSE 0.18
-After epoch 120: train RMSE 0.21, test RMSE 0.18
-After epoch 130: train RMSE 0.21, test RMSE 0.18
-After epoch 140: train RMSE 0.21, test RMSE 0.18
-After epoch 150: train RMSE 0.21, test RMSE 0.18
-After epoch 160: train RMSE 0.21, test RMSE 0.18
-After epoch 170: train RMSE 0.21, test RMSE 0.18
-After epoch 180: train RMSE 0.21, test RMSE 0.18
+After epoch 10: train RMSE 0.65, test RMSE 0.55
+After epoch 20: train RMSE 0.52, test RMSE 0.40
+After epoch 30: train RMSE 0.43, test RMSE 0.30
+After epoch 40: train RMSE 0.36, test RMSE 0.22
+After epoch 50: train RMSE 0.31, test RMSE 0.17
+After epoch 60: train RMSE 0.27, test RMSE 0.15
+After epoch 70: train RMSE 0.25, test RMSE 0.13
+After epoch 80: train RMSE 0.24, test RMSE 0.13
+After epoch 90: train RMSE 0.23, test RMSE 0.14
+After epoch 100: train RMSE 0.22, test RMSE 0.15
+After epoch 110: train RMSE 0.22, test RMSE 0.15
+After epoch 120: train RMSE 0.22, test RMSE 0.16
+After epoch 130: train RMSE 0.21, test RMSE 0.16
+After epoch 140: train RMSE 0.21, test RMSE 0.17
+After epoch 150: train RMSE 0.21, test RMSE 0.17
+After epoch 160: train RMSE 0.21, test RMSE 0.17
+After epoch 170: train RMSE 0.21, test RMSE 0.17
+After epoch 180: train RMSE 0.21, test RMSE 0.17
 After epoch 190: train RMSE 0.21, test RMSE 0.18
 After epoch 200: train RMSE 0.21, test RMSE 0.18
-Learned betas 0.16 -0.11 0.32 0.78 -0.10 -0.10 0.81 0.42 -0.20 0.33 -0.16 -0.14 0.24 -0.82 -0.72 ...
-Learned bias 0.7215140499242232
+Learned betas 0.21 0.08 0.29 0.51 0.06 0.05 0.49 0.27 -0.06 0.18 -0.09 -0.10 0.06 -0.49 -0.45 ...
+Learned bias 0.7290386122306763
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/kernel_linear_regression_7.svgz)
 - `python3 kernel_linear_regression.py --batch_size=1 --kernel=rbf --kernel_gamma=50`
@@ -248,12 +248,12 @@ Learned bias 0.9187854392321663
 #### Examples End:
 #### Tests Start: kernel_linear_regression_tests
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
-- `python3 kernel_linear_regression.py --epochs=20 --batch_size=1 --kernel=poly --kernel_degree=3 --learning_rate=0.1`
+- `python3 kernel_linear_regression.py --epochs=20 --batch_size=5 --kernel=poly --kernel_degree=3 --learning_rate=0.1`
 ```
-After epoch 10: train RMSE 0.62, test RMSE 1.13
-After epoch 20: train RMSE 0.51, test RMSE 0.98
-Learned betas -0.82 -0.49 0.59 1.50 0.72 0.92 1.55 1.24 0.34 0.54 -0.32 -0.29 -0.41 -1.53 -1.87 ...
-Learned bias 0.3846896858198505
+After epoch 10: train RMSE 0.69, test RMSE 0.61
+After epoch 20: train RMSE 0.61, test RMSE 0.65
+Learned betas 0.11 0.11 0.25 0.37 0.17 0.16 0.29 0.17 -0.02 0.02 -0.14 -0.20 -0.18 -0.45 -0.49 ...
+Learned bias 0.4388019915399849
 ```
 - `python3 kernel_linear_regression.py --epochs=20 --batch_size=1 --kernel=poly --kernel_degree=5 --learning_rate=0.05`
 ```
@@ -274,7 +274,7 @@ Learned bias 0.39859934926020046
 After epoch 10: train RMSE 0.63, test RMSE 1.52
 After epoch 20: train RMSE 0.56, test RMSE 0.88
 Learned betas -0.48 -0.32 0.13 0.38 0.13 0.28 0.49 0.44 0.16 0.24 -0.02 0.03 -0.04 -0.42 -0.47 ...
-Learned bias 0.6096489059733293
+Learned bias 0.6096489059733282
 ```
 - `python3 kernel_linear_regression.py --epochs=20 --batch_size=1 --kernel=rbf`
 ```
@@ -290,12 +290,12 @@ After epoch 20: train RMSE 0.80, test RMSE 0.67
 Learned betas 0.22 0.20 0.24 0.27 0.17 0.14 0.20 0.13 0.02 0.03 -0.06 -0.10 -0.09 -0.23 -0.25 ...
 Learned bias 0.5619981553157737
 ```
-- `python3 kernel_linear_regression.py --epochs=20 --batch_size=1 --kernel=rbf --kernel_gamma=5`
+- `python3 kernel_linear_regression.py --epochs=20 --batch_size=2 --kernel=rbf --kernel_gamma=5`
 ```
-After epoch 10: train RMSE 0.52, test RMSE 0.40
-After epoch 20: train RMSE 0.36, test RMSE 0.22
-Learned betas 0.16 0.14 0.18 0.22 0.12 0.10 0.17 0.11 0.03 0.05 -0.02 -0.04 -0.03 -0.15 -0.16 ...
-Learned bias 0.7202593940516246
+After epoch 10: train RMSE 0.65, test RMSE 0.55
+After epoch 20: train RMSE 0.52, test RMSE 0.40
+Learned betas 0.11 0.10 0.12 0.13 0.08 0.07 0.11 0.07 0.03 0.03 -0.01 -0.02 -0.02 -0.08 -0.09 ...
+Learned bias 0.7126228629963139
 ```
 - `python3 kernel_linear_regression.py --epochs=20 --batch_size=1 --kernel=rbf --kernel_gamma=50`
 ```
