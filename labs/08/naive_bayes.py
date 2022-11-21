@@ -13,7 +13,7 @@ parser.add_argument("--alpha", default=0.1, type=float, help="Smoothing paramete
 parser.add_argument("--naive_bayes_type", default="gaussian", type=str, help="NB type to use")
 parser.add_argument("--classes", default=10, type=int, help="Number of classes")
 parser.add_argument("--recodex", default=False, action="store_true", help="Running in ReCodEx")
-parser.add_argument("--seed", default=42, type=int, help="Random seed")
+parser.add_argument("--seed", default=72, type=int, help="Random seed")
 parser.add_argument("--test_size", default=0.5, type=lambda x: int(x) if x.isdigit() else float(x), help="Test size")
 # If you add more arguments, ReCodEx will keep them with your default values.
 
@@ -47,7 +47,7 @@ def main(args: argparse.Namespace) -> float:
     #
     # In all cases, the class prior is the distribution of the train data classes.
 
-    # TODO: Predict the test data classes and compute test accuracy.
+    # TODO: Predict the test data classes and compute the test accuracy.
     test_accuracy = ...
 
     return test_accuracy

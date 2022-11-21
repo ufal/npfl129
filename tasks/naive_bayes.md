@@ -10,39 +10,39 @@ multinomial NB and Bernoulli NB.
 
 #### Tests Start: naive_bayes_tests
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
-- `python3 naive_bayes.py --classes=3 --naive_bayes_type=bernoulli`
+- `python3 naive_bayes.py --classes=3 --naive_bayes_type=bernoulli --seed=72`
 ```
 Test accuracy 95.17%
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/naive_bayes_1.svgz)
-- `python3 naive_bayes.py --classes=3 --naive_bayes_type=multinomial`
+- `python3 naive_bayes.py --classes=3 --naive_bayes_type=multinomial --seed=72`
 ```
-Test accuracy 94.05%
+Test accuracy 93.68%
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/naive_bayes_2.svgz)
-- `python3 naive_bayes.py --classes=3 --naive_bayes_type=gaussian`
+- `python3 naive_bayes.py --classes=3 --naive_bayes_type=gaussian --seed=72`
 ```
-Test accuracy 97.03%
+Test accuracy 95.54%
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/naive_bayes_3.svgz)
-- `python3 naive_bayes.py --classes=10 --naive_bayes_type=bernoulli`
+- `python3 naive_bayes.py --classes=10 --naive_bayes_type=bernoulli --seed=72`
 ```
-Test accuracy 88.32%
+Test accuracy 89.21%
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/naive_bayes_4.svgz)
-- `python3 naive_bayes.py --classes=10 --naive_bayes_type=bernoulli --alpha=10`
+- `python3 naive_bayes.py --classes=10 --naive_bayes_type=bernoulli --alpha=10 --seed=72`
 ```
-Test accuracy 87.76%
+Test accuracy 88.54%
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/naive_bayes_5.svgz)
-- `python3 naive_bayes.py --classes=10 --naive_bayes_type=multinomial --alpha=10`
+- `python3 naive_bayes.py --classes=10 --naive_bayes_type=multinomial --alpha=10 --seed=72`
 ```
-Test accuracy 89.66%
+Test accuracy 90.32%
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/naive_bayes_6.svgz)
-- `python3 naive_bayes.py --classes=10 --naive_bayes_type=gaussian --alpha=10 --seed=41`
+- `python3 naive_bayes.py --classes=10 --naive_bayes_type=gaussian --alpha=10 --seed=72`
 ```
-Test accuracy 91.55%
+Test accuracy 92.10%
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/naive_bayes_7.svgz)
 #### Tests End:
