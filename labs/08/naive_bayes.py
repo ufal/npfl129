@@ -42,7 +42,7 @@ def main(args: argparse.Namespace) -> float:
     #
     # - "bernoulli": Implement Bernoulli NB with smoothing factor `args.alpha`.
     #   Because Bernoulli NB works with binary data, binarize the features as
-    #   [feature_value >= 8], i.e., consider a feature as one iff it is >= 8,
+    #   [feature_value >= 8], i.e., consider a feature as one if it is >= 8,
     #   during both estimation and prediction.
     #
     # In all cases, the class prior is the distribution of the train data classes.
