@@ -175,8 +175,8 @@
   by Bayesian inference (from the MAP estimate). [5]
 
 - Write down how $p(C_k | \boldsymbol x)$ is approximated in a Naive Bayes
-  classifier, explicitly state the Naive Bayes assumption, and show how
-  prediction is performed. [5]
+  classifier, explicitly state the Naive Bayes assumption, and show how is the 
+  prediction performed. [5]
 
 - Considering a Gaussian naive Bayes, describe how are $p(x_d | C_k)$ modeled
   (what distribution and which parameters does it have) and how we estimate it
