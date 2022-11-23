@@ -22,7 +22,7 @@ parser.add_argument("--tolerance", default=1e-7, type=float, help="Default toler
 # If you add more arguments, ReCodEx will keep them with your default values.
 
 
-def kernel(args: argparse.Namespace, x: np.ndarray, y: np.ndarray) -> np.ndarray:
+def kernel(args: argparse.Namespace, x: np.ndarray, z: np.ndarray) -> np.ndarray:
     # TODO: Use the kernel from the smo_algorithm assignment.
     raise NotImplementedError()
 
