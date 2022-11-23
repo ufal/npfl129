@@ -10,7 +10,7 @@ import sklearn.model_selection
 parser = argparse.ArgumentParser()
 # These arguments will be set appropriately by ReCodEx, even if you change them.
 parser.add_argument("--alpha", default=0.1, type=float, help="Smoothing parameter for Bernoulli and Multinomial NB")
-parser.add_argument("--naive_bayes_type", default="gaussian", type=str, help="NB type to use")
+parser.add_argument("--naive_bayes_type", default="gaussian", type=str, help="NB type gaussian/multinomial/bernoulli")
 parser.add_argument("--classes", default=10, type=int, help="Number of classes")
 parser.add_argument("--recodex", default=False, action="store_true", help="Running in ReCodEx")
 parser.add_argument("--seed", default=72, type=int, help="Random seed")
