@@ -23,7 +23,7 @@ parser.add_argument("--tolerance", default=1e-7, type=float, help="Default toler
 # If you add more arguments, ReCodEx will keep them with your default values.
 
 
-def kernel(args: argparse.Namespace, x: np.ndarray, y: np.ndarray) -> np.ndarray:
+def kernel(args: argparse.Namespace, x: np.ndarray, z: np.ndarray) -> np.ndarray:
     # TODO: As in `kernel_linear_regression`, We consider the following `args.kernel`s:
     # - "poly": K(x, z; degree, gamma) = (gamma * x^T z + 1) ^ degree
     # - "rbf": K(x, z; gamma) = exp^{- gamma * ||x - z||^2}
