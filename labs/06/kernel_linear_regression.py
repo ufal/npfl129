@@ -27,9 +27,11 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, float, list[float], list
     # Generate an artificial regression dataset.
     train_data = np.linspace(-1, 1, args.data_size)
     train_target = np.sin(5 * train_data) + generator.normal(scale=0.25, size=args.data_size) + 1
+    train_data = np.expand_dims(train_data, axis=1)
 
     test_data = np.linspace(-1.2, 1.2, 2 * args.data_size)
     test_target = np.sin(5 * test_data) + 1
+    test_data = np.expand_dims(test_data, axis=1)
 
     # Initialize the parameters: the betas and the bias.
     betas = np.zeros(args.data_size)
