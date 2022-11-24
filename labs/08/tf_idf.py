@@ -49,8 +49,8 @@ def main(args: argparse.Namespace) -> float:
     train_data, test_data, train_target, test_target = sklearn.model_selection.train_test_split(
         newsgroups.data, newsgroups.target, test_size=args.test_size, random_state=args.seed)
 
-    # TODO: Create a feature for every word that is present at least twice
-    # in the training data. A word is every maximal sequence of at least 1 word character,
+    # TODO: Create a feature for every term that is present at least twice
+    # in the training data. A term is every maximal sequence of at least 1 word character,
     # where a word character corresponds to a regular expression `\w`.
 
     # TODO: For each document, compute its features as
