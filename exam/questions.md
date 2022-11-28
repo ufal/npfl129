@@ -211,15 +211,15 @@
   uncorrelated. [10]
 
 - In a regression decision tree, state what values are kept in internal nodes,
-  define the squared error criterion and describe how a leaf is split during
+  define the squared error criterion and describe how is a leaf split during
   training (without discussing splitting constraints). [5]
 
 - In a $K$-class classification decision tree, state what values are kept in
-  internal nodes, define the Gini index and describe how a node is split during
+  internal nodes, define the Gini index and describe how is a node split during
   training (without discussing splitting constraints). [5]
 
 - In a $K$-class classification decision tree, state what values are kept in
-  internal nodes, define the entropy criterion and describe how a node is split during
+  internal nodes, define the entropy criterion and describe how is a node split during
   training (without discussing splitting constraints). [5]
 
 - For binary classification, derive the Gini index from a squared error loss. [10]
@@ -227,5 +227,5 @@
 - For $K$-class classification, derive the entropy criterion from a non-averaged
   NLL loss. [10]
 
-- Describe how a random forest is trained (including bagging and a random subset
-  of features) and how prediction is performed for regression and classification. [5]
+- Describe how is a random forest trained (including bagging and a random subset
+  of features) and how is prediction performed for regression and classification. [5]
