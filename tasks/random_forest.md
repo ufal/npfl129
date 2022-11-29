@@ -10,28 +10,28 @@ with dataset bagging and random feature subsampling.
 
 #### Examples Start: random_forest_examples
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
-- `python3 random_forest.py --dataset=wine --trees=3 --max_depth=3 --seed=74`
+- `python3 random_forest.py --dataset=wine --trees=3 --max_depth=3`
 ```
-Train accuracy: 98.5%
+Train accuracy: 99.2%
 Test accuracy: 88.9%
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/random_forest_1.svgz)
-- `python3 random_forest.py --dataset=wine --trees=3 --bagging --max_depth=3 --seed=74`
+- `python3 random_forest.py --dataset=wine --trees=3 --bagging --max_depth=3`
 ```
-Train accuracy: 100.0%
-Test accuracy: 91.1%
+Train accuracy: 97.7%
+Test accuracy: 95.6%
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/random_forest_2.svgz)
-- `python3 random_forest.py --dataset=wine --trees=3 --feature_subsampling=0.5 --max_depth=3 --seed=74`
+- `python3 random_forest.py --dataset=wine --trees=3 --feature_subsampling=0.5 --max_depth=3`
+```
+Train accuracy: 97.7%
+Test accuracy: 88.9%
+```
+![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/random_forest_3.svgz)
+- `python3 random_forest.py --dataset=wine --trees=3 --bagging --feature_subsampling=0.5 --max_depth=3`
 ```
 Train accuracy: 99.2%
 Test accuracy: 95.6%
-```
-![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/random_forest_3.svgz)
-- `python3 random_forest.py --dataset=wine --trees=3 --bagging --feature_subsampling=0.5 --max_depth=3 --seed=74`
-```
-Train accuracy: 97.7%
-Test accuracy: 93.3%
 ```
 ![Example visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/random_forest_4.svgz)
 #### Examples End:
