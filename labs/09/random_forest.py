@@ -37,7 +37,7 @@ def main(args: argparse.Namespace) -> tuple[float, float]:
     def bootstrap_dataset(train_data: np.ndarray) -> np.ndarray:
         return generator_bootstrapping.choice(len(train_data), size=len(train_data), replace=True)
 
-    # TODO: Create a random forest on the trainining data.
+    # TODO: Create a random forest on the training data.
     #
     # Use a simplified decision tree from the `decision_tree` assignment:
     # - use `entropy` as the criterion
