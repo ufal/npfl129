@@ -35,9 +35,9 @@ Test accuracy 89.21%
 Test accuracy 88.54%
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/naive_bayes_5.svgz)
-- `python3 naive_bayes.py --classes=10 --naive_bayes_type=multinomial --alpha=10 --seed=72`
+- `python3 naive_bayes.py --classes=10 --naive_bayes_type=multinomial --alpha=10 --seed=53`
 ```
-Test accuracy 90.32%
+Test accuracy 90.77%
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~straka/courses/npfl129/2223/tasks/figures/naive_bayes_6.svgz)
 - `python3 naive_bayes.py --classes=10 --naive_bayes_type=gaussian --alpha=10 --seed=72`
