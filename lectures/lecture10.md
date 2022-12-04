@@ -3,5 +3,7 @@
 #### Slides: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides/?10
 #### Reading: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides.pdf/npfl129-10.pdf,PDF Slides
 #### Questions: #lecture_10_questions
+#### Lecture assignment: gradient_boosting
+#### Lecture assignment: human_activity_recognition
 
 - Gradient boosting decision trees [Paper [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/abs/1603.02754)]
