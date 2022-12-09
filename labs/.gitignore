@@ -1,4 +1,5 @@
 __pycache__/
 logs/
 *.npz
+*.xz
 *.zip
