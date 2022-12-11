@@ -36,7 +36,7 @@ def main(args: argparse.Namespace) -> tuple[list[float], list[float]]:
     # - the goal is to train `classes` regression trees, each predicting
     #   a part of logit for the corresponding class.
     # - compute the current predictions `y_{t-1}(x_i)` for every training example `i` as
-    #     y_{t-1}(x_i)_c = \sum_{i=1}^{t-1} args.learning_rate * tree_{iter=i,class=c}.predict(x_i)
+    #     y_{t-1}(x_i)_c = \sum_{j=1}^{t-1} args.learning_rate * tree_{iter=j,class=c}.predict(x_i)
     #     (note that y_0 is zero)
     # - loss in iteration `t` is
     #     E = (\sum_i NLL(onehot_target_i, softmax(y_{t-1}(x_i) + trees_to_train_in_iter_t.predict(x_i)))) +
