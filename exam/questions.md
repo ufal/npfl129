@@ -253,3 +253,24 @@
   and what per-example loss is used for training every one of them (expressed
   using predictions of the already trained trees). You do not need to describe
   the training process of the individual trees themselves. [10]
+
+#### Questions@:, Lecture 11 Questions
+- When deriving the first principal component, write the value of the
+  variance we aim to maximize, both without and with the covariance matrix
+  (and define the covariance matrix). [5]
+
+- When deriving the first $M$ principal components, write the value of the
+  reconstruction loss we aim to minimize using all but the first $M$ principal
+  components, both without and with the covariance matrix (and define the
+  covariance matrix). [10]
+
+- Write down the formula for whitening (sphering) the data matrix $\boldsymbol X$,
+  and state what mean and covariance does the result have. [5]
+
+- Explain how to compute the first $M$ principal components using the SVD
+  decomposition of the data matrix $\boldsymbol X$, and why it works. [5]
+
+- Write down the algorithm for computing the first $M$ principal components
+  of the data matrix $\boldsymbol X$ using the power iteration algorithm. [10]
+
+- Describe the K-means algorithm, including the `kmeans++` initialization. [10]
