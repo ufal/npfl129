@@ -15,7 +15,7 @@ quite bad in this task (in a simplified settings, human professionals achieve
 Because the data is not publicly available, you can download it only through
 ReCodEx. Please do not distribute it. The template
 [nli_competition.py](https://github.com/ufal/npfl129/tree/master/labs/11/nli_competition.py)
-can the be used to load the dataset as usual.
+can then be used to load the dataset as usual.
 
 The performance of your system is measured using _accuracy_ of correctly
 predicted documents and your goal is to achieve at least 78% accuracy.
