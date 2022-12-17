@@ -3,8 +3,8 @@
 #### Slides: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2021/slides/?12
 #### Reading: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2021/slides.pdf/npfl129-12.pdf,PDF Slides
 #### Questions: #lecture_12_questions
-#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-12-czech.mp4,CZ Lecture
-#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-12-english.mp4,EN Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-2021-12-czech.mp4,CZ Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-2021-12-english.mp4,EN Lecture
 
 - Gaussian mixture clustering [Section 9.2 of PRML]
 - _EM algorithm [Sections 9.3 and 9.4 of PRML]_
