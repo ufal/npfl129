@@ -1,7 +1,7 @@
 ### Lecture: 3. Perceptron and Logistic Regression
 #### Date: Oct 17
 #### Slides: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides/?03
-#### Reading: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides.pdf/npfl129-03.pdf, PDF Slides
+#### Reading: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides.pdf/npfl129-2223-03.pdf, PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-03-czech.mp4, CZ Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-03-czech.logreg.mp4, CZ Logistic Regression
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-03-czech.practicals.mp4, CZ Practicals
