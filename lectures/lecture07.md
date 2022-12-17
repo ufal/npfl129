@@ -1,7 +1,7 @@
 ### Lecture: 7. Soft-margin SVM, SMO
 #### Date: Nov 16
 #### Slides: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2021/slides/?07
-#### Reading: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2021/slides.pdf/npfl129-07.pdf,PDF Slides
+#### Reading: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2021/slides.pdf/npfl129-2021-07.pdf,PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-2021-07-czech.mp4,CZ Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2021/npfl129-2021-07-english.mp4,EN Lecture
 #### Questions: #lecture_7_questions
