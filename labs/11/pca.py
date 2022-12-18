@@ -52,7 +52,7 @@ class PCATransformer(sklearn.base.TransformerMixin):
     def fit(self, X, y=None):
         generator = np.random.RandomState(self._seed)
 
-        # TODO: Compute the `args._n_components` principal components
+        # TODO: Compute the `self._n_components` principal components
         # and store them as columns of `self._V` matrix.
         if self._n_components <= 10:
             # TODO: Use the power iteration algorithm for <= 10 dimensions.
