@@ -3,6 +3,7 @@
 #### Slides: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides/?12
 #### Reading: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides.pdf/npfl129-2223-12.pdf,PDF Slides
 #### Questions: #lecture_12_questions
+#### Lecture assignment: gaussian_mixture
 
 - Multivariate Gaussian [Section 2.3 of PRML]
 - Gaussian mixture clustering [Section 9.2 of PRML]
