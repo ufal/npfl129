@@ -1,5 +1,5 @@
 ### Assignment: gaussian_mixture
-#### Date: Deadline: Feb 13, 23:59
+#### Date: Deadline: Feb 12, 23:59
 #### Points: 5 points
 #### Tests: gaussian_mixture_tests
 
