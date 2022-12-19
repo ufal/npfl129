@@ -10,7 +10,8 @@ parser = argparse.ArgumentParser()
 # These arguments will be set appropriately by ReCodEx, even if you change them.
 parser.add_argument("--clusters", default=3, type=int, help="Number of clusters")
 parser.add_argument("--examples", default=200, type=int, help="Number of examples")
-parser.add_argument("--init", default="random", type=str, help="Initialization (random/kmeans++)")
+parser.add_argument("--init", default="random", type=str, choices=['random', 'kmeans++'],
+                    help="Initialization (random/kmeans++)")
 parser.add_argument("--iterations", default=10, type=int, help="Number of kmeans iterations to perfom")
 parser.add_argument("--plot", default=False, const=True, nargs="?", type=str, help="Plot the predictions")
 parser.add_argument("--recodex", default=False, action="store_true", help="Running in ReCodEx")
