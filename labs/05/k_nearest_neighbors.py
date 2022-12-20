@@ -19,7 +19,7 @@ parser.add_argument("--recodex", default=False, action="store_true", help="Runni
 parser.add_argument("--seed", default=42, type=int, help="Random seed")
 parser.add_argument("--test_size", default=1000, type=int, help="Test set size")
 parser.add_argument("--train_size", default=1000, type=int, help="Train set size")
-parser.add_argument("--weights", default="uniform", type=str, help="Weighting to use (uniform/inverse/softmax)")
+parser.add_argument("--weights", default="uniform", choices=["uniform", "inverse", "softmax"], help="Weighting to use")
 # If you add more arguments, ReCodEx will keep them with your default values.
 
 

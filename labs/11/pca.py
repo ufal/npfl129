@@ -61,12 +61,12 @@ class PCATransformer(sklearn.base.TransformerMixin):
             # the initial value of every eigenvector to
             #   `generator.uniform(-1, 1, size=X.shape[1])`
             # Compute the vector norms using `np.linalg.norm`.
-            pass
+            raise NotImplementedError()
 
         else:
             # TODO: Use the SVD decomposition computed with `np.linalg.svd`
             # to find the principal components.
-            pass
+            raise NotImplementedError()
 
         # We round the principal components to avoid rounding errors during
         # ReCodEx evaluation.
