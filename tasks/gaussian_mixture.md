@@ -1,6 +1,6 @@
 ### Assignment: gaussian_mixture
 #### Date: Deadline: Feb 12, 23:59
-#### Points: 5 points
+#### Points: 4 points
 #### Tests: gaussian_mixture_tests
 
 Cluster given input by fitting a Gaussian mixture using the
