@@ -3,6 +3,8 @@
 #### Slides: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides/?12
 #### Reading: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides.pdf/npfl129-2223-12.pdf,PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-12-czech.mp4, CZ Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-12-english.mp4, EN Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-12-english.practicals.mp4, EN Practicals
 #### Questions: #lecture_12_questions
 #### Lecture assignment: gaussian_mixture
 
