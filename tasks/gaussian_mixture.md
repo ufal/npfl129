@@ -5,7 +5,7 @@
 
 Cluster given input by fitting a Gaussian mixture using the
 [gaussian_mixture.py](https://github.com/ufal/npfl129/tree/master/labs/12/gaussian_mixture.py)
-template. Use full covariances and compute negative log likelihood
+template. Use full covariances and compute the negative log-likelihood
 of the model after every iteration of the EM algorithm.
 
 #### Tests Start: gaussian_mixture_tests
