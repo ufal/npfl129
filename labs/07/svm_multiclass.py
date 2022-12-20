@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser()
 # These arguments will be set appropriately by ReCodEx, even if you change them.
 parser.add_argument("--C", default=1, type=float, help="Inverse regularization strength")
 parser.add_argument("--classes", default=10, type=int, help="Number of classes")
-parser.add_argument("--kernel", default="poly", type=str, help="Kernel type (poly/rbf)")
+parser.add_argument("--kernel", default="poly", choices=["poly", "rbf"], help="Kernel type")
 parser.add_argument("--kernel_degree", default=1, type=int, help="Degree for poly kernel")
 parser.add_argument("--kernel_gamma", default=1.0, type=float, help="Gamma for poly and rbf kernel")
 parser.add_argument("--max_iterations", default=1000, type=int, help="Maximum number of iterations to perform")
