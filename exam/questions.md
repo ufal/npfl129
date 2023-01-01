@@ -302,3 +302,32 @@
   bias-variance trade-off, i.e., the decomposition of expected MSE loss
   (with respect to a randomly sampled test set) into bias, variance and
   irreducible error terms. [10]
+
+#### Questions@:, Lecture 13 Questions
+- Considering statistical hypothesis testing, define type I errors and type II
+  errors (in terms of the null hypothesis). Finally, define what a significance
+  level is. [5]
+
+- Explain what a test statistic and a p-value are. [5]
+
+- Write down the steps of a statistical hypothesis test, including a definition
+  of a p-value. [5]
+
+- Explain the differences between a one-sample test, two-sample test, and
+  a paired test. [5]
+
+- When considering multiple comparison problem, define the family-wise
+  error rate, and prove the Bonferroni correction, which allows
+  limiting the family-wise error rate by a given $\alpha$. [5]
+
+- For a trained model and a given test set with $N$ examples and metric $E$,
+  write how to estimate 95\% confidence intervals using bootstrap resampling.
+  [5]
+
+- For two trained models and a given test set with $N$ examples and metric $E$,
+  explain how to perform a paired bootstrap test that the first model is better
+  than the other. [5]
+
+- For two trained models and a given test set with $N$ examples and metric $E$,
+  explain how to perform a random permutation test that the first model is better
+  than the other with a significance level $\alpha$. [5]
