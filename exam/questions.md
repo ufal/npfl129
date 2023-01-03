@@ -33,7 +33,7 @@
   divergence, and prove the Gibbs inequality (i.e., that KL divergence is
   non-negative). [5]
 
-- Define data distribution, empirical data distribution and likelihood. [5]
+- Define data-generating distribution, empirical data distribution and likelihood. [5]
 
 - Describe maximum likelihood estimation, as minimizing NLL, cross-entropy and
   KL divergence. [10]
