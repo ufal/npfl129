@@ -63,7 +63,7 @@ def main(args: argparse.Namespace) -> tuple[list[tuple[float, float]], float]:
     # that `models[1]` is better than `models[0]` (our null hypothesis is
     # that `models[0]` is better or equal to `models[1]`).
     #
-    # Notably, compute the probability that the null hypothesis hold
+    # Notably, estimate the probability that the null hypothesis hold
     # (beware that this quantity is not a p-value) as the ratio of the model score
     # differences that are less or equal to zero. Store it in `result` as a percentage.
     result = ...
@@ -107,4 +107,4 @@ if __name__ == "__main__":
     print("Confidence intervals of the two models:")
     for confidence_interval in confidence_intervals:
         print("- [{:.2f}% .. {:.2f}%]".format(*confidence_interval))
-    print("The probability that the null hypothesis hold: {:.2f}%".format(result))
+    print("The estimated probability that the null hypothesis hold: {:.2f}%".format(result))
