@@ -91,7 +91,7 @@
   we have a dataset of $N$ examples $(x_i, t_i), x_i \in \mathbb{R}^D,
   t_i \in \{1, 2, \ldots, K\}$. Formulate the three conditions we impose on the
   searched $\pi: \mathbb{R}^D \rightarrow \mathbb{R}^K$, and write down the
-  Lagrangian to be maximized. [10]
+  Lagrangian to be minimized. [10]
 
 - Define precision (including true positives and others), recall, $F_1$ score,
   and $F_\beta$ score (we stated several formulations for $F_1$ and $F_\beta$
