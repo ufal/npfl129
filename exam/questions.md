@@ -73,7 +73,7 @@
 
 - Considering a single-layer MLP with $D$ input neurons, a ReLU hidden layer
   with $H$ units and a softmax output layer with $K$ units, write down the
-  formulas of the gradient of all the MLP parameters (two weight matrices and
+  explicit formulas of the gradient of all the MLP parameters (two weight matrices and
   two bias vectors), assuming input $\boldsymbol x$, target $t$ and negative log
   likelihood loss. [10]
 
