@@ -267,11 +267,11 @@
 - Write down the formula for whitening (sphering) the data matrix $\boldsymbol X$,
   and state what mean and covariance does the result have. [5]
 
-- Explain how to compute the first $M$ principal components using the SVD
-  decomposition of the data matrix $\boldsymbol X$, and why it works. [5]
+- Explain how to compute the PCA of dimension $M$ using the SVD decomposition of
+  a data matrix $\boldsymbol X$, and why it works. [5]
 
-- Write down the algorithm for computing the first $M$ principal components
-  of the data matrix $\boldsymbol X$ using the power iteration algorithm. [10]
+- Given a data matrix $\boldsymbol X$, write down the algorithm for computing
+  the PCA of dimension $M$ using the power iteration algorithm. [10]
 
 - Describe the K-means algorithm, including the `kmeans++` initialization. [10]
 
