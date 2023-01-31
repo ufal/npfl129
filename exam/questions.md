@@ -33,9 +33,9 @@
   divergence, and prove the Gibbs inequality (i.e., that KL divergence is
   non-negative). [5]
 
-- Define data-generating distribution, empirical data distribution and likelihood. [5]
+- Define data-generating distribution, empirical data distribution, and likelihood. [5]
 
-- Describe maximum likelihood estimation, as minimizing NLL, cross-entropy and
+- Describe maximum likelihood estimation, as minimizing NLL, cross-entropy, and
   KL divergence. [10]
 
 - Considering binary logistic regression model, write down its parameters
@@ -62,7 +62,7 @@
 - Prove why are decision regions of a multiclass logistic regression convex. [5]
 
 - Considering a single-layer MLP with $D$ input neurons, $H$ hidden
-  neurons, $K$ output neurons, hidden activation $f$ and output activation $a$,
+  neurons, $K$ output neurons, hidden activation $f$, and output activation $a$,
   list its parameters (including their size) and write down how the output
   is computed. [5]
 
@@ -74,7 +74,7 @@
 - Considering a single-layer MLP with $D$ input neurons, a ReLU hidden layer
   with $H$ units and a softmax output layer with $K$ units, write down the
   explicit formulas of the gradient of all the MLP parameters (two weight matrices and
-  two bias vectors), assuming input $\boldsymbol x$, target $t$ and negative log
+  two bias vectors), assuming input $\boldsymbol x$, target $t$, and negative log
   likelihood loss. [10]
 
 - Formulate the Universal approximation theorem. [5]
@@ -296,11 +296,11 @@
 
 - Considering the algorithm for Gaussian mixture clustering, write down the
   E step (how to compute the responsibilities) and the M step (how to update
-  the means, covariances and priors of the individual clusters). [10]
+  the means, covariances, and priors of the individual clusters). [10]
 
 - Write down the MSE loss of a regression problem, and formulate the
   bias-variance trade-off, i.e., the decomposition of expected MSE loss
-  (with respect to a randomly sampled test set) into bias, variance and
+  (with respect to a randomly sampled test set) into bias, variance, and
   irreducible error terms. [10]
 
 #### Questions@:, Lecture 13 Questions
