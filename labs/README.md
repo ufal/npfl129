@@ -1,8 +1,8 @@
 The tasks are evaluated automatically using the
 [ReCodEx Code Examiner](https://recodex.mff.cuni.cz/).
 
-The evaluation is performed using Python 3.9, scikit-learn 1.1.2, numpy 1.23.3,
-scipy 1.9.1, pandas 1.5.0, and matplotlib 3.6.0. You should
+The evaluation is performed using Python 3.9, scikit-learn 1.3.0, numpy 1.25.2,
+scipy 1.11.2, pandas 2.1.0, and matplotlib 3.7.2. You should
 [install the exact version of these packages yourselves](#faq_install).
 
 ### Teamwork
