@@ -4,7 +4,7 @@
 #### Examples: softmax_classification_sgd_examples
 #### Tests: softmax_classification_sgd_tests
 
-Starting with the [softmax_classification_sgd.py](https://github.com/ufal/npfl129/tree/master/labs/04/softmax_classification_sgd.py),
+Starting with the [softmax_classification_sgd.py](https://github.com/ufal/npfl129/tree/past-2223/labs/04/softmax_classification_sgd.py),
 implement minibatch SGD for multinomial logistic regression.
 
 #### Examples Start: softmax_classification_sgd_examples

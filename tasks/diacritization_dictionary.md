@@ -17,7 +17,7 @@ except that
 - you can utilize the dictionary, both during training and inference;
 - in order to pass, you need to achieve at least **95%** word accuracy.
 
-The [diacritization_dictionary.py](https://github.com/ufal/npfl129/tree/master/labs/06/diacritization_dictionary.py)
+The [diacritization_dictionary.py](https://github.com/ufal/npfl129/tree/past-2223/labs/06/diacritization_dictionary.py)
 module provides a `Dictionary` class, which loads the dictionary
 (downloading it if necessary), exposing it in `Dictionary.variants` field
 as a mapping from undiacritized word form to a list of known diacritized

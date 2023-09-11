@@ -7,7 +7,7 @@ is to perform binary classification – given medical data with 15 binary and
 6 real-valued attributes, predict whether thyroid is functioning normally or not.
 The train set and test set consist of ~3.5k instances.
 
-The [thyroid_competition.py](https://github.com/ufal/npfl129/tree/master/labs/03/thyroid_competition.py)
+The [thyroid_competition.py](https://github.com/ufal/npfl129/tree/past-2223/labs/03/thyroid_competition.py)
 template shows how to load training data, downloading it if needed.
 Furthermore, it shows how to save a trained estimator and how to load it during
 prediction.

@@ -7,7 +7,7 @@ Given two trained models, compute their 95% confidence intervals using bootstrap
 resampling. Then, estimate the probability that the second one is better than
 the first one using a paired bootstrap test.
 
-Start with the [bootstrap_resampling.py](https://github.com/ufal/npfl129/tree/master/labs/13/bootstrap_resampling.py)
+Start with the [bootstrap_resampling.py](https://github.com/ufal/npfl129/tree/past-2223/labs/13/bootstrap_resampling.py)
 template. Note that you usually need to perform a lot of the bootstrap
 resamplings, so you should make sure your implementation is fast enough.
 

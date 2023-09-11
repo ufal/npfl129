@@ -10,7 +10,7 @@ in $\{0, 1, …, 255\}$. Evaluation is performed on 10k test images.
 You can find a simple online demo of a trained classifier
 [here](https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/demos/mnist_web.html).
 
-The [mnist_competition.py](https://github.com/ufal/npfl129/tree/master/labs/04/mnist_competition.py)
+The [mnist_competition.py](https://github.com/ufal/npfl129/tree/past-2223/labs/04/mnist_competition.py)
 template shows how to load training data, downloading it if needed.
 Furthermore, it shows how to save a trained estimator and how to load it during
 prediction.

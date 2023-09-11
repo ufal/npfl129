@@ -4,7 +4,7 @@
 #### Tests: linear_regression_manual_tests
 
 Starting with the
-[linear_regression_manual.py](https://github.com/ufal/npfl129/tree/master/labs/01/linear_regression_manual.py)
+[linear_regression_manual.py](https://github.com/ufal/npfl129/tree/past-2223/labs/01/linear_regression_manual.py)
 template, solve a linear regression problem using the algorithm from the lecture
 which explicitly computes the matrix inversion. Then compute root mean square
 error on the test set.
