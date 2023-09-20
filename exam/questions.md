@@ -158,7 +158,8 @@
   utilize them), you do not need to write explicit formulas. [10]
 
 - Describe the one-versus-one and one-versus-rest schemes of constructing
-  a $K$-class classifier by combining multiple binary classifiers. [5]
+  a $K$-class classifier by combining multiple binary classifiers. Which
+  of them cannot be used for SVM and why? [5]
 
 #### Questions@:, Lecture 8 Questions
 - Explain how is the TF-IDF weight of a given document-term pair computed. [5]
