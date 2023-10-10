@@ -13,10 +13,6 @@
 
 #### Questions@:, Lecture 2 Questions
 
-- Define expectation $\mathbb{E}[f(x)]$ and variance $\operatorname{Var}(f(x))$
-  of a discrete random variable. Then define the bias of an estimator and show
-  that estimating an expectation using a single sample is unbiased. [10]
-
 - Describe standard gradient descent and compare it to stochastic (i.e.,
   online) gradient descent and minibatch stochastic gradient descent. [10]
 
