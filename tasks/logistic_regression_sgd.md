@@ -8,6 +8,7 @@ implement minibatch SGD for logistic regression.
 
 #### Tests Start: logistic_regression_sgd_tests
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
+
 1. `python3 logistic_regression_sgd.py --data_size=100 --batch_size=10 --epochs=9 --learning_rate=0.5`
 ```
 After epoch 1: train loss 0.3259 acc 94.0%, test loss 0.3301 acc 96.0%
@@ -22,6 +23,7 @@ After epoch 9: train loss 0.1065 acc 98.0%, test loss 0.1170 acc 96.0%
 Learned weights 2.77 -0.60 0.12
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~courses/npfl129/2324/tasks/figures/logistic_regression_sgd_1.svgz)
+
 2. `python3 logistic_regression_sgd.py --data_size=95 --test_size=45 --batch_size=5 --epochs=9 --learning_rate=0.5`
 ```
 After epoch 1: train loss 0.2429 acc 96.0%, test loss 0.3187 acc 93.3%
@@ -36,6 +38,7 @@ After epoch 9: train loss 0.1061 acc 96.0%, test loss 0.2163 acc 93.3%
 Learned weights -0.61 3.61 0.12
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~courses/npfl129/2324/tasks/figures/logistic_regression_sgd_2.svgz)
+
 3. `python3 logistic_regression_sgd.py --data_size=95 --test_size=45 --batch_size=1 --epochs=9 --learning_rate=0.7`
 ```
 After epoch 1: train loss 0.1141 acc 96.0%, test loss 0.2268 acc 93.3%

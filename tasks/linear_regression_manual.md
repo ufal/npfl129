@@ -11,15 +11,18 @@ error on the test set.
 
 #### Tests Start: linear_regression_manual_tests
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
-- `python3 linear_regression_manual.py --test_size=0.1`
+
+1. `python3 linear_regression_manual.py --test_size=0.1`
 ```
 52.38
 ```
-- `python3 linear_regression_manual.py --test_size=0.5`
+
+2. `python3 linear_regression_manual.py --test_size=0.5`
 ```
 54.58
 ```
-- `python3 linear_regression_manual.py --test_size=0.9`
+
+3. `python3 linear_regression_manual.py --test_size=0.9`
 ```
 59.46
 ```
