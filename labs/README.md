@@ -21,5 +21,5 @@ Cheating is **strictly prohibited** and any student found cheating will be punis
 The punishment can involve failing the whole course, or, in grave cases, being
 expelled from the faculty. While discussing assignments with any classmate is fine,
 each team must complete the assignments **themselves**, without using code they did not
-write (unless explicitly allowed). Of course, inside a team you are expected to
+write (unless explicitly allowed). Of course, inside a team you are allowed to
 share code and submit identical solutions.
