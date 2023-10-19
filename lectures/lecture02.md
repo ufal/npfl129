@@ -16,3 +16,4 @@
 - Expectation and variance [Section 1.2.2 of PRML]
 - Gradient descent [Section 5.2.4 of PRML]
   - Stochastic gradient descent solution of linear regression [slides]
+- [Linear regression demo](https://mlu-explain.github.io/linear-regression) by Jared Willber

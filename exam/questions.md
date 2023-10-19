@@ -34,3 +34,25 @@
 
 - What method can be used for normalizing feature values? Explain why it is
   useful. [5]
+
+#### Questions@:, Lecture 3 Questions
+- Define binary classification, write down the perceptron algorithm and show
+  how a prediction is made for a given example. [10]
+
+- For discrete random variables, define entropy, cross-entropy, Kullback-Leibler
+  divergence, and prove the Gibbs inequality (i.e., that KL divergence is
+  non-negative). [10]
+
+- Explain the notion of likelihood in maximum likelihood estimation. [5]
+
+- Describe maximum likelihood estimation, as minimizing NLL, cross-entropy, and
+  KL divergence. [20]
+
+- Considering binary logistic regression model, write down its parameters
+  (including their size) and explain how prediction is performed (including the
+  formula for the sigmoid function). Describe how we can interpret the outputs
+  of the linear part of the model as logits. [10]
+
+- Write down an $L^2$-regularized minibatch SGD algorithm for training a
+  binary logistic regression model, including the explicit formulas of the
+  loss function and its gradient. [20]
