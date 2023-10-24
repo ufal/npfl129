@@ -9,7 +9,6 @@
 - _Generalized linear models_
 - MSE as MLE [Section 3.1.1 of PRML]
 - Multiclass logistic regression [Section 4.3.4 of PRML]
-- _Poisson regression_
 - Multilayer perceptron (neural network) [Sections 5-5.3 of PRML]
     - [Interactive demo of MLP](https://cs.stanford.edu/people/karpathy/convnetjs/demo/classify2d.html) by Andrej Karpathy
 - Universal approximation theorem
