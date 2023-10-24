@@ -16,7 +16,7 @@
 - Perceptron algorithm [Section 4.1.7 of PRML]
 - Probability distributions [Bernoulli Section 2.1, Categorical Section 2.2, Gaussian Section 2.3 of PRML]
 - Information theory [Section 1.6 of PRML]
-- Maximum likely estimation [Section 1.2.5 of PRML]
+- Maximum likelihood estimation [Section 1.2.5 of PRML]
 - Logistic regression [Section 4.3.2 of PRML]
 - Cross-validation [Section 1.3 of PRML]
 - [Logistic regression demo](https://mlu-explain.github.io/logistic-regression) by Jared Willber

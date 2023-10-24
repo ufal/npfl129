@@ -1,4 +1,4 @@
-### Lecture: 4. Lecture 4
+### Lecture: 4. Multiclass Logistic Regression, Multilayer Perceptron
 #### Date: Oct 24
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides/?04
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides.pdf/npfl129-2324-04.pdf,PDF Slides
