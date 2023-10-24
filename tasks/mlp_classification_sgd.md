@@ -1,5 +1,5 @@
 ### Assignment: mlp_classification_sgd
-#### Date: Deadline: Nov 7, 7:59 a.m.
+#### Date: Deadline: Nov 14, 7:59 a.m.
 #### Points: 6 points
 #### Tests: mlp_classification_sgd_tests
 #### Examples: mlp_classification_sgd_examples
