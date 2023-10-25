@@ -1,4 +1,4 @@
-### Lecture: 3. Peceptron, Logistic Regession
+### Lecture: 3. Peceptron, Logistic Regression
 #### Date: Oct 17
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides/?03
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides.pdf/npfl129-2324-03.pdf, PDF Slides
