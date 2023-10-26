@@ -9,7 +9,7 @@
     <script type="text/javascript">
       var lecture = window.location.search.substring(1);
       if (lecture) {
-        slimd.start(`${lecture}/${lecture}.md`, `${slimd.root}templates/ufal.js`, "ufal-ml4g");
+        slimd.start(`${lecture}/${lecture}.md`, `${slimd.root}templates/ufal.js`, ["nobg"]);
       } else {
         async function querySlides(i, body) {
           var lecture = (i < 10 ? ('0' + i) : i);
