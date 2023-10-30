@@ -83,11 +83,6 @@
   ReLU). [10]
 
 #### Questions@:, Lecture 5 Questions
-- List the definitions of frequently used MLP output layer activations (the ones
-  producing parameters of a Bernoulli distribution and a categorical distribution).
-  Then write down three commonly used hidden layer activations (sigmoid, tanh,
-  ReLU). [10]
-
 - Considering a single-layer MLP with $D$ input neurons, a ReLU hidden layer
   with $H$ units and a softmax output layer with $K$ units, write down the
   explicit formulas of the gradient of all the MLP parameters (two weight matrices and
@@ -95,3 +90,22 @@
   likelihood loss. [20]
 
 - Formulate the Universal approximation theorem. [10]
+
+- How do we search for a minimum of a function
+  $f(\boldsymbol x): \mathbb{R}^D \rightarrow \mathbb{R}$ subject to equality
+  constraints $g_1(\boldsymbol x)=0, \ldots, g_m(\boldsymbol x)=0$? [10]
+
+- Prove which categorical distribution with $N$ classes has maximum
+  entropy. [10]
+
+- Consider derivation of softmax using maximum entropy principle, assuming
+  we have a dataset of $N$ examples $(x_i, t_i), x_i \in \mathbb{R}^D,
+  t_i \in \{1, 2, \ldots, K\}$. Formulate the three conditions we impose on the
+  searched $\pi: \mathbb{R}^D \rightarrow \mathbb{R}^K$, and write down the
+  Lagrangian to be minimized. [20]
+
+- Define precision (including true positives and others), recall, $F_1$ score,
+  and $F_\beta$ score (we stated several formulations for $F_1$ and $F_\beta$
+  scores; any one of them will do). [10]
+
+- Explain the difference between micro-averaged and macro-averaged $F_1$ scores. [10]
