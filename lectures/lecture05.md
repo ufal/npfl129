@@ -1,7 +1,10 @@
 ### Lecture: 5. MLP, Softmax as MaxEnt classifier, F1 score
 #### Date: Oct 31
+#### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides/?05
+#### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides.pdf/npfl129-2324-05.pdf,PDF Slides
 #### Lecture assignment: multilabel_classification_sgd
 #### Lecture assignment: diacritization
+#### Questions: #lecture_4_questions
 
 - Lagrange multipliers [Appendix E of PRML]
 - _Calculus of variations [Appendix D of PRML]_
