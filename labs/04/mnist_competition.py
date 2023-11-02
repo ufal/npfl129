@@ -31,7 +31,8 @@ class Dataset:
                  url="https://ufal.mff.cuni.cz/~courses/npfl129/2324/datasets/"):
         if not os.path.exists(name):
             print("Downloading dataset {}...".format(name), file=sys.stderr)
-            urllib.request.urlretrieve(url + name, filename=name)
+            urllib.request.urlretrieve(url + name, filename="{}.tmp".format(name))
+            os.rename("{}.tmp".format(name), name)
 
         # Load the dataset, i.e., `data` and optionally `target`.
         dataset = np.load(name)

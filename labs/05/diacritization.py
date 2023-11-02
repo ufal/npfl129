@@ -32,7 +32,8 @@ class Dataset:
             print("Downloading dataset {}...".format(name), file=sys.stderr)
             licence_name = name.replace(".txt", ".LICENSE")
             urllib.request.urlretrieve(url + licence_name, filename=licence_name)
-            urllib.request.urlretrieve(url + name, filename=name)
+            urllib.request.urlretrieve(url + name, filename="{}.tmp".format(name))
+            os.rename("{}.tmp".format(name), name)
 
         # Load the dataset and split it into `data` and `target`.
         with open(name, "r", encoding="utf-8-sig") as dataset_file:
