@@ -11,6 +11,17 @@
 #### Lecture assignment: mlp_classification_sgd
 #### Lecture assignment: mnist_competition
 
+**Learning objectives.** After the lecture you shoud be able to
+
+- Implement **muticlass classification** with softmax.
+- Reason about linear regression, logistic regression and softmax
+  classification in a **single probablistic framework**: with different target
+  distributions, activation functions and training using maximum likelihood
+  estimate.
+- Explain **multi-layer perceptron** as a further generalization of linear models.
+
+**Covered topics** and where to find more:
+
 - _Generalized linear models_
 - MSE as MLE [Section 3.1.1 of PRML]
 - Multiclass logistic regression [Section 4.3.4 of PRML]

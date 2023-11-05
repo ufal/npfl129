@@ -10,6 +10,13 @@
 #### Lecture assignment: linear_regression_features
 #### Questions: #lecture_1_questions
 
+**Learning objectives.** After the lecture you shoud be able to…
+
+- Explain to an non-expert what machine learning is.
+- Explain the difference between classification and regression.
+- Implement a simple linear-algebra-based algorithm for training linear regression.
+
+**Covered topics** and where to find more:
 - _Introduction to machine learning_
 - Basic definitions [Sections 1 and 1.1 of PRML]
 - Linear regression model [Section 3.1 of PRML]

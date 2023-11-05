@@ -10,8 +10,16 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-05-practicals-english.mp4, EN Practicals
 #### Questions: #lecture_4_questions
 
+**Learning objectives.** After the lecture you shoud be able to
+
+- Implement training of multi-layer perceptron using SGD.
+- Explain the theoretical foundation behind the softmax activation function
+  (including the necessary math).
+- Choose a suitable evaluation metric for various classification tasks.
+
+**Covered topics** and where to find more:
+
 - Lagrange multipliers [Appendix E of PRML]
-- _Calculus of variations [Appendix D of PRML]_
 - Derivation of softmax via the maximum entropy principle [[The equivalence of logistic regression and maximum entropy models writeup](https://github.com/WinVector/Examples/blob/main/dfiles/LogisticRegressionMaxEnt.pdf)]
 - $F_1$ score and $F_β$ score
 - K-nearest neighbors [Section 2.5.2 of PRML]

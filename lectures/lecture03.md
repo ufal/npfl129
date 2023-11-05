@@ -12,6 +12,17 @@
 #### Lecture assignment: grid_search
 #### Lecture assignment: thyroid_competition
 
+**Learning objectives.** After the lecture you shoud be able to
+
+- Think about binary classification using **geometric intuition** and use the
+  **perceptron algorithm**.
+- Define the **main concepts of information theory** (entropy, cross-entropy,
+  KL-divergence) and prove their basic properties.
+- Derive training objectives using the **maximum likelihood principle**.
+- Implement and use **logistic regression** for binary classification with SGD.
+
+**Covered topics** and where to find more:
+
 - Linear models for classification [Section 4.1.1 of PRML]
 - Perceptron algorithm [Section 4.1.7 of PRML]
 - Probability distributions [Bernoulli Section 2.1, Categorical Section 2.2, Gaussian Section 2.3 of PRML]
