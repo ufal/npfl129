@@ -109,3 +109,26 @@
   scores; any one of them will do). [10]
 
 - Explain the difference between micro-averaged and macro-averaged $F_1$ scores. [10]
+
+- Explain (using examples) why accuracy is not a suitable metric for
+  unbalanced target classes. [5]
+
+### Questions@:, Lecture 6 Questions
+- Explain how is the TF-IDF weight of a given document-term pair computed. [5]
+
+- Define conditional entropy, mutual information, write down the relation
+  between them, and finally prove that mutual information is zero
+  if and only if the two random variables are independent (you do not
+  need to prove statements about $D_\textrm{KL}$). [10]
+
+- Show that TF-IDF terms can be considered portions of suitable mutual
+  information. [10]
+
+- Explain the concept of word embedding in the context of MLP and how it
+  relates to representation learning. [5]
+
+- Describe the skip-gram model trained using negative sampling. [10]
+
+- How would you proceed to train a part-of-speech tagger (i.e., you want to
+  assign each word with its part of speech) if you only could use pre-trained
+  word embeddings and MLP classifier? [5]
