@@ -24,7 +24,7 @@ parser.add_argument("--model_path", default="imdb_sentiment.model", type=str, he
 
 
 class Dataset:
-    """IMBD dataset.
+    """IMDB dataset.
 
     This is a modified IMDB dataset for sentiment classification. The text is
     already tokenized and partially normalized.
