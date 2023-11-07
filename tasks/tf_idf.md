@@ -14,51 +14,51 @@ given training data, and report macro F1-score.
 #### Tests Start: tf_idf_tests
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
 
-1. `python3 tf_idf.py --train_size=1000 --test_size=500`
+1. `python3 tf_idf.py --train_size=1000 --test_size=500 --seed=45`
 ```
-Number of unique terms with at least two occurrences: 13660
-F-1 score for TF=False, IDF=False: 35.6%
-```
-
-2. `python3 tf_idf.py --train_size=1000 --test_size=500 --tf`
-```
-Number of unique terms with at least two occurrences: 13660
-F-1 score for TF=True, IDF=False: 24.6%
+Number of unique terms with at least two occurrences: 14155
+F-1 score for TF=False, IDF=False: 47.7%
 ```
 
-3. `python3 tf_idf.py --train_size=1000 --test_size=500 --idf`
+2. `python3 tf_idf.py --train_size=1000 --test_size=500 --seed=45 --tf`
 ```
-Number of unique terms with at least two occurrences: 13660
-F-1 score for TF=False, IDF=True: 50.7%
-```
-
-4. `python3 tf_idf.py --train_size=1000 --test_size=500 --tf --idf`
-```
-Number of unique terms with at least two occurrences: 13660
-F-1 score for TF=True, IDF=True: 54.3%
+Number of unique terms with at least two occurrences: 14155
+F-1 score for TF=True, IDF=False: 43.5%
 ```
 
-5. `python3 tf_idf.py --train_size=3000 --test_size=500`
+3. `python3 tf_idf.py --train_size=1000 --test_size=500 --seed=45 --idf`
 ```
-Number of unique terms with at least two occurrences: 26376
-F-1 score for TF=False, IDF=False: 49.9%
-```
-
-6. `python3 tf_idf.py --train_size=3000 --test_size=500 --tf`
-```
-Number of unique terms with at least two occurrences: 26376
-F-1 score for TF=True, IDF=False: 39.4%
+Number of unique terms with at least two occurrences: 14155
+F-1 score for TF=False, IDF=True: 57.4%
 ```
 
-7. `python3 tf_idf.py --train_size=3000 --test_size=500 --idf`
+4. `python3 tf_idf.py --train_size=1000 --test_size=500 --seed=45 --tf --idf`
 ```
-Number of unique terms with at least two occurrences: 26376
-F-1 score for TF=False, IDF=True: 66.5%
+Number of unique terms with at least two occurrences: 14155
+F-1 score for TF=True, IDF=True: 59.9%
 ```
 
-8. `python3 tf_idf.py --train_size=3000 --test_size=500 --tf --idf`
+5. `python3 tf_idf.py --train_size=3000 --test_size=500 --seed=45`
 ```
-Number of unique terms with at least two occurrences: 26376
-F-1 score for TF=True, IDF=True: 69.4%
+Number of unique terms with at least two occurrences: 27814
+F-1 score for TF=False, IDF=False: 57.8%
+```
+
+6. `python3 tf_idf.py --train_size=3000 --test_size=500 --seed=45 --tf`
+```
+Number of unique terms with at least two occurrences: 27814
+F-1 score for TF=True, IDF=False: 54.7%
+```
+
+7. `python3 tf_idf.py --train_size=3000 --test_size=500 --seed=45 --idf`
+```
+Number of unique terms with at least two occurrences: 27814
+F-1 score for TF=False, IDF=True: 68.0%
+```
+
+8. `python3 tf_idf.py --train_size=3000 --test_size=500 --seed=45 --tf --idf`
+```
+Number of unique terms with at least two occurrences: 27814
+F-1 score for TF=True, IDF=True: 70.9%
 ```
 #### Tests End:

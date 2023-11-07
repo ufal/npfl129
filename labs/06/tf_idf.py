@@ -15,7 +15,7 @@ parser = argparse.ArgumentParser()
 # These arguments will be set appropriately by ReCodEx, even if you change them.
 parser.add_argument("--idf", default=False, action="store_true", help="Use IDF weights")
 parser.add_argument("--recodex", default=False, action="store_true", help="Running in ReCodEx")
-parser.add_argument("--seed", default=50, type=int, help="Random seed")
+parser.add_argument("--seed", default=45, type=int, help="Random seed")
 parser.add_argument("--tf", default=False, action="store_true", help="Use TF weights")
 parser.add_argument("--test_size", default=1000, type=int, help="Test set size")
 parser.add_argument("--train_size", default=500, type=int, help="Train set size")
