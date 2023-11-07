@@ -6,10 +6,10 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-04-practicals-czech.mp4, CS Practicals
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-04-english.mp4, EN Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-04-practicals-english.mp4, EN Practicals (part)
-#### Questions: #lecture_4_questions
 #### Lecture assignment: softmax_classification_sgd
 #### Lecture assignment: mlp_classification_sgd
 #### Lecture assignment: mnist_competition
+#### Questions: #lecture_4_questions
 
 **Learning objectives.** After the lecture you shoud be able to
 
