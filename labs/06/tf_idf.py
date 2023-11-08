@@ -54,7 +54,8 @@ def main(args: argparse.Namespace) -> float:
     # where a word character corresponds to a regular expression `\w`.
 
     # TODO: For each document, compute its features as
-    # - term frequency(TF), if `args.tf` is set;
+    # - term frequency (TF), if `args.tf` is set (term frequency is
+    #   proportional to counts but normalized to sum to 1);
     # - otherwise, use binary indicators (1 if a given term is present, else 0)
     #
     # Then, if `args.idf` is set, multiply the document features by the
@@ -63,7 +64,7 @@ def main(args: argparse.Namespace) -> float:
     # - the IDFs are computed on the train set and then reused without
     #   modification on the test set.
 
-    # TODO: Train a `sklearn.linear_model.LogisticRegression(solver="liblinear")`
+    # TODO: Train a `sklearn.linear_model.LogisticRegression(solver="liblinear", C=10_000)`
     # model on the train set, and classify the test set.
 
     # TODO: Evaluate the test set performance using a macro-averaged F1 score.
