@@ -4,7 +4,7 @@
 #### Tests: tf_idf_tests
 
 **The template changed on Nov 8, please redownload it if you got it sooner
-(the `LogisticRegression` needs to get an additioan `C=10_000` argument).**
+(the `LogisticRegression` needs to get an additional `C=10_000` argument).**
 
 Using the [tf_idf.py](https://github.com/ufal/npfl129/tree/master/labs/06/tf_idf.py)
 template, perform classification of text documents from the
