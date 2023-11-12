@@ -132,3 +132,23 @@
 - How would you proceed to train a part-of-speech tagger (i.e., you want to
   assign each word with its part of speech) if you only could use pre-trained
   word embeddings and MLP classifier? [5]
+
+### Questions@:, Lecture 7 Questions
+- Describe k-nearest neighbors prediction, both for regression and
+  classification. Define $L_p$ norm and describe uniform, inverse, 
+  and softmax weighting. [10]
+
+- Show that $L^2$-regularization can be obtained from a suitable prior
+  by Bayesian inference (from the MAP estimate). [10]
+
+- Write down how $p(C_k | \boldsymbol x)$ is approximated in a Naive Bayes
+  classifier, explicitly state the Naive Bayes assumption, and show how is the 
+  prediction performed. [10]
+
+- Considering a Gaussian naive Bayes, describe how are $p(x_d | C_k)$ modeled
+  (what distribution and which parameters does it have) and how we estimate it
+  during fitting. [10]
+
+- Considering a Bernoulli naive Bayes, describe how are $p(x_d | C_k)$ modeled
+  (what distribution and which parameters does it have) and how we estimate it
+  during fitting. [10]
