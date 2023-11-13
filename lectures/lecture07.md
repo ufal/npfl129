@@ -2,6 +2,9 @@
 #### Date: Nov 7
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides/?07
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides.pdf/npfl129-2324-07.pdf,PDF Slides
+#### Lecture assignment: k_nearest_neighbors
+#### Lecture assignment: naive_bayes
+#### Lecture assignment: isnt_it_ironic
 #### Questions: #lecture_7_questions
 
 **Learning objectives.** After the lecture you shoud be able to
