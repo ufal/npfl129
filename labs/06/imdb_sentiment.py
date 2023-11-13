@@ -78,8 +78,8 @@ def main(args: argparse.Namespace) -> Optional[npt.ArrayLike]:
 
         print("Preprocessing dataset.", file=sys.stderr)
         # TODO: Preprocess the text such that you have a single vector per movie
-        # review. You can experiments with different ways of pooling the word
-        # embeddings: averaging, max pooling, etc. You can also try to exlucde
+        # review. You can experiment with different ways of pooling the word
+        # embeddings: averaging, max pooling, etc. You can also try to exclude
         # words that do not contribute much to the meaning of the sentence (stop
         # words). See `sklearn.feature_extraction.stop_words.ENGLISH_STOP_WORDS`.
         train_as_vectors = ...
