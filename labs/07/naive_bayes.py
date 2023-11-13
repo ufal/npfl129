@@ -47,9 +47,10 @@ def main(args: argparse.Namespace) -> float:
     #
     # In all cases, the class prior is the distribution of the train data classes.
 
-    # TODO: Predict the test data classes and compute the
-    # - test set accuracy, and
-    # - log-probability of the predicted test classes.
+    # TODO: Predict the test data classes, and compute
+    # - the test set accuracy, and
+    # - the joint log-probability of the test set, i.e.,
+    #     \sum_{(x_i, t_i) \in test set} \log P(x_i, t_i).
     test_accuracy, test_log_probability = ...
 
     return 100 * test_accuracy, test_log_probability
