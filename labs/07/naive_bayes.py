@@ -18,7 +18,7 @@ parser.add_argument("--test_size", default=0.5, type=lambda x: int(x) if x.isdig
 # If you add more arguments, ReCodEx will keep them with your default values.
 
 
-def main(args: argparse.Namespace) -> float:
+def main(args: argparse.Namespace) -> tuple[float, float]:
     # Load the digits dataset.
     data, target = sklearn.datasets.load_digits(n_class=args.classes, return_X_y=True)
 
