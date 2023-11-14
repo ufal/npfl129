@@ -54,9 +54,10 @@ def main(args: argparse.Namespace) -> float:
 
     # TODO: Generate `test_predictions` with classes predicted for `test_data`.
     #
-    # Find `args.k` nearest neighbors. Use the most frequent class (optionally weighted
-    # by a given scheme described below) as prediction, choosing the one with the
-    # smallest class number when there are multiple classes with the same frequency.
+    # Find `args.k` nearest neighbors. Then, use their most frequent target class 
+    # (optionally weighted by a given scheme described below) as prediction, 
+    # choosing the one with the smallest class number when there are multiple classes 
+    # with the same frequency.
     #
     # Use $L^p$ norm for a given `args.p` (either 1, 2, or 3) to measure distances.
     #
