@@ -1,5 +1,5 @@
 ### Lecture: 7. K Nearest Neighbors, Naive Bayes
-#### Date: Nov 7
+#### Date: Nov 14
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides/?07
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides.pdf/npfl129-2324-07.pdf,PDF Slides
 #### Lecture assignment: k_nearest_neighbors
