@@ -40,7 +40,7 @@
 
 - For discrete random variables, define entropy, cross-entropy, Kullback-Leibler
   divergence, and prove the Gibbs inequality (i.e., that KL divergence is
-  non-negative). [10]
+  non-negative). [20]
 
 - Explain the notion of likelihood in maximum likelihood estimation. [5]
 
@@ -70,7 +70,7 @@
   a $K$-class logistic regression model, including the explicit formulas of the
   loss function and its gradient. [20]
 
-- Prove why are decision regions of a multiclass logistic regression convex. [10]
+- Prove that decision regions of a multiclass logistic regression convex. [10]
 
 - Considering a single-layer MLP with $D$ input neurons, $H$ hidden
   neurons, $K$ output neurons, hidden activation $f$, and output activation $a$,
@@ -110,8 +110,8 @@
 
 - Explain the difference between micro-averaged and macro-averaged $F_1$ scores. [10]
 
-- Explain (using examples) why accuracy is not a suitable metric for
-  unbalanced target classes. [5]
+- Explain (using examples) why accuracy is not a suitable metric for unbalanced
+  target classes, e.g., for a diagnostic test for a contagious desease. [5]
 
 ### Questions@:, Lecture 6 Questions
 - Explain how is the TF-IDF weight of a given document-term pair computed. [5]
