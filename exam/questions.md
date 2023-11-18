@@ -152,3 +152,28 @@
 - Considering a Bernoulli naive Bayes, describe how are $p(x_d | C_k)$ modeled
   (what distribution and which parameters does it have) and how we estimate it
   during fitting. [10]
+
+### Questions@: Lecture 8 Questions
+
+- Prove that independent discrete random variables are uncorrelated. [10]
+
+- Write down the definition of covariance and Pearson correlation coefficient
+  $\rho$, including its range. [10]
+
+- Explain how are the Spearman's rank correlation coefficient and the Kendall
+  rank correlation coefficient computed (no need to describe the Pearson
+  correlation coefficient). [10]
+
+- Describe setups where a correlation coefficient might be a good
+  evaluation metric. [5]
+
+- Describe under what circumstance correlation can be used to assess validity
+  of evaluation metrics. [5]
+
+- Define Cohen's $\kappa$ and explain what is used for when preparing data for
+  machine learning. [10]
+
+- Considering an averaging ensemble of $M$ models, prove the relation between
+  the average mean squared error of the ensemble and the average error of the
+  individual models, assuming the model errors have zero means and are
+  uncorrelated. [20]
