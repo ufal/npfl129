@@ -18,6 +18,8 @@
 
 - Ensemble models with uncorrelated predictions.
 
+- Distill ensembles into smaller models.
+
 **Covered topics** and where to find more:
 
 - Covariance and correlation
