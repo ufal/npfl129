@@ -153,7 +153,7 @@
   (what distribution and which parameters does it have) and how we estimate it
   during fitting. [10]
 
-### Questions@: Lecture 8 Questions
+### Questions@:, Lecture 8 Questions
 
 - Prove that independent discrete random variables are uncorrelated. [10]
 
