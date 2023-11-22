@@ -4,6 +4,7 @@
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides.pdf/npfl129-2324-08.pdf,PDF Slides
 #### Lecture assignment: metric_correlation
 #### Lecture assignment: miniaturization
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-08-practicals-english.mp4, EN Practicals
 #### Questions: #lecture_8_questions
 
 **Learning objectives.** After the lecture you shoud be able to
