@@ -134,15 +134,15 @@
   word embeddings and MLP classifier? [5]
 
 ### Questions@:, Lecture 7 Questions
-- Describe k-nearest neighbors prediction, both for regression and
-  classification. Define $L_p$ norm and describe uniform, inverse, 
+- Describe $k$-nearest neighbors prediction, both for regression and
+  classification. Define $L_p$ norm and describe uniform, inverse,
   and softmax weighting. [10]
 
 - Show that $L^2$-regularization can be obtained from a suitable prior
   by Bayesian inference (from the MAP estimate). [10]
 
 - Write down how $p(C_k | \boldsymbol x)$ is approximated in a Naive Bayes
-  classifier, explicitly state the Naive Bayes assumption, and show how is the 
+  classifier, explicitly state the Naive Bayes assumption, and show how is the
   prediction performed. [10]
 
 - Considering a Gaussian naive Bayes, describe how are $p(x_d | C_k)$ modeled
@@ -177,3 +177,6 @@
   the average mean squared error of the ensemble and the average error of the
   individual models, assuming the model errors have zero means and are
   uncorrelated. [20]
+
+- Explain knowledge distillation: what it is used for, describe how it is done.
+  [10]
