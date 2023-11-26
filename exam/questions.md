@@ -180,3 +180,25 @@
 
 - Explain knowledge distillation: what it is used for, describe how it is done.
   [10]
+
+### Questions@:, Lecture 9 Questions
+
+- In a regression decision tree, state what values are kept in internal nodes,
+  define the squared error criterion and describe how is a leaf split during
+  training (without discussing splitting constraints). [10]
+
+- In a $K$-class classification decision tree, state what values are kept in
+  internal nodes, define the Gini index and describe how is a node split during
+  training (without discussing splitting constraints). [10]
+
+- In a $K$-class classification decision tree, state what values are kept in
+  internal nodes, define the entropy criterion and describe how is a node split during
+  training (without discussing splitting constraints). [10]
+
+- For binary classification, derive the Gini index from a squared error loss. [20]
+
+- For $K$-class classification, derive the entropy criterion from a non-averaged
+  NLL loss. [20]
+
+- Describe how is a random forest trained (including bagging and a random subset
+  of features) and how is prediction performed for regression and classification. [10]
