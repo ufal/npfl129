@@ -2,6 +2,9 @@
 #### Date: Nov 28
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides/?09
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides.pdf/npfl129-2324-09.pdf,PDF Slides
+#### Lecture assignment: decision_tree
+#### Lecture assignment: random_forest
+#### Lecture assignment: human_activity_recognition
 #### Questions: #lecture_9_questions
 
 **Learning objectives.** After the lecture you shoud be able to
