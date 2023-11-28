@@ -81,7 +81,7 @@ def main(args: argparse.Namespace) -> Optional[npt.ArrayLike]:
         # review. You can experiment with different ways of pooling the word
         # embeddings: averaging, max pooling, etc. You can also try to exclude
         # words that do not contribute much to the meaning of the sentence (stop
-        # words). See `sklearn.feature_extraction.stop_words.ENGLISH_STOP_WORDS`.
+        # words). See `sklearn.feature_extraction._stop_words.ENGLISH_STOP_WORDS`.
         train_as_vectors = ...
 
         train_x, validation_x, train_y, validation_y = sklearn.model_selection.train_test_split(
