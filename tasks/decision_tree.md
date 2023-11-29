@@ -2,6 +2,7 @@
 #### Date: Deadline: Dec 12, 7:59 a.m.
 #### Points: 4 points
 #### Tests: decision_tree_tests
+#### Examples: decision_tree_examples
 
 Starting with the [decision_tree.py](https://github.com/ufal/npfl129/tree/master/labs/09/decision_tree.py),
 manually implement construction of a classification decision tree, supporting both
@@ -67,3 +68,27 @@ Test accuracy: 93.7%
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~courses/npfl129/2324/tasks/figures/decision_tree_8.svgz)
 #### Tests End:
+#### Examples Start: decision_tree_examples
+_Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
+
+- `python3 decision_tree.py --dataset=iris --max_depth=3`
+```
+Train accuracy: 95.5%
+Test accuracy: 100.0%
+```
+![Example visualization](//ufal.mff.cuni.cz/~courses/npfl129/2324/tasks/figures/decision_tree_dtreeviz_1.svgz)
+
+- `python3 decision_tree.py --dataset=wine --criterion=entropy --min_to_split=20 --seed=44`
+```
+Train accuracy: 97.7%
+Test accuracy: 91.1%
+```
+![Example visualization](//ufal.mff.cuni.cz/~courses/npfl129/2324/tasks/figures/decision_tree_dtreeviz_2.svgz)
+
+- `python3 decision_tree.py --dataset=breast_cancer --criterion=entropy --max_depth=3 --seed=44`
+```
+Train accuracy: 94.8%
+Test accuracy: 93.7%
+```
+![Example visualization](//ufal.mff.cuni.cz/~courses/npfl129/2324/tasks/figures/decision_tree_dtreeviz_3.svgz)
+#### Examples End:
