@@ -23,4 +23,7 @@
 **Covered topics** and where to find more:
 
 - Decision trees [Section 14.4 of PRML]
+  - [Decision trees demo](https://mlu-explain.github.io/decision-tree/) by Jared Wilber & Lucía Santamaría
+
 - Random forests
+  - [Random forets demo](https://mlu-explain.github.io/random-forest/) by Jenny Yeon & Jared Wilber
