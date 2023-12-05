@@ -1,7 +1,7 @@
 ### Lecture: 10. Gradient Boosted Decision Trees
 #### Date: Dec 05
-#### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2223/slides/?10
-#### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2223/slides.pdf/npfl129-2223-10.pdf,PDF Slides
+#### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides/?10
+#### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides.pdf/npfl129-2324-10.pdf,PDF Slides
 #### Lecture assignment: gradient_boosting
 #### Lecture assignment: nli_competition
 #### Questions: #lecture_10_questions
