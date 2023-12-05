@@ -4,6 +4,9 @@
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides.pdf/npfl129-2324-10.pdf,PDF Slides
 #### Lecture assignment: gradient_boosting
 #### Lecture assignment: nli_competition
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-10-czech.mp4, CS Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-10-practicals-czech.mp4, CS Practicals
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-10-english.mp4, EN Lecture
 #### Questions: #lecture_10_questions
 
 **Learning objectives.** After the lecture you shoud be able to
