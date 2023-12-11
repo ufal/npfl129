@@ -21,7 +21,6 @@ Cluster assignments:
  3 4 4 4 4 4 4 2 4 3 4 4 2 3 3 3 4 2 4 4 3 3 2 3 3 2 3 2 0 4 3 3 3 3 3 3 3
  3 4]
 ```
-![Test visualization](//ufal.mff.cuni.cz/~courses/npfl129/2324/tasks/figures/kmeans_1.svgz)
 
 2. `python3 kmeans.py --clusters=5 --examples=150 --iterations=3 --init=kmeans++`
 ```
@@ -32,7 +31,6 @@ Cluster assignments:
  3 2 2 4 4 2 4 0 2 1 4 4 0 3 1 3 4 0 2 4 1 1 0 3 1 0 3 0 0 4 1 1 3 3 1 1 3
  1 2]
 ```
-![Test visualization](//ufal.mff.cuni.cz/~courses/npfl129/2324/tasks/figures/kmeans_2.svgz)
 
 3. `python3 kmeans.py --clusters=7 --examples=200 --iterations=3 --init=random`
 ```
@@ -44,7 +42,6 @@ Cluster assignments:
  0 0 2 0 6 3 3 2 6 0 3 5 4 1 3 5 0 3 0 5 6 3 1 5 0 0 3 0 1 3 5 4 3 3 3 2 3
  3 2 3 6 1 4 3 0 5 5 3 3 5 6 6]
 ```
-![Test visualization](//ufal.mff.cuni.cz/~courses/npfl129/2324/tasks/figures/kmeans_3.svgz)
 
 4. `python3 kmeans.py --clusters=7 --examples=200 --iterations=3 --init=kmeans++`
 ```
@@ -56,7 +53,6 @@ Cluster assignments:
  0 0 3 0 4 1 5 3 4 0 1 2 2 2 6 2 0 1 0 2 4 1 2 2 0 0 5 0 2 1 2 2 1 5 1 3 1
  5 3 5 4 2 2 6 0 2 2 1 6 2 4 4]
 ```
-![Test visualization](//ufal.mff.cuni.cz/~courses/npfl129/2324/tasks/figures/kmeans_4.svgz)
 #### Tests End:
 #### Examples Start: kmeans_examples
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
