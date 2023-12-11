@@ -2,6 +2,8 @@
 #### Date: Dec 12
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides/?11
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides.pdf/npfl129-2324-11.pdf,PDF Slides
+#### Lecture assignment: pca
+#### Lecture assignment: kmeans
 
 **Learning objectives.** After the lecture you shoud be able to
 
