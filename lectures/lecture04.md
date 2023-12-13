@@ -28,3 +28,5 @@
 - Multilayer perceptron (neural network) [Sections 5-5.3 of PRML]
     - [Interactive demo of MLP](https://cs.stanford.edu/people/karpathy/convnetjs/demo/classify2d.html) by Andrej Karpathy
 - Universal approximation theorem
+
+After the lecture: short and non-comprehensive [recap quiz](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect04).

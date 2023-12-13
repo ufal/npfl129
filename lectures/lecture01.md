@@ -20,3 +20,5 @@
 - _Introduction to machine learning_
 - Basic definitions [Sections 1 and 1.1 of PRML]
 - Linear regression model [Section 3.1 of PRML]
+
+After the lecture: short and non-comprehensive [recap quiz](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect01).

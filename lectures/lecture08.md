@@ -31,3 +31,5 @@
 - Covariance and correlation
 - Inter-annotator agreement
 - Model ensembling [Section 14.2 of PRML]
+
+After the lecture: short and non-comprehensive [recap quiz](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect08).

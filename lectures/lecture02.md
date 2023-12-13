@@ -30,3 +30,5 @@
 - Gradient descent [Section 5.2.4 of PRML]
   - Stochastic gradient descent solution of linear regression [slides]
 - [Linear regression demo](https://mlu-explain.github.io/linear-regression) by Jared Willber
+
+After the lecture: short and non-comprehensive [recap quiz](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect02).

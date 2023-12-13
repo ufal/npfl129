@@ -27,3 +27,5 @@
 
 - Random forests
   - [Random forets demo](https://mlu-explain.github.io/random-forest/) by Jenny Yeon & Jared Wilber
+
+After the lecture: short and non-comprehensive [recap quiz](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect09).
