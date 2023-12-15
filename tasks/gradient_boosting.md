@@ -17,11 +17,11 @@ Using 3 trees, train accuracy: 97.7%, test accuracy: 91.1%
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~courses/npfl129/2324/tasks/figures/gradient_boosting_1.svgz)
 
-2. `python3 gradient_boosting.py --dataset=wine --trees=3 --max_depth=2 --learning_rate=0.3 --seed=599`
+2. `python3 gradient_boosting.py --dataset=wine --trees=3 --max_depth=2 --learning_rate=0.3 --seed=883`
 ```
-Using 1 trees, train accuracy: 99.2%, test accuracy: 91.1%
-Using 2 trees, train accuracy: 99.2%, test accuracy: 91.1%
-Using 3 trees, train accuracy: 99.2%, test accuracy: 95.6%
+Using 1 trees, train accuracy: 100.0%, test accuracy: 88.9%
+Using 2 trees, train accuracy: 99.2%, test accuracy: 93.3%
+Using 3 trees, train accuracy: 99.2%, test accuracy: 97.8%
 ```
 ![Test visualization](//ufal.mff.cuni.cz/~courses/npfl129/2324/tasks/figures/gradient_boosting_2.svgz)
 
