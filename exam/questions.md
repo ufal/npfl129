@@ -216,3 +216,47 @@
 
 - What type of data are gradient boosted decision trees good for as opposed to
   multilayer perceptron? Explain the intuition why it is the case. [5]
+
+#### Questions@:, Lecture 11 Questions
+- Formulate SVD decomposition of matrix $\boldsymbol X$, describe properties of
+  individual parts of the decomposition. Explain what the reduced version of
+  SVD is. [10]
+
+- Formulate the Eckart-Young theorem. [10]
+
+- Explain how to compute the PCA of dimension $M$ using the SVD decomposition of
+  a data matrix $\boldsymbol X$, and why it works. [10]
+
+- Given a data matrix $\boldsymbol X$, write down the algorithm for computing
+  the PCA of dimension $M$ using the power iteration algorithm. [20]
+
+- Describe the K-means algorithm, including the `kmeans++` initialization. [20]
+
+#### Questions@:, Lecture 12 Questions
+- Considering statistical hypothesis testing, define type I errors and type II
+  errors (in terms of the null hypothesis). Finally, define what a significance
+  level is. [10]
+
+- Explain what a test statistic and a p-value are. [10]
+
+- Write down the steps of a statistical hypothesis test, including a definition
+  of a p-value. [10]
+
+- Explain the differences between a one-sample test, two-sample test, and
+  a paired test. [10]
+
+- When considering multiple comparison problem, define the family-wise
+  error rate, and prove the Bonferroni correction, which allows
+  limiting the family-wise error rate by a given $\alpha$. [10]
+
+- For a trained model and a given test set with $N$ examples and metric $E$,
+  write how to estimate 95\% confidence intervals using bootstrap resampling.
+  [10]
+
+- For two trained models and a given test set with $N$ examples and metric $E$,
+  explain how to perform a paired bootstrap test that the first model is better
+  than the other. [10]
+
+- For two trained models and a given test set with $N$ examples and metric $E$,
+  explain how to perform a random permutation test that the first model is better
+  than the other with a significance level $\alpha$. [10]
