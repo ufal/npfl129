@@ -25,4 +25,4 @@
 
   - [Interactive Playground](http://arogozhnikov.github.io/2016/07/05/gradient_boosting_playground.html) by Alex Rogozhnikov
 
-After the lecture: short and non-comprehensive [recap quiz](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect10).
+After the lecture: short and non-comprehensive [**recap quiz**](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect10).

@@ -32,4 +32,4 @@
 - Cross-validation [Section 1.3 of PRML]
 - [Logistic regression demo](https://mlu-explain.github.io/logistic-regression) by Jared Willber
 
-After the lecture: short and non-comprehensive [recap quiz](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect03).
+After the lecture: short and non-comprehensive [**recap quiz**](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect03).

@@ -22,4 +22,4 @@
 - K-nearest neighbors [Section 2.5.2 of PRML]
 - Naive Bayes classifier [Basic idea in Section 8.2.2 of PRML]
 
-After the lecture: short and non-comprehensive [recap quiz](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect07).
+After the lecture: short and non-comprehensive [**recap quiz**](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect07).

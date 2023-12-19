@@ -29,4 +29,4 @@
     - [Interactive demo of MLP](https://cs.stanford.edu/people/karpathy/convnetjs/demo/classify2d.html) by Andrej Karpathy
 - Universal approximation theorem
 
-After the lecture: short and non-comprehensive [recap quiz](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect04).
+After the lecture: short and non-comprehensive [**recap quiz**](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect04).
