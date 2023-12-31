@@ -24,7 +24,7 @@
   explain why it is not guaranteed to converge. [20]
 
 - After training a model with SGD, you ended up with a low training error and
-  a high test error. Using the learning curves, explain what might have happen
+  a high test error. Using the learning curves, explain what might have happened
   and what steps you might take to prevent this from happening. [10]
 
 - You were provided with a fixed training set and a fixed test set and you are
