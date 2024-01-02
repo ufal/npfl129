@@ -170,7 +170,7 @@
 - Describe under what circumstance correlation can be used to assess validity
   of evaluation metrics. [5]
 
-- Define Cohen's $\kappa$ and explain what is used for when preparing data for
+- Define Cohen's $\kappa$ and explain what it is used for when preparing data for
   machine learning. [10]
 
 - Considering an averaging ensemble of $M$ models, prove the relation between
