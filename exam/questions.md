@@ -113,7 +113,7 @@
 - Explain (using examples) why accuracy is not a suitable metric for unbalanced
   target classes, e.g., for a diagnostic test for a contagious desease. [5]
 
-### Questions@:, Lecture 6 Questions
+#### Questions@:, Lecture 6 Questions
 - Explain how is the TF-IDF weight of a given document-term pair computed. [5]
 
 - Define conditional entropy, mutual information, write down the relation
@@ -133,7 +133,7 @@
   assign each word with its part of speech) if you only could use pre-trained
   word embeddings and MLP classifier? [5]
 
-### Questions@:, Lecture 7 Questions
+#### Questions@:, Lecture 7 Questions
 - Describe $k$-nearest neighbors prediction, both for regression and
   classification. Define $L_p$ norm and describe uniform, inverse,
   and softmax weighting. [10]
@@ -153,8 +153,7 @@
   (what distribution and which parameters does it have) and how we estimate it
   during fitting. [10]
 
-### Questions@:, Lecture 8 Questions
-
+#### Questions@:, Lecture 8 Questions
 - Prove that independent discrete random variables are uncorrelated. [10]
 
 - Write down the definition of covariance and Pearson correlation coefficient
@@ -181,8 +180,7 @@
 - Explain knowledge distillation: what it is used for, describe how it is done.
   [10]
 
-### Questions@:, Lecture 9 Questions
-
+#### Questions@:, Lecture 9 Questions
 - In a regression decision tree, state what values are kept in internal nodes,
   define the squared error criterion and describe how is a leaf split during
   training (without discussing splitting constraints). [10]
