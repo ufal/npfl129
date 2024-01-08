@@ -258,3 +258,14 @@
 - For two trained models and a given test set with $N$ examples and metric $E$,
   explain how to perform a random permutation test that the first model is better
   than the other with a significance level $\alpha$. [10]
+
+#### Questions@:, Lecture 13 Questions
+
+- Explain the difference betwen deontological and utilitarian ethics. List
+  examples on how these theoretical frameworks can be applied in machine
+  learning ethics. [10]
+
+- List few examples of potential ethical problems related to data collection. [5]
+
+- List few examples of potential ethical problems that can originate in model
+  evaluation. [5]
