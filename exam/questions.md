@@ -261,7 +261,7 @@
 
 #### Questions@:, Lecture 13 Questions
 
-- Explain the difference betwen deontological and utilitarian ethics. List
+- Explain the difference between deontological and utilitarian ethics. List
   examples on how these theoretical frameworks can be applied in machine
   learning ethics. [10]
 
