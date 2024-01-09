@@ -2,6 +2,7 @@
 #### Date: Jan 09
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides/?13
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides.pdf/npfl129-2324-13.pdf,PDF Slides
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-13-czech.mp4, CS Lecture
 
 **Learning objectives.** After the lecture you shoud be able to
 
