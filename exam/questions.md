@@ -111,7 +111,7 @@
 - Explain the difference between micro-averaged and macro-averaged $F_1$ scores. [10]
 
 - Explain (using examples) why accuracy is not a suitable metric for unbalanced
-  target classes, e.g., for a diagnostic test for a contagious desease. [5]
+  target classes, e.g., for a diagnostic test for a contagious disease. [5]
 
 #### Questions@:, Lecture 6 Questions
 - Explain how is the TF-IDF weight of a given document-term pair computed. [5]
