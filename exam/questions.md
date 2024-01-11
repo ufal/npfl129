@@ -70,7 +70,7 @@
   a $K$-class logistic regression model, including the explicit formulas of the
   loss function and its gradient. [20]
 
-- Prove that decision regions of a multiclass logistic regression convex. [10]
+- Prove that decision regions of a multiclass logistic regression are convex. [10]
 
 - Considering a single-layer MLP with $D$ input neurons, $H$ hidden
   neurons, $K$ output neurons, hidden activation $f$, and output activation $a$,
