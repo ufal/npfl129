@@ -15,11 +15,11 @@
 - Describe standard gradient descent and compare it to stochastic (i.e.,
   online) gradient descent and minibatch stochastic gradient descent. [10]
 
-- Write an $L^2$-regularized minibatch SGD algorithm for training a linear
-  regression model, including the explicit formulas of the loss function and
+- Write an $L^2$-regularized minibatch SGD algorithm for training a *linear
+  regression* model, including the explicit formulas of the loss function and
   its gradient. [10]
 
-- Does the SGD algorithm for linear regression always find the best solution on
+- Does the SGD algorithm for *linear regression* always find the best solution on
   the training data? If yes, explain under what conditions it happens, if not
   explain why it is not guaranteed to converge. [20]
 
@@ -44,16 +44,15 @@
 
 - Explain the notion of likelihood in maximum likelihood estimation. [5]
 
-- Describe maximum likelihood estimation, as minimizing NLL, cross-entropy, and
-  KL divergence. [20]
+- Describe maximum likelihood estimation as minimizing NLL, cross-entropy, and
+  KL divergence and explain the relation between them. [20]
 
 - Considering binary logistic regression model, write down its parameters
   (including their size) and explain how prediction is performed (including the
-  formula for the sigmoid function). Describe how we can interpret the outputs
-  of the linear part of the model as logits. [10]
+  formula for the sigmoid function). [10]
 
 - Write down an $L^2$-regularized minibatch SGD algorithm for training a
-  binary logistic regression model, including the explicit formulas of the
+  binary *logistic regression* model, including the explicit formulas of the
   loss function and its gradient. [20]
 
 #### Questions@:, Lecture 4 Questions
@@ -61,8 +60,7 @@
 
 - Considering $K$-class logistic regression model, write down its parameters
   (including their size) and explain how prediction is performed (including the
-  formula for the softmax function). Describe how we can interpret the outputs
-  of the linear part of the model as logits. [10]
+  formula for the softmax function). [10]
 
 - Explain the relationship between the sigmoid function and softmax. [5]
 
@@ -265,7 +263,7 @@
   examples on how these theoretical frameworks can be applied in machine
   learning ethics. [10]
 
-- List few examples of potential ethical problems related to data collection. [5]
+- List a few examples of potential ethical problems related to data collection. [5]
 
-- List few examples of potential ethical problems that can originate in model
+- List a few examples of potential ethical problems that can originate in model
   evaluation. [5]
