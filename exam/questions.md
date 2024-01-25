@@ -16,8 +16,8 @@
   online) gradient descent and minibatch stochastic gradient descent. [10]
 
 - Write an $L^2$-regularized minibatch SGD algorithm for training a *linear
-  regression* model, including the explicit formulas of the loss function and
-  its gradient. [10]
+  regression* model, including the explicit formulas (i.e,. formulas you would
+  need to code it in `numpy`) of the loss function and its gradient. [10]
 
 - Does the SGD algorithm for *linear regression* always find the best solution on
   the training data? If yes, explain under what conditions it happens, if not
@@ -51,9 +51,9 @@
   (including their size) and explain how prediction is performed (including the
   formula for the sigmoid function). [10]
 
-- Write down an $L^2$-regularized minibatch SGD algorithm for training a
-  binary *logistic regression* model, including the explicit formulas of the
-  loss function and its gradient. [20]
+- Write down an $L^2$-regularized minibatch SGD algorithm for training a binary
+  *logistic regression* model, including the explicit formulas (i.e., formulas
+  you would to code it in `numpy`) of the loss function and its gradient. [20]
 
 #### Questions@:, Lecture 4 Questions
 - Define mean squared error and show how it can be derived using MLE. [10]
@@ -64,9 +64,10 @@
 
 - Explain the relationship between the sigmoid function and softmax. [5]
 
-- Write down an $L^2$-regularized minibatch SGD algorithm for training
-  a $K$-class logistic regression model, including the explicit formulas of the
-  loss function and its gradient. [20]
+- Write down an $L^2$-regularized minibatch SGD algorithm for training a
+  $K$-class logistic regression model, including the explicit formulas (i.e.,
+  formulas you would to code it in `numpy`) of the loss function and its
+  gradient. [20]
 
 - Prove that decision regions of a multiclass logistic regression are convex. [10]
 
@@ -83,8 +84,9 @@
 #### Questions@:, Lecture 5 Questions
 - Considering a single-layer MLP with $D$ input neurons, a ReLU hidden layer
   with $H$ units and a softmax output layer with $K$ units, write down the
-  explicit formulas of the gradient of all the MLP parameters (two weight matrices and
-  two bias vectors), assuming input $\boldsymbol x$, target $t$, and negative log
+  explicit formulas (i.e., formulas you would to code it in `numpy`) of the
+  gradient of all the MLP parameters (two weight matrices and two bias
+  vectors), assuming input $\boldsymbol x$, target $t$, and negative log
   likelihood loss. [20]
 
 - Formulate the Universal approximation theorem. [10]
