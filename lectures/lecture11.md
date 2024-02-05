@@ -8,6 +8,7 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-11-practicals-english.mp4, EN Practicals
 #### Lecture assignment: pca
 #### Lecture assignment: kmeans
+#### Questions: #lecture_11_questions
 
 **Learning objectives.** After the lecture you shoud be able to
 

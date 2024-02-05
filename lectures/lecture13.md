@@ -5,6 +5,7 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-13-czech.mp4, CS Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-13-english.mp4, EN Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-13-practicals-english.mp4, EN Practicals
+#### Questions: #lecture_13_questions
 
 **Learning objectives.** After the lecture you shoud be able to
 

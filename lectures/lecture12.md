@@ -8,6 +8,7 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-12-practicals-english.mp4, EN Practicals
 #### Lecture assignment: bootstrap_resampling
 #### Lecture assignment: permutation_test
+#### Questions: #lecture_12_questions
 
 **Learning objectives.** After the lecture you shoud be able to
 
