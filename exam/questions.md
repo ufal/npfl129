@@ -15,8 +15,8 @@
 - Describe standard gradient descent and compare it to stochastic (i.e.,
   online) gradient descent and minibatch stochastic gradient descent. [10]
 
-- Write an $L^2$-regularized minibatch SGD algorithm for training a *linear
-  regression* model, including the explicit formulas (i.e,. formulas you would
+- Write an $L^2$-regularized minibatch SGD algorithm for training a
+  *linear regression* model, including the explicit formulas (i.e,. formulas you would
   need to code it in `numpy`) of the loss function and its gradient. [10]
 
 - Does the SGD algorithm for *linear regression* always find the best solution on
