@@ -4,7 +4,7 @@
 #### Tests: mlp_classification_sgd_tests
 #### Examples: mlp_classification_sgd_examples
 
-Starting with the [mlp_classification_sgd.py](https://github.com/ufal/npfl129/tree/master/labs/04/mlp_classification_sgd.py),
+Starting with the [mlp_classification_sgd.py](https://github.com/ufal/npfl129/tree/past-2324/labs/04/mlp_classification_sgd.py),
 implement minibatch SGD for multilayer perceptron classification.
 
 #### Tests Start: mlp_classification_sgd_tests

@@ -3,7 +3,7 @@
 #### Points: 4 points
 #### Tests: linear_regression_sgd_tests
 
-Starting with the [linear_regression_sgd.py](https://github.com/ufal/npfl129/tree/master/labs/02/linear_regression_sgd.py),
+Starting with the [linear_regression_sgd.py](https://github.com/ufal/npfl129/tree/past-2324/labs/02/linear_regression_sgd.py),
 implement minibatch SGD for linear regression and compare the results to an
 explicit linear regression solver.
 

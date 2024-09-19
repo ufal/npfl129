@@ -7,7 +7,7 @@ Your goal is to perform regression on the data from a bike rental shop.
 The train set contains 1000 instances, each instance consists of 12 features,
 both integral and real.
 
-The [rental_competition.py](https://github.com/ufal/npfl129/tree/master/labs/02/rental_competition.py)
+The [rental_competition.py](https://github.com/ufal/npfl129/tree/past-2324/labs/02/rental_competition.py)
 template shows how to load the training data, downloading it if needed.
 Furthermore, it shows how to save a trained estimator and how to load it during
 prediction.

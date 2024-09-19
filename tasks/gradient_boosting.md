@@ -3,7 +3,7 @@
 #### Points: 6 points
 #### Tests: gradient_boosting_tests
 
-Using the [gradient_boosting.py](https://github.com/ufal/npfl129/tree/master/labs/10/gradient_boosting.py)
+Using the [gradient_boosting.py](https://github.com/ufal/npfl129/tree/past-2324/labs/10/gradient_boosting.py)
 template, train gradient boosted decision tree forest for classification.
 
 #### Tests Start: gradient_boosting_tests

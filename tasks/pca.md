@@ -4,7 +4,7 @@
 #### Tests: pca_tests
 #### Examples: pca_examples
 
-Using the [pca.py](https://github.com/ufal/npfl129/tree/master/labs/11/pca.py)
+Using the [pca.py](https://github.com/ufal/npfl129/tree/past-2324/labs/11/pca.py)
 template, implement the PCA computation with both
 - power iteration algorithm,
 - SVD decomposition.

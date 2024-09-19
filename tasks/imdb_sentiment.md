@@ -2,7 +2,7 @@
 #### Date: Deadline: Nov 21, 7:59 a.m.
 #### Points: 3 points
 
-Using the [imdb_sentiment.py](https://github.com/ufal/npfl129/tree/master/labs/06/imdb_sentiment.py)
+Using the [imdb_sentiment.py](https://github.com/ufal/npfl129/tree/past-2324/labs/06/imdb_sentiment.py)
 template, perform classification of text documents from the
 [Large Movie Review Dataset](http://ai.stanford.edu/~amaas/data/sentiment/).
 The template also downloads pretrained word embeddings from FastText

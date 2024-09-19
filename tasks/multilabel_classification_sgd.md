@@ -4,7 +4,7 @@
 #### Tests: multilabel_classification_sgd_tests
 #### Examples: multilabel_classification_sgd_examples
 
-Starting with the [multilabel_classification_sgd.py](https://github.com/ufal/npfl129/tree/master/labs/05/multilabel_classification_sgd.py),
+Starting with the [multilabel_classification_sgd.py](https://github.com/ufal/npfl129/tree/past-2324/labs/05/multilabel_classification_sgd.py),
 implement minibatch SGD for multi-label classification and
 manually compute micro-averaged and macro-averaged $F_1$-score.
 

@@ -6,7 +6,7 @@
 **The template changed on Nov 8, please redownload it if you got it sooner
 (the `LogisticRegression` needs to get an additional `C=10_000` argument).**
 
-Using the [tf_idf.py](https://github.com/ufal/npfl129/tree/master/labs/06/tf_idf.py)
+Using the [tf_idf.py](https://github.com/ufal/npfl129/tree/past-2324/labs/06/tf_idf.py)
 template, perform classification of text documents from the
 [20 Newsgroups dataset](http://qwone.com/~jason/20Newsgroups/). To represent the
 documents, use TF and/or IDF weights, which you implement manually (without
