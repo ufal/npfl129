@@ -1,5 +1,5 @@
 ### Lecture: 1. Introduction to Machine Learning
-#### Date: Oct 01
+#### Date: Sep 30
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides/?01
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-01.pdf, PDF Slides
 
