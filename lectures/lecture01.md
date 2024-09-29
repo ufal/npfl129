@@ -5,9 +5,9 @@
 
 **Learning objectives.** After the lecture you shoud be able to…
 
-- Explain to an non-expert what machine learning is.
-- Explain the difference between classification and regression.
-- Implement a simple linear-algebra-based algorithm for training linear regression.
+- Explain to an non-expert **what machine learning is**.
+- Explain the difference between **classification and regression**.
+- Implement a simple **linear-algebra-based algorithm** for training **linear regression**.
 
 **Covered topics** and where to find more:
 - _Introduction to machine learning_
