@@ -4,6 +4,9 @@
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-01.pdf, PDF Slides
 #### Lecture assignment: linear_regression_manual
 #### Lecture assignment: linear_regression_features
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-01-czech.mp4, CS Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-01-english.mp4, EN Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-01-practicals-czech.mp4, CS Practicals
 
 **Learning objectives.** After the lecture you shoud be able to…
 
