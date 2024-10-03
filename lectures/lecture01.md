@@ -7,6 +7,7 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-01-czech.mp4, CS Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-01-english.mp4, EN Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-01-practicals-czech.mp4, CS Practicals
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-01-practicals-english.mp4, EN Practicals
 
 **Learning objectives.** After the lecture you shoud be able to…
 
