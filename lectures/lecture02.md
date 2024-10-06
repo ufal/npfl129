@@ -1,0 +1,25 @@
+### Lecture: 2. Linear Regression, SGD
+#### Date: Oct 10
+#### Slides: https://ufal.mff.cuni.cz/~courses/courses/npfl129/2425/slides/?02
+#### Reading: https://ufal.mff.cuni.cz/~courses/courses/npfl129/2425/slides.pdf/npfl129-2324-02.pdf, PDF Slides
+
+**Learning objectives.** After the lecture you shoud be able to
+
+- Reason about **overfitting** in terms of **model capacity**.
+- Use **$L^2$-regularization** to control model capacity.
+- Explain what the difference between **parameters and hyperparameters** is.
+- Tell what the **basic probability concepts** are (joint, marginal,
+  conditional probability; expected value, mean, variance).
+- Mathematically describe and implement the **stochastic gradient descent**
+  algorithm.
+- Use both **numerical and categorical features** in linear regression.
+
+**Covered topics** and where to find more:
+
+- L2 regularization in linear regression [Section 1.1, 3.1.4 of PRML]
+- Random variables and probability distributions [Section 1.2, 1.2.1 of PRML]
+- Expectation and variance [Section 1.2.2 of PRML]
+- Gradient descent [Section 5.2.4 of PRML]
+  - Stochastic gradient descent solution of linear regression
+- [Linear regression demo](https://mlu-explain.github.io/linear-regression) by Jared Willber
+
