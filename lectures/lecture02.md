@@ -1,7 +1,7 @@
 ### Lecture: 2. Linear Regression, SGD
 #### Date: Oct 10
-#### Slides: https://ufal.mff.cuni.cz/~courses/courses/npfl129/2425/slides/?02
-#### Reading: https://ufal.mff.cuni.cz/~courses/courses/npfl129/2425/slides.pdf/npfl129-2324-02.pdf, PDF Slides
+#### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides/?02
+#### Reading: https://ufal.mff.cuni.cz/~courses/2425/pdf/npfl129-2425-02.pdf, PDF Slides
 
 **Learning objectives.** After the lecture you shoud be able to
 
