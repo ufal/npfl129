@@ -13,6 +13,11 @@ class SimpleHTTPServer(http.server.ThreadingHTTPServer):
             else:
                 super().send_header(header, value)
 
+        def end_headers(self):
+            self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
+            self.send_header("Expires", "0")
+            super().end_headers()
+
     def __init__(self, port):
         super().__init__(("", port), self.Handler)
 
