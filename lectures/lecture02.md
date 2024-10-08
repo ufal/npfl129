@@ -2,6 +2,10 @@
 #### Date: Oct 10
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides/?02
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-02.pdf, PDF Slides
+#### Lecture assignment: linear_regression_l2
+#### Lecture assignment: linear_regression_sgd
+#### Lecture assignment: feature_engineering
+#### Lecture assignment: rental_competition
 
 **Learning objectives.** After the lecture you shoud be able to
 
