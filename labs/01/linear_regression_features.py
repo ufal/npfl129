@@ -61,7 +61,7 @@ def main(args: argparse.Namespace) -> list[float]:
 
 
 if __name__ == "__main__":
-    args = parser.parse_args([] if "__file__" not in globals() else None)
-    rmses = main(args)
+    main_args = parser.parse_args([] if "__file__" not in globals() else None)
+    rmses = main(main_args)
     for order, rmse in enumerate(rmses):
         print("Maximum feature order {}: {:.2f} RMSE".format(order + 1, rmse))
