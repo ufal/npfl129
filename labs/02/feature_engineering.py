@@ -31,7 +31,7 @@ def main(args: argparse.Namespace) -> tuple[np.ndarray, np.ndarray]:
     #   represent numerical non-categorical values, but we use this assumption
     #   for the sake of exercise). Encode the values with one-hot encoding
     #   using `sklearn.preprocessing.OneHotEncoder` (note that its output is by
-    #   default sparse, you can use `sparse=False` to generate dense output;
+    #   default sparse, you can use `sparse_output=False` to generate dense output;
     #   also use `handle_unknown="ignore"` to ignore missing values in test set).
     #
     # - for the rest of the columns, normalize their values so that they
