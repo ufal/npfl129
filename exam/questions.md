@@ -6,7 +6,7 @@
 
 - Define the prediction function of a linear regression model and write down $L^2$-regularized mean squared error loss. [10]
 
-- Starting from unregularized sum of squares error of a linear regression model, show how the explicit solution can be obtained, assuming $\boldsymbol X^T \boldsymbol X$ is regular. [10]
+- Starting from unregularized sum of squares error of a linear regression model, show how the explicit solution can be obtained, assuming $\boldsymbol X^T \boldsymbol X$ is invertible. [10]
 
 #### Questions@:, Lecture 2 Questions
 
