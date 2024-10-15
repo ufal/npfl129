@@ -8,6 +8,7 @@
 #### Lecture assignment: linear_regression_sgd
 #### Lecture assignment: feature_engineering
 #### Lecture assignment: rental_competition
+#### Questions: #lecture_2_questions
 
 **Learning objectives.** After the lecture you shoud be able to
 
@@ -30,3 +31,5 @@
 - [Linear regression demo](https://mlu-explain.github.io/linear-regression) by Jared Willber
 
 Due to technical issues when processing the video from the English lecture, the video is unavailable. Please watch the video from the previous runs of the course.
+
+After the lecture: short and non-comprehensive [**recap quiz**](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect02).

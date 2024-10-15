@@ -2,6 +2,7 @@
 #### Date: Oct 17
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides/?03
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-03.pdf, PDF Slides
+#### Questions: #lecture_3_questions
 
 **Learning objectives.** After the lecture you shoud be able to
 
@@ -20,5 +21,5 @@
 - Information theory [Section 1.6 of PRML]
 - Maximum likelihood estimation [Section 1.2.5 of PRML]
 - Logistic regression [Section 4.3.2 of PRML]
-- Cross-validation [Section 1.3 of PRML]
+- Cross-validation [Section 1.3 of PRML], covered in the practicals
 - [Logistic regression demo](https://mlu-explain.github.io/logistic-regression) by Jared Willber

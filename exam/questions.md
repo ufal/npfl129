@@ -26,3 +26,19 @@
 - You were provided with a fixed training set and a fixed test set and you are supposed to report model performance on that test set. You need to decide what hyperparameters to use. How will you proceed and why? [10]
 
 - What methods can be used for normalizing feature values? Explain why it is useful. [5]
+
+#### Questions@:, Lecture 3 Questions
+
+- Define binary classification, write down the perceptron algorithm and show how a prediction is made for a given data instance $\boldsymbol x$. [10]
+
+- For discrete random variables, define entropy, cross-entropy, Kullback-Leibler divergence, and prove the Gibbs inequality (i.e., that KL divergence is non-negative). [20]
+
+- Explain the notion of likelihood in maximum likelihood estimation. What likelihood are we estimating in machine learning and why do we do it? [5]
+
+- Describe maximum likelihood estimation as minimizing NLL, cross-entropy, and KL divergence and explain whether they differ or are are same and why. [20]
+
+- Provide an intuitive justification for why cross-entropy is good optimization objective in machine learning. What distributions do we compare in cross-entropy? Why it is good when the cross-entropy is low? [5]
+
+- Considering binary logistic regression model, write down its parameters (including their size) and explain how prediction is performed (including the explicit formula for the sigmoid function). [10]
+
+- Write down an $L^2$-regularized minibatch SGD algorithm for training a binary *logistic regression* model, including the explicit formulas (i.e., formulas you would need to code it in `numpy`) of the loss function and its gradient (saying just $\grad$ is not enough). [20]
