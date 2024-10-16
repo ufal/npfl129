@@ -15,4 +15,6 @@ prediction.
 The performance of your system is measured using _accuracy_ of correctly
 predicted examples and your goal is to achieve at least 96% accuracy.
 Note that you can use any number of **generalized linear models from sklearn**
-to solve this assignment (but no decision trees, MLPs, …).
+to solve this assignment (but no other ML models like decision trees, MLPs, …;
+however, you can use any supporting methods like pre/post-processing, data
+manipulation, evaluation, cross-validation, …).
