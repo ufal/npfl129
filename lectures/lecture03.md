@@ -2,6 +2,7 @@
 #### Date: Oct 17
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides/?03
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-03.pdf, PDF Slides
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-03-practicals-english.mp4, EN Practicals
 #### Lecture assignment: perceptron
 #### Lecture assignment: logistic_regression_sgd
 #### Lecture assignment: grid_search
