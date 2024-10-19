@@ -1,5 +1,5 @@
 ### Lecture: 3. Peceptron, Logistic Regression
-#### Date: Oct 17
+#### Date: Oct 14
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides/?03
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-03.pdf, PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-03-czech.mp4, CS Lecture
@@ -12,7 +12,7 @@
 #### Lecture assignment: thyroid_competition
 #### Questions: #lecture_3_questions
 
-**Learning objectives.** After the lecture you shoud be able to
+**Learning objectives.** After the lecture you should be able to
 
 - Think about binary classification using **geometric intuition** and use the
   **perceptron algorithm**.
@@ -31,3 +31,5 @@
 - Logistic regression [Section 4.3.2 of PRML]
 - Cross-validation [Section 1.3 of PRML], covered in the practicals
 - [Logistic regression demo](https://mlu-explain.github.io/logistic-regression) by Jared Willber
+
+After the lecture: short and non-comprehensive [**recap quiz**](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect03).

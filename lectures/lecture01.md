@@ -10,9 +10,9 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-01-practicals-english.mp4, EN Practicals
 #### Questions: #lecture_1_questions
 
-**Learning objectives.** After the lecture you shoud be able to…
+**Learning objectives.** After the lecture you should be able to…
 
-- Explain to an non-expert **what machine learning is**.
+- Explain to a non-expert **what machine learning is**.
 - Explain the difference between **classification and regression**.
 - Implement a simple **linear-algebra-based algorithm** for training **linear regression**.
 

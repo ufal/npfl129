@@ -1,5 +1,5 @@
 ### Lecture: 2. Linear Regression, SGD
-#### Date: Oct 10
+#### Date: Oct 7
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides/?02
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-02.pdf, PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-02-czech.mp4, CS Lecture
@@ -10,15 +10,13 @@
 #### Lecture assignment: rental_competition
 #### Questions: #lecture_2_questions
 
-**Learning objectives.** After the lecture you shoud be able to
+**Learning objectives.** After the lecture you should be able to
 
 - Reason about **overfitting** in terms of **model capacity**.
 - Use **$L^2$-regularization** to control model capacity.
 - Explain what the difference between **parameters and hyperparameters** is.
-- Tell what the **basic probability concepts** are (joint, marginal,
-  conditional probability; expected value, mean, variance).
-- Mathematically describe and implement the **stochastic gradient descent**
-  algorithm.
+- Tell what the **basic probability concepts** are (joint, marginal, conditional probability; expected value, mean, variance).
+- Mathematically describe and implement the **stochastic gradient descent** algorithm.
 - Use both **numerical and categorical features** in linear regression.
 
 **Covered topics** and where to find more:
