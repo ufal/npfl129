@@ -6,10 +6,8 @@
 #### Lecture assignment: random_forest
 #### Lecture assignment: human_activity_recognition
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-09-czech.mp4, CS Lecture
-#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-09-practicals-czech.mp4, CS Practicals
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-09-english-part1.mp4, EN Lecture 1/2
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-09-english-part2.mp4, EN Lecture 2/2
-#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-09-practicals-english.mp4, EN Practicals
 #### Questions: #lecture_9_questions
 
 **Learning objectives.** After the lecture you shoud be able to

@@ -7,7 +7,6 @@
 #### Lecture assignment: isnt_it_ironic
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-07-czech.mp4, CS Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-07-english.mp4, EN Lecture
-#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-07-practicals-english.mp4, EN Practicals
 #### Questions: #lecture_7_questions
 
 **Learning objectives.** After the lecture you shoud be able to

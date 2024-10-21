@@ -3,8 +3,6 @@
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides/?01
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides.pdf/npfl129-2324-01.pdf, PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-01-czech.mp4, CS Lecture
-#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-01-practicals-czech.mp4, CS Practicals
-#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2324/npfl129-2324-01-practicals-english.mp4, EN Practicals
 #### Reading: http://ufallab.ms.mff.cuni.cz/~kasner/npfl129/lab01.pdf, EN Practicals Slides
 #### Lecture assignment: linear_regression_manual
 #### Lecture assignment: linear_regression_features
