@@ -2,6 +2,8 @@
 #### Date: Oct 21
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides/?04
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-04.pdf,PDF Slides
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-04-czech.mp4, CS Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-04-english.mp4, EN Lecture
 #### Lecture assignment: softmax_classification_sgd
 #### Lecture assignment: mlp_classification_sgd
 #### Lecture assignment: mnist_competition
