@@ -2,6 +2,9 @@
 #### Date: Oct 21
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides/?04
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-04.pdf,PDF Slides
+#### Lecture assignment: softmax_classification_sgd
+#### Lecture assignment: mlp_classification_sgd
+#### Lecture assignment: mnist_competition
 
 **Learning objectives.** After the lecture you should be able to
 
