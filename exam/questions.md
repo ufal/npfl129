@@ -38,6 +38,24 @@
 
 - Provide an intuitive justification for why cross-entropy is a good optimization objective in machine learning. What distributions do we compare in cross-entropy? Why is it good when the cross-entropy is low? [5]
 
-- Considering the binary logistic regression model, write down its parameters (including their size) and explain how prediction is performed (including the explicit formula for the sigmoid function). [10]
+- Considering the binary logistic regression model, write down its parameters (including their size) and explain how we decide what classes the input data belong to (including the explicit formula for the sigmoid function). [10]
 
 - Write down an $L^2$-regularized minibatch SGD algorithm for training a binary *logistic regression* model, including the explicit formulas (i.e., formulas you would need to code it in `numpy`) of the loss function and its gradient (saying just $\grad$ is not enough). [20]
+
+#### Questions@:, Lecture 4 Questions
+
+- Define mean squared error and show how it can be derived using MLE. What assuptions do we make during such derivation? [10]
+
+- Considering $K$-class logistic regression model, write down its parameters (including their size) and explain how we decide what classes the input data belong to (including the formula for the softmax function). [10]
+
+- Explain the relationship between the sigmoid function and softmax. [5]
+
+- Show that the softmax functio is invariant towards constant shift. [5]
+
+- Write down an $L^2$-regularized minibatch SGD algorithm for training a $K$-class logistic regression model, including the explicit formulas (i.e., formulas you would to code it in `numpy`) of the loss function and its gradient. [20]
+
+- Prove that decision regions of a multiclass logistic regression are convex. [10]
+
+- Considering a single-layer MLP with $D$ input neurons, $H$ hidden neurons, $K$ output neurons, hidden activation $f$, and output activation $a$, list its parameters (including their size) and write down how the output is computed. [10]
+
+- List the definitions of frequently used MLP output layer activations (the ones producing parameters of a Bernoulli distribution and a categorical distribution). Then write down three commonly used hidden layer activations (sigmoid, tanh, ReLU). Explain why identity is not a suitable activation for hidden layers. [10]

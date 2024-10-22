@@ -5,6 +5,7 @@
 #### Lecture assignment: softmax_classification_sgd
 #### Lecture assignment: mlp_classification_sgd
 #### Lecture assignment: mnist_competition
+#### Questions: #lecture_4_questions
 
 **Learning objectives.** After the lecture you should be able to
 
