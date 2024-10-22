@@ -1,6 +1,6 @@
-#### Questions@:, Lecture 1 Questions
+### #Questioni@:, Lecture 1 Questions
 
-- Explain how reinforcement learning differs from supervised and unsupervised learning in terms of experience that the learning algorithms use model performance. [5]
+- Explain how reinforcement learning differs from supervised and unsupervised learning in terms of the type of input the learning algorithms use to improve model performance. [5]
 
 - Explain why we need separate training and test data. What is generalization, and how does the concept relate to underfitting and overfitting? [10]
 
@@ -50,7 +50,7 @@
 
 - Explain the relationship between the sigmoid function and softmax. [5]
 
-- Show that the softmax functio is invariant towards constant shift. [5]
+- Show that the softmax function is invariant towards constant shift. [5]
 
 - Write down an $L^2$-regularized minibatch SGD algorithm for training a $K$-class logistic regression model, including the explicit formulas (i.e., formulas you would to code it in `numpy`) of the loss function and its gradient. [20]
 
