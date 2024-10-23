@@ -1,4 +1,4 @@
-### #Questioni@:, Lecture 1 Questions
+### Questions@:, Lecture 1 Questions
 
 - Explain how reinforcement learning differs from supervised and unsupervised learning in terms of the type of input the learning algorithms use to improve model performance. [5]
 
