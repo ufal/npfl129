@@ -27,6 +27,7 @@
 - Gradient descent [Section 5.2.4 of PRML]
   - Stochastic gradient descent solution of linear regression
 - [Linear regression demo](https://mlu-explain.github.io/linear-regression) by Jared Willber
+- [Why Momentum Really Works](https://distill.pub/2017/momentum/) by Gabriel Goh
 
 Due to technical issues when processing the video from the English lecture, the video is unavailable. Please watch the video from the previous runs of the course.
 
