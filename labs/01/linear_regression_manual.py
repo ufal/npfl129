@@ -22,7 +22,7 @@ def main(args: argparse.Namespace) -> float:
     # If you want to learn about the dataset, you can print some information
     # about it using `print(dataset.DESCR)`.
 
-    # TODO: Append a constant feature with value 1 to the end of every input data.
+    # TODO: Append a constant feature with value 1 to the end of all input data.
     # Then we do not need to explicitly represent bias - it becomes the last weight.
 
     # TODO: Split the dataset into a train set and a test set.
