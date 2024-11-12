@@ -2,6 +2,9 @@
 #### Date: Nov 7
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides/?06
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-06.pdf,PDF Slides
+#### Lecture assignment: tf_idf
+#### Lecture assignment: imdb_sentiment
+#### Lecture assignment: diacritization_dictionary
 #### Questions: #lecture_6_questions
 
 **Learning objectives.** After the lecture you shoud be able to
