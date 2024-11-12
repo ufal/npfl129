@@ -6,6 +6,8 @@
 #### Lecture assignment: imdb_sentiment
 #### Lecture assignment: diacritization_dictionary
 #### Questions: #lecture_6_questions
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-06-czech.mp4, CS Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-06-english.mp4, EN Lecture
 
 **Learning objectives.** After the lecture you shoud be able to
 
