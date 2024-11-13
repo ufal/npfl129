@@ -55,7 +55,7 @@ def main(args: argparse.Namespace) -> float:
 
     # TODO: For each document, compute its features as
     # - term frequency (TF), if `args.tf` is set (term frequency is
-    #   proportional to counts but normalized to sum to 1);
+    #   proportional to the number of occurrences but normalized to sum to 1);
     # - otherwise, use binary indicators (1 if a given term is present, else 0)
     #
     # Then, if `args.idf` is set, multiply the document features by the
