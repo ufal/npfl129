@@ -79,3 +79,33 @@
 - Explain the difference between micro-averaged and macro-averaged $F_1$ scores. List few examples when you would use them. [10]
 
 - Explain (using examples) why accuracy is not a suitable metric for unbalanced target classes, e.g., for a diagnostic test for a contagious disease. [5]
+
+#### Questions@:, Lecture 6 Questions
+
+- Explain how is the TF-IDF weight of a given document-term pair computed. [5]
+
+- What is Zipf's law? Explain how it can be used to provide intuitive justification for using logarithm when computing IDF. [5]
+
+- Define conditional entropy, mutual information, write down the relation between them, and finally prove that mutual information is zero if and only if the two random variables are independent (you do not need to prove statements about $D_\textrm{KL}$). [10]
+
+- Show that TF-IDF terms can be considered portions of suitable mutual information. [10]
+
+- Explain the concept of word embedding in the context of MLP and how it relates to representation learning. [5]
+
+- Describe the skip-gram model trained using negative sampling. What is it used for? What is the input and output to the algorithm? [10]
+
+- How would you proceed to train a part-of-speech tagger (i.e., you want to assign each word with its part of speech) if you only could use pre-trained word embeddings and MLP classifier? [5]
+
+#### Questions@:, Lecture 7 Questions
+
+- Describe $k$-nearest neighbors prediction, both for regression and classification. Define $L_p$ norm and describe uniform, inverse, and softmax weighting. [10]
+
+- Show that $L^2$-regularization can be obtained from a suitable prior by Bayesian inference (from the MAP estimate). [10]
+
+- Write down how $p(C_k | \boldsymbol x)$ is approximated in a Naive Bayes classifier, explicitly state the Naive Bayes assumption, and show how is the prediction performed. [10]
+
+- Considering a Gaussian naive Bayes, describe how are $p(x_d | C_k)$ modeled (what distribution and which parameters does it have) and how we estimate it during fitting. [10]
+
+- Considering a Bernoulli naive Bayes, describe how are $p(x_d | C_k)$ modeled (what distribution and which parameters does it have) and how we estimate it during fitting. [10]
+
+- What is the difference between discriminative and (classical) generative models? [5]
