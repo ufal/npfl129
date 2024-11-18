@@ -2,6 +2,7 @@
 #### Date: Nov 18
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides/?07
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-07.pdf,PDF Slides
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-07-english.mp4, EN Lecture
 
 **Learning objectives.** After the lecture you shoud be able to
 
