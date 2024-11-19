@@ -4,8 +4,10 @@
 #### Reading: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides.pdf/npfl129-2223-07.pdf,PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-07-czech.mp4, CZ Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-07-czech.smo-computations.mp4, CZ SMO Computations
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-07-czech.practicals.mp4, CZ Practicals
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-07-english.mp4, EN Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-07-english.smo-computations.mp4, EN SMO Computations
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-07-english.practicals.mp4, EN Practicals
 #### Questions: #lecture_7_questions
 #### Lecture assignment: smo_algorithm
 #### Lecture assignment: svm_multiclass

@@ -3,7 +3,9 @@
 #### Slides: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides/?06
 #### Reading: https://ufal.mff.cuni.cz/~straka/courses/npfl129/2223/slides.pdf/npfl129-2223-06.pdf,PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-06-czech.mp4, CZ Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-06-czech.practicals.mp4, CZ Practicals
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-06-english.mp4, EN Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2223/npfl129-2223-06-english.practicals.mp4, EN Practicals
 #### Questions: #lecture_6_questions
 #### Lecture assignment: kernel_linear_regression
 #### Lecture assignment: diacritization_dictionary
