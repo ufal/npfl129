@@ -128,13 +128,15 @@
 
 - Assuming you have collected data for classification by letting people annotating data instances for you. How do you estimate a reasonable range for classifier performance? [5]
 
-- Considering an averaging ensemble of $M$ models, prove the relation between the average mean squared error of the ensemble and the average error of the individual models, assuming the model errors have zero means and are uncorrelated. [20]
+- Considering an averaging ensemble of $M$ models, prove the relation between the average mean squared error of the ensemble and the average error of the individual models, assuming the model errors have zero means and are uncorrelated. Use a formula to explain what uncorrelated errors mean in this context. [20]
 
-- Explain knowledge distillation: what it is used for, describe how it is done. [10]
+- Explain knowledge distillation: what it is used for, describe how it is done. What is the loss function? How does it differ from standard training? [10]
 
 #### Questions@:, Lecture 9 Questions
 
 - In a regression decision tree, state what values are kept in internal nodes, define the squared error criterion and describe how is a leaf split during training (without discussing splitting constraints). [10]
+
+- Explain the CART algorithm for constucting a decision tree. Explain the relationship between the loss function that is optimized during the decision tree construction and the splitting criterion that is during the node splitting. [10]
 
 - In a $K$-class classification decision tree, state what values are kept in internal nodes, define the Gini index and describe how is a node split during training (without discussing splitting constraints). [10]
 
