@@ -104,8 +104,46 @@
 
 - Write down how $p(C_k | \boldsymbol x)$ is approximated in a Naive Bayes classifier, explicitly state the Naive Bayes assumption, and show how is the prediction performed. [10]
 
-- Considering a Gaussian naive Bayes, describe how are $p(x_d | C_k)$ modeled (what distribution and which parameters does it have) and how we estimate it during fitting. [10]
+- Considering a Gaussian Naive Bayes, describe how are $p(x_d | C_k)$ modeled (what distribution and which parameters does it have) and how we estimate it during fitting. [10]
 
-- Considering a Bernoulli naive Bayes, describe how are $p(x_d | C_k)$ modeled (what distribution and which parameters does it have) and how we estimate it during fitting. [10]
+- Considering a Bernoulli Naive Bayes, describe how are $p(x_d | C_k)$ modeled (what distribution and which parameters does it have) and how we estimate it during fitting. [10]
+
+- What measures can we take to prevent numeric instabilities in the Naive Bayes classifier, in particular too high probability density in Gaussian Naive Bayes and zero probabilities in Bernoulli Naive Bayes? [10]
 
 - What is the difference between discriminative and (classical) generative models? [5]
+
+#### Questions@:, Lecture 8 Questions
+
+- Prove that independent discrete random variables are uncorrelated. [10]
+
+- Write down the definition of covariance and Pearson correlation coefficient $\rho$, including its range. [10]
+
+- Explain how are the Spearman's rank correlation coefficient and the Kendall rank correlation coefficient computed (no need to describe the Pearson correlation coefficient). [10]
+
+- Describe setups where a correlation coefficient might be a good evaluation metric. [5]
+
+- Describe under what circumstance correlation can be used to assess validity of evaluation metrics. [5]
+
+- Define Cohen's $\kappa$ and explain what it is used for when preparing data for machine learning. [10]
+
+- Assuming you have collected data for classification by letting people annotating data instances for you. How do you estimate a reasonable range for classifier performance? [5]
+
+- Considering an averaging ensemble of $M$ models, prove the relation between the average mean squared error of the ensemble and the average error of the individual models, assuming the model errors have zero means and are uncorrelated. Use a formula to explain what uncorrelated errors mean in this context. [20]
+
+- Explain knowledge distillation: what it is used for, describe how it is done. What is the loss function? How does it differ from standard training? [10]
+
+#### Questions@:, Lecture 9 Questions
+
+- In a regression decision tree, state what values are kept in internal nodes, define the squared error criterion and describe how is a leaf split during training (without discussing splitting constraints). [10]
+
+- Explain the CART algorithm for constucting a decision tree. Explain the relationship between the loss function that is optimized during the decision tree construction and the splitting criterion that is during the node splitting. [10]
+
+- In a $K$-class classification decision tree, state what values are kept in internal nodes, define the Gini index and describe how is a node split during training (without discussing splitting constraints). [10]
+
+- In a $K$-class classification decision tree, state what values are kept in internal nodes, define the entropy criterion and describe how is a node split during training (without discussing splitting constraints). [10]
+
+- For binary classification using decision trees, derive the Gini index from a squared error loss. [20]
+
+- For $K$-class classification using decision trees, derive the entropy criterion from a non-averaged NLL loss. [20]
+
+- Describe how is a random forest trained (including bagging and a random subset of features) and how is prediction performed for regression and classification. [10]
