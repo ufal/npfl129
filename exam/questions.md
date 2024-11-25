@@ -44,7 +44,7 @@
 
 #### Questions@:, Lecture 4 Questions
 
-- Define mean squared error and show how it can be derived using MLE. What assuptions do we make during such derivation? [10]
+- Define mean squared error and show how it can be derived using MLE. What assumptions do we make during such derivation? [10]
 
 - Considering $K$-class logistic regression model, write down its parameters (including their size) and explain how we decide what classes the input data belong to (including the formula for the softmax function). [10]
 
@@ -52,17 +52,17 @@
 
 - Show that the softmax function is invariant towards constant shift. [5]
 
-- Write down an $L^2$-regularized minibatch SGD algorithm for training a $K$-class logistic regression model, including the explicit formulas (i.e., formulas you would to code it in `numpy`) of the loss function and its gradient. [20]
+- Write down an $L^2$-regularized minibatch SGD algorithm for training a $K$-class logistic regression model, including the explicit formulas (i.e., formulas you would use to code it in `numpy`) of the loss function and its gradient. [20]
 
 - Prove that decision regions of a multiclass logistic regression are convex. [10]
 
 - Considering a single-layer MLP with $D$ input neurons, $H$ hidden neurons, $K$ output neurons, hidden activation $f$, and output activation $a$, list its parameters (including their size) and write down how the output is computed. [10]
 
-- List the definitions of frequently used MLP output layer activations (the ones producing parameters of a Bernoulli distribution and a categorical distribution). Then write down three commonly used hidden layer activations (sigmoid, tanh, ReLU). Explain why identity is not a suitable activation for hidden layers. [10]
+- List the definitions of frequently used MLP output layer activations (the ones producing parameters of a Bernoulli distribution and a categorical distribution). Then, write down three commonly used hidden layer activations (sigmoid, tanh, ReLU). Explain why identity is not a suitable activation for hidden layers. [10]
 
 #### Questions@:, Lecture 5 Questions
 
-- Considering a single-layer MLP with $D$ input neurons, a ReLU hidden layer with $H$ units and a softmax output layer with $K$ units, write down the explicit formulas (i.e., formulas you would to code it in `numpy`) of the gradient of all the MLP parameters (two weight matrices and two bias vectors), assuming input $\boldsymbol x$, target $t$, and negative log likelihood loss. [20]
+- Considering a single-layer MLP with $D$ input neurons, a ReLU hidden layer with $H$ units, and a softmax output layer with $K$ units, write down the explicit formulas (i.e., formulas you would use to code it in `numpy`) of the gradient of all the MLP parameters (two weight matrices and two bias vectors), assuming input $\boldsymbol x$, target $t$, and negative log likelihood loss. [20]
 
 - Formulate the computation of MLP as a computation graph. Explain how such a graph can be used to compute the gradients of the parameters in the back-propagation algorithm. [10]
 
@@ -76,39 +76,39 @@
 
 - Define precision (including true positives and others), recall, $F_1$ score, and $F_\beta$ score (we stated several formulations for $F_1$ and $F_\beta$ scores; any one of them will do). [10]
 
-- Explain the difference between micro-averaged and macro-averaged $F_1$ scores. List few examples when you would use them. [10]
+- Explain the difference between micro-averaged and macro-averaged $F_1$ scores. List a few examples of when you would use them. [10]
 
 - Explain (using examples) why accuracy is not a suitable metric for unbalanced target classes, e.g., for a diagnostic test for a contagious disease. [5]
 
 #### Questions@:, Lecture 6 Questions
 
-- Explain how is the TF-IDF weight of a given document-term pair computed. [5]
+- Explain how the TF-IDF weight of a given document-term pair is computed. [5]
 
-- What is Zipf's law? Explain how it can be used to provide intuitive justification for using logarithm when computing IDF. [5]
+- What is Zipf's law? Explain how it can be used to provide intuitive justification for using the logarithm when computing IDF. [5]
 
-- Define conditional entropy, mutual information, write down the relation between them, and finally prove that mutual information is zero if and only if the two random variables are independent (you do not need to prove statements about $D_\textrm{KL}$). [10]
+- Define conditional entropy and mutual information, write down the relation between them, and finally prove that mutual information is zero if and only if the two random variables are independent (you do not need to prove statements about $D_\textrm{KL}$). [10]
 
 - Show that TF-IDF terms can be considered portions of suitable mutual information. [10]
 
 - Explain the concept of word embedding in the context of MLP and how it relates to representation learning. [5]
 
-- Describe the skip-gram model trained using negative sampling. What is it used for? What is the input and output to the algorithm? [10]
+- Describe the skip-gram model trained using negative sampling. What is it used for? What are the input and output of the algorithm? [10]
 
-- How would you proceed to train a part-of-speech tagger (i.e., you want to assign each word with its part of speech) if you only could use pre-trained word embeddings and MLP classifier? [5]
+- How would you train a part-of-speech tagger (i.e., you want to assign each word to its part of speech) if you could only use pre-trained word embeddings and MLP classifier? [5]
 
 #### Questions@:, Lecture 7 Questions
 
-- Describe $k$-nearest neighbors prediction, both for regression and classification. Define $L_p$ norm and describe uniform, inverse, and softmax weighting. [10]
+- Describe the prediction of $k$ for the nearest neighbors, both for regression and classification. Define $L_p$ norm and describe uniform, inverse, and softmax weighting. [10]
 
 - Show that $L^2$-regularization can be obtained from a suitable prior by Bayesian inference (from the MAP estimate). [10]
 
-- Write down how $p(C_k | \boldsymbol x)$ is approximated in a Naive Bayes classifier, explicitly state the Naive Bayes assumption, and show how is the prediction performed. [10]
+- Write down how $p(C_k | \boldsymbol x)$ is approximated in a Naive Bayes classifier, explicitly state the Naive Bayes assumption, and show how the prediction is performed. [10]
 
-- Considering a Gaussian Naive Bayes, describe how are $p(x_d | C_k)$ modeled (what distribution and which parameters does it have) and how we estimate it during fitting. [10]
+- Considering a Gaussian Naive Bayes, describe how probabilities $p(x_d | C_k)$ are modeled (what distribution and which parameters it has) and how we estimate it during fitting. [10]
 
-- Considering a Bernoulli Naive Bayes, describe how are $p(x_d | C_k)$ modeled (what distribution and which parameters does it have) and how we estimate it during fitting. [10]
+- Considering a Bernoulli Naive Bayes, describe how probabilities $p(x_d | C_k)$ are modeled (what distribution and which parameters it has) and how we estimate it during fitting. [10]
 
-- What measures can we take to prevent numeric instabilities in the Naive Bayes classifier, in particular too high probability density in Gaussian Naive Bayes and zero probabilities in Bernoulli Naive Bayes? [10]
+- What measures can we take to prevent numeric instabilities in the Naive Bayes classifier, particularly if the probability density is too high in Gaussian Naive Bayes and there are zero probabilities in Bernoulli Naive Bayes? [10]
 
 - What is the difference between discriminative and (classical) generative models? [5]
 
@@ -118,15 +118,15 @@
 
 - Write down the definition of covariance and Pearson correlation coefficient $\rho$, including its range. [10]
 
-- Explain how are the Spearman's rank correlation coefficient and the Kendall rank correlation coefficient computed (no need to describe the Pearson correlation coefficient). [10]
+- Explain how Spearman's rank correlation coefficient and Kendall's rank correlation coefficient are computed (there is no need to describe the Pearson correlation coefficient). [10]
 
 - Describe setups where a correlation coefficient might be a good evaluation metric. [5]
 
-- Describe under what circumstance correlation can be used to assess validity of evaluation metrics. [5]
+- Describe under what circumstance correlation can be used to assess the validity of evaluation metrics. [5]
 
 - Define Cohen's $\kappa$ and explain what it is used for when preparing data for machine learning. [10]
 
-- Assuming you have collected data for classification by letting people annotating data instances for you. How do you estimate a reasonable range for classifier performance? [5]
+- Assuming you have collected data for classification by letting people annotate data instances. How do you estimate a reasonable range for classifier performance? [5]
 
 - Considering an averaging ensemble of $M$ models, prove the relation between the average mean squared error of the ensemble and the average error of the individual models, assuming the model errors have zero means and are uncorrelated. Use a formula to explain what uncorrelated errors mean in this context. [20]
 
@@ -134,16 +134,16 @@
 
 #### Questions@:, Lecture 9 Questions
 
-- In a regression decision tree, state what values are kept in internal nodes, define the squared error criterion and describe how is a leaf split during training (without discussing splitting constraints). [10]
+- In a regression decision tree, state what values are kept in internal nodes, define the squared error criterion, and describe how a leaf is split during training (without discussing splitting constraints). [10]
 
-- Explain the CART algorithm for constucting a decision tree. Explain the relationship between the loss function that is optimized during the decision tree construction and the splitting criterion that is during the node splitting. [10]
+- Explain the CART algorithm for constructing a decision tree. Explain the relationship between the loss function that is optimized during the decision tree construction and the splitting criterion that is during the node splitting. [10]
 
-- In a $K$-class classification decision tree, state what values are kept in internal nodes, define the Gini index and describe how is a node split during training (without discussing splitting constraints). [10]
+- In a $K$-class classification decision tree, state what values are kept in internal nodes, define the Gini index, and describe how a node is split during training (without discussing splitting constraints). [10]
 
-- In a $K$-class classification decision tree, state what values are kept in internal nodes, define the entropy criterion and describe how is a node split during training (without discussing splitting constraints). [10]
+- In a $K$-class classification decision tree, state what values are kept in internal nodes, define the entropy criterion, and describe how a node is split during training (without discussing splitting constraints). [10]
 
 - For binary classification using decision trees, derive the Gini index from a squared error loss. [20]
 
 - For $K$-class classification using decision trees, derive the entropy criterion from a non-averaged NLL loss. [20]
 
-- Describe how is a random forest trained (including bagging and a random subset of features) and how is prediction performed for regression and classification. [10]
+- Describe how a random forest is trained (including bagging and a random subset of features) and how prediction is performed for regression and classification. [10]
