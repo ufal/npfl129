@@ -2,6 +2,9 @@
 #### Date: Nov 25
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides/?08
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-08.pdf,PDF Slides
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-08-czech.mp4, CS Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-08-english.mp4, EN Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-08-practicals-czech.mp4, CS Practicals
 #### Lecture assignment: metric_correlation
 #### Lecture assignment: miniaturization
 #### Questions: #lecture_8_questions

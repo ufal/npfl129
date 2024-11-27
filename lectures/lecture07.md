@@ -4,6 +4,7 @@
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-07.pdf,PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-07-czech.mp4, CS Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-07-english.mp4, EN Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-07-practicals-czech.mp4, CS Practicals
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-07-practicals-english.mp4, EN Practicals
 #### Lecture assignment: k_nearest_neighbors
 #### Lecture assignment: naive_bayes
