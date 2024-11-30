@@ -147,3 +147,15 @@
 - For $K$-class classification using decision trees, derive the entropy criterion from a non-averaged NLL loss. [20]
 
 - Describe how a random forest is trained (including bagging and a random subset of features) and how prediction is performed for regression and classification. [10]
+
+#### Questions@:, Lecture 10 Questions
+
+- Explain what are the main differences between random forests and gradient boosted decision trees. [5]
+
+- Explain the intuition for second order optimization either using Newton's root finding method or using Taylor expansions. [10]
+
+- Write down the loss function which we optimize in gradient boosted decision trees during the construction of $t^\mathrm{th}$ tree. Then define $g_i$ and $h_i$ and show the value $w_\mathcal{T}$ of optimal prediction in node $\mathcal{T}$ and the criterion used during node splitting. [20]
+
+- For a $K$-class classification, describe how to perform prediction with a gradient boosted decision tree trained for $T$ time steps (how the individual trees perform prediction and how are the $K \cdot T$ trees combined to produce the predicted categorical distribution). [10]
+
+- What type of data are gradient boosted decision trees good for as opposed to multilayer perceptron? Explain the intuition why it is the case. [5]
