@@ -24,6 +24,7 @@
 - Accuracy and F-score in NLP
 - TF-IDF
 - Word2Vec ([original paper Mikolov et al., 2013](https://papers.nips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf))
+- [IPython notebook on part-of-speech tagging](https://github.com/ufal/npfl129/blob/master/notebooks/pos_tagging.ipynb)
 - [IPython notebook on vector arithmetics](https://github.com/ufal/npfl129/blob/master/notebooks/vector_arithmetics.ipynb)
 
 
