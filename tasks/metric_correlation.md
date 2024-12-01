@@ -7,7 +7,7 @@ Using the [metric_correlation.py](https://github.com/ufal/npfl129/tree/master/la
 template, find a $\beta$ for which $F_\beta$ score correlates
 best with human ratings.
 
-We use an aritificial dataset, which for every sentence contains:
+We use an artificial dataset, which for every sentence contains:
 - the number of edits that must be performed for every sentence,
 - the number of edits proposed by a model,
 - the number of correct edits proposed by a model,
