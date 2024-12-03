@@ -1,7 +1,5 @@
 ### Lecture: 10. Gradient Boosted Decision Trees
 #### Date: Dec 02
-#### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides/?10
-#### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2324/slides.pdf/npfl129-2324-10.pdf,PDF Slides
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides/?10
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-10.pdf,PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-10-czech.mp4, CS Lecture
