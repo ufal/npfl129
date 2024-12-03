@@ -24,3 +24,5 @@
   - [Random forets demo](https://mlu-explain.github.io/random-forest/) by Jenny Yeon & Jared Wilber
 
 Recording of the Czech lecture failed, please use the English recording instead. Assignments for the 9th lecture were discussed jointly with the assignments from the 8th lecture and discussed in the video from the previous practicals.
+
+After the lecture: short and non-comprehensive [**recap quiz**](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect09).
