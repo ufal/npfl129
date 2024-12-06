@@ -4,6 +4,8 @@
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-10.pdf,PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-10-czech.mp4, CS Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-10-english.mp4, EN Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-10-practicals-czech.mp4, CS Practicals
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-10-practicals-english.mp4, EN Practicals
 #### Lecture assignment: gradient_boosting
 #### Lecture assignment: human_activity_recognition
 #### Questions: #lecture_10_questions
