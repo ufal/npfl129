@@ -159,3 +159,19 @@
 - For a $K$-class classification, describe how to perform prediction with a gradient boosted decision tree trained for $T$ time steps (how the individual trees perform prediction and how are the $K \cdot T$ trees combined to produce the predicted categorical distribution). [10]
 
 - What type of data are gradient boosted decision trees good for as opposed to multilayer perceptron? Explain the intuition why it is the case. [5]
+
+#### Questions@:, Lecture 11 Questions
+
+- Formulate SVD decomposition of matrix $\boldsymbol X$, describe properties of individual parts of the decomposition. Explain what the reduced version of SVD is. [10]
+
+- Formulate the Eckart-Young theorem. Provide an interpretation of what the theorem says and why it is useful. [10]
+
+- Explain how to compute the PCA of dimension $M$ using the SVD decomposition of a data matrix $\boldsymbol X$, and why it works. [10]
+
+- Given a data matrix $\boldsymbol X$, write down the algorithm for computing the PCA of dimension $M$ using the power iteration algorithm. [20]
+
+- List at least two applications of SVD or PCA. [5]
+
+- Describe the K-means algorithm, including the `kmeans++` initialization. What is the loss function that the algorithm optimizes? What can you say about the algorithm convergence?  [20]
+
+- Name at least two clustering algorithms. What is their main principle? How do they differ? [10]
