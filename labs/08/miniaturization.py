@@ -65,7 +65,7 @@ class MLPFullDistributionClassifier(sklearn.neural_network.MLPClassifier):
         X, y = self._validate_data(X, y, multi_output=True, dtype=(np.float64, np.float32), reset=reset)
         if (not hasattr(self, "classes_")) or (not self.warm_start and not incremental):
             self._label_binarizer = self.FullDistributionLabels()
-            self.classes_ = y.shape[1]
+            self.classes_ = np.arange(y.shape[1])
         return X, y
 
 
