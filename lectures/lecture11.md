@@ -2,6 +2,9 @@
 #### Date: Dec 9
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides/?11
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-11.pdf,PDF Slides
+#### Lecture assignment: pca
+#### Lecture assignment: kmeans
+#### Lecture assignment: nli_competition
 #### Questions: #lecture_11_questions
 
 **Learning objectives.** After the lecture you shoud be able to
