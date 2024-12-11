@@ -175,3 +175,21 @@
 - Describe the K-means algorithm, including the `kmeans++` initialization. What is the loss function that the algorithm optimizes? What can you say about the algorithm convergence?  [20]
 
 - Name at least two clustering algorithms. What is their main principle? How do they differ? [10]
+
+#### Questions@:, Lecture 12 Questions
+
+- Considering statistical hypothesis testing, define type I errors and type II errors (in terms of the null hypothesis). Finally, define what a significance level is. [10]
+
+- Explain what a test statistic and a p-value are. [10]
+
+- Write down the steps of a statistical hypothesis test, including a definition of a p-value. [10]
+
+- Explain the differences between a one-sample test, two-sample test, and a paired test. [10]
+
+- When considering multiple comparison problem, define the family-wise error rate, and prove the Bonferroni correction, which allows limiting the family-wise error rate by a given $\alpha$. [10]
+
+- For a trained model and a given test set with $N$ examples and metric $E$, write how to estimate 95\% confidence intervals using bootstrap resampling. [10]
+
+- For two trained models and a given test set with $N$ examples and metric $E$, explain how to perform a paired bootstrap test that the first model is better than the other. [10]
+
+- For two trained models and a given test set with $N$ examples and metric $E$, explain how to perform a random permutation test that the first model is better than the other with a significance level $\alpha$. [10]
