@@ -1,6 +1,6 @@
 ### Assignment: miniaturization
 #### Date: Deadline: Dec 9, 22:00
-#### Points: 2 points+4 bonus
+#### Points: 3 points+4 bonus
 
 This assignment is a [competition task](https://ufal.mff.cuni.cz/courses/npfl129/2425-winter#competitions).
 Your goal is to submit the **smallest model** achieving at least 99%
