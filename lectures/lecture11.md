@@ -4,6 +4,7 @@
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-11.pdf,PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-11-czech.mp4, CS Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-11-english.mp4, EN Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-11-practicals-english.mp4, EN Practicals
 #### Lecture assignment: pca
 #### Lecture assignment: kmeans
 #### Lecture assignment: nli_competition
