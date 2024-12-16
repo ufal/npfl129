@@ -172,7 +172,7 @@
 
 1. List at least two applications of SVD or PCA. [5]
 
-1. Describe the K-means algorithm, including the `kmeans++` initialization. What is the loss function that the algorithm optimizes? What can you say about the algorithm convergence?  [20]
+1. Describe the $K$-means algorithm, including the `kmeans++` initialization. What it is used for? What is the loss function that the algorithm optimizes? What can you say about the algorithm convergence?  [20]
 
 1. Name at least two clustering algorithms. What is their main principle? How do they differ? [10]
 
@@ -193,3 +193,15 @@
 1. For two trained models and a given test set with $N$ examples and metric $E$, explain how to perform a paired bootstrap test that the first model is better than the other. [10]
 
 1. For two trained models and a given test set with $N$ examples and metric $E$, explain how to perform a random permutation test that the first model is better than the other with a significance level $\alpha$. [10]
+
+#### Questions@:, Lecture 13 Questions
+
+1. Explain the difference between deontological and utilitarian ethics. List examples on how these theoretical frameworks can be applied in machine learning ethics. [10]
+
+1. List at least two examples of potential ethical problems related to data collection. [5]
+
+1. List at least two examples of potential ethical problems that can originate in model evaluation. [5]
+
+1. List at least one example of an ethical problem that can originate in model design or model development. [5]
+
+1. Under what circumstances could train-test mismatch be an ethical problem? [5]
