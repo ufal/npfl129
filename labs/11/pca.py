@@ -3,9 +3,11 @@ import argparse
 import os
 import sys
 import urllib.request
+import warnings
 
 import numpy as np
 import sklearn.base
+import sklearn.exceptions
 import sklearn.linear_model
 import sklearn.model_selection
 import sklearn.pipeline
@@ -81,6 +83,10 @@ class PCATransformer(sklearn.base.TransformerMixin):
 
 
 def main(args: argparse.Namespace) -> float:
+    # Suppress warnings about the solver not converging because we
+    # deliberately use a low `max_iter` for the models to train quickly.
+    warnings.filterwarnings("ignore", category=sklearn.exceptions.ConvergenceWarning)
+
     # Use the MNIST dataset.
     dataset = MNIST(data_size=args.data_size)
 
