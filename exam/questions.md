@@ -1,4 +1,4 @@
-### Questions@:, Lecture 1 Questions
+#### Questions@:, Lecture 1 Questions
 
 1. Explain how reinforcement learning differs from supervised and unsupervised learning in terms of the type of input the learning algorithms use to improve model performance. [5]
 
@@ -150,15 +150,15 @@
 
 #### Questions@:, Lecture 10 Questions
 
-1. Explain what are the main differences between random forests and gradient boosted decision trees. [5]
+1. Explain the main differences between random forests and gradient-boosted decision trees. [5]
 
-1. Explain the intuition for second order optimization either using Newton's root finding method or using Taylor expansions. [10]
+1. Explain the intuition for second-order optimization using Newton's root-finding method or Taylor expansions. [10]
 
-1. Write down the loss function which we optimize in gradient boosted decision trees during the construction of $t^\mathrm{th}$ tree. Then define $g_i$ and $h_i$ and show the value $w_\mathcal{T}$ of optimal prediction in node $\mathcal{T}$ and the criterion used during node splitting. [20]
+1. Write down the loss function that we optimize in gradient-boosted decision trees while constructing $t^\mathrm{}$ tree. Then, define $g_i$ and $h_i$ and show the value $w_\mathcal{T}$ of optimal prediction in node $\mathcal{T}$ and the criterion used during node splitting. [20]
 
 1. For a $K$-class classification, describe how to perform prediction with a gradient boosted decision tree trained for $T$ time steps (how the individual trees perform prediction and how are the $K \cdot T$ trees combined to produce the predicted categorical distribution). [10]
 
-1. What type of data are gradient boosted decision trees good for as opposed to multilayer perceptron? Explain the intuition why it is the case. [5]
+1. What type of data are gradient boosted decision trees suitable for as opposed to multilayer perceptron? Explain the intuition why it is the case. [5]
 
 #### Questions@:, Lecture 11 Questions
 
@@ -172,7 +172,7 @@
 
 1. List at least two applications of SVD or PCA. [5]
 
-1. Describe the $K$-means algorithm, including the `kmeans++` initialization. What it is used for? What is the loss function that the algorithm optimizes? What can you say about the algorithm convergence?  [20]
+1. Describe the $K$-means algorithm, including the `kmeans++` initialization. What is it used for? What is the loss function that the algorithm optimizes? What can you say about the algorithm convergence? [20]
 
 1. Name at least two clustering algorithms. What is their main principle? How do they differ? [10]
 
@@ -184,9 +184,9 @@
 
 1. Write down the steps of a statistical hypothesis test, including a definition of a p-value. [10]
 
-1. Explain the differences between a one-sample test, two-sample test, and a paired test. [10]
+1. Explain the differences between a one-sample test, a two-sample test, and a paired test. [10]
 
-1. When considering multiple comparison problem, define the family-wise error rate, and prove the Bonferroni correction, which allows limiting the family-wise error rate by a given $\alpha$. [10]
+1. When considering the multiple comparison problem, define the family-wise error rate and prove the Bonferroni correction, which allows limiting the family-wise error rate by a given $\alpha$. [10]
 
 1. For a trained model and a given test set with $N$ examples and metric $E$, write how to estimate 95\% confidence intervals using bootstrap resampling. [10]
 
@@ -196,11 +196,11 @@
 
 #### Questions@:, Lecture 13 Questions
 
-1. Explain the difference between deontological and utilitarian ethics. List examples on how these theoretical frameworks can be applied in machine learning ethics. [10]
+1. Explain the difference between deontological and utilitarian ethics. List examples of how these theoretical frameworks can be applied in machine learning ethics. [10]
 
-1. List at least two examples of potential ethical problems related to data collection. [5]
+1. List at least two potential ethical problems related to data collection. [5]
 
-1. List at least two examples of potential ethical problems that can originate in model evaluation. [5]
+1. List at least two potential ethical problems that can originate in model evaluation. [5]
 
 1. List at least one example of an ethical problem that can originate in model design or model development. [5]
 
