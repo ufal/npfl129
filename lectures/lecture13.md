@@ -1,0 +1,33 @@
+### Lecture: 13. Machine Learning Ethics, Final Summary
+#### Date: Jan 06
+#### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides/?13
+#### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2425/slides.pdf/npfl129-2425-13.pdf,PDF Slides
+#### Questions: #lecture_13_questions
+
+**Learning objectives.** After the lecture you should be able to
+
+- Explain what main theoretical ethical frameworks are.
+
+- Reason about ethical problems in various stages of developing ML System.
+
+**Covered topics** and where to find more:
+
+- Main ethical frameworks: deontology, utilitarism
+
+- Ethical problem examples
+
+  - Problem definition (some tasks are inherently problematic)
+
+  - Data collection (biases, unethical acquisition)
+
+  - Modeling problems (bias amplification via discretization, privacy violation via memorization)
+
+  - Evaluation problems (misleading metrics, unexpected consequences of optimization)
+
+  - Deployment (train-test mismatch, feedback loops)
+
+- More materials:
+
+  - Rachel Thomas: [11 Short Machine Learning Ethics Videos](https://www.youtube.com/playlist?list=PLtmWHNX-gukIU6V33Bc8eP8OD41I4GywR)
+
+  - Mark Coeckelbergh: [AI Ethics](https://mitpress.mit.edu/9780262538190/ai-ethics) / [Etika umělé inteligence](https://www.databazeknih.cz/knihy/etika-umele-inteligence-516976)
