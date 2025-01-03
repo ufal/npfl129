@@ -10,7 +10,7 @@
 #### Lecture assignment: diacritization
 #### Questions: #lecture_5_questions
 
-**Learning objectives.** After the lecture you shoud be able to
+**Learning objectives.** After the lecture you should be able to
 
 - Implement training of multi-layer perceptron using SGD.
 - Explain the theoretical foundation behind the softmax activation function

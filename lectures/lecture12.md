@@ -9,7 +9,7 @@
 #### Lecture assignment: permutation_test
 #### Questions: #lecture_12_questions
 
-**Learning objectives.** After the lecture you shoud be able to
+**Learning objectives.** After the lecture you should be able to
 
 - Explain foundations of statistical hypothesis testing.
 

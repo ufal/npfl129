@@ -7,7 +7,7 @@
 #### Lecture assignment: random_forest
 #### Questions: #lecture_9_questions
 
-**Learning objectives.** After the lecture you shoud be able to
+**Learning objectives.** After the lecture you should be able to
 
 - Implement Decision Trees and Random Forests for classification and regression
 

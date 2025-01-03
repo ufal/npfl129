@@ -10,7 +10,7 @@
 #### Lecture assignment: human_activity_recognition
 #### Questions: #lecture_10_questions
 
-**Learning objectives.** After the lecture you shoud be able to
+**Learning objectives.** After the lecture you should be able to
 
 - Explain second-order optimization methods
 

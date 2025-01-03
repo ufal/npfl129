@@ -11,7 +11,7 @@
 #### Lecture assignment: isnt_it_ironic
 #### Questions: #lecture_7_questions
 
-**Learning objectives.** After the lecture you shoud be able to
+**Learning objectives.** After the lecture you should be able to
 
 - Implement and use $k$-nearest neighbors for classification and regression.
 - Explain the very basic principles of Bayesian thinking.

@@ -10,7 +10,7 @@
 #### Lecture assignment: miniaturization
 #### Questions: #lecture_8_questions
 
-**Learning objectives.** After the lecture you shoud be able to
+**Learning objectives.** After the lecture you should be able to
 
 - Explain and implement different ways of measuring correlation: Pearson's
   correlation, Spearman's correlation, Kendall's $\tau$.

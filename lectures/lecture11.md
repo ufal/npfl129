@@ -10,7 +10,7 @@
 #### Lecture assignment: nli_competition
 #### Questions: #lecture_11_questions
 
-**Learning objectives.** After the lecture you shoud be able to
+**Learning objectives.** After the lecture you should be able to
 
 - Theoretically explain Singular Value Decomposition (SVD), prove it exists and explain what the Eckart-Young theorem says.
 

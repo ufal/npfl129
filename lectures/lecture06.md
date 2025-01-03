@@ -11,7 +11,7 @@
 #### Lecture assignment: diacritization_dictionary
 #### Questions: #lecture_6_questions
 
-**Learning objectives.** After the lecture you shoud be able to
+**Learning objectives.** After the lecture you should be able to
 
 - Use TF-IDF for representing documents and explain its information-theoretical
   interpretation.
