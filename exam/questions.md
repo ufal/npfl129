@@ -4,7 +4,7 @@
 
 1. Explain why we need separate training and test data. What is generalization, and how does the concept relate to underfitting and overfitting? [10]
 
-1. Define the prediction function of a linear regression model and write down $L^2$-regularized mean squared error loss. [10]
+1. Define the prediction function of a *linear regression* model and write down $L^2$-regularized mean squared error loss. [10]
 
 1. Starting from the unregularized sum of squares error of a linear regression model, show how the explicit solution can be obtained, assuming $\boldsymbol X^T \boldsymbol X$ is invertible. [10]
 
@@ -32,13 +32,13 @@
 
 1. For discrete random variables, define entropy, cross-entropy, and Kullback-Leibler divergence, and prove the Gibbs inequality (i.e., that KL divergence is non-negative). [20]
 
-1. Explain the notion of likelihood in maximum likelihood estimation. What likelihood are we estimating in machine learning, and why do we do it? [5]
+1. Explain the notion of likelihood in machine learning. What likelihood are we estimating, and why do we do it? [10]
 
 1. Describe maximum likelihood estimation as minimizing NLL, cross-entropy, and KL divergence and explain whether they differ or are the same and why. [20]
 
 1. Provide an intuitive justification for why cross-entropy is a good optimization objective in machine learning. What distributions do we compare in cross-entropy? Why is it good when the cross-entropy is low? [5]
 
-1. Considering the binary logistic regression model, write down its parameters (including their size) and explain how we decide what classes the input data belong to (including the explicit formula for the sigmoid function). [10]
+1. Considering the binary *logistic regression* model, write down its parameters (including their size) and explain how we decide what classes the input data belong to (including the explicit formula for the sigmoid function). [10]
 
 1. Write down an $L^2$-regularized minibatch SGD algorithm for training a binary *logistic regression* model, including the explicit formulas (i.e., formulas you would need to code it in `numpy`) of the loss function and its gradient (saying just $\nabla$ is not enough). [20]
 
@@ -62,7 +62,7 @@
 
 #### Questions@:, Lecture 5 Questions
 
-1. Considering a single-layer MLP with $D$ input neurons, a ReLU hidden layer with $H$ units, and a softmax output layer with $K$ units, write down the explicit formulas (i.e., formulas you would use to code it in `numpy`) of the gradient of all the MLP parameters (two weight matrices and two bias vectors), assuming input $\boldsymbol x$, target $t$, and negative log likelihood loss. [20]
+1. Considering a single-layer MLP with $D$ input neurons, a ReLU hidden layer with $H$ units, and a softmax output layer with $K$ units, write down the explicit formulas (i.e., formulas you would use to code it in `numpy`) of the gradient of the loss function with respect to all the MLP parameters (two weight matrices and two bias vectors), assuming input $\boldsymbol x$, target $t$, and negative log likelihood loss. [20]
 
 1. Formulate the computation of MLP as a computation graph. Explain how such a graph can be used to compute the gradients of the parameters in the back-propagation algorithm. [10]
 
@@ -76,7 +76,7 @@
 
 1. Define precision (including true positives and others), recall, $F_1$ score, and $F_\beta$ score (we stated several formulations for $F_1$ and $F_\beta$ scores; any one of them will do). [10]
 
-1. Explain the difference between micro-averaged and macro-averaged $F_1$ scores. List a few examples of when you would use them. [10]
+1. Explain the difference between micro-averaged and macro-averaged $F_1$ scores. Under what circumstances do we use them? [10]
 
 1. Explain (using examples) why accuracy is not a suitable metric for unbalanced target classes, e.g., for a diagnostic test for a contagious disease. [5]
 
