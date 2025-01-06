@@ -23,11 +23,15 @@
 - Bootstrap resampling
 - Paired bootstrap test
 - Random permutation test
+- Support Vector Machine (covered at the practicals)
 
 **Practicals: Extra materials**
+- See the English practicals video from the 46th minute
 - Histogram Gradient Boosting
   - [slides](https://github.com/thomasjpfan/pydata-2019-histgradientboosting/blob/master/presentation.pdf) (see *binning* on the slide 22)
 - Support Vector Machines (SVMs):
   - 22/23 NPFL129 lectures [#6](https://ufal.mff.cuni.cz/courses/npfl129/2223-winter#6_kernel_methods_svm) and [#7](https://ufal.mff.cuni.cz/courses/npfl129/2223-winter#7_soft_margin_svm_smo)
   - [MIT lecture](https://www.youtube.com/watch?v=_PwhiWxHK8o)
   - Stanford CS229 [lecture notes](https://cs229.stanford.edu/summer2020/cs229-notes3.pdf)
+
+After the lecture: short and non-comprehensive [**recap quiz**](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect12).
