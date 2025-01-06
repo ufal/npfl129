@@ -40,7 +40,7 @@
 
 1. Considering the binary logistic regression model, write down its parameters (including their size) and explain how we decide what classes the input data belong to (including the explicit formula for the sigmoid function). [10]
 
-1. Write down an $L^2$-regularized minibatch SGD algorithm for training a binary *logistic regression* model, including the explicit formulas (i.e., formulas you would need to code it in `numpy`) of the loss function and its gradient (saying just $\grad$ is not enough). [20]
+1. Write down an $L^2$-regularized minibatch SGD algorithm for training a binary *logistic regression* model, including the explicit formulas (i.e., formulas you would need to code it in `numpy`) of the loss function and its gradient (saying just $\nabla$ is not enough). [20]
 
 #### Questions@:, Lecture 4 Questions
 
@@ -98,7 +98,7 @@
 
 #### Questions@:, Lecture 7 Questions
 
-1. Describe the prediction of $k$ for the nearest neighbors, both for regression and classification. Define $L_p$ norm and describe uniform, inverse, and softmax weighting. [10]
+1. Describe the prediction of $k$ nearest neighbors, both for regression and classification. Define $L_p$ norm and describe uniform, inverse, and softmax weighting. [10]
 
 1. Show that $L^2$-regularization can be obtained from a suitable prior by Bayesian inference (from the MAP estimate). [10]
 
