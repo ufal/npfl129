@@ -49,10 +49,10 @@ def main(args: argparse.Namespace) -> tuple[float, float]:
     # in the left subtree before the nodes in right subtree.
     #
     # Additionally, implement:
-    # - feature subsampling: when searching for the best split, try only
-    #   a subset of features. Notably, when splitting a node (i.e., when the
-    #   splitting conditions [depth, criterion != 0] are satisfied), start by
-    #   generating the subsampled features using
+    # - feature subsampling: when searching for the best split, consider only a subset
+    #   of features. Notably, when splitting a node (i.e., this node should be split
+    #   according to splitting order and the splitting conditions [depth, criterion != 0]
+    #   are satisfied), start by generating the subsampled features using
     #     subsample_features(number_of_features)
     #   returning the features that should be used during the best split search.
     #   The features are returned in ascending order, so when `feature_subsampling == 1`,
