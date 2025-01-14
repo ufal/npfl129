@@ -64,7 +64,7 @@
 
 1. Considering a single-layer MLP with $D$ input neurons, a ReLU hidden layer with $H$ units, and a softmax output layer with $K$ units, write down the explicit formulas (i.e., formulas you would use to code it in `numpy`) of the gradient of the loss function with respect to all the MLP parameters (two weight matrices and two bias vectors), assuming input $\boldsymbol x$, target $t$, and negative log likelihood loss. [20]
 
-1. Formulate the computation of MLP as a computation graph. Explain how such a graph can be used to compute the gradients of the parameters in the back-propagation algorithm. [10]
+1. Formulate the computation of MLP as a computation graph. What do the nodes and the edges of the graph represent? Explain how such a graph can be used to compute the gradients of the parameters in the back-propagation algorithm. [10]
 
 1. Formulate the Universal approximation theorem and explain in words what it says about multi-layer perceptron. [10]
 
@@ -94,7 +94,7 @@
 
 1. Describe the skip-gram model trained using negative sampling. What is it used for? What are the input and output of the algorithm? [10]
 
-1. How would you train a part-of-speech tagger (i.e., you want to assign each word to its part of speech) if you could only use pre-trained word embeddings and MLP classifier? [5]
+1. How would you train a part-of-speech tagger (i.e., you want to assign each word to its part of speech) if you could only use labeled data, pre-trained word embeddings and MLP classifier? [5]
 
 #### Questions@:, Lecture 7 Questions
 
@@ -120,11 +120,11 @@
 
 1. Explain how Spearman's rank correlation coefficient and Kendall's rank correlation coefficient are computed (there is no need to describe the Pearson correlation coefficient). [10]
 
-1. Describe setups where a correlation coefficient might be a good evaluation metric. [5]
+1. Describe setups where a correlation coefficient might be a good model evaluation metric. [5]
 
 1. Describe under what circumstance correlation can be used to assess the validity of evaluation metrics. [5]
 
-1. Define Cohen's $\kappa$ and explain what it is used for when preparing data for machine learning. [10]
+1. Define Cohen's $\kappa$ (including the definition of the respective probabilities) and explain what it is used for when collecting data for machine learning. [10]
 
 1. Assuming you have collected data for classification by letting people annotate data instances. How do you estimate a reasonable range for classifier performance? [5]
 
@@ -192,7 +192,7 @@
 
 1. For two trained models and a given test set with $N$ examples and metric $E$, explain how to perform a paired bootstrap test that the first model is better than the other. [10]
 
-1. For two trained models and a given test set with $N$ examples and metric $E$, explain how to perform a random permutation test that the first model is better than the other with a significance level $\alpha$. [10]
+1. For two trained models and a given test set with $N$ examples and metric $E$, explain how to perform a random permutation test that the first model is better than the other with a significance level $\alpha$. What is the null hypothesis here? How do to compute the $p$-value? [10]
 
 #### Questions@:, Lecture 13 Questions
 
