@@ -166,7 +166,7 @@
 
 1. Formulate the Eckart-Young theorem. Provide an interpretation of what the theorem says and why it is useful. [10]
 
-1. Given a data matrix $\boldsymbol X$, explain how to compute the PCA of dimension M using the SVD decomposition. Provide an intution why it works. [10]
+1. Given a data matrix $\boldsymbol X$, explain how to compute the PCA of dimension M using the SVD decomposition. Explain the why it works. [10]
 
 1. Given a data matrix $\boldsymbol X$, write down the algorithm for computing the PCA of dimension $M$ using the power iteration algorithm. [20]
 
