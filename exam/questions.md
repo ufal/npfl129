@@ -154,7 +154,7 @@
 
 1. Explain the intuition for second-order optimization using Newton's root-finding method or Taylor expansions. [10]
 
-1. Write down the loss function that we optimize in gradient-boosted decision trees while constructing $t^\mathrm{}$ tree. Then, define $g_i$ and $h_i$ and show the value $w_\mathcal{T}$ of optimal prediction in node $\mathcal{T}$ and the criterion used during node splitting. [20]
+1. Write down the loss function that we optimize in gradient-boosted decision trees while constructing $t^\mathrm{th}$ tree. Then, define $g_i$ and $h_i$ and show the value $w_\mathcal{T}$ of optimal prediction in node $\mathcal{T}$ and the criterion used during node splitting. [20]
 
 1. For a $K$-class classification, describe how to perform prediction with a gradient boosted decision tree trained for $T$ time steps (how the individual trees perform prediction and how are the $K \cdot T$ trees combined to produce the predicted categorical distribution). [10]
 
@@ -166,7 +166,7 @@
 
 1. Formulate the Eckart-Young theorem. Provide an interpretation of what the theorem says and why it is useful. [10]
 
-1. Explain how to compute the PCA of dimension $M$ using the SVD decomposition of a data matrix $\boldsymbol X$, and why it works. [10]
+1. Given a data matrix $\boldsymbol X$, explain how to compute the PCA of dimension M using the SVD decomposition. Provide an intution why it works. [10]
 
 1. Given a data matrix $\boldsymbol X$, write down the algorithm for computing the PCA of dimension $M$ using the power iteration algorithm. [20]
 
