@@ -13,7 +13,7 @@ and you cannot use them in any other way.
 Each instance is a string of an English tweet. The texts have
 already been tokenized and tokens are separated by exactly one space.
 The performance of your solution will be evaluated using
-F1-score with [sklearn.metrics.f1_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)
+$F_1$-score with [sklearn.metrics.f1_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)
 and if you surpass **60%**, you will obtain 4 points.
 Note that you can use **any sklearn algorithm** to solve this exercise
 (or anything you implement yourselves).
