@@ -7,7 +7,7 @@
 Using the [pca.py](https://github.com/ufal/npfl129/tree/master/labs/11/pca.py)
 template, implement the PCA computation with both
 - power iteration algorithm,
-- SVD decomposition.
+- singular value decomposition (SVD).
 
 #### Tests Start: pca_tests
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
