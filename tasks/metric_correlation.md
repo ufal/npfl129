@@ -4,7 +4,7 @@
 #### Tests: metric_correlation_tests
 
 Using the [metric_correlation.py](https://github.com/ufal/npfl129/tree/master/labs/08/metric_correlation.py)
-template, find a $\beta$ for which $F_\beta$ score correlates
+template, find a $\beta$ for which $F_\beta$-score correlates
 best with human ratings.
 
 We use an artificial dataset, which for every sentence contains:
@@ -13,7 +13,7 @@ We use an artificial dataset, which for every sentence contains:
 - the number of correct edits proposed by a model,
 - human rating of the sentence.
 
-Using bootstrap resampling, compute the mean human rating and $F_\beta$ score
+Using bootstrap resampling, compute the mean human rating and $F_\beta$-score
 for each sampled dataset and then manually compute the Pearson correlation
 for betas between 0 and 2, and return the most correlating beta.
 
