@@ -9,7 +9,7 @@ a non-native individual and your goal is to identify their native language.
 We will be using NLI Shared Task 2013 data, which contains documents in 11
 languages. For each language, the train and test sets contain 1000 and 100
 documents, respectively. Particularly interesting is the fact that humans are
-quite bad in this task (in a simplified settings, human professionals achieve
+quite bad in this task (in a simplified setting, human professionals achieve
 40-50% accuracy), while machine learning models can achieve high performance.
 
 Because the data is not publicly available, you can download it only through
