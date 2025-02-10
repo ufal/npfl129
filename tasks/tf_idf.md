@@ -9,7 +9,7 @@ template, perform classification of text documents from the
 documents, use TF and/or IDF weights, which you implement manually (without
 using the `sklearn.feature_extraction` module in any way). Classify test set
 documents using `sklearn.linear_model.LogisticRegression` trained on the
-given training data, and report macro F1-score.
+given training data, and report macro $F_1$-score.
 
 #### Tests Start: tf_idf_tests
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
