@@ -12,7 +12,7 @@ constraints.
 We recommend using object-oriented programming to implement the decision tree
 classifier; if you are not familiar with it, now is a good time to go through
 some tutorials. Regarding the API of your decision tree implementation, you can
-take inspiration from the scikit-learn itself.
+take inspiration from scikit-learn itself.
 
 #### Tests Start: decision_tree_tests
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
