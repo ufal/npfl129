@@ -4,7 +4,7 @@
 #### Tests: gradient_boosting_tests
 
 Using the [gradient_boosting.py](https://github.com/ufal/npfl129/tree/master/labs/10/gradient_boosting.py)
-template, train gradient boosted decision tree forest for classification.
+template, train gradient-boosted decision tree forest for classification.
 
 #### Tests Start: gradient_boosting_tests
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
