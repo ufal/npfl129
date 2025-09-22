@@ -10,7 +10,7 @@ points will be awarded according to the size of your submission, which ReCodEx
 shows in the logs (the accuracy of your solution does not affect the competition
 points, as long as it is at least 99%, and is therefore not hidden as usual).
 
-The [miniaturization.py](https://github.com/ufal/npfl129/tree/master/labs/08/miniaturization.py)
+The [miniaturization.py](https://github.com/ufal/npfl129/tree/past-2425/labs/08/miniaturization.py)
 template shows how to load training data, downloading it if needed.
 Furthermore, it shows how to save a trained estimator and how to load it during
 prediction. Finally, it includes a class `MLPFullDistributionClassifier`, which

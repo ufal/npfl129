@@ -3,7 +3,7 @@
 #### Points: 3 points
 #### Tests: feature_engineering_tests
 
-Starting with the [feature_engineering.py](https://github.com/ufal/npfl129/tree/master/labs/02/feature_engineering.py)
+Starting with the [feature_engineering.py](https://github.com/ufal/npfl129/tree/past-2425/labs/02/feature_engineering.py)
 template, learn how to perform basic feature engineering using `scikit-learn`.
 
 #### Tests Start: feature_engineering_tests

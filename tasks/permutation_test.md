@@ -6,7 +6,7 @@
 Given two trained models, perform a random permutation test that the second one
 is better than the first one.
 
-Start with the [permutation_test.py](https://github.com/ufal/npfl129/tree/master/labs/12/permutation_test.py)
+Start with the [permutation_test.py](https://github.com/ufal/npfl129/tree/past-2425/labs/12/permutation_test.py)
 template. Note that you usually need to perform a lot of resamplings, so you
 should make sure your implementation is fast enough.
 

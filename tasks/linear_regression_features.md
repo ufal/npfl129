@@ -4,7 +4,7 @@
 #### Tests: linear_regression_features_tests
 
 Starting with the
-[linear_regression_features.py](https://github.com/ufal/npfl129/tree/master/labs/01/linear_regression_features.py)
+[linear_regression_features.py](https://github.com/ufal/npfl129/tree/past-2425/labs/01/linear_regression_features.py)
 template, use `scikit-learn` to train a model of a 1D curve.
 
 Try using a concatenation of features $x^1, x^2, …, x^D$ for $D$ from 1 to

@@ -3,7 +3,7 @@
 #### Points: 2 points
 #### Tests: perceptron_tests
 
-Starting with the [perceptron.py](https://github.com/ufal/npfl129/tree/master/labs/03/perceptron.py)
+Starting with the [perceptron.py](https://github.com/ufal/npfl129/tree/past-2425/labs/03/perceptron.py)
 template, implement the perceptron algorithm.
 
 #### Tests Start: perceptron_tests
