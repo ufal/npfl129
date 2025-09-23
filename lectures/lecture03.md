@@ -30,6 +30,6 @@
 - Cross-validation [Section 1.3 of PRML], covered in the practicals
 - [Logistic regression demo](https://mlu-explain.github.io/logistic-regression) by Jared Willber
 - [Perceptron visualization](https://vinizinho.net/projects/perceptron-viz/) by Vinícius Garcia
-- [IPython notebook on gradients and scaling](https://github.com/ufal/npfl129/blob/master/notebooks/gradient2.ipynb) and the [interactive script](https://raw.githubusercontent.com/ufal/npfl129/refs/heads/master/notebooks/gradient_interactive.py)
+- [IPython notebook on gradients and scaling](https://github.com/ufal/npfl129/blob/past-2425/notebooks/gradient2.ipynb) and the [interactive script](https://raw.githubusercontent.com/ufal/npfl129/refs/heads/past-2425/notebooks/gradient_interactive.py)
 
 After the lecture: short and non-comprehensive [**recap quiz**](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect03).

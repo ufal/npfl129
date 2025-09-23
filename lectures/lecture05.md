@@ -21,6 +21,6 @@
   - [A Simple Explanation of Why Lagrange Multipliers Works](https://medium.com/@andrew.chamberlain/a-simple-explanation-of-why-lagrange-multipliers-works-253e2cdcbf74), a blog post by Andrew Chamberlain
 - Derivation of softmax via the maximum entropy principle [[The equivalence of logistic regression and maximum entropy models writeup](https://github.com/WinVector/Examples/blob/main/dfiles/LogisticRegressionMaxEnt.pdf)]
 - $F_1$ score and $F_β$ score
-- [IPython notebook on micro and macro F1-score](https://github.com/ufal/npfl129/blob/master/notebooks/confusion_matrix.ipynb)
+- [IPython notebook on micro and macro F1-score](https://github.com/ufal/npfl129/blob/past-2425/notebooks/confusion_matrix.ipynb)
 
 After the lecture: short and non-comprehensive [**recap quiz**](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect05).
