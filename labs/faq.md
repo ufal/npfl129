@@ -5,14 +5,14 @@
 - _Installing to central user packages repository_
 
   You can install all required packages to central user packages repository using
- `pip3 install --user scikit-learn==1.5.2 numpy==2.1.1 scipy==1.14.1 pandas==2.2.2 matplotlib==3.9.2`.
+ `pip3 install --user scikit-learn==1.7.2 numpy==2.3.3 scipy==1.16.2 pandas==2.3.2 matplotlib==3.10.6`.
 
 - _Installing to a virtual environment_
 
   Python supports virtual environments, which are directories containing
   independent sets of installed packages. You can create a virtual environment
   by running `python3 -m venv VENV_DIR` followed by
-  `VENV_DIR/bin/pip3 install scikit-learn==1.5.2 numpy==2.1.1 scipy==1.14.1 pandas==2.2.2 matplotlib==3.9.2`
+  `VENV_DIR/bin/pip3 install scikit-learn==1.7.2 numpy==2.3.3 scipy==1.16.2 pandas==2.3.2 matplotlib==3.10.6`
   (or `VENV_DIR/Scripts/pip3` on Windows).
 
 - _**Windows** installation_
@@ -55,34 +55,35 @@
   If you want to store the course repository just in a local branch of your
   existing repository, you can run the following command while in it:
   ```
-  git remote add upstream https://github.com/ufal/npfl129
-  git fetch upstream
-  git checkout -t upstream/master
+  git remote add course_repo https://github.com/ufal/npfl129
+  git fetch course_repo
+  git checkout --track course_repo/master -b BRANCH_NAME
   ```
-  This creates a branch `master`; if you want a different name, add
-  `-b BRANCH_NAME` to the last command.
+  This creates a branch `BRANCH_NAME`, and when you run `git pull` in that
+  branch, it will be updated to the current state of the course repository.
 
-  In both cases, you can update your checkout by running `git pull` while in it.
+- _How to merge the course repository updates with your modified branch?_
 
-- _How to merge the course repository with your modifications?_
-
-  If you want to store your solutions in a branch merged with the course
-  repository, you should start by
+  If you want to store your solutions in your branch and gradually update this
+  branch to track the changes in the course repository, you should start by
   ```
-  git remote add upstream https://github.com/ufal/npfl129
-  git pull upstream master
+  git remote add course_repo https://github.com/ufal/npfl129
+  git fetch course_repo
+  git checkout --no-track course_repo/master -b BRANCH_NAME
   ```
-  which creates a branch `master`; if you want a different name,
-  change the last argument to `master:BRANCH_NAME`.
+  which creates a branch `BRANCH_NAME` with the current state of the
+  course repository. However, unlike to the previous case, `git pull`
+  and `git push` in this branch will not operate on the course repository.
+  Therefore, you can then commit to this branch and push it to your own
+  repository.
 
-  You can then commit to this branch and push it to your repository.
-
-  To merge the current course repository with your branch, run
+  To update your branch with the changes from the course repository, run
   ```
-  git merge upstream master
+  git fetch course_repo
+  git merge course_repo/master
   ```
   while in your branch. Of course, it might be necessary to resolve conflicts
-  if both you and I modified the same place in the templates.
+  if both you and I modified the same lines in the templates.
 
 ### TOCEntry: ReCodEx
 
