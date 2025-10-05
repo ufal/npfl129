@@ -11,3 +11,25 @@
 1. Define the prediction function of a *linear regression* model and write down $L^2$-regularized mean squared error loss. [10]
 
 1. Starting from the unregularized sum of squares error of a linear regression model, show how the explicit solution can be obtained, assuming $\boldsymbol X^T \boldsymbol X$ is invertible. [10]
+
+#### Questions@:, Lecture 2 Questions
+
+1. Describe standard gradient descent and compare it to stochastic (i.e., online) gradient descent and minibatch stochastic gradient descent. Explain what it is used for in machine learning. [10]
+
+1. Explain the relationship between model capacity and overfitting/underfitting. How does increasing polynomial degree in linear regression affect model capacity, and what are the consequences? [10]
+
+1. Explain possible intuitions behind $L^2$ regularization. [5]
+
+1. Explain the difference between hyperparameters and parameters. [5]
+
+1. Write an $L^2$-regularized minibatch SGD algorithm for training a *linear regression* model, including the explicit formulas (i.e, formulas you would need to code it with `numpy`) of the loss function and its gradient. [10]
+
+1. Does the SGD algorithm for *linear regression* always find the best solution on the training data? If yes, explain under what conditions it happens; if not, explain why it is not guaranteed to converge. What properties of the error function does this depend on? [10]
+
+1. After training a model with SGD, you ended up with a low training error and a high test error. Using the learning curves, explain what might have happened and what steps you might take to prevent this from happening. [10]
+
+1. You were given a fixed training set and a fixed test set, and you are supposed to report model performance on that test set. You need to decide what hyperparameters to use. How will you proceed and why? [10]
+
+1. What methods can be used to normalize feature values? Explain why it is useful. [5]
+
+1. You have a dataset with a categorical feature “color” with values {“red”, “green”, “blue”}. Explain why using integer encoding (`red=0`, `green=1`, `blue=2`) is problematic for linear regression. How would encode such feature instead? [10]
