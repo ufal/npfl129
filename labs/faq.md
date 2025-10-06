@@ -18,7 +18,7 @@
 - _**Windows** installation_
 
   - On Windows, it can happen that `python3` is not in PATH, while `py` command
-    is – in that case you can use `py -m venv VENV_DIR`, which uses the newest
+    is; in that case you can use `py -m venv VENV_DIR`, which uses the newest
     Python available, or for example `py -3.11 -m venv VENV_DIR`, which uses
     Python version 3.11.
 
@@ -33,7 +33,7 @@
 - _On GitHub, do not create a **public** fork with your solutions_
 
   If you keep your solutions in a GitHub repository, please do not create
-  a clone of the repository by using the Fork button – this way, the cloned
+  a clone of the repository by using the Fork button; this way, the cloned
   repository would be **public**.
 
   Of course, if you just want to create a pull request, GitHub requires a public
@@ -100,7 +100,7 @@
 
   The file must also export an argument parser called `parser`. ReCodEx uses its
   arguments and default values, but it overwrites some of the arguments
-  depending on the test being executed – the template should always indicate which
+  depending on the test being executed; the template always indicates which
   arguments are set by ReCodEx and which are left intact.
 
 - _What are the time and memory limits?_
