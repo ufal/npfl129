@@ -30,14 +30,19 @@
   where you merge them with the course repository, is probably a good idea.
   However, please keep the cloned repository with your solutions **private**.
 
-- _On GitHub, do not create a **public** fork with your solutions_
+- _On GitHub, do not create a **public** fork containing **your solutions**._
 
   If you keep your solutions in a GitHub repository, please do not create
   a clone of the repository by using the Fork button; this way, the cloned
   repository would be **public**.
+  - If you created a public fork and want to make it private, you need to start
+    by pressing **Leave fork network** in the repository settings; only then you
+    can change the visibility to **private**.
 
-  Of course, if you just want to create a pull request, GitHub requires a public
-  fork and that is fine – just do not store your solutions in it.
+  Of course, if you want to create a pull request, GitHub requires a public
+  fork and you need to create it, just do not store your solutions in it (so you
+  might end up with two repositories, a public fork for pull requests and
+  a private repo for your own solutions).
 
 - _How to clone the course repository?_
 
@@ -46,44 +51,32 @@
   git clone https://github.com/ufal/npfl129
   ```
   This creates the repository in the `npfl129` subdirectory; if you want a different
-  name, add it as a last parameter.
+  name, add it as an additional parameter.
 
   To update the repository, run `git pull` inside the repository directory.
 
-- _How to keep the course repository as a branch in your repository?_
+- _How to merge the course repository updates into a private repository with additional changes?_
 
-  If you want to store the course repository just in a local branch of your
-  existing repository, you can run the following command while in it:
+  It is possible to have a private repository that combines your solutions and
+  the updates from the course repository. To do that, start by cloning your
+  empty private repository, and then run the following commands in it:
   ```
   git remote add course_repo https://github.com/ufal/npfl129
   git fetch course_repo
-  git checkout --track course_repo/master -b BRANCH_NAME
+  git checkout --no-track course_repo/master
   ```
-  This creates a branch `BRANCH_NAME`, and when you run `git pull` in that
-  branch, it will be updated to the current state of the course repository.
-
-- _How to merge the course repository updates with your modified branch?_
-
-  If you want to store your solutions in your branch and gradually update this
-  branch to track the changes in the course repository, you should start by
-  ```
-  git remote add course_repo https://github.com/ufal/npfl129
-  git fetch course_repo
-  git checkout --no-track course_repo/master -b BRANCH_NAME
-  ```
-  which creates a branch `BRANCH_NAME` with the current state of the
-  course repository. However, unlike to the previous case, `git pull`
-  and `git push` in this branch will not operate on the course repository.
-  Therefore, you can then commit to this branch and push it to your own
-  repository.
+  This creates a new remote `course_repo` and a clone of the `master` branch
+  from it; however, `git pull` and `git push` in this branch will operate
+  on the repository your cloned originally.
 
   To update your branch with the changes from the course repository, run
   ```
   git fetch course_repo
   git merge course_repo/master
   ```
-  while in your branch. Of course, it might be necessary to resolve conflicts
-  if both you and I modified the same lines in the templates.
+  while in your branch (the command `git pull --no-rebase course_repo master`
+  has the same effect). Of course, it might be necessary to resolve conflicts
+  if both you and the course repository modified the same lines in the same files.
 
 ### TOCEntry: ReCodEx
 
