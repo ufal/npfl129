@@ -1,0 +1,27 @@
+### Lecture: 3. Peceptron, Logistic Regression
+#### Date: Oct 13, Oct 16
+#### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides/?03
+#### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides.pdf/npfl129-2526-03.pdf, PDF Slides
+#### Questions: #lecture_3_questions
+
+**Learning objectives.** After the lecture you should be able to
+
+- Think about binary classification using **geometric intuition** and use the
+  **perceptron algorithm**.
+- Define the **main concepts of information theory** (entropy, cross-entropy,
+  KL-divergence) and prove their basic properties.
+- Derive training objectives using the **maximum likelihood principle**.
+- Implement and use **logistic regression** for binary classification with SGD.
+
+**Covered topics** and where to find more:
+
+- Linear models for classification [Section 4.1.1 of PRML]
+- Perceptron algorithm [Section 4.1.7 of PRML]
+- Probability distributions [Bernoulli Section 2.1, Categorical Section 2.2, Gaussian Section 2.3 of PRML]
+- Information theory [Section 1.6 of PRML]
+- Maximum likelihood estimation [Section 1.2.5 of PRML]
+- Logistic regression [Section 4.3.2 of PRML]
+- Cross-validation [Section 1.3 of PRML], covered in the practicals
+- [Logistic regression demo](https://mlu-explain.github.io/logistic-regression) by Jared Willber
+- [Perceptron visualization](https://vinizinho.net/projects/perceptron-viz/) by Vinícius Garcia
+- [IPython notebook on gradients and scaling](https://github.com/ufal/npfl129/blob/master/notebooks/gradient2.ipynb) and the [interactive script](https://raw.githubusercontent.com/ufal/npfl129/refs/heads/master/notebooks/gradient_interactive.py)
