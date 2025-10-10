@@ -2,7 +2,9 @@
 #### Date: Oct 6, Oct 9
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides/?02
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides.pdf/npfl129-2526-02.pdf, PDF Slides
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-02-czech.mp4, CS Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-02-english.mp4, EN Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-02-practicals-english.mp4, EN Practicals
 #### Lecture assignment: linear_regression_l2
 #### Lecture assignment: linear_regression_sgd
 #### Lecture assignment: feature_engineering
