@@ -2,6 +2,10 @@
 #### Date: Oct 13, Oct 16
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides/?03
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides.pdf/npfl129-2526-03.pdf, PDF Slides
+#### Lecture assignment: perceptron
+#### Lecture assignment: logistic_regression_sgd
+#### Lecture assignment: grid_search
+#### Lecture assignment: thyroid_competition
 #### Questions: #lecture_3_questions
 
 **Learning objectives.** After the lecture you should be able to
