@@ -53,3 +53,29 @@
 1. Write down an $L^2$-regularized minibatch SGD algorithm for training a binary *logistic regression* model, including the explicit formulas (i.e., formulas you would need to code it in `numpy`) of the loss function and its gradient (saying just $\nabla$ is not enough). [20]
 
 1. Compare and contrast perceptron and logistic regression by discussing: (a) what each algorithm optimizes, (b) whether each provides probability estimates, (c) whether each is guaranteed to converge, and (d) the quality of solutions each finds. [10]
+
+1. Explain in intuitive terms why we use the logarithm when working with likelihoods in machine learning. What are the computational and optimization advantages of using negative log-likelihood instead of directly maximizing the likelihood? [5]
+
+#### Questions@:, Lecture 4 Questions
+
+1. Define mean squared error and show how it can be derived using MLE. What assumptions do we make during such derivation? [10]
+
+1. Considering $K$-class logistic regression model, write down its parameters (including their size) and explain how we decide what classes the input data belong to (including the formula for the softmax function). [10]
+
+1. Explain the relationship between the sigmoid function and softmax. [5]
+
+1. Show that the softmax function is invariant towards constant shift. [5]
+
+1. Write down an $L^2$-regularized minibatch SGD algorithm for training a $K$-class logistic regression model, including the explicit formulas (i.e., formulas you would use to code it in `numpy`) of the loss function and its gradient. [20]
+
+1. Prove that decision regions of a multiclass logistic regression are convex. [10]
+
+1. Considering a single-layer MLP with $D$ input neurons, $H$ hidden neurons, $K$ output neurons, hidden activation $f$, and output activation $a$, list its parameters (including their size) and write down how the output is computed. [10]
+
+1. List the definitions of frequently used MLP output layer activations (the ones producing parameters of a Bernoulli distribution and a categorical distribution). Then, write down three commonly used hidden layer activations (sigmoid, tanh, ReLU). Explain why identity is not a suitable activation for hidden layers. [10]
+
+1. Explain the role of initialization in training MLPs. Why is it problematic to initialize all weights to zero? What is a common strategy for random initialization, and why does it typically scale with the input dimension? [10]
+
+1. You have trained two models on the same dataset: (1) logistic regression and (2) a multilayer perceptron with one hidden layer of 100 neurons. The MLP achieves 95% training accuracy while logistic regression achieves 85%. However, both achieve 84% test accuracy. Interpret these results and explain what they suggest about the models and the data. [5]
+
+1. You are supposed to train an MLP for regression that has several numeric features as the input. How would you preprocess them? Specifically, would you use polynomial features? Explain your decision. [5]
