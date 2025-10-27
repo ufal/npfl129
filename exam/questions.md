@@ -82,7 +82,9 @@
 
 #### Questions@:, Lecture 5 Questions
 
-1. Considering a single-layer MLP with $D$ input neurons, a ReLU hidden layer with $H$ units, and a softmax output layer with $K$ units, write down the explicit formulas (i.e., formulas you would use to code it in `numpy`) of the gradient of the loss function with respect to all the MLP parameters (two weight matrices and two bias vectors), assuming input $\boldsymbol x$, target $t$, and negative log likelihood loss. [20]
+1. Considering a single-layer MLP with $D$ input neurons, a ReLU hidden layer with $H$ units, and a softmax output layer with $K$ units, write down the explicit formulas (i.e., formulas you would use to code it in `numpy`) for the forward pass through the MLP. [10]
+
+1. Compute the partial derivative of $-\log \operatorname{softmax}(\boldsymbol{z})$ with respect to $\boldsymbol{z}$. Explain how this computation is used when training MLP. [20]
 
 1. Formulate the computation of MLP as a computation graph. What do the nodes and the edges of the graph represent? Explain how such a graph can be used to compute the gradients of the parameters in the back-propagation algorithm. [10]
 
