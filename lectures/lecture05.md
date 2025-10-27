@@ -2,6 +2,8 @@
 #### Date: Oct 27, Oct 30
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides/?05
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides.pdf/npfl129-2526-05.pdf,PDF Slides
+#### Lecture assignment: multilabel_classification_sgd
+#### Lecture assignment: diacritization
 #### Questions: #lecture_5_questions
 
 **Learning objectives.** After the lecture you should be able to
