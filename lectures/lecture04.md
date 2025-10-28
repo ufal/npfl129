@@ -4,6 +4,7 @@
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides.pdf/npfl129-2526-04.pdf,PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-04-czech.mp4, CS Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-04-english.mp4, EN Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-04-practicals-czech.mp4, CS Practicals
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-04-practicals-english.mp4, EN Practicals
 #### Lecture assignment: softmax_classification_sgd
 #### Lecture assignment: mlp_classification_sgd
