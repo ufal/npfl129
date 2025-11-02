@@ -103,3 +103,21 @@
 1. Explain the difference between micro-averaged and macro-averaged $F_1$ scores. Under what circumstances do we use them? [10]
 
 1. Explain (using examples) why accuracy is not a suitable metric for unbalanced target classes, e.g., for a diagnostic test for a contagious disease. [5]
+
+#### Questions@:, Lecture 6 Questions
+
+1. Explain how the TF-IDF weight of a given document-term pair is computed. [5]
+
+1. What is Zipf's law? Explain how it can be used to provide intuitive justification for using the logarithm when computing IDF. [5]
+
+1. Define conditional entropy and mutual information, write down the relation between them, and finally prove that mutual information is zero if and only if the two random variables are independent (you do not need to prove statements about $D_\textrm{KL}$). [10]
+
+1. Show that TF-IDF terms can be considered portions of suitable mutual information. [10]
+
+1. Explain the concept of word embedding in the context of MLP and how it relates to representation learning. [5]
+
+1. Describe the skip-gram model trained using negative sampling. What is it used for? What are the input and output of the algorithm? Use an equation to describe the loss function. [10]
+
+1. Explain why the skip-gram model uses negative sampling instead of softmax. [5]
+
+1. How would you train a part-of-speech tagger (i.e., you want to assign each word to its part of speech) if you could only use labeled data, pre-trained word embeddings and MLP classifier? [5]
