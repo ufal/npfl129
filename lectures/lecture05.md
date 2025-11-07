@@ -4,6 +4,7 @@
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-05-czech.mp4, CS Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-05-english.mp4, EN Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-05-practicals-czech.mp4, CS Practicals
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-05-practicals-english.mp4, EN Practicals
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides.pdf/npfl129-2526-05.pdf,PDF Slides
 #### Lecture assignment: multilabel_classification_sgd
 #### Lecture assignment: diacritization
@@ -23,3 +24,5 @@
 - Derivation of softmax via the maximum entropy principle [[The equivalence of logistic regression and maximum entropy models writeup](https://github.com/WinVector/Examples/blob/main/dfiles/LogisticRegressionMaxEnt.pdf)]
 - $F_1$ score and $F_β$ score
 - [IPython notebook on micro and macro F1-score](https://github.com/ufal/npfl129/blob/master/notebooks/confusion_matrix.ipynb)
+
+After the lecture: short and non-comprehensive [**recap quiz**](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect05).
