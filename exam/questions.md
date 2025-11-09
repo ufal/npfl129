@@ -121,3 +121,19 @@
 1. Explain why the skip-gram model uses negative sampling instead of softmax. [5]
 
 1. How would you train a part-of-speech tagger (i.e., you want to assign each word to its part of speech) if you could only use labeled data, pre-trained word embeddings and MLP classifier? [5]
+
+#### Questions@:, Lecture 7 Questions
+
+1. Describe the prediction of $k$ nearest neighbors, both for regression and classification. Define $L_p$ norm and describe uniform, inverse, and softmax weighting. [10]
+
+1. Show that $L^2$-regularization can be obtained from a suitable prior by Bayesian inference (from the MAP estimate). [10]
+
+1. Write down how $p(C_k | \boldsymbol x)$ is approximated in a Naive Bayes classifier, explicitly state the Naive Bayes assumption, and show how the prediction is performed. [10]
+
+1. Considering a Gaussian Naive Bayes, describe how probabilities $p(x_d | C_k)$ are modeled (what distribution and which parameters it has) and how we estimate it during fitting. [10]
+
+1. Considering a Bernoulli Naive Bayes, describe how probabilities $p(x_d | C_k)$ are modeled (what distribution and which parameters it has) and how we estimate it during fitting. [10]
+
+1. What measures can we take to prevent numeric instabilities in the Naive Bayes classifier, particularly if the probability density is too high in Gaussian Naive Bayes and there are zero probabilities in Bernoulli Naive Bayes? [10]
+
+1. What is the difference between discriminative and (classical) generative models? [5]
