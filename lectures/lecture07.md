@@ -3,6 +3,9 @@
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides/?07
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides.pdf/npfl129-2526-07.pdf,PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-07-english.mp4, EN Lecture
+#### Lecture assignment: k_nearest_neighbors
+#### Lecture assignment: naive_bayes
+#### Lecture assignment: isnt_it_ironic
 #### Questions: #lecture_7_questions
 
 **Learning objectives.** After the lecture you should be able to
