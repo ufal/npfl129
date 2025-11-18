@@ -16,8 +16,8 @@ We use an artificial dataset, which for every sentence contains:
 - human rating of the sentence (with the proposed edits applied).
 
 Using bootstrap resampling, compute the mean human rating and $F_\beta$-score
-for each sampled dataset and then manually compute the Pearson correlation
-for betas between 0 and 2, and return the most correlating beta.
+for each sampled dataset, then **manually** compute the Pearson correlation
+for betas between 0 and 2, and return the beta with highest correlation.
 
 #### Tests Start: metric_correlation_tests
 _Note that your results may be slightly different (because of varying floating point arithmetic on your CPU)._
