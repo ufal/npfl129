@@ -137,3 +137,23 @@
 1. What measures can we take to prevent numeric instabilities in the Naive Bayes classifier, particularly if the probability density is too high in Gaussian Naive Bayes and there are zero probabilities in Bernoulli Naive Bayes? [10]
 
 1. What is the difference between discriminative and (classical) generative models? [5]
+
+#### Questions@:, Lecture 8 Questions
+
+1. Prove that independent discrete random variables are uncorrelated. [10]
+
+1. Give an example of two random variables that are dependent but uncorrelated. [5]
+
+1. Write down the definition of covariance and Pearson correlation coefficient $\rho$, including its range. [10]
+
+1. Explain how Spearman's rank correlation coefficient and Kendall's rank correlation coefficient are computed (there is no need to describe the Pearson correlation coefficient). [10]
+
+1. Describe setups or tasks where a correlation coefficient might be a good model evaluation metric. [5]
+
+1. Describe under what circumstance correlation can be used to assess the validity of evaluation metrics. Name examples of tasks. What data do you need besides the model predictions and the targets? [10]
+
+1. Define Mean Reciprocal Rank (MRR) and explain for what tasks it is used. Describe a scenario where you would prefer MRR over Spearman/Kendall correlation. [10]
+
+1. Define Cohen's $\kappa$ (including the definition of the respective probabilities) and explain what it is used for when collecting data for machine learning. [10]
+
+1. Explain the relationship between inter-annotator agreement and expected model performance. Why is it suspicious if a model achieves performance significantly above the inter-annotator agreement? What does this suggest about the model and the data? [10]
