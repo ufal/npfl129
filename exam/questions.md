@@ -157,3 +157,27 @@
 1. Define Cohen's $\kappa$ (including the definition of the respective probabilities) and explain what it is used for when collecting data for machine learning. [10]
 
 1. Explain the relationship between inter-annotator agreement and expected model performance. Why is it suspicious if a model achieves performance significantly above the inter-annotator agreement? What does this suggest about the model and the data? [10]
+
+#### Questions@:, Lecture 9 Questions
+
+1. Considering an averaging ensemble of $M$ models, prove the relation between the average mean squared error of the ensemble and the average error of the individual models, assuming the model errors have zero means and are uncorrelated. Use a formula to explain what uncorrelated errors mean in this context. [20]
+
+1. Explain knowledge distillation: what it is used for, describe how it is done. What is the loss function? How does it differ from standard training? [10]
+
+1. Describe the difference between voting (hard voting) and averaging (soft voting) in classification ensembles. Assuming, you have classication into three classes, give an example of classifier outputs where hard voting and soft voting differ. [10]
+
+1. List and explain three common heuristics used to control the growth of decision trees. Explain what problem it helps prevent and why. [10]
+
+1. In a regression decision tree, state what values are kept in internal nodes, define the squared error criterion, and describe how a leaf is split during training (without discussing splitting constraints). [10]
+
+1. Explain the CART algorithm for constructing a decision tree. Explain the relationship between the loss function that is optimized during the decision tree construction and the splitting criterion that is during the node splitting. [10]
+
+1. In a binary classification decision tree, state what values are kept in internal nodes, define the Gini index, and describe how a node is split during training (without discussing splitting constraints). [10]
+
+1. In a $K$-class classification decision tree, state what values are kept in internal nodes, define the entropy criterion, and describe how a node is split during training (without discussing splitting constraints). [10]
+
+1. For binary classification using decision trees, derive the Gini index from a squared error loss. [20]
+
+1. For $K$-class classification using decision trees, derive the entropy criterion from a non-averaged NLL loss. [20]
+
+1. Describe how a random forest is trained (including bagging and a random subset of features) and how prediction is performed for regression and classification. [10]
