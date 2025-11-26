@@ -53,7 +53,7 @@ def main(args: argparse.Namespace) -> Optional[npt.ArrayLike]:
         # If you trained one or more MLPs, you can use the following code
         # to compress it significantly (approximately 12 times). The snippet
         # assumes the trained `MLPClassifier` is in the `mlp` variable.
-        #   mlp._optimizer = None
+        #   mlp._optimizer = mlp._best_coefs = mlp._best_intercepts = None
         #   for i in range(len(mlp.coefs_)): mlp.coefs_[i] = mlp.coefs_[i].astype(np.float16)
         #   for i in range(len(mlp.intercepts_)): mlp.intercepts_[i] = mlp.intercepts_[i].astype(np.float16)
 
