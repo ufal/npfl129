@@ -24,3 +24,5 @@
 - TF-IDF
 - Word2Vec ([original paper Mikolov et al., 2013](https://papers.nips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf))
 - [IPython notebook](https://github.com/ufal/npfl129/blob/master/notebooks/tfidf_w2v.ipynb) from the practicals
+
+After the lecture: short and non-comprehensive [**recap quiz**](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect06).
