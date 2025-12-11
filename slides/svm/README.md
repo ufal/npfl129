@@ -14,6 +14,9 @@ This presentation is written using [Typst](https://typst.app/) and [Polylux](htt
 2. **Install the fonts (if you don't have them yet)**
    - See `fonts/Fira Sans` and `fonts/Consolas`.
 3. **Export the slides**
+   ```bash
+   typst compile svm.typ svm.pdf
+   ```
 
 ## Resources
 
