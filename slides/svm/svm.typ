@@ -144,6 +144,70 @@
 #slide[
   = SVM primal formulation
 
+  Assume we have a decision boundary given by $bold(w)^T bold(x) + b = 0$ that perfectly separates our training data, i.e. $t_i y(bold(x)_i) > 0$ for all $i$.
+
+  The distance of a given point $x_i$ from the decision boundary is:
+  $
+    d_i = (|bold(w)^T bold(x)_i + b|)/ (||bold(w)||) = (t_i y(bold(x_i))) / (||bold(w)||)
+  $
+
+  The margin $m$ is the distance of the point closest to the decision boundary:
+  $
+    m = min_i d_i = (min_i t_i y(bold(x_i))) / (||bold(w)||)
+  $
+]
+
+#slide[
+  = SVM primal formulation
+
+  Notice if we multiply the weights and bias by a positive constant $c > 0$:
+  $
+    bold(w)' = c dot bold(w), b' = c dot b
+  $
+  we do not change the decision boundary they describe. The values $y'(bold(x)_i) = bold(w)'^T bold(x)_i + b'$ this have the same sign, but their magnitude changes:
+  $
+    y'(bold(x_i)) = c dot y(bold(x_i))
+  $
+
+  We will set $c$ such that $t_i y(bold(x)_i) = 1$ for the closest point $x_i$ to the decision boundary.
+
+  In other words $min_i t_i y(bold(x)_i) = 1$, but also:
+  $
+    t_i y(bold(x)_i) >= 1
+  $
+]
+
+#slide[
+  = SVM primal formulation
+
+  With $min_i t_i y(bold(x)_i) = 1$, we get that the margin is:
+
+  $
+    m = (min_i t_i y(bold(x_i))) / (||bold(w)||) = 1 / (||bold(w)||)
+  $
+
+  We want to find $bold(w), b$ that maximize the margin and satisfy $t_i y(bold(x)_i) >= 1 #h(0.5em) forall i$:
+
+  #align(center)[
+    $bold(w)^*,b^* = argmax_(bold(w), b)1/(||bold(w)||)$
+    #h(3em)
+    s.t.: #h(0.5em) $t_i y(bold(x)_i) - 1 >= 0$
+    #h(0.5em) $forall i$
+  ]
+
+  Or equivalently...
+  #align(center)[
+    $bold(w)^*,b^* = argmin_(bold(w), b)1/2||bold(w)||^2$
+    #h(3em)
+    s.t.: #h(0.5em) $t_i y(bold(x)_i) - 1 >= 0$
+    #h(0.5em) $forall i$
+  ]
+
+]
+
+#slide[
+  = SVM primal formulation
+
   What we have arrived at:
 
   #infobox(fill: blue)[
