@@ -55,6 +55,8 @@ class PCATransformer(sklearn.base.TransformerMixin):
     def fit(self, X, y=None):
         generator = np.random.RandomState(self._seed)
 
+        # TODO: Compute the data mean and store it as `self._mean`.
+
         # TODO: Compute the `self._n_components` principal components
         # and store them as columns of `self._V` matrix.
         if self._n_components <= 10:
@@ -78,7 +80,7 @@ class PCATransformer(sklearn.base.TransformerMixin):
         return self
 
     def transform(self, X):
-        # TODO: Transform the given `X` using the precomputed `self._V`.
+        # TODO: Transform the given `X` using the precomputed `self._mean` and `self._V`.
         raise NotImplementedError()
 
 
