@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+  <key>name</key><string>ÚFAL</string>
+  <key>author</key><string>kasnerz</string>
+  <key>settings</key>
+  <array>
+    <!-- Default styles -->
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key><string>#eeeeee</string>
+        <key>foreground</key><string>#333333</string>
+      </dict>
+    </dict>
+    <!-- Comments -->
+    <dict>
+      <key>scope</key><string>comment</string>
+      <key>settings</key><dict><key>foreground</key><string>#888888</string></dict>
+    </dict>
+    <!-- Meta -->
+    <!-- REMOVED: too broad, overrides Python defs -->
+    <!-- <dict>
+      <key>scope</key><string>meta</string>
+      <key>settings</key><dict><key>foreground</key><string>#888888</string></dict>
+    </dict> -->
+    <!-- Strings -->
+    <dict>
+      <key>scope</key><string>string</string>
+      <key>settings</key><dict><key>foreground</key><string>#f47b20</string></dict>
+    </dict>
+    <!-- Keywords -->
+    <dict>
+      <key>scope</key><string>keyword</string>
+      <key>settings</key><dict><key>foreground</key><string>#f47b20</string></dict>
+    </dict>
+    <!-- Variables -->
+    <dict>
+      <key>scope</key><string>variable</string>
+      <key>settings</key><dict><key>foreground</key><string>#f47b20</string></dict>
+    </dict>
+    <!-- Template variables -->
+    <dict>
+      <key>scope</key><string>variable.parameter</string>
+      <key>settings</key><dict><key>foreground</key><string>#333333</string></dict>
+    </dict>
+    <!-- Types -->
+    <dict>
+      <key>scope</key><string>storage.type</string>
+      <key>settings</key><dict><key>foreground</key><string>#f47b20</string></dict>
+    </dict>
+    <!-- Attributes -->
+    <dict>
+      <key>scope</key><string>entity.other.attribute-name</string>
+      <key>settings</key><dict><key>foreground</key><string>#0086b3</string></dict>
+    </dict>
+    <!-- Literals -->
+    <dict>
+      <key>scope</key><string>constant</string>
+      <key>settings</key><dict><key>foreground</key><string>#0086b3</string></dict>
+    </dict>
+
+    <!-- Entity names (generic) -->
+    <dict>
+      <key>scope</key><string>entity.name</string>
+      <key>settings</key><dict><key>foreground</key><string>#63a35c</string></dict>
+    </dict>
+
+    <!-- Function names: make explicit and high precedence -->
+    <dict>
+      <key>scope</key>
+      <string>
+        entity.name.function,
+        entity.name.function.python,
+        meta.function.python entity.name.function,
+        support.function,
+        support.function.python
+      </string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key><string>#795da3</string>
+      </dict>
+    </dict>
+
+    <!-- Tags -->
+    <dict>
+      <key>scope</key><string>entity.name.tag</string>
+      <key>settings</key><dict><key>foreground</key><string>#333333</string></dict>
+    </dict>
+    <!-- Numbers -->
+    <dict>
+      <key>scope</key><string>constant.numeric</string>
+      <key>settings</key><dict><key>foreground</key><string>#795da3</string></dict>
+    </dict>
+    <!-- Addition (diff) -->
+    <dict>
+      <key>scope</key><string>markup.inserted</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key><string>#55a532</string>
+        <key>background</key><string>#eaffea</string>
+      </dict>
+    </dict>
+    <!-- Deletion (diff) -->
+    <dict>
+      <key>scope</key><string>markup.deleted</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key><string>#bd2c00</string>
+        <key>background</key><string>#ffecec</string>
+      </dict>
+    </dict>
+  </array>
+</dict>
+</plist>
