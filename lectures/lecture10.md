@@ -21,3 +21,12 @@
 - Gradient boosting decision trees [Paper [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/abs/1603.02754)]
 
   - [Interactive Playground](http://arogozhnikov.github.io/2016/07/05/gradient_boosting_playground.html) by Alex Rogozhnikov
+
+**Practicals: Extra materials**
+- See the English practicals video from the 46th minute
+- Histogram Gradient Boosting
+  - [slides](https://github.com/thomasjpfan/pydata-2019-histgradientboosting/blob/master/presentation.pdf) (see *binning* on the slide 22)
+- Support Vector Machines (SVMs):
+  - 22/23 NPFL129 lectures [#6](https://ufal.mff.cuni.cz/courses/npfl129/2223-winter#6_kernel_methods_svm) and [#7](https://ufal.mff.cuni.cz/courses/npfl129/2223-winter#7_soft_margin_svm_smo)
+  - [MIT lecture](https://www.youtube.com/watch?v=_PwhiWxHK8o)
+  - Stanford CS229 [lecture notes](https://cs229.stanford.edu/summer2020/cs229-notes3.pdf)
