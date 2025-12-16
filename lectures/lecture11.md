@@ -2,7 +2,10 @@
 #### Date: Dec 8
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides/?11
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides.pdf/npfl129-2526-11.pdf,PDF Slides
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2425/npfl129-2425-11-czech.mp4, CS 24/25
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-11-english.mp4, EN Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-11-practicals-czech.mp4, CS Practicals
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-11-practicals-english.mp4, EN Practicals
 #### Lecture assignment: pca
 #### Lecture assignment: kmeans
 #### Lecture assignment: nli_competition
