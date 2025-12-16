@@ -2,6 +2,8 @@
 #### Date: Dec 15
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides/?12
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2526/slides.pdf/npfl129-2526-12.pdf,PDF Slides
+#### Lecture assignment: bootstrap_resampling
+#### Lecture assignment: permutation_test
 #### Questions: #lecture_12_questions
 
 **Learning objectives.** After the lecture you should be able to
