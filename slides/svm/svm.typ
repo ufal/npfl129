@@ -160,16 +160,16 @@
 #slide[
   = SVM primal formulation
 
-  Notice if we multiply the weights and bias by a positive constant $c > 0$:
+  Notice that if we multiply the weights and bias by a positive constant $c > 0$:
   $
     bold(w)' = c dot bold(w), b' = c dot b
   $
-  we do not change the decision boundary they describe. The values $y'(bold(x)_i) = bold(w)'^T bold(x)_i + b'$ this have the same sign, but their magnitude changes:
+  we do not change the decision boundary they describe. The values $y'(bold(x)_i) = bold(w)'^T bold(x)_i + b'$ still have the same sign, but their magnitude changes:
   $
     y'(bold(x_i)) = c dot y(bold(x_i))
   $
 
-  We will set $c$ such that $t_i y(bold(x)_i) = 1$ for the closest point $x_i$ to the decision boundary.
+  We will set $c$ such that $t_i y(bold(x)_i) = 1$ holds for the closest point $x_i$ to the decision boundary.
 
   In other words $min_i t_i y(bold(x)_i) = 1$, but also:
   $
@@ -191,7 +191,7 @@
   #align(center)[
     $bold(w)^*,b^* = argmax_(bold(w), b)1/(||bold(w)||)$
     #h(3em)
-    s.t.: #h(0.5em) $t_i y(bold(x)_i) - 1 >= 0$
+    s.t.: #h(0.5em) $t_i y(bold(x)_i) >= 1$
     #h(0.5em) $forall i$
   ]
 
@@ -232,13 +232,11 @@
 
 #slide[
   = Constrained Optimization - Equality Constraints
-
+  Given a function $f(bold(x))$, we want to find its minimum w.r.t. the input $bold(x)$.
   #toolbox.side-by-side(gutter: 1em, columns: (2fr, 1fr))[
     #enum(numbering: "a)",
       [
-        Given a function $f(bold(x))$, we want to find its minimum w.r.t. a vector $bold(x)$.
-
-        $=>$ We investigate the critical points: $nabla_bold(x) f(bold(x)) = 0$
+        Without any constraints, we investigate the critical points: $nabla_bold(x) f(bold(x)) = 0$
       ],
       [
         #show: later
@@ -279,7 +277,7 @@
 
         #align(center)[$nabla_(bold(x)) cal(L)(bold(x), bold(lambda)) = 0$]
 
-        Now, there are two cases to examine for each constraint.
+        Now, there are two cases that can happen for each constraint.
 
         Consider first a simpler case with a convex function $f(bold(x))$, and a single constraint $g(bold(x)) >= 0$.
       ]
@@ -498,22 +496,36 @@
   $
     cal(L)(bold(alpha)) = sum_i alpha_i - 1/2 sum_i sum_j alpha_i alpha_j t_i t_j bold(x)_i^T bold(x)_j
   $
-
-  We know from the *Theorem*, that if we find $bold(alpha)$ that satisfy the KKT conditions, we can express:
-  $
-    bold(w)^* = sum_i alpha_i t_i x_i
-  $
-  Furthermore, $b^* = t_s - bold(w)^(*T)x_s$ for any $alpha_s > 0$, because $alpha_s (t_s y(bold(x)_s) - 1) = 0$.
 ]
 
 #slide[
+  We know that we can describe $bold(w)$ using the multipliers $bold(alpha)$:
+  $
+    bold(w) = sum_i alpha_i t_i x_i
+  $
+  Since the KKT conditions are *sufficient* for our problem,
+  we know that finding $bold(alpha)^*$ that satisfy all KKT conditions will be enough to describe the optimal weights:
+
+  $
+    bold(w)^* = sum_i alpha^*_i t_i x_i
+  $
+
+  With those, we can also express the optimal bias $b^*$,
+  $
+    b^* = t_s - bold(w)^(*T)x_s
+  $
+  for any $alpha_s > 0$, because $alpha_s (t_s y(bold(x)_s) - 1) = 0$.
+
+
   We must now find $bold(alpha)^*$ that satisfy the KKT conditions. From the *Lemma*, we know that such $bold(alpha)^*$ maximize the Lagrangian $cal(L)(bold(alpha))$ subject to $alpha_i >= 0$. Therefore, we will find them as:
 
   $
     bold(alpha)^* = argmax_bold(alpha) sum_i alpha_i - 1/2 sum_i sum_j alpha_i alpha_j t_i t_j bold(x)_i^T bold(x)_j #h(3em) text("s.t.") alpha_i >= 0
   $
 
-  But, during derivation we also found the condition $sum_i alpha_i t_i = 0$.
+  But we have also found the condition $sum_i alpha_i t_i = 0$, which we must satisfy as well.
+
+  We have arrived to a dual problem which is, in a sense, equivalent to our original problem. However, the dual can be solved using quadratic programming.
 ]
 
 #slide[
@@ -577,7 +589,7 @@
   ]
 
   - Thanks to the lemma, we don't need to explicitly satisfy the KKTs. We know they will be satisfied for $bold(alpha)^*$.
-  - From the KKTs, we know that #text(fill: color.green.darken(40%), [$alpha_i (t_i y(bold(x_i)) - 1) = 0$]). For most samples $x_i$, we'll actually have $alpha_i = 0$. Those with $alpha_i > 0$ are the *support vectors*.
+  - From the KKTs, we know that #text(fill: color.green.darken(40%), [$alpha_i (t_i y(bold(x_i)) - 1) = 0$]). For most samples $x_i$, we'll actually have $alpha_i = 0$. Those samples with $alpha_i > 0$ are the *support vectors*, which describe the decision boundary.
 ]
 
 #slide[
