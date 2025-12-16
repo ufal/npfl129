@@ -1,5 +1,5 @@
 ### Assignment: bootstrap_resampling
-#### Date: Deadline: Feb 15, 23:59
+#### Date: Deadline: Feb 15, 22:00
 #### Points: 3 points
 #### Tests: bootstrap_resampling_tests
 

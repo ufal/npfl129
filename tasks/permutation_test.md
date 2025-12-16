@@ -1,5 +1,5 @@
 ### Assignment: permutation_test
-#### Date: Deadline: Feb 15, 23:59
+#### Date: Deadline: Feb 15, 22:00
 #### Points: 2 point
 #### Tests: permutation_test_tests
 
