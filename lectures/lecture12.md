@@ -22,3 +22,5 @@
 - Bootstrap resampling
 - Paired bootstrap test
 - Random permutation test
+
+After the lecture: short and non-comprehensive [**recap quiz**](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect12).
