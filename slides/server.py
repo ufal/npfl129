@@ -29,7 +29,7 @@ if __name__ == "__main__":
     with SimpleHTTPServer(args.port) as server:
         try:
             host, port = server.socket.getsockname()
-            print("Serving HTTP on http://{}:{}/".format(host, port))
+            print(f"Serving HTTP on http://{host}:{port}/")
             server.serve_forever()
         except KeyboardInterrupt:
             print("\nKeyboard interrupt received, exiting.")

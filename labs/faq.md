@@ -1,27 +1,5 @@
 ### TOC: FAQ
 
-### TOCEntry: Install
-
-- _Installing to central user packages repository_
-
-  You can install all required packages to central user packages repository using
- `pip3 install --user scikit-learn==1.7.2 numpy==2.3.3 scipy==1.16.2 pandas==2.3.2 matplotlib==3.10.6`.
-
-- _Installing to a virtual environment_
-
-  Python supports virtual environments, which are directories containing
-  independent sets of installed packages. You can create a virtual environment
-  by running `python3 -m venv VENV_DIR` followed by
-  `VENV_DIR/bin/pip3 install scikit-learn==1.7.2 numpy==2.3.3 scipy==1.16.2 pandas==2.3.2 matplotlib==3.10.6`
-  (or `VENV_DIR/Scripts/pip3` on Windows).
-
-- _**Windows** installation_
-
-  - On Windows, it can happen that `python3` is not in PATH, while `py` command
-    is; in that case you can use `py -m venv VENV_DIR`, which uses the newest
-    Python available, or for example `py -3.11 -m venv VENV_DIR`, which uses
-    Python version 3.11.
-
 ### TOCEntry: Git
 
 - _Is it possible to keep the solutions in a Git repository?_
@@ -67,7 +45,7 @@
   ```
   This creates a new remote `course_repo` and a clone of the `master` branch
   from it; however, `git pull` and `git push` in this branch will operate
-  on the repository your cloned originally.
+  on the repository you cloned originally.
 
   To update your branch with the changes from the course repository, run
   ```
