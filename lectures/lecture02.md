@@ -30,6 +30,6 @@
   - Stochastic gradient descent solution of linear regression
 - [Linear regression demo](https://mlu-explain.github.io/linear-regression) by Jared Willber
 - [Why Momentum Really Works](https://distill.pub/2017/momentum/) by Gabriel Goh
-- [IPython notebook on momentum](https://github.com/ufal/npfl129/blob/master/notebooks/gradient.ipynb)
+- [IPython notebook on momentum](https://github.com/ufal/npfl129/blob/past-2526/notebooks/gradient.ipynb)
 
 After the lecture: short and non-comprehensive [**recap quiz**](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect02).
