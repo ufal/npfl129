@@ -1,5 +1,27 @@
 ### TOC: FAQ
 
+### TOCEntry: Install
+
+- _Installing to central user packages repository_
+
+  You can install all required packages to central user packages repository using
+ `python3 -m pip install --user scikit-learn==1.9.1 numpy==2.5.3 scipy==1.18.1 pandas==3.0.6 matplotlib==3.11.2`.
+
+- _Installing to a virtual environment_
+
+  Python supports virtual environments, which are directories containing
+  independent sets of installed packages. You can create a virtual environment
+  by running `python3 -m venv VENV_DIR` followed by
+  `VENV_DIR/bin/pip install scikit-learn==1.9.1 numpy==2.5.3 scipy==1.18.1 pandas==3.0.6 matplotlib==3.11.2`
+  (or `VENV_DIR/Scripts/pip` on Windows).
+
+- _**Windows** installation_
+
+  - On Windows, it can happen that `python3` is not in PATH, while `py` command
+    is; in that case you can use `py -m venv VENV_DIR`, which uses the newest
+    Python available, or for example `py -3.14 -m venv VENV_DIR`, which uses
+    Python version 3.14.
+
 ### TOCEntry: Git
 
 - _Is it possible to keep the solutions in a Git repository?_
