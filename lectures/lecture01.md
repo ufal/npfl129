@@ -2,6 +2,8 @@
 #### Date: Sep 29, Sep 30
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides/?01
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides.pdf/npfl129-2627-01.pdf, PDF Slides
+#### Lecture assignment: linear_regression_manual
+#### Lecture assignment: linear_regression_features
 
 **Learning objectives.** After the lecture you should be able to…
 
