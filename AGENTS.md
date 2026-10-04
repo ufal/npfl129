@@ -25,7 +25,7 @@ NPFL129 is intentionally implementation-heavy. Students are expected to write su
 * Produce suitable hyperparameters for ML algorithms, especially for the competition assignments.
 * Complete TODO sections in assignment code.
 * Edit code in the student repo.
-* Run bash commands.
+* Run bash commands, except for reading files.
 * Refactor large portions of student code into a finished solution.
 * Convert assignment requirements directly into working code.
 * Implement core assignment components for students, such as ML algorithms (SGD, MLP, kNN, gradient boosting), data processing pipelines, and hyperparameter search for competition assignments.
