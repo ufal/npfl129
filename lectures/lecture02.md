@@ -3,6 +3,10 @@
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides/?02
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides.pdf/npfl129-2627-02.pdf, PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2627/npfl129-2627-02-czech.mp4, CS Lecture
+#### Lecture assignment: linear_regression_l2
+#### Lecture assignment: linear_regression_sgd
+#### Lecture assignment: feature_engineering
+#### Lecture assignment: rental_competition
 #### Questions: #lecture_2_questions
 
 **Learning objectives.** After the lecture you should be able to
