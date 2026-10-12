@@ -59,7 +59,7 @@ def main(args: argparse.Namespace) -> tuple[list[float], float, float]:
         test_rmses.append(...)
 
     # TODO: Compute into `explicit_rmse` test data RMSE when fitting
-    # `sklearn.linear_model.LinearRegression` on `train_data` (ignoring `args.l2`).
+    # `sklearn.linear_model.LinearRegression()` on `train_data` (ignoring `args.l2`).
     explicit_rmse = ...
 
     if args.plot:
