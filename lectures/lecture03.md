@@ -2,6 +2,7 @@
 #### Date: Oct 13, Oct 14
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides/?03
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides.pdf/npfl129-2627-03.pdf, PDF Slides
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2627/npfl129-2627-03-czech.mp4, CS Lecture
 #### Lecture assignment: perceptron
 #### Lecture assignment: logistic_regression_sgd
 #### Lecture assignment: grid_search
