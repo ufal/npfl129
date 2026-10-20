@@ -1,0 +1,41 @@
+digraph G { rankdir=LR; splines=line; bgcolor=invis;
+  node [shape=box]
+
+  x [ label=input ]
+  Wh [ label=<<b>W</b><sup><font point-size="10">(h)</font></sup>>, shape=circle, fillcolor=lightyellow, style=filled ]
+  hproj [ label=× ]
+
+  x -> hproj [ label=<<b>x</b>> ]
+  Wh -> hproj
+
+  b [ label=<<b>b</b><sup><font point-size="10">(h)</font></sup>>, shape=circle, fillcolor=lightyellow, style=filled ]
+
+  hin [ label=<+> ]
+
+  {hproj, b} -> hin
+
+  relu [ label=ReLU ]
+  hin -> relu
+
+   Wy [ label=<<b>W</b><sup><font point-size="10">(y)</font></sup>>, shape=circle, fillcolor=lightyellow, style=filled ]
+  yproj [ label=× ]
+
+  relu -> yproj [ label=<<b>h</b>> ]
+  Wy -> yproj
+
+  by [ label=<<b>b</b><sup><font point-size="10">(y)</font></sup>>, shape=circle, fillcolor=lightyellow, style=filled ]
+  y [ label=<+> ]
+
+  {yproj, by} -> y
+
+  softmax [ label=softmax ]
+
+  y -> softmax [ label=<<b>y</b><sup><font point-size="10">(in)</font></sup>> ]
+
+  t [ label=target ]
+  L [ label=NLL ]
+
+  softmax -> L [ label=<<b>y</b>> ]
+  t -> L [ label=<<i>t</i>> ]
+
+}

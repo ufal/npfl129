@@ -1,0 +1,12 @@
+digraph G { rankdir=LR; splines=line; bgcolor=invis;
+  x3 [ label=<x<sub><font point-size="10">3</font></sub>>]
+  x4 [ label=<x<sub><font point-size="10">4</font></sub>>]
+  x1 [ label=<x<sub><font point-size="10">1</font></sub>>]
+  x2 [ label=<x<sub><font point-size="10">2</font></sub>>]
+  y1 [ label=<y<sub><font point-size="10">1</font></sub>>]
+  y2 [ label=<y<sub><font point-size="10">2</font></sub>>]
+  {x1, x2, x3, x4} -> {y1, y2}
+  lx [ label=<Input layer<br/> >; shape=none ]
+  lo [ label=<Output layer<br/>activation  <i>a</i>>; shape=none ]
+  lx -> lo [ style=invis ]
+}
