@@ -21,7 +21,7 @@
 - MSE as MLE [Section 3.1.1 of PRML]
 - Multiclass logistic regression [Section 4.3.4 of PRML]
 - Multilayer perceptron (neural network) [Sections 5-5.3 of PRML]
-    - [Interactive demo of MLP](https://cs.stanford.edu/people/karpathy/convnetjs/demo/classify2d.html) by Andrej Karpathy
+    - [Interactive demo of MLP](https://ufal.mff.cuni.cz/~courses/npfl129/2627/demos/karpathy/classify2d.html) by Andrej Karpathy
 - Universal approximation theorem
 
 After the lecture: short and non-comprehensive [**recap quiz**](http://quest.ms.mff.cuni.cz/class-quiz/quiz/ml_intro_lect04).
