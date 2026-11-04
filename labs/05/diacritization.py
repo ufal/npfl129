@@ -41,7 +41,7 @@ class Dataset:
 
     def __init__(self,
                  name="fiction-train.txt",
-                 url="https://ufal.mff.cuni.cz/~courses/npfl129/2526/datasets/"):
+                 url="https://ufal.mff.cuni.cz/~courses/npfl129/2627/datasets/"):
         if not os.path.exists(name):
             print("Downloading dataset {}...".format(name), file=sys.stderr)
             licence_name = name.replace(".txt", ".LICENSE")

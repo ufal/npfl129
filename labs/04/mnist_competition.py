@@ -42,7 +42,7 @@ class Dataset:
     def __init__(self,
                  name="mnist.train.npz",
                  data_size=None,
-                 url="https://ufal.mff.cuni.cz/~courses/npfl129/2526/datasets/"):
+                 url="https://ufal.mff.cuni.cz/~courses/npfl129/2627/datasets/"):
         if not os.path.exists(name):
             print("Downloading dataset {}...".format(name), file=sys.stderr)
             urllib.request.urlretrieve(url + name, filename="{}.tmp".format(name))

@@ -47,7 +47,7 @@ class Dataset:
     """
     def __init__(self,
                  name="thyroid_competition.train.npz",
-                 url="https://ufal.mff.cuni.cz/~courses/npfl129/2526/datasets/"):
+                 url="https://ufal.mff.cuni.cz/~courses/npfl129/2627/datasets/"):
         if not os.path.exists(name):
             print("Downloading dataset {}...".format(name), file=sys.stderr)
             urllib.request.urlretrieve(url + name, filename="{}.tmp".format(name))
@@ -57,6 +57,20 @@ class Dataset:
         dataset = np.load(name)
         for key, value in dataset.items():
             setattr(self, key, value)
+
+
+class ThermometerBins(sklearn.base.BaseEstimator, sklearn.base.TransformerMixin):
+    def __init__(self, n_bins=5, strategy="quantile"):
+        self.n_bins, self.strategy = n_bins, strategy
+
+    def fit(self, X, y=None):
+        self.discretizer_ = sklearn.preprocessing.KBinsDiscretizer(self.n_bins, encode="ordinal", strategy=self.strategy)
+        self.discretizer_.fit(X)
+        return self
+
+    def transform(self, X):
+        X = self.discretizer_.transform(X)
+        return np.concatenate([X[:, [i]] >= np.arange(1, n) for i, n in enumerate(self.discretizer_.n_bins_)], axis=1)
 
 
 def main(args: argparse.Namespace) -> Optional[npt.ArrayLike]:
