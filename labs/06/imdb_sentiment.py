@@ -45,7 +45,7 @@ class Dataset:
     """
     def __init__(self,
                  name="imdb_train.txt",
-                 url="https://ufal.mff.cuni.cz/~courses/npfl129/2526/datasets/"):
+                 url="https://ufal.mff.cuni.cz/~courses/npfl129/2627/datasets/"):
         if not os.path.exists(name):
             print("Downloading dataset {}...".format(name), file=sys.stderr)
             urllib.request.urlretrieve(url + name, filename="{}.tmp".format(name))
@@ -63,7 +63,7 @@ class Dataset:
 
 def load_word_embeddings(
         name="imdb_embeddings.npz",
-        url="https://ufal.mff.cuni.cz/~courses/npfl129/2526/datasets/"):
+        url="https://ufal.mff.cuni.cz/~courses/npfl129/2627/datasets/"):
     """Load word embeddings.
 
     These are selected word embeddings from FastText. For faster download, it
