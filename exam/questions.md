@@ -22,7 +22,7 @@
 
 1. Explain the difference between hyperparameters and parameters. [5]
 
-1. Write an $L^2$-regularized minibatch SGD algorithm for training a *linear regression* model, including the explicit formulas (i.e, formulas you would need to code it with `numpy`) of the loss function and its gradient. [10]
+1. Write an $L^2$-regularized minibatch SGD algorithm for training a *linear regression* model, including the explicit formulas (i.e., formulas you would need to code it with `numpy`) of the loss function and its gradient. [10]
 
 1. Does the SGD algorithm for *linear regression* always find the best solution on the training data? If yes, explain under what conditions it happens; if not, explain why it is not guaranteed to converge. What properties of the error function does this depend on? [10]
 
@@ -32,7 +32,7 @@
 
 1. What methods can be used to normalize feature values? Explain why it is useful. [5]
 
-1. You have a dataset with a categorical feature “color” with values {“red”, “green”, “blue”}. Explain why using integer encoding (`red=0`, `green=1`, `blue=2`) is problematic for linear regression. How would encode such feature instead? [10]
+1. You have a dataset with a categorical feature “color” with values {“red”, “green”, “blue”}. Explain why using integer encoding (`red=0`, `green=1`, `blue=2`) is problematic for linear regression. How would you encode such a feature instead? [10]
 
 #### Questions@:, Lecture 3 Questions
 
@@ -40,7 +40,11 @@
 
 1. Explain what it means for a dataset to be linearly separable. Give an example of a simple 2D dataset that is *not* linearly separable and explain why the perceptron algorithm would fail on it. [10]
 
+1. For the Bernoulli distribution, the categorical distribution, and the normal distribution, state what values they are distributions over, what their parameters are, and write down the formula defining the probability (or probability density) of a value. [5]
+
 1. For discrete random variables, define entropy, cross-entropy, and Kullback-Leibler divergence, and prove the Gibbs inequality (i.e., that KL divergence is non-negative). [20]
+
+1. Can the entropy of a discrete random variable be negative? Can the entropy of a continuous random variable be negative? Prove your answer in the discrete case and give a concrete example in the continuous case. [10]
 
 1. Explain the notion of likelihood in machine learning. What likelihood are we estimating, and why do we do it? [10]
 
@@ -55,3 +59,91 @@
 1. Compare and contrast perceptron and logistic regression by discussing: (a) what each algorithm optimizes, (b) whether each provides probability estimates, (c) whether each is guaranteed to converge, and (d) the quality of solutions each finds. [10]
 
 1. Explain in intuitive terms why we use the logarithm when working with likelihoods in machine learning. What are the computational and optimization advantages of using negative log-likelihood instead of directly maximizing the likelihood? [5]
+
+#### Questions@:, Lecture 4 Questions
+
+1. Explain what a *generalized linear model* is. Then, for linear regression, binary logistic regression, and $K$-class logistic regression, state the activation function used, the probability distribution whose parameters the model predicts, and the loss function obtained by maximum likelihood estimation. [10]
+
+1. Define mean squared error and show how it can be derived using MLE. What assumptions do we make during such derivation? [10]
+
+1. Considering $K$-class logistic regression model, write down its parameters (including their size) and explain how we decide what classes the input data belong to (including the formula for the softmax function). [10]
+
+1. Explain the relationship between the sigmoid function and softmax. [5]
+
+1. Show that the softmax function is invariant towards constant shift. [5]
+
+1. Write down an $L^2$-regularized minibatch SGD algorithm for training a $K$-class logistic regression model, including the explicit formulas (i.e., formulas you would use to code it in `numpy`) of the loss function and its gradient. [20]
+
+1. Prove that decision regions of a multiclass logistic regression are convex. [10]
+
+1. Considering a single-layer MLP with $D$ input neurons, $H$ hidden neurons, $K$ output neurons, hidden activation $f$, and output activation $a$, list its parameters (including their size) and write down how the output is computed. [10]
+
+1. List the definitions of frequently used MLP output layer activations (the ones producing parameters of a Bernoulli distribution and a categorical distribution). Then, write down three commonly used hidden layer activations (sigmoid, tanh, ReLU). Explain why identity is not a suitable activation for hidden layers. [10]
+
+1. Explain the role of initialization in training MLPs. Why is it problematic to initialize all weights to zero? What is a common strategy for random initialization, and why does it typically scale with the input dimension? [10]
+
+1. You have trained two models on the same dataset: (1) logistic regression and (2) a multilayer perceptron with one hidden layer of 100 neurons. The MLP achieves 95\% training accuracy while logistic regression achieves 85\%. However, both achieve 84\% test accuracy. Interpret these results and explain what they suggest about the models and the data. [5]
+
+1. You are supposed to train an MLP for regression that has several numeric features as the input. How would you preprocess them? Specifically, would you use polynomial features? Explain your decision. [5]
+
+#### Questions@:, Lecture 5 Questions
+
+1. Considering a single-layer MLP with $D$ input neurons, a ReLU hidden layer with $H$ units, and a softmax output layer with $K$ units, write down the explicit formulas (i.e., formulas you would use to code it in `numpy`) for the forward pass through the MLP. [10]
+
+1. Compute the partial derivative of $-\log \operatorname{softmax}(\boldsymbol{z})$ with respect to $\boldsymbol{z}$. Explain how this computation is used when training MLP. [20]
+
+1. Formulate the computation of MLP as a computation graph. What do the nodes and the edges of the graph represent? Explain how such a graph can be used to compute the gradients of the parameters in the back-propagation algorithm. [10]
+
+1. Explain the concept of dropout as a regularization technique for MLPs. How does it work during training versus at test time, and what is the intuition behind why it improves generalization? [10]
+
+1. Formulate the Universal approximation theorem and explain in words what it says about multi-layer perceptron. [10]
+
+1. How do we search for a minimum of a function $f(\boldsymbol x): \mathbb{R}^D \rightarrow \mathbb{R}$ subject to equality constraints $g_1(\boldsymbol x)=0, \ldots, g_m(\boldsymbol x)=0$? [10]
+
+1. Determine which categorical distribution over $N$ classes has the maximum entropy and prove it. [10]
+
+1. Consider derivation of softmax using maximum entropy principle, assuming we have a dataset of $N$ examples $(x_i, t_i), x_i \in \mathbb{R}^D, t_i \in \{1, 2, \ldots, K\}$. Formulate the three conditions we impose on the searched $\pi: \mathbb{R}^D \rightarrow \mathbb{R}^K$, and write down the Lagrangian to be minimized. Explain in words what is the interpretation of the conditions. [20]
+
+1. Define precision (including true positives and others), recall, $F_1$ score, and $F_\beta$ score (we stated several formulations for $F_1$ and $F_\beta$ scores; any one of them will do). [10]
+
+1. Explain how changing the decision threshold of a binary logistic regression model affects precision and recall. What is a precision–recall curve and how is it constructed? Describe how you would tune the threshold if you want to maximize the $F_1$ score. [10]
+
+1. What is the area under the precision–recall curve, and what is its advantage over an $F_1$ score computed at a single decision threshold? [5]
+
+1. Explain the difference between micro-averaged and macro-averaged $F_1$ scores. Under what circumstances do we use them? [10]
+
+1. Explain (using examples) why accuracy is not a suitable metric for unbalanced target classes, e.g., for a diagnostic test for a contagious disease. [5]
+
+#### Questions@:, Lecture 6 Questions
+
+1. Explain how the TF-IDF weight of a given term-document pair is computed, including the formulas of both of its parts. [10]
+
+1. What is Zipf's law? Explain how it can be used to provide intuitive justification for using the logarithm when computing IDF. [5]
+
+1. Define conditional entropy and mutual information, write down the relation between them, and finally prove that mutual information is zero if and only if the two random variables are independent (you do not need to prove statements about $D_\textrm{KL}$). [10]
+
+1. Show that TF-IDF terms can be considered portions of mutual information between two suitably defined random variables. Define the random variables and write down the relation. [10]
+
+1. Explain the concept of word embedding in the context of MLP and how it relates to representation learning. [5]
+
+1. Describe the skip-gram model trained using negative sampling. What is it used for? What are the input and output of the algorithm? Use an equation to describe the loss function. [10]
+
+1. Explain why the skip-gram model uses negative sampling instead of softmax. [5]
+
+1. How would you train a part-of-speech tagger (i.e., you want to assign each word to its part of speech) if you could only use labeled data, pre-trained word embeddings and MLP classifier? [5]
+
+#### Questions@:, Lecture 7 Questions
+
+1. Describe the prediction of $k$ nearest neighbors, both for regression and classification. Define $L_p$ norm and describe uniform, inverse, and softmax weighting. [10]
+
+1. Show that $L^2$-regularization can be derived as a MAP estimate with a suitable prior over the model weights. What prior is it, and what does the regularization strength correspond to? [10]
+
+1. Write down how $p(C_k | \boldsymbol x)$ is approximated in a Naive Bayes classifier, explicitly state the Naive Bayes assumption, and show how the prediction is performed. [10]
+
+1. Considering a Gaussian Naive Bayes, describe how probabilities $p(x_d | C_k)$ are modeled (what distribution and which parameters it has) and how we estimate it during fitting. [10]
+
+1. Considering a Bernoulli Naive Bayes, describe how probabilities $p(x_d | C_k)$ are modeled (what distribution and which parameters it has) and how we estimate it during fitting. [10]
+
+1. What measures can we take to prevent numeric instabilities in the Naive Bayes classifier, particularly if the probability density is too high in Gaussian Naive Bayes and there are zero probabilities in Bernoulli Naive Bayes? [10]
+
+1. What is the difference between discriminative and (classical) generative models? [5]
