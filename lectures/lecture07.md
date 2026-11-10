@@ -3,6 +3,9 @@
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides/?07
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides.pdf/npfl129-2627-07.pdf, PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-07-czech.mp4, CS Lecture 25/26
+#### Lecture assignment: k_nearest_neighbors
+#### Lecture assignment: naive_bayes
+#### Lecture assignment: isnt_it_ironic
 #### Questions: #lecture_7_questions
 
 The Czech lecture on November 10 is canceled due to the rector's leave. Please watch the video from last year or attend the English lecture on Wednesday.
