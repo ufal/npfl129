@@ -147,3 +147,28 @@
 1. What measures can we take to prevent numeric instabilities in the Naive Bayes classifier, particularly if the probability density is too high in Gaussian Naive Bayes and there are zero probabilities in Bernoulli Naive Bayes? [10]
 
 1. What is the difference between discriminative and (classical) generative models? [5]
+
+
+#### Questions@:, Lecture 8 Questions
+
+1. Prove that independent discrete random variables are uncorrelated. [10]
+
+1. Give an example of two random variables that are dependent but uncorrelated. [5]
+
+1. Write down the definition of covariance and Pearson correlation coefficient $\rho$, including its range. [10]
+
+1. Explain how Spearman's rank correlation coefficient and Kendall's rank correlation coefficient are computed (you may refer to the Pearson correlation coefficient without defining it). [10]
+
+1. Describe setups or tasks where the correlation between the model predictions and the gold targets is itself a good model evaluation metric (as opposed to using correlation for meta-evaluation of evaluation metrics). [5]
+
+1. Describe under what circumstance correlation can be used to assess the validity of evaluation metrics. Name examples of tasks. What data do you need besides the model predictions and the targets? [10]
+
+1. Define Mean Reciprocal Rank (MRR) and explain for what tasks it is used. Describe a scenario where you would prefer MRR over Spearman/Kendall correlation. [10]
+
+1. Define Cohen's $\kappa$, including how the observed agreement and the expected agreement are computed, and explain what it is used for when collecting data for machine learning. [10]
+
+1. Explain the relationship between inter-annotator agreement and expected model performance. Why is it suspicious if a model achieves performance significantly above the inter-annotator agreement? What does this suggest about the model and the data? [10]
+
+1. Considering an averaging ensemble of $M$ models, prove the relation between the average mean squared error of the ensemble and the average error of the individual models, assuming the model errors have zero means and are uncorrelated. Use a formula to explain what uncorrelated errors mean in this context. [20]
+
+1. Explain knowledge distillation: what it is used for, describe how it is done. What is the loss function? How does it differ from standard training? [10]
