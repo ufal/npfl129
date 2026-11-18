@@ -1,7 +1,7 @@
 ### Lecture: 8. Correlation, Model Combination
 #### Date: Nov 18
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides/?08
-#### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides.pdf/npfl129-2627-08.pdf,PDF Slides
+#### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides.pdf/npfl129-2627-08.pdf, PDF Slides
 #### Lecture assignment: metric_correlation
 #### Lecture assignment: miniaturization
 #### Questions: #lecture_8_questions

@@ -1,7 +1,7 @@
 ### Lecture: 6. Representing Text (TF-IDF, Word2Vec)
 #### Date: Nov 3, Nov 6
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides/?06
-#### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides.pdf/npfl129-2627-06.pdf,PDF Slides
+#### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides.pdf/npfl129-2627-06.pdf, PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2627/npfl129-2627-06-czech.mp4, CS Lecture
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2627/npfl129-2627-06-english.mp4, EN Lecture
 #### Lecture assignment: tf_idf
