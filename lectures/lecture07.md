@@ -3,6 +3,7 @@
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides/?07
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides.pdf/npfl129-2627-07.pdf, PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2526/npfl129-2526-07-czech.mp4, CS Lecture 25/26
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2627/npfl129-2627-07-english.mp4, EN Lecture
 #### Lecture assignment: k_nearest_neighbors
 #### Lecture assignment: naive_bayes
 #### Lecture assignment: isnt_it_ironic
