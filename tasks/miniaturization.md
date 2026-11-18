@@ -18,5 +18,6 @@ modifies `MLPClassifier` to support full categorical distributions on input,
 i.e., each label is a distribution over the predicted classes. Such a classifier
 might be useful for example for knowledge distillation.
 
-You can use **any sklearn/numpy/scipy algorithm** to solve this exercise
-(and of course anything you implement yourself).
+You can use **any sklearn/numpy/scipy algorithm** to solve this assignment
+(and of course anything you implement yourself). You can also use the
+`mnist_competition` reference solution in this competition.
