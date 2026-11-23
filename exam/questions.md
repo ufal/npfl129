@@ -172,3 +172,26 @@
 1. Considering an averaging ensemble of $M$ models, prove the relation between the average mean squared error of the ensemble and the average error of the individual models, assuming the model errors have zero means and are uncorrelated. Use a formula to explain what uncorrelated errors mean in this context. [20]
 
 1. Explain knowledge distillation: what it is used for, describe how it is done. What is the loss function? How does it differ from standard training? [10]
+
+
+#### Questions@:, Lecture 9 Questions
+
+1. List and explain three common heuristics used to control the growth of decision trees. Explain what problem it helps prevent and why. [10]
+
+1. In a regression decision tree, state what information is stored in the internal (decision) nodes and what in the leaves, define the squared error criterion, and describe how a leaf is split during training (without discussing splitting constraints). [10]
+
+1. Explain the CART algorithm for constructing a decision tree. Explain the relationship between the loss function that is optimized during the decision tree construction and the splitting criterion that is during the node splitting. [10]
+
+1. In a binary classification decision tree, state what information is stored in the internal (decision) nodes and what in the leaves, define the Gini index, and describe how a leaf is split during training (without discussing splitting constraints). [10]
+
+1. In a $K$-class classification decision tree, state what information is stored in the internal (decision) nodes and what in the leaves, define the entropy criterion, and describe how a leaf is split during training (without discussing splitting constraints). [10]
+
+1. For binary classification using decision trees, derive the Gini index from the squared error loss summed over the examples belonging to the node. [20]
+
+1. For $K$-class classification using decision trees, derive the entropy criterion from the NLL loss summed (i.e., not averaged) over the examples belonging to the node, $L(\boldsymbol p) = \sum_{i \in I_\mathcal{T}} -\log p_{t_i}$. [20]
+
+1. Describe how a random forest is trained (including bagging and a random subset of features) and how prediction is performed for regression and classification. [10]
+
+1. Under what circumstances can a decision tree be considered a universal approximator? [5]
+
+1. Explain why replacing a feature $x_1$ with $\log x_1$ changes nothing for a trained decision tree, but changes the function learned by an MLP. [5]
