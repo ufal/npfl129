@@ -2,13 +2,10 @@
 #### Date: Nov 24, Nov 25
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides/?09
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides.pdf/npfl129-2627g-09.pdf,PDF Slides
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2627/npfl129-2627-09-czech.mp4, CS Lecture
 #### Questions: #lecture_9_questions
 
 **Learning objectives.** After the lecture you should be able to
-
-- Ensemble models with uncorrelated predictions.
-
-- Distill ensembles into smaller models.
 
 - Implement Decision Trees and Random Forests for classification and regression
 
