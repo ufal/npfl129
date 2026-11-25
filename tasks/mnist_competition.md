@@ -4,7 +4,7 @@
 
 This assignment is a [competition task](https://ufal.mff.cuni.cz/courses/npfl129/2627-winter#competitions). Your goal
 is to perform 10-class classification on the well-known
-[MNIST](http://yann.lecun.com/exdb/mnist/) dataset.
+[MNIST](https://en.wikipedia.org/wiki/MNIST_database) dataset.
 The train set contains 60k images, each consisting of $28×28$ pixels with values
 in $\{0, 1, …, 255\}$. Evaluation is performed on 10k test images.
 You can find a simple online demo of a trained classifier

@@ -4,7 +4,7 @@
 
 This assignment is a [competition task](https://ufal.mff.cuni.cz/courses/npfl129/2627-winter#competitions).
 Your goal is to reach at least 99% accuracy on the
-[MNIST](http://yann.lecun.com/exdb/mnist/) dataset using the **smallest possible
+[MNIST](https://en.wikipedia.org/wiki/MNIST_database) dataset using the **smallest possible
 submission**. The total size of your submission, i.e., the sum of sizes of all
 submitted files (source code included), must be at most **1 MiB**. Competition
 points are awarded according to this size, which ReCodEx shows in the logs (the
