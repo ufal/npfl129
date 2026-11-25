@@ -3,12 +3,13 @@
 #### Points: 3 points+4 bonus
 
 This assignment is a [competition task](https://ufal.mff.cuni.cz/courses/npfl129/2627-winter#competitions).
-Your goal is to submit the **smallest model** achieving at least 99%
-accuracy on the [MNIST](http://yann.lecun.com/exdb/mnist/) dataset.
-The total size of your submission must be at most **1 MiB**, and the competition
-points will be awarded according to the size of your submission, which ReCodEx
-shows in the logs (the accuracy of your solution does not affect the competition
-points, as long as it is at least 99%, and is therefore not hidden as usual).
+Your goal is to reach at least 99% accuracy on the
+[MNIST](http://yann.lecun.com/exdb/mnist/) dataset using the **smallest possible
+submission**. The total size of your submission, i.e., the sum of sizes of all
+submitted files (source code included), must be at most **1 MiB**. Competition
+points are awarded according to this size, which ReCodEx shows in the logs (the
+accuracy of your solution does not affect the competition points, as long as it
+is at least 99%, so unlike in other competitions, it is not hidden).
 
 The [miniaturization.py](https://github.com/ufal/npfl129/tree/master/labs/08/miniaturization.py)
 template shows how to load training data, downloading it if needed.
