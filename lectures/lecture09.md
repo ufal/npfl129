@@ -3,6 +3,7 @@
 #### Slides: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides/?09
 #### Reading: https://ufal.mff.cuni.cz/~courses/npfl129/2627/slides.pdf/npfl129-2627-09.pdf, PDF Slides
 #### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2627/npfl129-2627-09-czech.mp4, CS Lecture
+#### Video: https://lectures.ms.mff.cuni.cz/video/rec/npfl129/2627/npfl129-2627-09-english.mp4, EN Lecture
 #### Lecture assignment: decision_tree
 #### Lecture assignment: random_forest
 #### Questions: #lecture_9_questions
